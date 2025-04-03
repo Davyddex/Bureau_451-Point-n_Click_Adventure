@@ -1,0 +1,3778 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 228,
+    "major": 5,
+    "minor": 5,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "b2e147a7-e5e7-4e70-ba4a-ce20f73183e0",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "",
+    "templateSlug": "",
+    "version": "1.0.0",
+    "name": "Bureau 451 : Point'n Click Adventure 03-04-25",
+    "description": "",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/NewTiledSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Surface.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Surface",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Key1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Key1",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/New3DBox_Front.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New3DBox_Front",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/New3DBox_Back.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New3DBox_Back",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/StockCake-Eerie Corporate Hallway_1740147995.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "StockCake-Eerie Corporate Hallway_1740147995.jpg",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/77e15fca-bb35-4465-99c0-250dd226902a/resources/fb723e765af2fca53230cd4f35b9b498e5b733b4234e22faaef41b1b200ad100-StockCake-Eerie Corporate Hallway_1740147995.jpg",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Rain.png.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Rain.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/PixiJS/7a335da0136a4a4aa158c6001348e99f6b208400b90a0535f0c981005e29d994_Rain.png",
+          "name": "Rain.png"
+        }
+      },
+      {
+        "file": "assets/Europeana.eu-9200339-BibliographicResource_3000093292369-7c76b9cca06d984025b8935ec65cef69.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Europeana.eu-9200339-BibliographicResource_3000093292369-7c76b9cca06d984025b8935ec65cef69.jpeg",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/77e15fca-bb35-4465-99c0-250dd226902a/resources/99c70b99be42cc24daa70e60de3d81e1989a02c3eb9004603177d0f37cfd6c18-Europeana.eu-9200339-BibliographicResource_3000093292369-7c76b9cca06d984025b8935ec65cef69.jpeg",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/NewTiledSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Fond_Noir",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Omnichiv logo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Omnichiv logo.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/77e15fca-bb35-4465-99c0-250dd226902a/resources/5ce45ccc5311ec432b3b991d2a53756fce0e9a6e759b1740fe6e790f14c1a97e-Omnichiv logo.png",
+          "name": "cloud-project-resource"
+        }
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "inventory",
+      "type": "array",
+      "children": []
+    },
+    {
+      "name": "route",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "money",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "paper",
+      "type": "number",
+      "value": 0
+    }
+  ],
+  "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "TilteScreen",
+      "name": "TilteScreen",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {},
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT"
+      },
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "CinematicScene",
+      "name": "CinematicScene",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.47893418845352564,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 103,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Warp",
+          "opacity": 0,
+          "persistentUuid": "631234bc-18e9-4034-af43-67eeda8ea1e2",
+          "width": 59,
+          "x": 616,
+          "y": 276,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "WarpY",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 104,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Warp",
+          "persistentUuid": "25b177b7-9e4f-4e66-b16d-49628d5e5862",
+          "width": 184,
+          "x": 2010,
+          "y": 269,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1160,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "NewSprite",
+          "persistentUuid": "9c62bb39-8fd9-4132-b690-88aeec2eb921",
+          "width": 1288,
+          "x": -4,
+          "y": -236,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Interactable",
+          "persistentUuid": "ac2721af-f22a-431c-b1cc-1f1242dfbc23",
+          "width": 0,
+          "x": 1015,
+          "y": 241,
+          "zOrder": 191,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 327,
+          "keepRatio": true,
+          "layer": "3D Obeject Layer",
+          "name": "Papertry",
+          "persistentUuid": "8d217518-2118-49d9-91d1-29220e167f61",
+          "rotationX": 45,
+          "width": 327,
+          "x": 706,
+          "y": 309,
+          "zOrder": 192,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 745,
+          "keepRatio": true,
+          "layer": "Transition",
+          "name": "Fond_Noir_Object",
+          "persistentUuid": "1e0723db-cc6a-419a-a5d9-694d534b07f1",
+          "width": 1328,
+          "x": -28,
+          "y": -14,
+          "zOrder": 193,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 151,
+          "keepRatio": true,
+          "layer": "Transition",
+          "name": "Logo",
+          "persistentUuid": "5bf13f53-23dd-4a6c-ad39-db6076cc5f74",
+          "width": 153,
+          "x": 363,
+          "y": 120,
+          "zOrder": 194,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Warp",
+          "texture": "NewTiledSprite3",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "WarpY",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "Papertry",
+          "type": "Scene3D::Cube3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "InOnScreen",
+              "type": "IsOnScreen::InOnScreen"
+            }
+          ],
+          "content": {
+            "width": 1000,
+            "height": 1000,
+            "depth": 1,
+            "enableTextureTransparency": false,
+            "facesOrientation": "Y",
+            "frontFaceResourceName": "Europeana.eu-9200339-BibliographicResource_3000093292369-7c76b9cca06d984025b8935ec65cef69.jpeg",
+            "backFaceResourceName": "Europeana.eu-9200339-BibliographicResource_3000093292369-7c76b9cca06d984025b8935ec65cef69.jpeg",
+            "backFaceUpThroughWhichAxisRotation": "X",
+            "leftFaceResourceName": "New3DBox_Back",
+            "rightFaceResourceName": "Europeana.eu-9200339-BibliographicResource_3000093292369-7c76b9cca06d984025b8935ec65cef69.jpeg",
+            "topFaceResourceName": "New3DBox_Back",
+            "bottomFaceResourceName": "New3DBox_Back",
+            "frontFaceVisible": true,
+            "backFaceVisible": true,
+            "leftFaceVisible": true,
+            "rightFaceVisible": true,
+            "topFaceVisible": true,
+            "bottomFaceVisible": true,
+            "frontFaceResourceRepeat": false,
+            "backFaceResourceRepeat": false,
+            "leftFaceResourceRepeat": true,
+            "rightFaceResourceRepeat": false,
+            "topFaceResourceRepeat": false,
+            "bottomFaceResourceRepeat": false,
+            "materialType": "Basic"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite",
+          "texture": "StockCake-Eerie Corporate Hallway_1740147995.jpg",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Glitch",
+              "name": "Effect",
+              "doubleParameters": {
+                "animationFrequency": 60,
+                "blueX": 2,
+                "blueY": 2,
+                "direction": 2,
+                "fillMode": 0,
+                "greenX": 0,
+                "greenY": 0,
+                "minSize": 0,
+                "offset": 0,
+                "redX": 0,
+                "redY": 0,
+                "sampleSize": 0,
+                "slices": 0
+              },
+              "stringParameters": {},
+              "booleanParameters": {
+                "average": false
+              }
+            }
+          ],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "StockCake-Eerie Corporate Hallway_1740147995.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1024,
+                            "y": 0
+                          },
+                          {
+                            "x": 1024,
+                            "y": 1024
+                          },
+                          {
+                            "x": 0,
+                            "y": 1024
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "additive": false,
+          "assetStoreId": "820283d06730d55f99b62d1b5b3694a4e7803487f8cc7dbed41d0ae6da7df5e3",
+          "destroyWhenNoParticles": true,
+          "emitterAngleA": 0,
+          "emitterAngleB": 0,
+          "emitterForceMax": 20,
+          "emitterForceMin": 10,
+          "flow": 20,
+          "jumpForwardInTimeOnCreation": 0,
+          "maxParticleNb": 11,
+          "name": "Interactable",
+          "particleAlpha1": 255,
+          "particleAlpha2": 255,
+          "particleAlphaRandomness1": 0,
+          "particleAlphaRandomness2": 0,
+          "particleAngle1": -200,
+          "particleAngle2": 200,
+          "particleAngleRandomness1": 0,
+          "particleAngleRandomness2": 0,
+          "particleBlue1": 102,
+          "particleBlue2": 255,
+          "particleColor1": "255;243;102",
+          "particleColor2": "255;255;255",
+          "particleGravityX": 0,
+          "particleGravityY": 10,
+          "particleGreen1": 243,
+          "particleGreen2": 255,
+          "particleLifeTimeMax": 0.7,
+          "particleLifeTimeMin": 0.5,
+          "particleRed1": 255,
+          "particleRed2": 255,
+          "particleSize1": 100,
+          "particleSize2": 0,
+          "particleSizeRandomness1": 0,
+          "particleSizeRandomness2": 0,
+          "rendererParam1": 1,
+          "rendererParam2": 1,
+          "rendererType": "Quad",
+          "tank": 20,
+          "textureParticleName": "Rain.png",
+          "type": "ParticleSystem::ParticleEmitter",
+          "zoneRadius": 70,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Glow",
+              "folded": true,
+              "name": "Effect",
+              "doubleParameters": {
+                "distance": 20,
+                "innerStrength": 0,
+                "outerStrength": 1.5
+              },
+              "stringParameters": {
+                "color": "248;209;132"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Europeana.eu-9200339-BibliographicResource_3000093292369-7c76b9cca06d984025b8935ec65cef69.jpeg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1122,
+                            "y": 0
+                          },
+                          {
+                            "x": 1122,
+                            "y": 1715
+                          },
+                          {
+                            "x": 0,
+                            "y": 1715
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Fond_Noir_Object",
+          "texture": "Fond_Noir",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Adjustment",
+              "name": "Alphaness2",
+              "doubleParameters": {
+                "alpha": 1,
+                "blue": 1,
+                "brightness": 1,
+                "contrast": 1,
+                "gamma": 1,
+                "green": 1,
+                "red": 1,
+                "saturation": 1
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Logo",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Glitch",
+              "name": "LogoGlitch",
+              "doubleParameters": {
+                "animationFrequency": 0,
+                "blueX": 10,
+                "blueY": -4,
+                "direction": 0,
+                "fillMode": 0,
+                "greenX": 10,
+                "greenY": -4,
+                "minSize": 8,
+                "offset": 100,
+                "redX": 2,
+                "redY": 2,
+                "sampleSize": 512,
+                "slices": 5
+              },
+              "stringParameters": {},
+              "booleanParameters": {
+                "average": false
+              }
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Omnichiv logo.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 38,
+                            "y": 44
+                          },
+                          {
+                            "x": 548,
+                            "y": 44
+                          },
+                          {
+                            "x": 548,
+                            "y": 554
+                          },
+                          {
+                            "x": 38,
+                            "y": 554
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Title",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Bureau 451",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Bureau 451",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "center",
+            "characterSize": 40,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Title2",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "[b]Bureau 451[/b] ",
+            "opacity": 255,
+            "fontSize": 40,
+            "visible": true,
+            "color": "255;255;255",
+            "fontFamily": "Arial",
+            "align": "left",
+            "wordWrap": true
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Warp"
+          },
+          {
+            "objectName": "Papertry"
+          },
+          {
+            "objectName": "NewTiledSprite"
+          },
+          {
+            "objectName": "NewSprite"
+          },
+          {
+            "objectName": "Interactable"
+          },
+          {
+            "objectName": "NewSprite2"
+          },
+          {
+            "objectName": "Fond_Noir_Object"
+          },
+          {
+            "objectName": "Logo"
+          },
+          {
+            "objectName": "Title"
+          },
+          {
+            "objectName": "Title2"
+          }
+        ]
+      },
+      "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Begining",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetCameraCenterX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "SceneWindowWidth()/2",
+                    "",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraCenterY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "SceneWindowHeight()/2",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetWindowTitle"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Bureau 451\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Settings for Title screen\n"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Title Screen Transistion\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Logo",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "Logo",
+                        "Effect",
+                        "\"LogoGlitch\"",
+                        "no"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Title screen animation",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Title screen up opacity"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Title Screen Transistion\"",
+                    ">=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Logo",
+                    "Tween",
+                    "\"Opacityup\"",
+                    "255",
+                    "\"easeInCubic\"",
+                    "1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Glitch"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Title Screen Transistion\"",
+                    ">=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                  },
+                  "parameters": [
+                    "Logo",
+                    "Effect",
+                    "\"LogoGlitch\"",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddNumberEffectPropertyTween"
+                  },
+                  "parameters": [
+                    "Logo",
+                    "Tween",
+                    "Effect",
+                    "\"\"",
+                    "120",
+                    "\"LogoGlitch\"",
+                    "\"animationFrequency\"",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                  },
+                  "parameters": [
+                    "Logo",
+                    "Effect",
+                    "\"LogoGlitch\"",
+                    "\"slices\"",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddNumberEffectPropertyTween"
+                  },
+                  "parameters": [
+                    "Logo",
+                    "Tween",
+                    "Effect",
+                    "\"\"",
+                    "0",
+                    "\"LogoGlitch\"",
+                    "\"slices\"",
+                    "\"easeInCubic\"",
+                    "0.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddNumberEffectPropertyTween"
+                  },
+                  "parameters": [
+                    "Logo",
+                    "Tween",
+                    "Effect",
+                    "\"\"",
+                    "0",
+                    "\"LogoGlitch\"",
+                    "\"animationFrequency\"",
+                    "\"easeInCubic\"",
+                    "3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                  },
+                  "parameters": [
+                    "Logo",
+                    "Effect",
+                    "\"LogoGlitch\"",
+                    "\"slices\"",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                  },
+                  "parameters": [
+                    "Logo",
+                    "Effect",
+                    "\"LogoGlitch\"",
+                    "\"slices\"",
+                    "2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Title Screen Transistion\"",
+                    ">=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+                  },
+                  "parameters": [
+                    "Logo",
+                    "Effect",
+                    "\"LogoGlitch\"",
+                    "\"slices\"",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                  },
+                  "parameters": [
+                    "Logo",
+                    "Effect",
+                    "\"LogoGlitch\"",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Title screen down opacity"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Title Screen Transistion\"",
+                    ">=",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Logo",
+                    "Tween",
+                    "\"Opacity\"",
+                    "0",
+                    "\"easeInCubic\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Fond_Noir_Object",
+                    "Tween",
+                    "\"Opacity_Transition\"",
+                    "0",
+                    "\"easeInCubic\"",
+                    "2",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Warp Even",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Warp code\n"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Warp",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetCameraCenterX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "Warp.WarpX * (1280 + 160) + SceneWindowWidth()/2 ",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraCenterY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "Warp.WarpY * (720 + 160) + SceneWindowHeight()/2 ",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraCenterX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "Warp.WarpX * (1280 + 160) + SceneWindowWidth()/2 ",
+                    "\"3D Obeject Layer\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraCenterY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "Warp.WarpY * (720 + 160) + SceneWindowHeight()/2 ",
+                    "\"3D Obeject Layer\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraCenterX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "Warp.WarpX * (1280 + 160) + SceneWindowWidth()/2 ",
+                    "\"ForeGround Layer\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraCenterY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "Warp.WarpY * (720 + 160) + SceneWindowHeight()/2 ",
+                    "\"ForeGround Layer\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Warp visual"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Warp",
+                    "",
+                    "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Interactable",
+                    "Warp.CenterX()",
+                    "Warp.CenterY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "Interactable",
+                    "=",
+                    "90"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Paper Object",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Rotation of the 3D Object\n"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Papertry",
+                    "",
+                    "no",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "CursorX()",
+                        "<",
+                        "Papertry.CenterX()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "CursorY()",
+                        "<",
+                        "Papertry.CenterY()+Papertry.Height()/6"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "CursorY()",
+                        ">",
+                        "Papertry.CenterY()-Papertry.Height()/6"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Scene3D::Base3DBehavior::TurnAroundY"
+                      },
+                      "parameters": [
+                        "Papertry",
+                        "Object3D",
+                        "-3"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "CursorX()",
+                        ">",
+                        "Papertry.CenterX()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "CursorY()",
+                        "<",
+                        "Papertry.CenterY()+Papertry.Height()/6"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "CursorY()",
+                        ">",
+                        "Papertry.CenterY()-Papertry.Height()/6"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Scene3D::Base3DBehavior::TurnAroundY"
+                      },
+                      "parameters": [
+                        "Papertry",
+                        "Object3D",
+                        "3"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "CursorY()",
+                        "<",
+                        "Papertry.CenterY()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "CursorX()",
+                        "<",
+                        "Papertry.CenterX()+Papertry.Width()/6"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "CursorX()",
+                        ">",
+                        "Papertry.CenterX()-Papertry.Width()/6"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Scene3D::Base3DBehavior::TurnAroundX"
+                      },
+                      "parameters": [
+                        "Papertry",
+                        "Object3D",
+                        "3"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "CursorY()",
+                        ">",
+                        "Papertry.CenterY()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "CursorX()",
+                        "<",
+                        "Papertry.CenterX()+Papertry.Width()/6"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "CursorX()",
+                        ">",
+                        "Papertry.CenterX()-Papertry.Width()/6"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Scene3D::Base3DBehavior::TurnAroundX"
+                      },
+                      "parameters": [
+                        "Papertry",
+                        "Object3D",
+                        "-3"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "3D Obeject Layer",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "ForeGround Layer",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Transition",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "InOnScreen",
+          "type": "IsOnScreen::InOnScreen"
+        },
+        {
+          "name": "Object3D",
+          "type": "Scene3D::Base3DBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "P_39nC_95test_95scene",
+      "name": "P'nC_test_scene",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": true,
+        "gridType": "rectangular",
+        "gridWidth": 20,
+        "gridHeight": 20,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": true,
+        "zoomFactor": 0.34375202416123324,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "name": "item",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "slot",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 120,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "persistentUuid": "2c728edb-13e8-4d2f-a0f8-ada779705d4b",
+          "width": 120,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "RemoveItem",
+              "type": "boolean",
+              "value": true
+            },
+            {
+              "name": "Conditional_Warp",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 120,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "persistentUuid": "b759b2ec-c2c6-4e03-b735-572203b37ca5",
+          "width": 288,
+          "x": 640,
+          "y": 200,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "persistentUuid": "53eff3f8-7a32-4d4f-9207-cae1f112bbd7",
+          "width": 96,
+          "x": 1440,
+          "y": 0,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "persistentUuid": "19db7285-24ef-433e-9683-e46264bf5fab",
+          "width": 96,
+          "x": 576,
+          "y": 928,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "WarpY",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "persistentUuid": "71b55447-f08e-48b9-b2c6-16ff4f9998f8",
+          "width": 96,
+          "x": 2624,
+          "y": 608,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 100,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "persistentUuid": "aacc4a36-8bca-4b14-ab22-ccf478e497c5",
+          "width": 100,
+          "x": 280,
+          "y": 320,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "WarpY",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 720,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ScreenOffSet",
+          "persistentUuid": "ef09928d-9bbf-452a-b1f2-528b257ceab6",
+          "width": 160,
+          "x": 1280,
+          "y": 0,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ScreenSize",
+          "persistentUuid": "15fef1f6-6656-46bd-9dc3-13ba5108af60",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ScreenSize",
+          "persistentUuid": "482d9119-92ba-42de-9e4b-a8565ac4577e",
+          "width": 0,
+          "x": 0,
+          "y": 880,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 160,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ScreenOffSet",
+          "persistentUuid": "4c4581a7-5214-47c0-b448-cf51243438d6",
+          "width": 1280,
+          "x": 0,
+          "y": 720,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ScreenSize",
+          "persistentUuid": "d3b696d0-a6aa-4167-9895-6efdf12ccf47",
+          "width": 0,
+          "x": 1440,
+          "y": 0,
+          "zOrder": -2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Item",
+          "persistentUuid": "6df2a3bf-17b9-492b-b8f5-eb269848516a",
+          "width": 0,
+          "x": 840,
+          "y": 980,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Item",
+          "persistentUuid": "26b6eac6-177e-4e2a-a45d-45432929ffc1",
+          "width": 0,
+          "x": 580,
+          "y": 440,
+          "zOrder": 14,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 63,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "NewText",
+          "persistentUuid": "6ac46b34-fcb1-49f4-8f95-1ed4400fa201",
+          "width": 900,
+          "x": 180,
+          "y": 620,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "2dd82f7d1496fdcfa8d31d23a31f710e2cb84f418f5689a07443dd0f97019dbd",
+          "name": "WarpZone",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "WarpY",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Conditional_Warp",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "RemoveItem",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Interaction",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Surface",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 160,
+          "name": "ScreenOffSet",
+          "texture": "NewTiledSprite",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 160,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 720,
+          "name": "ScreenSize",
+          "texture": "NewTiledSprite2",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 1280,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Item",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Pickable",
+              "type": "boolean",
+              "value": true
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Base",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Key1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Key1",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "x",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Inventory : ",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Inventory : ",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "color": "0;0;0"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "WarpZone"
+          },
+          {
+            "objectName": "ScreenSize"
+          },
+          {
+            "objectName": "Item"
+          },
+          {
+            "objectName": "NewText"
+          },
+          {
+            "objectName": "ScreenOffSet"
+          }
+        ]
+      },
+      "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Camera and Warp",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetCameraCenterX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "SceneWindowWidth()/2",
+                    "",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraCenterY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "SceneWindowHeight()/2",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetWindowTitle"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Bureau 451\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "If a WarpZone is clicked then we warp to the next screen\n    Screen encoding define on a grid via WarpX and WarpY\nConditional Warp is an additional condition to warp\n   Condition encodeing: 0 unconditional, 1...2...3... item block, -1 force block\n   "
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "WarpZone",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Unconditional warp\n"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "WarpZone",
+                        "Conditional_Warp",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetCameraCenterX"
+                      },
+                      "parameters": [
+                        "",
+                        "=",
+                        "WarpZone.WarpX * (1280 + 160) + SceneWindowWidth()/2 ",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetCameraCenterY"
+                      },
+                      "parameters": [
+                        "",
+                        "=",
+                        "WarpZone.WarpY * (720 + 160) + SceneWindowHeight()/2 ",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Conditional warp:\nCheck if object is in inventory with the loop\nAnd remove the item from the inventory if RemoveItem is true\n"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEachChildVariable",
+                  "iterableVariableName": "inventory",
+                  "valueIteratorVariableName": "item",
+                  "keyIteratorVariableName": "slot",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "item",
+                        "=",
+                        "WarpZone.Conditional_Warp"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetCameraCenterX"
+                      },
+                      "parameters": [
+                        "",
+                        "=",
+                        "WarpZone.WarpX * (1280 + 160) + SceneWindowWidth()/2 ",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetCameraCenterY"
+                      },
+                      "parameters": [
+                        "",
+                        "=",
+                        "WarpZone.WarpY * (720 + 160) + SceneWindowHeight()/2 ",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "WarpZone",
+                        "Conditional_Warp",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "WarpZone",
+                            "RemoveItem",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "RemoveVariableAt"
+                          },
+                          "parameters": [
+                            "inventory",
+                            "slot"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "WarpZone",
+                            "RemoveItem",
+                            "False",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Item and Inventory",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Item",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Item",
+                    "Pickable",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PushNumber"
+                  },
+                  "parameters": [
+                    "inventory",
+                    "Item.Animation::Index()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "NewText",
+                    "Text",
+                    "+",
+                    "ToString(Item.Animation::Index())"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Item",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "debug visual inv\n"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"e\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "NewText",
+                    "Text",
+                    "=",
+                    "\"\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEachChildVariable",
+                  "iterableVariableName": "inventory",
+                  "valueIteratorVariableName": "item",
+                  "keyIteratorVariableName": "slot",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "NewText",
+                        "Text",
+                        "+",
+                        "\"item:\" + item +\"slot.\"+ slot + \" \""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "author": "D8H",
+      "category": "Input",
+      "extensionNamespace": "",
+      "fullName": "Cursor movement conditions",
+      "gdevelopVersion": "",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9DQoJLnN0MXtmaWxsOm5vbmU7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjI7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjEwO30NCjwvc3R5bGU+DQo8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMTEsMjhMMTEsMjhjLTMuMywwLTYtMi43LTYtNnYtNGMwLTMuMywyLjctNiw2LTZoMGMzLjMsMCw2LDIuNyw2LDZ2NEMxNywyNS4zLDE0LjMsMjgsMTEsMjh6Ii8+DQo8bGluZSBjbGFzcz0ic3QwIiB4MT0iMTEiIHkxPSIxNSIgeDI9IjExIiB5Mj0iMTkiLz4NCjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0yOSw5YzAsMi41LTIsNC41LTQuNSw0LjVTMjAsMTEuNSwyMCw5VjguNUMyMCw2LDE4LDQsMTUuNSw0UzExLDYsMTEsOC41Ii8+DQo8L3N2Zz4NCg==",
+      "name": "CursorMovement",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Computers and Hardware/Computers and Hardware_mouse_pc.svg",
+      "shortDescription": "Conditions to check the cursor movement (still or moving).",
+      "version": "1.0.2",
+      "description": [
+        "Provides two conditions:",
+        "* The cursor is moving",
+        "* The cursor has stayed still for a given duration"
+      ],
+      "origin": {
+        "identifier": "CursorMovement",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "mouse",
+        "pointer",
+        "cursor"
+      ],
+      "authorIds": [
+        "IWykYNRvhCZBN3vEgKEbBPOR3Oc2"
+      ],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [
+        {
+          "description": "Check if the cursor has stayed still for the specified time on the default layer.",
+          "fullName": "Cursor stays still",
+          "functionType": "Condition",
+          "name": "CursorStayStill",
+          "sentence": "Cursor has stayed still for _PARAM1_ seconds ",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"__mousemovement_MouseStayStill\"",
+                    "<",
+                    "Duration"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CursorMovement::CursorIsMoving"
+                  },
+                  "parameters": [
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"__mousemovement_MouseStayStill\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Duration (in seconds)",
+              "name": "Duration",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Check if the cursor is moving on the default layer.",
+          "fullName": "Cursor is moving",
+          "functionType": "Condition",
+          "name": "CursorIsMoving",
+          "sentence": "Cursor is moving",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "__mousemovement.MousePreX",
+                    "=",
+                    "MouseX(\"\", 0)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "__mousemovement.MousePreY",
+                    "=",
+                    "MouseY(\"\", 0)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "onScenePostEvents",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "__mousemovement.MousePreX",
+                    "=",
+                    "MouseX(\"\", 0)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "__mousemovement.MousePreY",
+                    "=",
+                    "MouseY(\"\", 0)"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [],
+      "eventsBasedObjects": []
+    },
+    {
+      "author": "",
+      "category": "Camera",
+      "extensionNamespace": "",
+      "fullName": "Camera Zoom",
+      "gdevelopVersion": "",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9DQo8L3N0eWxlPg0KPGxpbmUgY2xhc3M9InN0MCIgeDE9IjEzIiB5MT0iOSIgeDI9IjEzIiB5Mj0iMTciLz4NCjxsaW5lIGNsYXNzPSJzdDAiIHgxPSI5IiB5MT0iMTMiIHgyPSIxNyIgeTI9IjEzIi8+DQo8Y2lyY2xlIGNsYXNzPSJzdDAiIGN4PSIxMyIgY3k9IjEzIiByPSI5Ii8+DQo8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMTcsMjFsNyw3YzEuMSwxLjEsMi45LDEuMSw0LDBsMCwwYzEuMS0xLjEsMS4xLTIuOSwwLTRsLTctNyIvPg0KPC9zdmc+DQo=",
+      "name": "CameraZoom",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/UI Essentials/UI Essentials_zoom_in_plus.svg",
+      "shortDescription": "Allows to zoom camera on a layer with a speed (factor per second).",
+      "version": "0.2.1",
+      "description": [
+        "## Description",
+        "",
+        "This extension allows to zoom a camera on a layer at a given speed. The zoom speed is configurable and allows a constant as well as a variable zoom speed. An anchor point can be defined, for instance, to keep what is under the cursor at the same place on screen.",
+        "",
+        "### Actions",
+        "",
+        "- Zoom at a given speed",
+        "- Change the zoom with an anchor point",
+        "- Zoom at a given speed and with an anchor point"
+      ],
+      "origin": {
+        "identifier": "CameraZoom",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "camera",
+        "layer",
+        "zoom"
+      ],
+      "authorIds": [
+        "IWykYNRvhCZBN3vEgKEbBPOR3Oc2",
+        "30b1QQoYi1gQQHzIjMlNY8aLyYV2"
+      ],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [
+        {
+          "description": "Change the camera zoom at a given speed (in factor per second).",
+          "fullName": "Zoom camera with speed",
+          "functionType": "Action",
+          "name": "ZoomWithSpeed",
+          "sentence": "Zoom camera with speed: _PARAM1_ (layer: _PARAM2_, camera: _PARAM3_)",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ZoomCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "CameraZoom(Layer, Camera) * pow(ZoomSpeed, TimeDelta())",
+                    "Layer",
+                    "Camera"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Zoom speed",
+              "longDescription": "Zoom by a factor per second. 1: no effect, 2: zoom in x2 every second, 0.5: zoom out x2 every second.",
+              "name": "ZoomSpeed",
+              "type": "expression"
+            },
+            {
+              "description": "Layer",
+              "name": "Layer",
+              "type": "layer"
+            },
+            {
+              "description": "Camera number (default: 0)",
+              "name": "Camera",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Change the camera zoom and keep an anchor point fixed on screen (instead of the center).",
+          "fullName": "Zoom with anchor",
+          "functionType": "Action",
+          "name": "ZoomWithAnchor",
+          "sentence": "Change camera zoom to: _PARAM1_ with an anchor at: _PARAM4_; _PARAM5_ (layer: _PARAM2_, camera: _PARAM3_)",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "When zooming the vector in pixels from the center to the anchor must stay the same.\nIt gives this system:\n\n/ pixel_delta(t-1) = (anchor - center(t-1)) * zoom(t-1)\n| pixel_delta(t) = (anchor - center(t)) * zoom(t)\n\\ pixel_delta(t) = pixel_delta(t-1)\n\nwhere the new center can be resolved to:\n\ncenter(t) = anchor + (center(t-1) - anchor) * zoom(t-1) / zoom(t)"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetCameraX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "AnchorX\n+ (\n   CameraX(Layer, Camera)\n   - AnchorX\n)\n* CameraZoom(Layer, Camera)\n/ Zoom",
+                    "\"\"",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "AnchorY\n+ (\n   CameraY(Layer, Camera)\n   - AnchorY\n)\n* CameraZoom(Layer, Camera)\n/ Zoom",
+                    "\"\"",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ZoomCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "Zoom",
+                    "Layer",
+                    "Camera"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Zoom",
+              "longDescription": "1: Initial zoom, 2: zoom in x2, 0.5: zoom out x2...",
+              "name": "Zoom",
+              "type": "expression"
+            },
+            {
+              "description": "Layer",
+              "name": "Layer",
+              "type": "layer"
+            },
+            {
+              "description": "Camera number (default: 0)",
+              "name": "Camera",
+              "type": "expression"
+            },
+            {
+              "description": "Anchor X",
+              "name": "AnchorX",
+              "type": "expression"
+            },
+            {
+              "description": "Anchor Y",
+              "name": "AnchorY",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Change the camera zoom at a given speed (in factor per second) and keep an anchor point fixed on screen (instead of the center).",
+          "fullName": "Zoom camera with speed and anchor",
+          "functionType": "Action",
+          "name": "ZoomWithSpeedAndAnchor",
+          "sentence": "Zoom camera with speed: _PARAM1_ and an anchror at: _PARAM4_; _PARAM5_ (layer: _PARAM2_, camera: _PARAM3_)",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "CameraZoom::ZoomWithAnchor"
+                  },
+                  "parameters": [
+                    "",
+                    "CameraZoom(Layer, Camera) * pow(ZoomSpeed, TimeDelta())",
+                    "Layer",
+                    "Camera",
+                    "AnchorX",
+                    "AnchorY",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Zoom speed",
+              "longDescription": "Zoom by a factor per second. 1: no effect, 2: zoom in x2 every second, 0.5: zoom out x2 every second.",
+              "name": "ZoomSpeed",
+              "type": "expression"
+            },
+            {
+              "description": "Layer",
+              "name": "Layer",
+              "type": "layer"
+            },
+            {
+              "description": "Camera number (default: 0)",
+              "name": "Camera",
+              "type": "expression"
+            },
+            {
+              "description": "Anchor X",
+              "name": "AnchorX",
+              "type": "expression"
+            },
+            {
+              "description": "Anchor Y",
+              "name": "AnchorY",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [],
+      "eventsBasedObjects": []
+    },
+    {
+      "author": "Silver-Streak, @Bouh, Tristan Rhodes",
+      "category": "Game mechanic",
+      "extensionNamespace": "",
+      "fullName": "Object \"Is On Screen\" Detection",
+      "gdevelopVersion": "",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLW1vbml0b3Itc2NyZWVuc2hvdCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik05LDZINVYxMEg3VjhIOU0xOSwxMEgxN1YxMkgxNVYxNEgxOU0yMSwxNkgzVjRIMjFNMjEsMkgzQzEuODksMiAxLDIuODkgMSw0VjE2QTIsMiAwIDAsMCAzLDE4SDEwVjIwSDhWMjJIMTZWMjBIMTRWMThIMjFBMiwyIDAgMCwwIDIzLDE2VjRDMjMsMi44OSAyMi4xLDIgMjEsMiIgLz48L3N2Zz4=",
+      "name": "IsOnScreen",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/monitor-screenshot.svg",
+      "shortDescription": "This adds a condition to detect if an object is on screen based off its current layer.",
+      "version": "1.2.1",
+      "description": [
+        "This extension adds conditions to check if an object is located within the visible portion of its layer's camera. The condition also allows for specifying padding to the virtual screen border.",
+        "",
+        "Note that this does not take into account any object visibility, such as being hidden or 0 opacity, but can be combined with those existing conditions."
+      ],
+      "origin": {
+        "identifier": "IsOnScreen",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "is on screen",
+        "condition",
+        "visible",
+        "hide",
+        "screen"
+      ],
+      "authorIds": [
+        "2OwwM8ToR9dx9RJ2sAKTcrLmCB92",
+        "8Ih1aa8f5gWUp4UB2BdhQ2iXWxJ3",
+        "gqDaZjCfevOOxBYkK6zlhtZnXCg1"
+      ],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "This behavior provides a condition to check if the object is located within the visible portion of its layer's camera. The condition also allows for specifying padding to the virtual screen border.\nNote that object visibility, such as being hidden or 0 opacity, is not considered (but you can use those existing conditions in addition to this behavior).",
+          "fullName": "Is on screen",
+          "name": "InOnScreen",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "description": "Checks if an object position is within the viewport of its layer.",
+              "fullName": "Is on screen",
+              "functionType": "Condition",
+              "name": "IsOnScreen",
+              "sentence": "_PARAM0_ is on screen (padded by _PARAM2_ pixels)",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::JsCode",
+                  "inlineCode": [
+                    "/*",
+                    "Get the object layer, convert the position from this layer to the screen coordinates.",
+                    "Get the point on each side on the object on screen, and compare with the screen area.",
+                    "",
+                    "This way even if the camera has a rotation or custom scale the object is always compared to the screen area.",
+                    "*/",
+                    "",
+                    "",
+                    "// Get the layer of the object.",
+                    "const object = objects[0];",
+                    "const layer = runtimeScene.getLayer(object.getLayer());",
+                    "",
+                    "// Get the aabb of the object on his layer.",
+                    "const aabb = object.getVisibilityAABB();",
+                    "",
+                    "// Get the layer to convert the coordinates of the AABB to the screen coordinates",
+                    "const topLeft = layer.convertInverseCoords(aabb.min[0], aabb.min[1]);",
+                    "const topRight = layer.convertInverseCoords(aabb.max[0], aabb.min[1]);",
+                    "const bottomRight = layer.convertInverseCoords(aabb.max[0], aabb.max[1]);",
+                    "const bottomLeft = layer.convertInverseCoords(aabb.min[0], aabb.max[1]);",
+                    "",
+                    "// Get the points on each side of the object on screen.",
+                    "const posLeftObjectOnScreen = Math.min(topLeft[0], topRight[0], bottomLeft[0], bottomRight[0]);",
+                    "const posRightObjectOnScreen = Math.max(topLeft[0], topRight[0], bottomLeft[0], bottomRight[0]);",
+                    "const posUpObjectOnScreen = Math.min(topLeft[1], topRight[1], bottomLeft[1], bottomRight[1]);",
+                    "const posDownObjectOnScreen = Math.max(topLeft[1], topRight[1], bottomLeft[1], bottomRight[1]);",
+                    "",
+                    "const padding = eventsFunctionContext.getArgument(\"Padding\");",
+                    "",
+                    "if (",
+                    "    !(posLeftObjectOnScreen - padding > runtimeScene.getGame().getGameResolutionWidth() ||",
+                    "        posUpObjectOnScreen - padding > runtimeScene.getGame().getGameResolutionHeight() ||",
+                    "        posRightObjectOnScreen + padding < 0 ||",
+                    "        posDownObjectOnScreen + padding < 0",
+                    "        )",
+                    ") {",
+                    "    eventsFunctionContext.returnValue = true;",
+                    "}",
+                    ""
+                  ],
+                  "parameterObjects": "Object",
+                  "useStrict": true,
+                  "eventsSheetExpanded": true
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "IsOnScreen::InOnScreen",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Padding (in pixels)",
+                  "longDescription": "Number of pixels to pad the screen border. Zero by default. A negative value goes inside the screen, a positive value go outside.",
+                  "name": "Padding",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": [
+                {
+                  "name": "Group",
+                  "objects": []
+                }
+              ]
+            }
+          ],
+          "propertyDescriptors": [],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
+    }
+  ],
+  "externalLayouts": []
+}
