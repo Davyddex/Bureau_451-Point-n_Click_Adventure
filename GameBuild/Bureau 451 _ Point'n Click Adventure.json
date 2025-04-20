@@ -379,6 +379,30 @@
         "name": "leftoutterfilm4.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "film.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "film.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "leftoutterfilm.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "leftoutterfilm.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "rightoutterfilm.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rightoutterfilm.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -602,7 +626,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "rightoutterfilm4.png",
+                  "image": "rightoutterfilm.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -650,7 +674,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "leftoutterfilm4.png",
+                  "image": "leftoutterfilm.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -715,7 +739,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "film3.png",
+                  "image": "film.png",
                   "points": [
                     {
                       "name": "Image",
@@ -741,11 +765,11 @@
                         "y": 0
                       },
                       {
-                        "x": 1500,
+                        "x": 1499,
                         "y": 0
                       },
                       {
-                        "x": 1500,
+                        "x": 1499,
                         "y": 1024
                       },
                       {
@@ -795,11 +819,11 @@
                         "y": 0
                       },
                       {
-                        "x": 1500,
+                        "x": 1499,
                         "y": 0
                       },
                       {
-                        "x": 1500,
+                        "x": 1499,
                         "y": 1024
                       },
                       {
@@ -849,11 +873,11 @@
                         "y": 0
                       },
                       {
-                        "x": 1500,
+                        "x": 1499,
                         "y": 0
                       },
                       {
-                        "x": 1500,
+                        "x": 1499,
                         "y": 1024
                       },
                       {
@@ -1195,6 +1219,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ]
     },
@@ -2215,6 +2243,10 @@
         {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ]
     },
@@ -2238,7 +2270,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4789341884535401,
+        "zoomFactor": 0.18923010380623487,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -5510,7 +5542,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.09748304263251566,
+        "zoomFactor": 0.10416820751496933,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -7643,6 +7675,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ]
     },
@@ -7735,6 +7771,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ]
     },
@@ -7827,6 +7867,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ]
     },
@@ -7919,6 +7963,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ]
     },
@@ -8011,6 +8059,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ]
     },
@@ -8103,6 +8155,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ]
     },
@@ -8195,6 +8251,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ]
     }
