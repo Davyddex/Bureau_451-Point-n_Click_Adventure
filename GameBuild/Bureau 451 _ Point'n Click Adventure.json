@@ -541,22 +541,6 @@
         "userAdded": false
       },
       {
-        "file": "S36inter.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "S36inter.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "S37.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "S37.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "S35off.png",
         "kind": "image",
         "metadata": "",
@@ -585,6 +569,212 @@
         "kind": "image",
         "metadata": "",
         "name": "S23a5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "S35on.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "S35on.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "S39.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "S39.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "S41.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "S41.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "S42.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "S42.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "S36m inter2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "S36m inter2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "S3L2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "S3L2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "S36inter3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "S36inter3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "22 avr. 2025, 21_01_30.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "22 avr. 2025, 21_01_30.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "ChatGPT Image 22 avr. 2025, 20_00_48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ChatGPT Image 22 avr. 2025, 20_00_48.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "22 avr. 2025, 21_01_31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "22 avr. 2025, 21_01_31.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewTiledSprite2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "scrollstart.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "scrollstart.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "scrollend.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "scrollend.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "start.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "start.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "end.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "end.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "slide projector FREE SOUND EFFECT.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "slide projector FREE SOUND EFFECT.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "scrollstart+long.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "scrollstart+long.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "scrollstart+long2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "scrollstart+long2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Couloir abandonné en pixel art.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Couloir abandonné en pixel art.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "EntréRemise.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "EntréRemise.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Vestiaire.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Vestiaire.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Bureau1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bureau1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "atelier.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "atelier.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Atelier abandonné en sepia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Atelier abandonné en sepia.png",
         "smoothed": false,
         "userAdded": false
       }
@@ -1155,6 +1345,28 @@
         "debugMode": false,
         "texture": ""
       }
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "SuperWarp",
+      "texture": "assets\\NewTiledSprite2.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [
+        {
+          "name": "Conditional_Warp",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "SceneWarp",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -1162,6 +1374,9 @@
     "children": [
       {
         "objectName": "WarpZone"
+      },
+      {
+        "objectName": "SuperWarp"
       },
       {
         "objectName": "Interactable"
@@ -2316,7 +2531,7 @@
       "name": "1_Bureau451",
       "r": 206,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 186,
       "uiSettings": {
@@ -5621,7 +5836,7 @@
       "name": "2_Locaux",
       "r": 206,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 186,
       "uiSettings": {
@@ -5634,7 +5849,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4789341884535537,
+        "zoomFactor": 0.6672773998330382,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -5818,14 +6033,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 439,
+          "height": 394,
           "keepRatio": true,
           "layer": "",
           "name": "OCR",
           "persistentUuid": "aabccd02-2be6-462d-a77e-4b1301590274",
-          "width": 463,
-          "x": 3167,
-          "y": 153,
+          "width": 416,
+          "x": 3191,
+          "y": 188,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -6331,8 +6546,8 @@
           "name": "ObjectInteractif",
           "persistentUuid": "e135c701-f1dc-4ef2-ae04-3da86fad3cb8",
           "width": 57,
-          "x": 3516,
-          "y": 377,
+          "x": 3517,
+          "y": 384,
           "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
@@ -6469,8 +6684,8 @@
           "name": "Lamp",
           "persistentUuid": "27524e29-42ec-4d93-9979-375ce0e881df",
           "width": 0,
-          "x": -939,
-          "y": 72,
+          "x": -942,
+          "y": 76,
           "zOrder": 42,
           "numberProperties": [],
           "stringProperties": [],
@@ -7594,6 +7809,7 @@
           "target": "Flim Scroll + Camera Control"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -7897,7 +8113,7 @@
       "name": "3_Hall",
       "r": 206,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 186,
       "uiSettings": {
@@ -7910,7 +8126,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7370816317994112,
+        "zoomFactor": 0.3797121001947997,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -7989,9 +8205,9 @@
           "name": "WarpZone",
           "opacity": 0,
           "persistentUuid": "06b840af-ef58-402f-9758-be5593ae2db0",
-          "width": 100,
-          "x": 1684,
-          "y": 319,
+          "width": 104,
+          "x": 1686,
+          "y": 328,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -8116,7 +8332,7 @@
           "numberProperties": [
             {
               "name": "animation",
-              "value": 6
+              "value": 15
             }
           ],
           "stringProperties": [],
@@ -8133,8 +8349,8 @@
           "opacity": 0,
           "persistentUuid": "cdd76461-6a94-4dae-8e0e-4caf5aabc7f5",
           "width": 101,
-          "x": 3273,
-          "y": 247,
+          "x": 3085,
+          "y": 163,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -8162,8 +8378,8 @@
           "opacity": 0,
           "persistentUuid": "c3638170-017a-4f86-9bf3-b663a2849a0b",
           "width": 105,
-          "x": 3670,
-          "y": 239,
+          "x": 3759,
+          "y": 189,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -8181,6 +8397,7 @@
           "depth": 0,
           "height": 720,
           "layer": "",
+          "locked": true,
           "name": "Hall",
           "persistentUuid": "b5b42fe4-4c5b-437f-8efc-7af53fee84e3",
           "width": 1080,
@@ -8228,8 +8445,8 @@
           "opacity": 0,
           "persistentUuid": "a381ce1a-7be2-4354-8681-dfcced0e6e82",
           "width": 270,
-          "x": 3380,
-          "y": 642,
+          "x": 3347,
+          "y": 640,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -8416,8 +8633,8 @@
           "opacity": 0,
           "persistentUuid": "6dc72e0e-ddcd-40ca-9aeb-955c98089a65",
           "width": 92,
-          "x": -1093,
-          "y": 237,
+          "x": -1095,
+          "y": 233,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -8683,6 +8900,475 @@
           "x": 8249,
           "y": 338,
           "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 78,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "a19683da-f3de-4f1d-b37f-99b621877348",
+          "width": 56,
+          "x": 3486,
+          "y": 253,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 74,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "99b71fbe-5d92-4a79-8e68-ebc8526ce085",
+          "width": 399,
+          "x": 4740,
+          "y": 635,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Rool_Direction_Up",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 74,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "2818abea-7942-408e-8111-39c4723620a5",
+          "width": 399,
+          "x": 6237,
+          "y": 641,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Rool_Direction_Up",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "layer": "",
+          "locked": true,
+          "name": "Hall",
+          "persistentUuid": "0b836065-3d5b-4474-b9ec-a3776d0d2b33",
+          "width": 1080,
+          "x": 8880,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 18
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "layer": "",
+          "name": "Hall",
+          "persistentUuid": "009f3a4f-5849-4b3e-abc7-94339ef7b35a",
+          "width": 1080,
+          "x": 5907,
+          "y": 853,
+          "zOrder": 0,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 8
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "flippedX": true,
+          "height": 720,
+          "layer": "",
+          "name": "Hall",
+          "persistentUuid": "400fa333-3792-47dc-b4e7-95f9895a56f6",
+          "width": 1080,
+          "x": 5917,
+          "y": 1588,
+          "zOrder": 0,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 10
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "flippedX": true,
+          "height": 720,
+          "layer": "",
+          "name": "Hall",
+          "persistentUuid": "d9aba8fb-3473-4da3-ade5-48e65a18cb6d",
+          "width": 1080,
+          "x": 5916,
+          "y": 2415,
+          "zOrder": 0,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 8
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "flippedX": true,
+          "height": 720,
+          "layer": "",
+          "name": "Hall",
+          "persistentUuid": "e5aa6659-8d47-4b3c-b237-e2ff06f80bd8",
+          "width": 1080,
+          "x": 5880,
+          "y": 3277,
+          "zOrder": 0,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 9
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "layer": "",
+          "name": "Hall",
+          "persistentUuid": "e7c471f9-2b59-4d83-ab48-aa9b3d08ae2c",
+          "width": 1080,
+          "x": 5882,
+          "y": 4069,
+          "zOrder": 0,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 8
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "layer": "",
+          "name": "Hall",
+          "persistentUuid": "78723864-3b8f-4209-950e-aa4764541148",
+          "width": 1080,
+          "x": 5878,
+          "y": 4840,
+          "zOrder": 0,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 6
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "flippedX": true,
+          "height": 720,
+          "layer": "",
+          "name": "Hall",
+          "persistentUuid": "f72740b5-1d84-41ce-bbe0-d865496f3c46",
+          "width": 1080,
+          "x": 5893,
+          "y": 5666,
+          "zOrder": 0,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "flippedX": true,
+          "height": 720,
+          "layer": "",
+          "name": "Hall",
+          "persistentUuid": "1bdc8320-a395-494d-b46d-adfd384bd4b6",
+          "width": 1080,
+          "x": 5905,
+          "y": 6435,
+          "zOrder": 0,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 5
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 127,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "980b37b0-675f-43bd-be24-564098e50395",
+          "width": 105,
+          "x": 1923,
+          "y": 163,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": -3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "layer": "",
+          "locked": true,
+          "name": "Hall",
+          "persistentUuid": "cf28abdc-d938-4de0-a196-e8a6202be48c",
+          "width": 1080,
+          "x": -4440,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 16
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 48,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "149ecbfc-0325-47a6-a0fb-1f4b651d7aca",
+          "width": 429,
+          "x": -4166,
+          "y": 672,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "Rool_Direction_Up",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 131,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 26,
+          "persistentUuid": "f80a7bbe-3d1e-434c-98a2-eed6cb7bf516",
+          "width": 39,
+          "x": -4228,
+          "y": 425,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 112,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 26,
+          "persistentUuid": "2ffc2601-07c0-4a05-bc93-d2a489eb14cf",
+          "width": 54,
+          "x": -3966,
+          "y": 429,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 140,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 26,
+          "persistentUuid": "24cc1e1f-7e30-43f2-aa70-3d0e686d0b9e",
+          "width": 39,
+          "x": -3700,
+          "y": 433,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 165,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "c5f17431-1e9a-4309-9b90-728600bf9c05",
+          "width": 75,
+          "x": 9598,
+          "y": 260,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": 2
+            },
+            {
+              "name": "Rool_Direction_Up",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 97,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SuperWarp",
+          "persistentUuid": "fbf2ba9e-ae95-46f0-9762-9f5416640a0a",
+          "width": 49,
+          "x": -3823,
+          "y": 441,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 150,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SuperWarp",
+          "persistentUuid": "0416230c-1db1-4460-8836-29d4aa88b2f3",
+          "width": 152,
+          "x": 251,
+          "y": 477,
+          "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9237,7 +9923,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "S36inter.png",
+                      "image": "S36inter3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9285,7 +9971,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "S37.png",
+                      "image": "S42.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9370,6 +10056,246 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "S35on.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 1024
+                          },
+                          {
+                            "x": 0,
+                            "y": 1024
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "S39.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 1024
+                          },
+                          {
+                            "x": 0,
+                            "y": 1024
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "S41.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 1024
+                          },
+                          {
+                            "x": 0,
+                            "y": 1024
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "S36m inter2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 1024
+                          },
+                          {
+                            "x": 0,
+                            "y": 1024
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "S3L2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 1024
+                          },
+                          {
+                            "x": 0,
+                            "y": 1024
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -9386,6 +10312,48 @@
             "debugMode": false,
             "texture": ""
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "I can see you ...",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 200,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "I can see you ...",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 200,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -9396,6 +10364,9 @@
           },
           {
             "objectName": "NewLight"
+          },
+          {
+            "objectName": "NewText"
           }
         ]
       },
@@ -9433,6 +10404,11 @@
             "includeConfig": 0
           },
           "target": "Flim Scroll + Camera Control"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -9529,30 +10505,851 @@
           "type": "ScalableCapability::ScalableBehavior"
         },
         {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
       ]
     },
     {
-      "b": 209,
+      "b": 160,
       "disableInputWhenNotFocused": true,
       "mangledName": "_52_95Remise1",
       "name": "4_Remise1",
-      "r": 209,
+      "r": 206,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
-      "v": 209,
-      "uiSettings": {},
+      "v": 186,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.2912258866911113,
+        "windowMask": false
+      },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
-      "objects": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Remise",
+          "persistentUuid": "35f9a2c3-17da-4c6c-b855-d9470abb24a6",
+          "width": 1080,
+          "x": 0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 547,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "7bc144d2-3f5b-45c8-99bb-959c46174e19",
+          "width": 124,
+          "x": 29,
+          "y": 86,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": -2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 160,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "7316941e-3c52-4d15-a2ef-dd5f5872c66a",
+          "width": 92,
+          "x": 441,
+          "y": 255,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 307,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "fb83ed86-99fc-42fa-be43-bb3b7af8e971",
+          "width": 78,
+          "x": 668,
+          "y": 200,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": -5
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 565,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "35edc779-f7b9-43fd-bb72-b359007e6cd0",
+          "width": 137,
+          "x": 816,
+          "y": 100,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": -4
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Remise",
+          "persistentUuid": "9869c682-2849-4ab0-be95-17d2dd1a789e",
+          "width": 1080,
+          "x": -1480,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Remise",
+          "persistentUuid": "d54ef149-49d4-41ed-a5c4-d074b39cc3fd",
+          "width": 1080,
+          "x": -2960,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Remise",
+          "persistentUuid": "98434ef4-9504-4e56-9402-ad69ab8b9aab",
+          "width": 1080,
+          "x": -4440,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Remise",
+          "persistentUuid": "d719febf-2288-4f8d-906f-6817481ac9d6",
+          "width": 1080,
+          "x": -5920,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 5
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Remise",
+          "persistentUuid": "f2713040-562b-4a0d-a4ca-813c35cfefa8",
+          "width": 1080,
+          "x": -7400,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 6
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 720,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Remise",
+          "persistentUuid": "880a8894-b033-41ba-95ab-ff735c0cca5b",
+          "width": 1080,
+          "x": 1480,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 110,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "c69d20e4-1c95-48b8-9ebb-232af647e93c",
+          "width": 389,
+          "x": 1708,
+          "y": 606,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Rool_Direction_Up",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 423,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "persistentUuid": "9d9b1f0e-32b0-4b1a-a57f-3592b94f39a6",
+          "width": 204,
+          "x": -734,
+          "y": 110,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 449,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "cbe7d9ff-1434-466b-bab5-faaf1be07723",
+          "width": 146,
+          "x": -2059,
+          "y": 107,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Rool_Direction_Up",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 325,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "persistentUuid": "2a869a21-35d7-47d7-89fb-a15bdd0bbf22",
+          "width": 172,
+          "x": -3869,
+          "y": 183,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 385,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "cfae6d79-19a8-4cd8-b0fe-62501993551c",
+          "width": 124,
+          "x": -5006,
+          "y": 116,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Rool_Direction_Up",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 121,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "7f928aa9-6bd0-4a55-961a-5cb04a5e2901",
+          "width": 69,
+          "x": -6656,
+          "y": 185,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Rool_Direction_Up",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 133,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "89bed870-db3e-463d-9b1f-b81b4e78059e",
+          "width": 85,
+          "x": 1935,
+          "y": 271,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Remise",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "22 avr. 2025, 21_01_31.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 1024
+                          },
+                          {
+                            "x": 0,
+                            "y": 1024
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Couloir abandonné en pixel art.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 1024
+                          },
+                          {
+                            "x": 0,
+                            "y": 1024
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "EntréRemise.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 1024
+                          },
+                          {
+                            "x": 0,
+                            "y": 1024
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Vestiaire.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 1024
+                          },
+                          {
+                            "x": 0,
+                            "y": 1024
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Bureau1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 1024
+                          },
+                          {
+                            "x": 0,
+                            "y": 1024
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "atelier.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 1024
+                          },
+                          {
+                            "x": 0,
+                            "y": 1024
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Atelier abandonné en sepia.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 0
+                          },
+                          {
+                            "x": 1536,
+                            "y": 1024
+                          },
+                          {
+                            "x": 0,
+                            "y": 1024
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Remise"
+          }
+        ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+              },
+              "parameters": [
+                "",
+                "\"Film Scroll Layout\"",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Flim Scroll + Camera Control"
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
@@ -9565,8 +11362,41 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
+          "name": "Sublight",
+          "renderingType": "2d",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
           "name": "",
-          "renderingType": "",
+          "renderingType": "2d",
           "visibility": true,
           "cameras": [
             {
@@ -9580,6 +11410,39 @@
               "width": 0
             }
           ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Trasition+Film",
+          "renderingType": "2d",
+          "visibility": true,
+          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
@@ -9641,7 +11504,7 @@
       "name": "5_Remise2",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {},
@@ -9741,7 +11604,7 @@
       "name": "6_Souterain",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {},
@@ -9841,7 +11704,7 @@
       "name": "7_Server",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {},
@@ -9941,7 +11804,7 @@
       "name": "X_Secret",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {},
@@ -10044,7 +11907,19 @@
       "stopSoundsOnStartup": true,
       "title": "",
       "v": 209,
-      "uiSettings": {},
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.546875,
+        "windowMask": false
+      },
       "objectsGroups": [],
       "variables": [],
       "instances": [],
@@ -10150,6 +12025,18 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Set every parameter of the camera + set the animation"
+            },
+            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -10188,6 +12075,18 @@
                 },
                 {
                   "type": {
+                    "value": "SetCameraCenterX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "1080/2",
+                    "\"Sublight\"",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -10214,7 +12113,7 @@
                   "parameters": [
                     "CameraFilmRool",
                     "=",
-                    "720/2 "
+                    "720/2"
                   ]
                 },
                 {
@@ -10273,6 +12172,136 @@
                     "\"Trasition+Film\"",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraCenterY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "CameraFilmRool",
+                    "\"Sublight\"",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"SuperTransistion\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCameraCenterX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "1080/2*-50",
+                    "",
+                    "0"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Animation"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "Fond_Noir_Object",
+                        "Tween",
+                        "\"Global Opacity\"",
+                        "0",
+                        "\"easeInExpo\"",
+                        "1.3",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "FadeSoundVolume"
+                      },
+                      "parameters": [
+                        "",
+                        "1",
+                        "0",
+                        "10"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "1.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetCameraCenterX"
+                      },
+                      "parameters": [
+                        "",
+                        "=",
+                        "1080/2",
+                        "",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "scrollend.mp3",
+                        "1",
+                        "",
+                        "10",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "FadeSoundVolume"
+                      },
+                      "parameters": [
+                        "",
+                        "1",
+                        "30",
+                        "1"
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -10284,6 +12313,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Camera Tween",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10420,17 +12450,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Camera and Warp",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
+          "folded": true,
           "name": "Warp Even",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10817,6 +12837,19 @@
                       "actions": [
                         {
                           "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "scrollstart.mp3",
+                            "1",
+                            "",
+                            "30",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "SetBooleanVariable"
                           },
                           "parameters": [
@@ -10834,7 +12867,7 @@
                             "Tween",
                             "\"CameraOut\"",
                             "ZoomTween",
-                            "CameraZoom*8/10",
+                            "CameraZoom*9/10",
                             "\"easeInQuad\"",
                             "0.5",
                             ""
@@ -10881,6 +12914,15 @@
                       "actions": [
                         {
                           "type": {
+                            "value": "StopSoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "SetNumberObjectVariable"
                           },
                           "parameters": [
@@ -10914,10 +12956,23 @@
                             "Tween",
                             "\"CameraOut\"",
                             "ZoomTween",
-                            "CameraZoom*10/8",
+                            "CameraZoom*10/9",
                             "\"easeInOutCubic\"",
                             "1",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "scrollend.mp3",
+                            "1",
+                            "",
+                            "30",
+                            "1"
                           ]
                         }
                       ]
@@ -10961,6 +13016,15 @@
                           "parameters": [
                             "",
                             "\"Transistion\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "StopSoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "1"
                           ]
                         }
                       ]
@@ -11030,6 +13094,19 @@
                       "actions": [
                         {
                           "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "scrollstart.mp3",
+                            "1",
+                            "",
+                            "30",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "SetBooleanVariable"
                           },
                           "parameters": [
@@ -11047,7 +13124,7 @@
                             "Tween",
                             "\"CameraOut\"",
                             "ZoomTween",
-                            "CameraZoom*8/10",
+                            "CameraZoom*9/10",
                             "\"easeInQuad\"",
                             "0.5",
                             ""
@@ -11094,6 +13171,15 @@
                       "actions": [
                         {
                           "type": {
+                            "value": "StopSoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "SetNumberObjectVariable"
                           },
                           "parameters": [
@@ -11127,10 +13213,23 @@
                             "Tween",
                             "\"CameraOut\"",
                             "ZoomTween",
-                            "CameraZoom*10/8",
+                            "CameraZoom*10/9",
                             "\"easeInOutCubic\"",
                             "1",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "scrollend.mp3",
+                            "1",
+                            "",
+                            "30",
+                            "1"
                           ]
                         }
                       ]
@@ -11157,6 +13256,15 @@
                         }
                       ],
                       "actions": [
+                        {
+                          "type": {
+                            "value": "StopSoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "1"
+                          ]
+                        },
                         {
                           "type": {
                             "value": "SetBooleanVariable"
@@ -11236,6 +13344,545 @@
                     "Interactable",
                     "WarpZone.CenterX()",
                     "WarpZone.CenterY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "Interactable",
+                    "=",
+                    "90"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Super Warp Even",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Super Rool Transition Up",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"SuperTransistion\"",
+                        ">=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CompareTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"SuperTransistion\"",
+                            ">=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "Pause",
+                            "True",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectVariableTween3"
+                          },
+                          "parameters": [
+                            "Fond_Noir_Object",
+                            "Tween",
+                            "\"CameraOut\"",
+                            "ZoomTween",
+                            "CameraZoom*9/10",
+                            "\"easeInQuad\"",
+                            "0.5",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectVariableTween3"
+                          },
+                          "parameters": [
+                            "Fond_Noir_Object",
+                            "Tween",
+                            "\"CameraRool\"",
+                            "YPositionTween",
+                            "CameraFilmRool-2*800",
+                            "\"easeInCubic\"",
+                            "1",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CompareTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"SuperTransistion\"",
+                            ">=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Fond_Noir_Object",
+                            "YPositionTween",
+                            "=",
+                            "CameraFilmRool+4*800"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectVariableTween3"
+                          },
+                          "parameters": [
+                            "Fond_Noir_Object",
+                            "Tween",
+                            "\"CameraRool\"",
+                            "YPositionTween",
+                            "CameraFilmRool-0*800",
+                            "\"linear\"",
+                            "0.8",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CompareTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"SuperTransistion\"",
+                            ">=",
+                            "1.8"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Fond_Noir_Object",
+                            "YPositionTween",
+                            "=",
+                            "CameraFilmRool+4*800"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectVariableTween3"
+                          },
+                          "parameters": [
+                            "Fond_Noir_Object",
+                            "Tween",
+                            "\"CameraRool\"",
+                            "YPositionTween",
+                            "720/2",
+                            "\"easeOutBack\"",
+                            "1.5",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectVariableTween3"
+                          },
+                          "parameters": [
+                            "Fond_Noir_Object",
+                            "Tween",
+                            "\"CameraOut\"",
+                            "ZoomTween",
+                            "CameraZoom*10/9",
+                            "\"easeInOutCubic\"",
+                            "1",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CompareTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"SuperTransistion\"",
+                            ">=",
+                            "2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "Pause",
+                            "False",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "RemoveTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"SuperTransistion\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Pause",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "SuperWarp",
+                    "",
+                    "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Unconditional warp\n"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "SuperWarp",
+                        "Conditional_Warp",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"SuperTransistion\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "Fond_Noir_Object",
+                        "Tween",
+                        "\"Global Opacity\"",
+                        "255",
+                        "\"easeInCubic\"",
+                        "2",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "scrollstart+long2.mp3",
+                        "1",
+                        "30",
+                        "40",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetCameraCenterX"
+                      },
+                      "parameters": [
+                        "",
+                        "=",
+                        "-50* (1080 + 400)+ 1080/2 ",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"4_Remise1\"",
+                        "no"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Conditional warp:\nCheck if object is in inventory with the loop\nAnd remove the item from the inventory if RemoveItem is true\n"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEachChildVariable",
+                  "iterableVariableName": "inventory",
+                  "valueIteratorVariableName": "dummy_var_item",
+                  "keyIteratorVariableName": "dummy_var_slot",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "dummy_var_item",
+                        "=",
+                        "WarpZone.Conditional_Warp"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Transistion\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "4"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "SuperWarp",
+                        "Conditional_Warp",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"4_Remise1\"",
+                        "no"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Pause",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "SuperWarp",
+                    "",
+                    "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Interactable",
+                    "SuperWarp.CenterX()",
+                    "SuperWarp.CenterY()",
                     ""
                   ]
                 },
@@ -14937,14 +17584,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 911,
+          "height": 902,
           "keepRatio": true,
           "layer": "Trasition+Film",
           "name": "innerfilm",
           "persistentUuid": "4c0841a2-4fe3-4857-8c60-43d7efdc41e2",
           "width": 1115,
           "x": -20,
-          "y": -97,
+          "y": -91,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -15151,16 +17798,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 4948,
           "keepRatio": true,
           "layer": "Trasition+Film",
           "name": "Fond_Noir_Object",
-          "opacity": 0,
           "persistentUuid": "6d1deeb0-9632-43e1-9205-1431bc360c9f",
-          "width": 0,
-          "x": -470,
-          "y": 1059,
+          "width": 2260,
+          "x": -468,
+          "y": -2132,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -15351,7 +17998,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.14513286445533166,
+        "zoomFactor": 0.2308918338522498,
         "windowMask": false
       }
     }
