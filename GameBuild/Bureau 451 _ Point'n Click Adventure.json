@@ -1771,9 +1771,43 @@
       "children": []
     },
     {
-      "name": "route",
-      "type": "number",
-      "value": 0
+      "folded": true,
+      "name": "Paper_Scene_Count",
+      "type": "array",
+      "children": [
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        },
+        {
+          "type": "number",
+          "value": 0
+        }
+      ]
     },
     {
       "name": "CameraZoom",
@@ -1782,6 +1816,11 @@
     },
     {
       "name": "CameraFilmRool",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "CurrentScene",
       "type": "number",
       "value": 0
     },
@@ -1811,7 +1850,7 @@
       "value": 0
     },
     {
-      "name": "SuperScreen_RoomWarp",
+      "name": "SuperScene_RoomWarp",
       "type": "number",
       "value": 0
     }
@@ -11290,6 +11329,50 @@
           ],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Paper",
+          "persistentUuid": "2c902f83-3602-417c-b6b6-38bed5d16f1b",
+          "width": 0,
+          "x": 256,
+          "y": 426,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Paper",
+          "persistentUuid": "27f57dee-9a9c-4362-91bb-d589950e093e",
+          "width": 0,
+          "x": 288,
+          "y": 494,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 3
+            }
+          ]
         }
       ],
       "objects": [
@@ -12405,6 +12488,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Begining",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12729,7 +12813,7 @@
                       "parameters": [
                         "",
                         "=",
-                        "SuperScreen_RoomWarp * (1080 + 400)+ 1080/2 ",
+                        "SuperScene_RoomWarp * (1080 + 400) + 1080 / 2",
                         "",
                         "0"
                       ]
@@ -13874,7 +13958,7 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "SuperScreen_RoomWarp",
+                    "SuperScene_RoomWarp",
                     "=",
                     "SuperWarp.RoomWarp"
                   ]
@@ -13993,6 +14077,16 @@
                       "actions": [
                         {
                           "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "CurrentScene",
+                            "=",
+                            "2"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "Scene"
                           },
                           "parameters": [
@@ -14019,6 +14113,16 @@
                         }
                       ],
                       "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "CurrentScene",
+                            "=",
+                            "3"
+                          ]
+                        },
                         {
                           "type": {
                             "value": "Scene"
@@ -14049,6 +14153,16 @@
                       "actions": [
                         {
                           "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "CurrentScene",
+                            "=",
+                            "4"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "Scene"
                           },
                           "parameters": [
@@ -14075,6 +14189,16 @@
                         }
                       ],
                       "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "CurrentScene",
+                            "=",
+                            "5"
+                          ]
+                        },
                         {
                           "type": {
                             "value": "Scene"
@@ -14105,6 +14229,16 @@
                       "actions": [
                         {
                           "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "CurrentScene",
+                            "=",
+                            "6"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "Scene"
                           },
                           "parameters": [
@@ -14131,6 +14265,16 @@
                         }
                       ],
                       "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "CurrentScene",
+                            "=",
+                            "7"
+                          ]
+                        },
                         {
                           "type": {
                             "value": "Scene"
@@ -14161,6 +14305,16 @@
                       "actions": [
                         {
                           "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "CurrentScene",
+                            "=",
+                            "8"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "Scene"
                           },
                           "parameters": [
@@ -14187,6 +14341,16 @@
                         }
                       ],
                       "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "CurrentScene",
+                            "=",
+                            "9"
+                          ]
+                        },
                         {
                           "type": {
                             "value": "Scene"
@@ -14315,6 +14479,16 @@
                       "actions": [
                         {
                           "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "CurrentScene",
+                            "=",
+                            "2"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "Scene"
                           },
                           "parameters": [
@@ -14341,6 +14515,16 @@
                         }
                       ],
                       "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "CurrentScene",
+                            "=",
+                            "4"
+                          ]
+                        },
                         {
                           "type": {
                             "value": "Scene"
@@ -14371,6 +14555,16 @@
                       "actions": [
                         {
                           "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "CurrentScene",
+                            "=",
+                            "3"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "Scene"
                           },
                           "parameters": [
@@ -14397,6 +14591,16 @@
                         }
                       ],
                       "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "CurrentScene",
+                            "=",
+                            "6"
+                          ]
+                        },
                         {
                           "type": {
                             "value": "Scene"
@@ -14427,6 +14631,16 @@
                       "actions": [
                         {
                           "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "CurrentScene",
+                            "=",
+                            "7"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "Scene"
                           },
                           "parameters": [
@@ -14453,6 +14667,16 @@
                         }
                       ],
                       "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "CurrentScene",
+                            "=",
+                            "8"
+                          ]
+                        },
                         {
                           "type": {
                             "value": "Scene"
@@ -14483,6 +14707,16 @@
                       "actions": [
                         {
                           "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "CurrentScene",
+                            "=",
+                            "9"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "Scene"
                           },
                           "parameters": [
@@ -14509,6 +14743,16 @@
                         }
                       ],
                       "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "CurrentScene",
+                            "=",
+                            "5"
+                          ]
+                        },
                         {
                           "type": {
                             "value": "Scene"
@@ -15002,6 +15246,16 @@
                       "parameters": [
                         "Paper",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Paper_Scene_Count[CurrentScene]",
+                        "+",
+                        "1"
                       ]
                     }
                   ]
