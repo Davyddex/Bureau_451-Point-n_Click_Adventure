@@ -777,6 +777,62 @@
         "name": "Atelier abandonné en sepia.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "key.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "key.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/New3DBox_Front.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\New3DBox_Front.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../../../../../../../Used/key objet/Badge.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\..\\..\\..\\..\\Used\\key objet\\Badge.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "key2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "key2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Badge.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Badge.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "BadgeP.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BadgeP.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1363,6 +1419,11 @@
           "name": "SceneWarp",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "RoomWarp",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
@@ -1374,14 +1435,33 @@
       "name": "Item",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [
+      "variables": [],
+      "effects": [
         {
-          "name": "Pickable",
-          "type": "boolean",
-          "value": true
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 1,
+            "thickness": 1
+          },
+          "stringParameters": {
+            "color": "255;210;156"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Outline",
+          "name": "Effect2",
+          "doubleParameters": {
+            "padding": 2,
+            "thickness": 1
+          },
+          "stringParameters": {
+            "color": "253;165;58"
+          },
+          "booleanParameters": {}
         }
       ],
-      "effects": [],
       "behaviors": [],
       "animations": [
         {
@@ -1434,7 +1514,7 @@
           ]
         },
         {
-          "name": "Key1",
+          "name": "Key",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -1444,7 +1524,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Key1",
+                  "image": "key.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1483,13 +1563,98 @@
           ]
         },
         {
-          "name": "x",
+          "name": "Electricit",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
               "timeBetweenFrames": 0.08,
-              "sprites": []
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\NewSprite.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "BadgeP.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -1536,6 +1701,23 @@
         "characterSize": 40,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Paper",
+      "texture": "assets\\New3DBox_Front.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [
+        {
+          "name": "Index",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -1546,6 +1728,12 @@
       },
       {
         "objectName": "SuperWarp"
+      },
+      {
+        "objectName": "Item"
+      },
+      {
+        "objectName": "Paper"
       },
       {
         "objectName": "Interactable"
@@ -1566,9 +1754,6 @@
         "objectName": "ProjectorLight"
       },
       {
-        "objectName": "Item"
-      },
-      {
         "objectName": "Debug_inventory"
       }
     ]
@@ -1576,7 +1761,12 @@
   "objectsGroups": [],
   "variables": [
     {
-      "name": "inventory",
+      "name": "Inventory",
+      "type": "array",
+      "children": []
+    },
+    {
+      "name": "Paper_Inventory",
       "type": "array",
       "children": []
     },
@@ -1596,7 +1786,7 @@
       "value": 0
     },
     {
-      "name": "paper",
+      "name": "Paper_total",
       "type": "number",
       "value": 0
     },
@@ -1617,6 +1807,11 @@
     },
     {
       "name": "ScrollingDirection",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "SuperScreen_RoomWarp",
       "type": "number",
       "value": 0
     }
@@ -1834,6 +2029,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         },
         {
           "name": "Tween",
@@ -2292,7 +2491,7 @@
                     "value": "PushNumber"
                   },
                   "parameters": [
-                    "inventory",
+                    "Inventory",
                     "Item.Animation::Index()"
                   ]
                 },
@@ -2365,7 +2564,7 @@
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::ForEachChildVariable",
-                  "iterableVariableName": "inventory",
+                  "iterableVariableName": "Inventory",
                   "valueIteratorVariableName": "dummy_var_item",
                   "keyIteratorVariableName": "slot",
                   "conditions": [],
@@ -5849,7 +6048,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6672773998330382,
+        "zoomFactor": 0.5290357402157163,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -7809,7 +8008,6 @@
           "target": "Flim Scroll + Camera Control"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -8101,6 +8299,10 @@
           "type": "ScalableCapability::ScalableBehavior"
         },
         {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -8126,7 +8328,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3797121001947997,
+        "zoomFactor": 0.6455105703311591,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -9376,20 +9578,82 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 38,
           "keepRatio": true,
           "layer": "",
           "name": "Item",
           "persistentUuid": "aa5f7dc0-d15c-42f6-912a-6defec94850c",
-          "width": 0,
-          "x": -3882,
-          "y": 576,
+          "width": 57,
+          "x": -3875,
+          "y": 539,
           "zOrder": 28,
           "numberProperties": [
             {
               "name": "animation",
               "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Paper",
+          "persistentUuid": "5f15720c-c43c-45c0-a0f9-9a654d618d2e",
+          "width": 0,
+          "x": -3780,
+          "y": 587,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Paper",
+          "persistentUuid": "81ad828b-d567-4e9d-b040-36b074d6f4e0",
+          "width": 0,
+          "x": -3704,
+          "y": 618,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 130,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Item",
+          "opacity": 0,
+          "persistentUuid": "94802548-014a-4336-b8f9-24638e92b926",
+          "width": 64,
+          "x": 7640,
+          "y": 164,
+          "zOrder": 31,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
             }
           ],
           "stringProperties": [],
@@ -10425,6 +10689,13 @@
           "include": {
             "includeConfig": 0
           },
+          "target": "ItemLogic"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
           "target": "Flim Scroll + Camera Control"
         },
         {
@@ -10558,7 +10829,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2912258866911113,
+        "zoomFactor": 0.4950840073748888,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -10711,6 +10982,7 @@
           "height": 720,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "Remise",
           "persistentUuid": "d54ef149-49d4-41ed-a5c4-d074b39cc3fd",
           "width": 1080,
@@ -10967,6 +11239,57 @@
               "value": 2
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 101,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SuperWarp",
+          "opacity": 0,
+          "persistentUuid": "0dba2121-3b9b-4d87-98d2-4c2cc7ba8765",
+          "width": 298,
+          "x": 369,
+          "y": 618,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "RoomWarp",
+              "type": "number",
+              "value": -3
+            },
+            {
+              "name": "SceneWarp",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 55,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Item",
+          "persistentUuid": "fe107781-1406-417f-af78-0ad60ebd7f35",
+          "width": 94,
+          "x": -2412,
+          "y": 451,
+          "zOrder": 13,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -11372,6 +11695,20 @@
             "includeConfig": 0
           },
           "target": "Flim Scroll + Camera Control"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Inventory"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "ItemLogic"
         }
       ],
       "layers": [
@@ -11516,6 +11853,10 @@
           "type": "ScalableCapability::ScalableBehavior"
         },
         {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -11614,6 +11955,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         },
         {
           "name": "Tween",
@@ -11716,6 +12061,10 @@
           "type": "ScalableCapability::ScalableBehavior"
         },
         {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -11816,6 +12165,10 @@
           "type": "ScalableCapability::ScalableBehavior"
         },
         {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -11914,6 +12267,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         },
         {
           "name": "Tween",
@@ -12028,6 +12385,10 @@
           "type": "ScalableCapability::ScalableBehavior"
         },
         {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
         }
@@ -12044,7 +12405,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Begining",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12243,6 +12603,78 @@
                     "textG": 0,
                     "textR": 0
                   },
+                  "comment": "Delete already taken object"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEachChildVariable",
+                  "iterableVariableName": "Inventory",
+                  "valueIteratorVariableName": "dummy_var_item",
+                  "keyIteratorVariableName": "dummy_var_slot",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Index"
+                      },
+                      "parameters": [
+                        "Item",
+                        "Animation",
+                        "=",
+                        "dummy_var_item"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Item",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEachChildVariable",
+                  "iterableVariableName": "Paper_Inventory",
+                  "valueIteratorVariableName": "dummy_var_item",
+                  "keyIteratorVariableName": "dummy_var_slot",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Paper",
+                        "Index",
+                        "=",
+                        "dummy_var_item"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Paper",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
                   "comment": "Animation"
                 },
                 {
@@ -12297,7 +12729,7 @@
                       "parameters": [
                         "",
                         "=",
-                        "1080/2",
+                        "SuperScreen_RoomWarp * (1080 + 400)+ 1080/2 ",
                         "",
                         "0"
                       ]
@@ -12666,7 +13098,7 @@
                 },
                 {
                   "type": "BuiltinCommonInstructions::ForEachChildVariable",
-                  "iterableVariableName": "inventory",
+                  "iterableVariableName": "Inventory",
                   "valueIteratorVariableName": "dummy_var_item",
                   "keyIteratorVariableName": "dummy_var_slot",
                   "conditions": [
@@ -12781,7 +13213,7 @@
                             "value": "RemoveVariableAt"
                           },
                           "parameters": [
-                            "inventory",
+                            "Inventory",
                             "dummy_var_slot"
                           ]
                         },
@@ -13436,7 +13868,18 @@
                   "parameters": []
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "SuperScreen_RoomWarp",
+                    "=",
+                    "SuperWarp.RoomWarp"
+                  ]
+                }
+              ],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Comment",
@@ -13772,7 +14215,7 @@
                 },
                 {
                   "type": "BuiltinCommonInstructions::ForEachChildVariable",
-                  "iterableVariableName": "inventory",
+                  "iterableVariableName": "Inventory",
                   "valueIteratorVariableName": "dummy_var_item",
                   "keyIteratorVariableName": "dummy_var_slot",
                   "conditions": [
@@ -14087,6 +14530,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Super Rool Transition Up",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -14298,7 +14742,7 @@
                             "",
                             "\"SuperTransistion\"",
                             ">=",
-                            "2"
+                            "2.8"
                           ]
                         },
                         {
@@ -14442,7 +14886,197 @@
                     "",
                     "\"Left\""
                   ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Item",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PushNumber"
+                      },
+                      "parameters": [
+                        "Inventory",
+                        "Item.Animation::Index()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Debug_inventory",
+                        "Text",
+                        "+",
+                        "\"I\"+ToString(Item.Animation::Index())"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Item",
+                        ""
+                      ]
+                    }
+                  ]
                 },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Paper",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PushNumber"
+                      },
+                      "parameters": [
+                        "Paper_Inventory",
+                        "Paper.Index"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Debug_inventory",
+                        "Text",
+                        "+",
+                        "\"P\" + ToString(Paper.Index)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Paper_total",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Paper",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "associatedLayout": "3_Hall",
+      "name": "ItemLogic",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Pause",
+                "=",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Item",
+                    "",
+                    "no",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                  },
+                  "parameters": [
+                    "Item",
+                    "Effect",
+                    "\"Effect\"",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                  },
+                  "parameters": [
+                    "Item",
+                    "Effect",
+                    "\"Effect2\"",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
                 {
                   "type": {
                     "value": "SourisSurObjet"
@@ -14450,18 +15084,7 @@
                   "parameters": [
                     "Item",
                     "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Item",
-                    "Pickable",
-                    "True",
+                    "no",
                     ""
                   ]
                 },
@@ -14475,37 +15098,29 @@
               "actions": [
                 {
                   "type": {
-                    "value": "PushNumber"
-                  },
-                  "parameters": [
-                    "inventory",
-                    "Item.Animation::Index()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Debug_inventory",
-                    "Text",
-                    "+",
-                    "ToString(Item.Animation::Index())"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
                   },
                   "parameters": [
                     "Item",
-                    ""
+                    "Effect",
+                    "\"Effect\"",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                  },
+                  "parameters": [
+                    "Item",
+                    "Effect",
+                    "\"Effect2\"",
+                    "yes"
                   ]
                 }
               ]
             }
-          ],
-          "parameters": []
+          ]
         }
       ]
     }
@@ -18596,14 +19211,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 4948,
+          "height": 5601,
           "keepRatio": true,
           "layer": "Trasition+Film",
           "name": "Fond_Noir_Object",
           "persistentUuid": "a96c4deb-9058-4625-aaeb-2fae82f3b460",
           "width": 2260,
           "x": -454,
-          "y": -1594,
+          "y": -2247,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -18620,7 +19235,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2308918338522498,
+        "zoomFactor": 0.10416820751496464,
         "windowMask": false
       }
     }
