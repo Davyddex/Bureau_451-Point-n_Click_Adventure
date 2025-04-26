@@ -1,0 +1,35 @@
+{
+  "Scene1": {
+    "1": {"Speaker":"404", "Text":"balabllaa"},
+    "2": {"Speaker":"404", "Text":"Votre travail ici façonnera l'avenir."},
+    "3": {"Speaker":"404", "Text":"Tu me reçois ? Parfait.$ Je voulais juste te mettre au jus. Tu sais, chez Omniχiv, ils parlent de préserver la mémoire collective.$ Mais ce qu’ils font, c’est surtout la formater. Leur système de numérisation… c’est une vraie passoire."}
+  },
+
+  "Scene2": {
+    "1": {"Speaker":"X", "Text":"balabllaa"}
+  },
+
+  "Scene3": {
+    "1": {"Speaker":"X", "Text":"balabllaa"}
+  },
+
+  "Scene4": {
+    "1": {"Speaker":"X", "Text":"balabllaa"}
+  },
+
+  "Scene5": {
+    "1": {"Speaker":"X", "Text":"balabllaa"}
+  },
+
+  "Scene6": {
+    "1": {"Speaker":"X", "Text":"balabllaa"}
+  },
+
+  "Scene7": {
+    "1": {"Speaker":"X", "Text":"balabllaa"}
+  },
+
+  "Scene8": {
+    "1": {"Speaker":"X", "Text":"balabllaa"}
+  }
+}
