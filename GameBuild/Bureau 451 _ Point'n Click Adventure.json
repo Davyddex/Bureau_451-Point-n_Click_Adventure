@@ -1143,6 +1143,11 @@
           "name": "Text_Index",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "Event",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
@@ -3148,6 +3153,11 @@
       "value": 0
     },
     {
+      "name": "in_inventory",
+      "type": "boolean",
+      "value": false
+    },
+    {
       "name": "ScrollingDirection",
       "type": "number",
       "value": 0
@@ -3213,9 +3223,9 @@
       "value": 0
     },
     {
-      "name": "in_inventory",
-      "type": "boolean",
-      "value": false
+      "name": "Event",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -14989,6 +14999,11 @@
           "stringProperties": [],
           "initialVariables": [
             {
+              "name": "Event",
+              "type": "number",
+              "value": 1
+            },
+            {
               "name": "WarpX",
               "type": "number",
               "value": -4
@@ -17579,6 +17594,88 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "name": "Event",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Pause",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Event",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Event",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Dialogue_Number",
+                        "=",
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "Dialogue_Start",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
           "name": "Debug",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -18824,6 +18921,13 @@
                 "includeConfig": 0
               },
               "target": "ItemLogic"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "DialogueLogic"
             }
           ],
           "parameters": []
@@ -20072,6 +20176,47 @@
                         ""
                       ]
                     }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Event logic"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Event",
+                            "=",
+                            "WarpZone.Event"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "WarpZone",
+                            "Event",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 },
                 {
@@ -20192,6 +20337,33 @@
                     }
                   ],
                   "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Event",
+                            "=",
+                            "WarpZone.Event"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "WarpZone",
+                            "Event",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
@@ -20340,7 +20512,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Rool Transition Up",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -21835,6 +22006,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Super Warp Even",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -29006,7 +29178,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.43357743047024383,
+        "zoomFactor": 0.3325387091250822,
         "windowMask": false
       }
     }
