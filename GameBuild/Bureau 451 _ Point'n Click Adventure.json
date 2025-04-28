@@ -2038,13 +2038,13 @@
         "isOutlineEnabled": false,
         "isShadowEnabled": false,
         "italic": false,
-        "outlineColor": "255;255;255",
+        "outlineColor": "139;139;139",
         "outlineThickness": 2,
         "shadowAngle": 90,
         "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
+        "shadowColor": "146;146;146",
         "shadowDistance": 4,
-        "shadowOpacity": 127,
+        "shadowOpacity": 255,
         "smoothed": true,
         "underlined": false,
         "text": "Inventory : ",
@@ -3206,6 +3206,11 @@
       "name": "Dialogue_Start",
       "type": "boolean",
       "value": false
+    },
+    {
+      "name": "Dialogue_Choice",
+      "type": "number",
+      "value": 0
     },
     {
       "name": "in_inventory",
@@ -13472,7 +13477,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6244537826600023,
+        "zoomFactor": 0.5117784035210202,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -13539,7 +13544,7 @@
           "persistentUuid": "051d4a45-236c-4ca6-bac7-3e48c91bcfe0",
           "width": 0,
           "x": 630,
-          "y": 387,
+          "y": 385,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -15133,6 +15138,23 @@
               "value": 1
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 67,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Debug_TriggerZone",
+          "persistentUuid": "f494c802-6486-422b-9875-2487e85e7f09",
+          "width": 156,
+          "x": 326,
+          "y": 518,
+          "zOrder": 62,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -16499,6 +16521,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Interactable",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -17547,6 +17570,115 @@
                 }
               ],
               "parameters": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Debug",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Pause",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Debug_TriggerZone",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Dialogue_Number",
+                        "=",
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "Dialogue_Start",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Dialogue_Choice",
+                    "!=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Lighting::SetColor"
+                  },
+                  "parameters": [
+                    "Elevator_Light",
+                    "\"0;0;0\""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -20466,6 +20598,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Rool Transition Down",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -22942,6 +23075,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Visual: Arrow and Particule",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -24577,7 +24711,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Extract Dialogue from the json\nJson Format:\n    SceneX .  Y . Speaker/Text\n\nSpecial Caractere: $ => Clear all, ask for input and continue"
+          "comment": "Extract Dialogue from the json\nJson Format:\n    SceneX .  Y . Speaker/Text\n\nSpecial Caractere: $+espace => Clear all, ask for input and continue"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -24755,6 +24889,12 @@
                     ">",
                     "StrLength(Dialogue_Current)"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -24930,6 +25070,16 @@
                     "Dialogue_Start",
                     "True",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Dialogue_Choice",
+                    "!=",
+                    "-1"
                   ]
                 },
                 {
@@ -25335,7 +25485,7 @@
                     "",
                     "\"Text_WaitingFInput\"",
                     ">=",
-                    "0"
+                    "0.1"
                   ]
                 },
                 {
@@ -25390,6 +25540,175 @@
                     "textG": 0,
                     "textR": 0
                   },
+                  "comment": "Choice\nDialogue_Choice: \n0 nothing is happening\n1/2 choice made\n-1/-2 Start choice display"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "ToNumber(GlobalVariableString(Dialogues[\"Scene\" + ToString(CurrentScene)][ToString(Dialogue_Number)].Choice1))",
+                        "!=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "Dialogue_Total_Index",
+                        ">",
+                        "StrLength(Dialogue_Current)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "Dialogue_Choice",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Dialogue_Total_Index",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RemoveTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Text\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RemoveTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Text_WaitingFInput\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Subtitle",
+                        "Text",
+                        "=",
+                        "GlobalVariableString(Dialogues[\"Scene\" + ToString(CurrentScene)][ToString(Dialogue_Number)].Choice1)+\"\n\n\"+GlobalVariableString(Dialogues[\"Scene\" + ToString(CurrentScene)][ToString(Dialogue_Number)].Choice2)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Arrow",
+                        "Subtitle.X()",
+                        "Subtitle.Y()",
+                        "\"UI\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "Arrow",
+                        "=",
+                        "20"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipX"
+                      },
+                      "parameters": [
+                        "Arrow",
+                        "Flippable",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Arrow",
+                        "Scale",
+                        "=",
+                        "0.25"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreX"
+                      },
+                      "parameters": [
+                        "Arrow",
+                        "+",
+                        "28*StrLength(GlobalVariableString(Dialogues[\"Scene\" + ToString(CurrentScene)][ToString(Dialogue_Number)].Choice2))+28"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreY"
+                      },
+                      "parameters": [
+                        "Arrow",
+                        "+",
+                        "15"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Dialogue_Choice",
+                        "=",
+                        "-1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
                   "comment": "Finish"
                 },
                 {
@@ -25403,6 +25722,16 @@
                         "Dialogue_Total_Index",
                         ">",
                         "StrLength(Dialogue_Current)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "Dialogue_Choice",
+                        "!=",
+                        "-1"
                       ]
                     },
                     {
@@ -25566,6 +25895,403 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "name": "Choice",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Dialogue_Choice",
+                    "=",
+                    "-1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "Arrow",
+                    "-",
+                    "28*StrLength(GlobalVariableString(Dialogues[\"Scene\" + ToString(CurrentScene)][ToString(Dialogue_Number)].Choice2))-28*StrLength(GlobalVariableString(Dialogues[\"Scene\" + ToString(CurrentScene)][ToString(Dialogue_Number)].Choice1))"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Dialogue_Choice",
+                    "=",
+                    "-2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "Arrow",
+                    "+",
+                    "28*StrLength(GlobalVariableString(Dialogues[\"Scene\" + ToString(CurrentScene)][ToString(Dialogue_Number)].Choice2))-28*StrLength(GlobalVariableString(Dialogues[\"Scene\" + ToString(CurrentScene)][ToString(Dialogue_Number)].Choice1))"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Down\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Dialogue_Choice",
+                    "=",
+                    "-1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "Arrow",
+                    "+",
+                    "28*3.3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Dialogue_Choice",
+                    "=",
+                    "-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Up\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Dialogue_Choice",
+                    "=",
+                    "-2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "Arrow",
+                    "-",
+                    "28*3.3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Dialogue_Choice",
+                    "=",
+                    "-1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Return\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "Dialogue_Choice",
+                        "=",
+                        "-1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "Dialogue_Choice",
+                        "=",
+                        "-2"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Arrow",
+                    "Opacity",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RemoveTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Text_WaitingFInput\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RemoveTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Text\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Subtitle",
+                    "Text",
+                    "=",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Dialogue_Index",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Dialogue_Index_Reset",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Dialogue_Total_Index",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "Dialogue_Choice",
+                        "=",
+                        "-1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "Dialogue_Current",
+                        "=",
+                        "GlobalVariableString(Dialogues[\"Scene\" + ToString(CurrentScene)][ToString(Dialogue_Number)].Response1)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Text\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Dialogue_Choice",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "Dialogue_Choice",
+                        "=",
+                        "-2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "Dialogue_Current",
+                        "=",
+                        "GlobalVariableString(Dialogues[\"Scene\" + ToString(CurrentScene)][ToString(Dialogue_Number)].Response2)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Text\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Dialogue_Choice",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
           "name": "Animation ",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -28053,7 +28779,6 @@
           "keepRatio": true,
           "layer": "UI",
           "name": "Debug_inventory",
-          "opacity": 128,
           "persistentUuid": "64bf40c4-1960-4e1e-9dd8-0c951b54fe0f",
           "width": 0,
           "x": 45,
@@ -28073,8 +28798,8 @@
           "name": "Fond_Noir_Object",
           "persistentUuid": "a96c4deb-9058-4625-aaeb-2fae82f3b460",
           "width": 2260,
-          "x": -556,
-          "y": -2672,
+          "x": -570,
+          "y": -2680,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -28245,6 +28970,30 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "flippedX": true,
+          "height": 114,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "Arrow",
+          "opacity": 0,
+          "persistentUuid": "5480ad3e-25dd-4ec4-ba5c-28a3f8be577b",
+          "width": 137,
+          "x": 162,
+          "y": 565,
+          "zOrder": 89,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -28257,7 +29006,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.20220707303602165,
+        "zoomFactor": 0.43357743047024383,
         "windowMask": false
       }
     }

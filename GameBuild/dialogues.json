@@ -22,7 +22,8 @@
   },
 
   "Scene6": {
-    "1": {"Speaker":" ", "Text":"La porte semble être bloquée."}
+    "1": {"Speaker":" ", "Text":"La porte semble être bloquée."},
+    "2": {"Speaker":"451", "Text":"Voulez-vous?$ Blabla","Choice1":" Option 1","Choice2":" Option 2", "Response1":" Ahh1","Response2":" Bhh2"}
   },
 
   "Scene7": {
