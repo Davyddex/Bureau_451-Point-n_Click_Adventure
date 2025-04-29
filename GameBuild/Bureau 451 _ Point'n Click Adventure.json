@@ -1092,6 +1092,86 @@
         "name": "6Sou\\S6ecran.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "RealDoc/Poster1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RealDoc\\Poster1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "RealDoc/Poster1other.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RealDoc\\Poster1other.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "RealDoc/Poster2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RealDoc\\Poster2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "RealDoc/Poster2+.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RealDoc\\Poster2+.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "RealDoc/asset/greenpine.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RealDoc\\asset\\greenpine.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "RealDoc/asset/redpine.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RealDoc\\asset\\redpine.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "RealDoc/asset/link.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RealDoc\\asset\\link.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "RealDoc/Le_Réveil___organe_du_[...]_bpt6k7620941f_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RealDoc\\Le_Réveil___organe_du_[...]_bpt6k7620941f_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "RealDoc/Computer1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RealDoc\\Computer1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "RealDoc/Computer2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RealDoc\\Computer2.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2477,7 +2557,13 @@
       "name": "DialogueArrow",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "id",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [
         {
           "effectType": "Outline",
@@ -2933,6 +3019,54 @@
               ]
             }
           ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "objet_asset\\doctable.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -3195,7 +3329,7 @@
     {
       "name": "Dialogue_Speed",
       "type": "number",
-      "value": 0.04
+      "value": 0.02
     },
     {
       "name": "Dialogue_Number",
@@ -12163,6 +12297,39 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
+          "name": "Reading",
+          "renderingType": "2d",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
           "name": "UI",
           "renderingType": "2d",
           "visibility": true,
@@ -13487,7 +13654,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5117784035210202,
+        "zoomFactor": 0.2817259932079581,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -13732,6 +13899,11 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
+            {
+              "name": "Event",
+              "type": "number",
+              "value": 3
+            },
             {
               "name": "WarpX",
               "type": "number",
@@ -14462,7 +14634,13 @@
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 1
+            }
+          ]
         },
         {
           "angle": 0,
@@ -14475,7 +14653,7 @@
           "opacity": 0,
           "persistentUuid": "5faa91d4-48b5-43d7-b4ba-f96aa9292cfd",
           "width": 232,
-          "x": -6570,
+          "x": -6568,
           "y": 464,
           "zOrder": 35,
           "numberProperties": [],
@@ -14942,7 +15120,7 @@
             {
               "name": "Display_Text",
               "type": "string",
-              "value": "Regarder le poster"
+              "value": "Regardé le poster"
             }
           ]
         },
@@ -14979,7 +15157,7 @@
             {
               "name": "Display_Text",
               "type": "string",
-              "value": "Regarder le poster"
+              "value": "Regardé le poster"
             }
           ]
         },
@@ -15001,7 +15179,7 @@
             {
               "name": "Event",
               "type": "number",
-              "value": 1
+              "value": 0
             },
             {
               "name": "WarpX",
@@ -15168,6 +15346,242 @@
           "y": 518,
           "zOrder": 62,
           "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 806,
+          "keepRatio": true,
+          "layer": "Reading",
+          "name": "RealDoc",
+          "opacity": 0,
+          "persistentUuid": "ae64d442-6f72-4992-8243-f592c821f9b5",
+          "width": 538,
+          "x": 275,
+          "y": 743,
+          "zOrder": 0,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 11,
+          "customSize": true,
+          "depth": 1,
+          "height": 285,
+          "keepRatio": true,
+          "layer": "Reading",
+          "name": "RealDoc",
+          "opacity": 0,
+          "persistentUuid": "59ba929f-56ac-4eba-907e-71769ac80fde",
+          "width": 523,
+          "x": 601,
+          "y": 1121,
+          "zOrder": 1,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 799,
+          "keepRatio": true,
+          "layer": "Reading",
+          "name": "RealDoc",
+          "opacity": 0,
+          "persistentUuid": "b3a02009-c92b-4138-a51a-8dc6128026ab",
+          "width": 532,
+          "x": 72,
+          "y": 745,
+          "zOrder": 0,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 46,
+          "keepRatio": true,
+          "layer": "Reading",
+          "name": "pine",
+          "opacity": 0,
+          "persistentUuid": "ec43fab4-5be0-430d-801b-7c380f8618c5",
+          "width": 30,
+          "x": 548,
+          "y": 1226,
+          "zOrder": 63,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 45,
+          "keepRatio": true,
+          "layer": "Reading",
+          "name": "pine",
+          "opacity": 0,
+          "persistentUuid": "126f1cc8-9a7e-4178-8c39-3f967f2b1fe4",
+          "width": 34,
+          "x": 603,
+          "y": 1231,
+          "zOrder": 64,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 14,
+          "keepRatio": true,
+          "layer": "Reading",
+          "name": "pine",
+          "opacity": 0,
+          "persistentUuid": "ef22b9bc-66f4-4f67-890b-9ea1c69a500b",
+          "width": 36,
+          "x": 573,
+          "y": 1262,
+          "zOrder": 65,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "flippedX": true,
+          "height": 56,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Interactable",
+          "persistentUuid": "8de94173-2501-4a54-b72f-932fa7ffb42b",
+          "width": 111,
+          "x": -5414,
+          "y": 510,
+          "zOrder": 66,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Effect",
+              "type": "number",
+              "value": 7
+            },
+            {
+              "name": "Display_Text",
+              "type": "string",
+              "value": "Regardé le document"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1656,
+          "keepRatio": true,
+          "layer": "Reading",
+          "name": "RealDoc",
+          "opacity": 0,
+          "persistentUuid": "6ef0e47f-5ecb-44eb-a0d5-991ca5283800",
+          "width": 1128,
+          "x": -23,
+          "y": 733,
+          "zOrder": 67,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 818,
+          "keepRatio": true,
+          "layer": "Reading",
+          "name": "RealDoc",
+          "opacity": 0,
+          "persistentUuid": "bfa5b03a-9f46-4875-b895-8490ba213281",
+          "width": 496,
+          "x": -164,
+          "y": 1061,
+          "zOrder": 68,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 565,
+          "keepRatio": true,
+          "layer": "Reading",
+          "name": "RealDoc",
+          "opacity": 0,
+          "persistentUuid": "66dfb1c7-e930-46f3-b1d6-9f0b52e15e7d",
+          "width": 873,
+          "x": 357,
+          "y": 1198,
+          "zOrder": 69,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 5
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         }
@@ -16428,6 +16842,472 @@
             "debugMode": false,
             "texture": ""
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "RealDoc",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RealDoc\\Poster1other.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1024,
+                            "y": 0
+                          },
+                          {
+                            "x": 1024,
+                            "y": 1536
+                          },
+                          {
+                            "x": 0,
+                            "y": 1536
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RealDoc\\Poster2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1024,
+                            "y": 0
+                          },
+                          {
+                            "x": 1024,
+                            "y": 1536
+                          },
+                          {
+                            "x": 0,
+                            "y": 1536
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RealDoc\\Poster2+.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1024,
+                            "y": 0
+                          },
+                          {
+                            "x": 1024,
+                            "y": 1536
+                          },
+                          {
+                            "x": 0,
+                            "y": 1536
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RealDoc\\Le_Réveil___organe_du_[...]_bpt6k7620941f_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1024,
+                            "y": 0
+                          },
+                          {
+                            "x": 1024,
+                            "y": 1536
+                          },
+                          {
+                            "x": 0,
+                            "y": 1536
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RealDoc\\Computer1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1024,
+                            "y": 0
+                          },
+                          {
+                            "x": 1024,
+                            "y": 1536
+                          },
+                          {
+                            "x": 0,
+                            "y": 1536
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RealDoc\\Computer2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1024,
+                            "y": 0
+                          },
+                          {
+                            "x": 1024,
+                            "y": 1536
+                          },
+                          {
+                            "x": 0,
+                            "y": 1536
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "pine",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RealDoc\\asset\\greenpine.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 7
+                          },
+                          {
+                            "x": 201,
+                            "y": 7
+                          },
+                          {
+                            "x": 201,
+                            "y": 301
+                          },
+                          {
+                            "x": 4,
+                            "y": 301
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RealDoc\\asset\\redpine.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 7
+                          },
+                          {
+                            "x": 201,
+                            "y": 7
+                          },
+                          {
+                            "x": 201,
+                            "y": 301
+                          },
+                          {
+                            "x": 4,
+                            "y": 301
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RealDoc\\asset\\link.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 7
+                          },
+                          {
+                            "x": 201,
+                            "y": 7
+                          },
+                          {
+                            "x": 201,
+                            "y": 301
+                          },
+                          {
+                            "x": 4,
+                            "y": 301
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -16450,6 +17330,12 @@
           },
           {
             "objectName": "Digicode_core"
+          },
+          {
+            "objectName": "RealDoc"
+          },
+          {
+            "objectName": "pine"
           }
         ]
       },
@@ -16536,7 +17422,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Interactable",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -16617,6 +17502,18 @@
                             "=",
                             "3"
                           ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "OpacityCapability::OpacityBehavior::Value"
+                          },
+                          "parameters": [
+                            "RealDoc",
+                            "Opacity",
+                            "=",
+                            "255"
+                          ]
                         }
                       ],
                       "actions": [
@@ -16632,6 +17529,196 @@
                             "\"easeInCubic\"",
                             "0.2",
                             "yes"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "OpacityCapability::OpacityBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "RealDoc",
+                            "Opacity",
+                            "=",
+                            "255"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Interactable",
+                            "850",
+                            "500",
+                            "\"Reading\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "DialogueArrow",
+                            "850",
+                            "500",
+                            "\"Reading\""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Index"
+                              },
+                              "parameters": [
+                                "RealDoc",
+                                "Animation",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                              },
+                              "parameters": [
+                                "RealDoc",
+                                "Tween",
+                                "\"Swing_in\"",
+                                "-70",
+                                "\"swingTo\"",
+                                "0.6",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "Return button"
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Layer"
+                              },
+                              "parameters": [
+                                "Interactable",
+                                "\"Reading\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Interactable",
+                                "Effect",
+                                "=",
+                                "6"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "Interactable",
+                                "Display_Text",
+                                "=",
+                                "\"Retour\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ScalableCapability::ScalableBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "Interactable",
+                                "Scale",
+                                "=",
+                                "7"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "OpacityCapability::OpacityBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "Interactable",
+                                "Opacity",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Interactable",
+                                "Display_Y_offset",
+                                "=",
+                                "-80"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Interactable",
+                                "Display_X_offset",
+                                "=",
+                                "-150"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Layer"
+                              },
+                              "parameters": [
+                                "DialogueArrow",
+                                "\"Reading\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ScalableCapability::ScalableBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "DialogueArrow",
+                                "Scale",
+                                "=",
+                                "0.5"
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -16661,6 +17748,18 @@
                             "=",
                             "4"
                           ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "OpacityCapability::OpacityBehavior::Value"
+                          },
+                          "parameters": [
+                            "RealDoc",
+                            "Opacity",
+                            "=",
+                            "255"
+                          ]
                         }
                       ],
                       "actions": [
@@ -16676,6 +17775,521 @@
                             "\"easeInCubic\"",
                             "0.2",
                             "yes"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "OpacityCapability::OpacityBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "RealDoc",
+                            "Opacity",
+                            "=",
+                            "255"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "OpacityCapability::OpacityBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "pine",
+                            "Opacity",
+                            "=",
+                            "255"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Interactable",
+                            "850",
+                            "500",
+                            "\"Reading\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "DialogueArrow",
+                            "850",
+                            "500",
+                            "\"Reading\""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Index"
+                              },
+                              "parameters": [
+                                "RealDoc",
+                                "Animation",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                              },
+                              "parameters": [
+                                "RealDoc",
+                                "Tween",
+                                "\"Swing_in\"",
+                                "-80",
+                                "\"swingTo\"",
+                                "0.6",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Index"
+                              },
+                              "parameters": [
+                                "RealDoc",
+                                "Animation",
+                                "=",
+                                "2"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "0.2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                              },
+                              "parameters": [
+                                "RealDoc",
+                                "Tween",
+                                "\"Swing_in\"",
+                                "-80+250",
+                                "\"swingTo\"",
+                                "0.7",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "0.3"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                              },
+                              "parameters": [
+                                "pine",
+                                "Tween",
+                                "\"Swing_in\"",
+                                "pine.Y()-880",
+                                "\"swingTo\"",
+                                "0.7",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "Return button"
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Layer"
+                              },
+                              "parameters": [
+                                "Interactable",
+                                "\"Reading\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Interactable",
+                                "Effect",
+                                "=",
+                                "6"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "Interactable",
+                                "Display_Text",
+                                "=",
+                                "\"Retour\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ScalableCapability::ScalableBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "Interactable",
+                                "Scale",
+                                "=",
+                                "7"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "OpacityCapability::OpacityBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "Interactable",
+                                "Opacity",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Interactable",
+                                "Display_Y_offset",
+                                "=",
+                                "-80"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Interactable",
+                                "Display_X_offset",
+                                "=",
+                                "-150"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Layer"
+                              },
+                              "parameters": [
+                                "DialogueArrow",
+                                "\"Reading\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ScalableCapability::ScalableBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "DialogueArrow",
+                                "Scale",
+                                "=",
+                                "0.5"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Computer document"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Interactable",
+                            "Effect",
+                            "=",
+                            "7"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "OpacityCapability::OpacityBehavior::Value"
+                          },
+                          "parameters": [
+                            "RealDoc",
+                            "Opacity",
+                            "=",
+                            "255"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                          },
+                          "parameters": [
+                            "ItemNameDisplay",
+                            "Tween",
+                            "\"ItemText\"",
+                            "0",
+                            "\"easeInCubic\"",
+                            "0.2",
+                            "yes"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "OpacityCapability::OpacityBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "RealDoc",
+                            "Opacity",
+                            "=",
+                            "255"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Interactable",
+                            "850",
+                            "500",
+                            "\"Reading\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "DialogueArrow",
+                            "850",
+                            "500",
+                            "\"Reading\""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Index"
+                              },
+                              "parameters": [
+                                "RealDoc",
+                                "Animation",
+                                "=",
+                                "3"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                              },
+                              "parameters": [
+                                "RealDoc",
+                                "Tween",
+                                "\"Swing_in\"",
+                                "-70",
+                                "\"swingTo\"",
+                                "0.6",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "Return button"
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Layer"
+                              },
+                              "parameters": [
+                                "Interactable",
+                                "\"Reading\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Interactable",
+                                "Effect",
+                                "=",
+                                "6"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "Interactable",
+                                "Display_Text",
+                                "=",
+                                "\"Retour\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ScalableCapability::ScalableBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "Interactable",
+                                "Scale",
+                                "=",
+                                "7"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "OpacityCapability::OpacityBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "Interactable",
+                                "Opacity",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Interactable",
+                                "Display_Y_offset",
+                                "=",
+                                "-80"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Interactable",
+                                "Display_X_offset",
+                                "=",
+                                "-150"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Layer"
+                              },
+                              "parameters": [
+                                "DialogueArrow",
+                                "\"Reading\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ScalableCapability::ScalableBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "DialogueArrow",
+                                "Scale",
+                                "=",
+                                "0.5"
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -16705,6 +18319,18 @@
                             "=",
                             "5"
                           ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "OpacityCapability::OpacityBehavior::Value"
+                          },
+                          "parameters": [
+                            "RealDoc",
+                            "Opacity",
+                            "=",
+                            "255"
+                          ]
                         }
                       ],
                       "actions": [
@@ -16721,6 +18347,413 @@
                             "0.2",
                             "yes"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "OpacityCapability::OpacityBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "RealDoc",
+                            "Opacity",
+                            "=",
+                            "255"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Interactable",
+                            "850",
+                            "500",
+                            "\"Reading\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "DialogueArrow",
+                            "850",
+                            "500",
+                            "\"Reading\""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Index"
+                              },
+                              "parameters": [
+                                "RealDoc",
+                                "Animation",
+                                "=",
+                                "4"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                              },
+                              "parameters": [
+                                "RealDoc",
+                                "Tween",
+                                "\"Swing_in\"",
+                                "-80",
+                                "\"swingTo\"",
+                                "0.6",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Index"
+                              },
+                              "parameters": [
+                                "RealDoc",
+                                "Animation",
+                                "=",
+                                "5"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "0.2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                              },
+                              "parameters": [
+                                "RealDoc",
+                                "Tween",
+                                "\"Swing_in\"",
+                                "-80+40",
+                                "\"swingTo\"",
+                                "0.7",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "Return button"
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Layer"
+                              },
+                              "parameters": [
+                                "Interactable",
+                                "\"Reading\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Interactable",
+                                "Effect",
+                                "=",
+                                "6"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "Interactable",
+                                "Display_Text",
+                                "=",
+                                "\"Retour\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ScalableCapability::ScalableBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "Interactable",
+                                "Scale",
+                                "=",
+                                "7"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "OpacityCapability::OpacityBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "Interactable",
+                                "Opacity",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Interactable",
+                                "Display_Y_offset",
+                                "=",
+                                "-80"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Interactable",
+                                "Display_X_offset",
+                                "=",
+                                "-150"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Layer"
+                              },
+                              "parameters": [
+                                "DialogueArrow",
+                                "\"Reading\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ScalableCapability::ScalableBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "DialogueArrow",
+                                "Scale",
+                                "=",
+                                "0.5"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Delete"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Interactable",
+                            "Effect",
+                            "=",
+                            "6"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                          },
+                          "parameters": [
+                            "ItemNameDisplay",
+                            "Tween",
+                            "\"ItemText\"",
+                            "0",
+                            "\"easeInCubic\"",
+                            "0.2",
+                            "yes"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                          },
+                          "parameters": [
+                            "RealDoc",
+                            "Tween",
+                            "\"Swing_in\"",
+                            "900",
+                            "\"swingFrom\"",
+                            "0.7",
+                            ""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PosY"
+                              },
+                              "parameters": [
+                                "pine",
+                                "<",
+                                "720"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                              },
+                              "parameters": [
+                                "pine",
+                                "Tween",
+                                "\"Swing_in\"",
+                                "pine.Y()+880",
+                                "\"swingFrom\"",
+                                "0.6",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Layer"
+                              },
+                              "parameters": [
+                                "DialogueArrow",
+                                "\"Reading\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Delete"
+                              },
+                              "parameters": [
+                                "DialogueArrow",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "Layer"
+                              },
+                              "parameters": [
+                                "Interactable",
+                                "\"Reading\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Delete"
+                              },
+                              "parameters": [
+                                "Interactable",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "0.6"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "OpacityCapability::OpacityBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "RealDoc",
+                                "Opacity",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "OpacityCapability::OpacityBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "pine",
+                                "Opacity",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
                         }
                       ]
                     }
@@ -16734,6 +18767,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Digicode",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -17618,7 +19652,7 @@
                   "parameters": [
                     "Event",
                     "=",
-                    "1"
+                    "3"
                   ]
                 },
                 {
@@ -17651,7 +19685,7 @@
                       "parameters": [
                         "Dialogue_Number",
                         "=",
-                        "2"
+                        "3"
                       ]
                     },
                     {
@@ -17871,6 +19905,39 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "Trasition+Film",
+          "renderingType": "2d",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Reading",
           "renderingType": "2d",
           "visibility": true,
           "cameras": [],
@@ -19467,7 +21534,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Begining",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -19547,6 +21613,18 @@
                 },
                 {
                   "type": {
+                    "value": "SetCameraCenterX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "1080/2",
+                    "\"Reading\"",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -19617,6 +21695,17 @@
                     "",
                     "CameraZoom",
                     "\"UI\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ZoomCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "CameraZoom",
+                    "\"Reading\"",
                     ""
                   ]
                 },
@@ -20512,6 +22601,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Rool Transition Up",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -21027,7 +23117,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Visual: Arrow and Particule",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -24819,7 +26908,7 @@
                             "ItemNameDisplay",
                             "Interactable.CenterX()-Interactable.Width()-Interactable.Display_X_offset",
                             "Interactable.CenterY()-Interactable.Height()-Interactable.Display_Y_offset",
-                            ""
+                            "Interactable.Layer()"
                           ]
                         },
                         {
@@ -28970,8 +31059,8 @@
           "name": "Fond_Noir_Object",
           "persistentUuid": "a96c4deb-9058-4625-aaeb-2fae82f3b460",
           "width": 2260,
-          "x": -570,
-          "y": -2680,
+          "x": -521,
+          "y": -2600,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -28988,7 +31077,7 @@
           "persistentUuid": "f5b1a033-8834-45cd-becc-2da753826cbf",
           "width": 1014,
           "x": 85,
-          "y": 545,
+          "y": 530,
           "zOrder": 84,
           "numberProperties": [],
           "stringProperties": [],
@@ -29027,7 +31116,13 @@
           "zOrder": 88,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 2
+            }
+          ]
         },
         {
           "angle": 15,
@@ -29142,30 +31237,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "flippedX": true,
-          "height": 114,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "Arrow",
-          "opacity": 0,
-          "persistentUuid": "5480ad3e-25dd-4ec4-ba5c-28a3f8be577b",
-          "width": 137,
-          "x": 162,
-          "y": 565,
-          "zOrder": 89,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 0
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -29178,7 +31249,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3325387091250822,
+        "zoomFactor": 0.21607397323875757,
         "windowMask": false
       }
     }
