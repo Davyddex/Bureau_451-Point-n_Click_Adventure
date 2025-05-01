@@ -1252,6 +1252,54 @@
         "name": "RealDoc\\1\\GTB2.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "indicator/phone.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "indicator\\phone.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "indicator/PhoneTTS.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "indicator\\PhoneTTS.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "indicator/Phone451.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "indicator\\Phone451.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "indicator/Phone404.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "indicator\\Phone404.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "indicator/PhoneTBS.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "indicator\\PhoneTBS.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "indicator/phonebutton.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "indicator\\phonebutton.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2796,10 +2844,35 @@
         {
           "name": "Display_Text",
           "type": "string",
-          "value": ""
+          "value": "$"
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 1,
+            "thickness": 1
+          },
+          "stringParameters": {
+            "color": "236;200;145"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Outline",
+          "name": "Effect2",
+          "doubleParameters": {
+            "padding": 2,
+            "thickness": 1
+          },
+          "stringParameters": {
+            "color": "218;174;29"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -2813,6 +2886,102 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\paper.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "objet_asset\\table doc.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "objet_asset\\table doc2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3207,11 +3376,606 @@
         "align": "center",
         "wordWrap": true
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Phone",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "indicator\\phone.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 314,
+                        "y": 0
+                      },
+                      {
+                        "x": 314,
+                        "y": 699
+                      },
+                      {
+                        "x": 0,
+                        "y": 699
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Phone_Interactable",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 1,
+            "thickness": 1
+          },
+          "stringParameters": {
+            "color": "255;210;156"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Outline",
+          "name": "Effect2",
+          "doubleParameters": {
+            "padding": 2,
+            "thickness": 1
+          },
+          "stringParameters": {
+            "color": "253;165;58"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\interactable.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "indicator\\phonebutton.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "indicator\\phonebutton.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Phone_TotalScore",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Outline",
+          "name": "Effect",
+          "doubleParameters": {
+            "padding": 0,
+            "thickness": 0
+          },
+          "stringParameters": {
+            "color": "0;0;0"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "text": "10/90",
+        "opacity": 255,
+        "scale": 0.6,
+        "fontSize": 20,
+        "tint": "56;35;2",
+        "bitmapFontResourceName": "font\\SpecialElite-Regular.fnt",
+        "textureAtlasResourceName": "font\\SpecialElite-Regular.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Phone_To_be_send",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "text": "10",
+        "opacity": 255,
+        "scale": 0.6,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "font\\SpecialElite-Regular.fnt",
+        "textureAtlasResourceName": "font\\SpecialElite-Regular.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Phoneto451",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "text": "0",
+        "opacity": 255,
+        "scale": 0.5,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "font\\SpecialElite-Regular.fnt",
+        "textureAtlasResourceName": "font\\SpecialElite-Regular.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Phoneto404",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "content": {
+        "text": "0",
+        "opacity": 255,
+        "scale": 0.5,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "font\\SpecialElite-Regular.fnt",
+        "textureAtlasResourceName": "font\\SpecialElite-Regular.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Phone_Icone",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "indicator\\PhoneTTS.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 74,
+                        "y": 0
+                      },
+                      {
+                        "x": 74,
+                        "y": 93
+                      },
+                      {
+                        "x": 0,
+                        "y": 93
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "indicator\\Phone451.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 74,
+                        "y": 0
+                      },
+                      {
+                        "x": 74,
+                        "y": 93
+                      },
+                      {
+                        "x": 0,
+                        "y": 93
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "indicator\\Phone404.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 74,
+                        "y": 0
+                      },
+                      {
+                        "x": 74,
+                        "y": 93
+                      },
+                      {
+                        "x": 0,
+                        "y": 93
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "indicator\\PhoneTBS.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 74,
+                        "y": 0
+                      },
+                      {
+                        "x": 74,
+                        "y": 93
+                      },
+                      {
+                        "x": 0,
+                        "y": 93
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
+      {
+        "folderName": "Phone",
+        "children": [
+          {
+            "objectName": "Phone"
+          },
+          {
+            "objectName": "Phone_TotalScore"
+          },
+          {
+            "objectName": "Phone_To_be_send"
+          },
+          {
+            "objectName": "Phoneto451"
+          },
+          {
+            "objectName": "Phoneto404"
+          },
+          {
+            "objectName": "Phone_Icone"
+          },
+          {
+            "objectName": "Phone_Interactable"
+          }
+        ]
+      },
       {
         "folderName": "Film",
         "children": [
@@ -3305,7 +4069,6 @@
       "children": []
     },
     {
-      "folded": true,
       "name": "Paper_Scene_Count",
       "type": "array",
       "children": [
@@ -3348,6 +4111,41 @@
       ]
     },
     {
+      "name": "Paper_total",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "total_uncolectade_paper",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "Paper_TBS",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "update_score",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "Paper_451",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "Paper_404",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "CBS404",
+      "type": "boolean",
+      "value": true
+    },
+    {
       "name": "CameraZoom",
       "type": "number",
       "value": 0
@@ -3361,11 +4159,6 @@
       "name": "CurrentScene",
       "type": "number",
       "value": 1
-    },
-    {
-      "name": "Paper_total",
-      "type": "number",
-      "value": 0
     },
     {
       "name": "Pause",
@@ -3461,6 +4254,11 @@
       "name": "Event",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "Phone_Start",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
@@ -11648,7 +12446,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.34375202416125283,
+        "zoomFactor": 0.28172599320797354,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -11689,6 +12487,11 @@
           "stringProperties": [],
           "initialVariables": [
             {
+              "name": "Arrow_Direction",
+              "type": "number",
+              "value": 1
+            },
+            {
               "name": "WarpX",
               "type": "number",
               "value": 1
@@ -11712,6 +12515,11 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
+            {
+              "name": "Arrow_Direction",
+              "type": "number",
+              "value": 3
+            },
             {
               "name": "WarpX",
               "type": "number",
@@ -11832,14 +12640,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 394,
+          "height": 399,
           "keepRatio": true,
           "layer": "",
           "name": "OCR",
           "persistentUuid": "aabccd02-2be6-462d-a77e-4b1301590274",
-          "width": 416,
-          "x": 3191,
-          "y": 188,
+          "width": 421,
+          "x": 3195,
+          "y": 182,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -11862,6 +12670,11 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
+            {
+              "name": "Arrow_Direction",
+              "type": "number",
+              "value": 3
+            },
             {
               "name": "Rool_Direction_Up",
               "type": "number",
@@ -11909,6 +12722,11 @@
           "stringProperties": [],
           "initialVariables": [
             {
+              "name": "Arrow_Direction",
+              "type": "number",
+              "value": 1
+            },
+            {
               "name": "Rool_Direction_Up",
               "type": "number",
               "value": 1
@@ -11949,7 +12767,7 @@
           "width": 1080,
           "x": 2960,
           "y": 0,
-          "zOrder": 7,
+          "zOrder": 0,
           "numberProperties": [
             {
               "name": "animation",
@@ -11976,6 +12794,11 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
+            {
+              "name": "Arrow_Direction",
+              "type": "number",
+              "value": 3
+            },
             {
               "name": "WarpX",
               "type": "number",
@@ -12005,6 +12828,11 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
+            {
+              "name": "Arrow_Direction",
+              "type": "number",
+              "value": 1
+            },
             {
               "name": "WarpX",
               "type": "number",
@@ -12069,28 +12897,6 @@
             {
               "name": "animation",
               "value": 7
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 33,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Objet",
-          "persistentUuid": "8919536c-92e3-47ea-a56d-33bcac0ab6fd",
-          "width": 59,
-          "x": 3388,
-          "y": 496,
-          "zOrder": 15,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 9
             }
           ],
           "stringProperties": [],
@@ -12519,6 +13325,96 @@
           "y": 70,
           "zOrder": 44,
           "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 352,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "83347f3b-9911-4dd3-b824-a9c25b5b0526",
+          "width": 119,
+          "x": -1401,
+          "y": 206,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Arrow_Direction",
+              "type": "number",
+              "value": 3
+            },
+            {
+              "name": "Text_Index",
+              "type": "number",
+              "value": 3
+            },
+            {
+              "name": "Conditional_Warp",
+              "type": "number",
+              "value": -1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 346,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "3a729fd7-52dc-4359-913c-f7ac627f6204",
+          "width": 127,
+          "x": 3840,
+          "y": 223,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Arrow_Direction",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "Conditional_Warp",
+              "type": "number",
+              "value": -1
+            },
+            {
+              "name": "Text_Index",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 31,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "persistentUuid": "ad04786b-8ff1-493e-89ef-7d5a09377008",
+          "width": 82,
+          "x": 3393,
+          "y": 497,
+          "zOrder": 5,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         }
@@ -13614,7 +14510,17 @@
                   "parameters": [
                     "CurrentScene",
                     "=",
-                    "6"
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "CBS404",
+                    "False",
+                    ""
                   ]
                 }
               ],
@@ -15473,6 +16379,115 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "persistentUuid": "8ea64f88-f1e2-40c4-9dbe-590a4f0d52e1",
+          "width": 0,
+          "x": 287,
+          "y": 576,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "persistentUuid": "3c1333ce-d378-48c0-80f7-3d93af7a667f",
+          "width": 0,
+          "x": 204,
+          "y": 545,
+          "zOrder": 35,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "persistentUuid": "d58d0cda-aa7f-4bf3-b37a-6d7549888480",
+          "width": 0,
+          "x": -4122,
+          "y": 542,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "persistentUuid": "14f05880-a2d0-4347-bf5f-ee77396c0475",
+          "width": 0,
+          "x": -4031,
+          "y": 586,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "persistentUuid": "0e303e59-bb24-47c4-a24d-854e5db36557",
+          "width": 0,
+          "x": -3877,
+          "y": 617,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 4
+            }
+          ]
         }
       ],
       "objects": [
@@ -16460,8 +17475,25 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "CurrentScene",
+                    "=",
+                    "3"
+                  ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "Phone"
             },
             {
               "type": "BuiltinCommonInstructions::Link",
@@ -16495,6 +17527,121 @@
           "parameters": []
         },
         {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Event",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Gain access to send to 404"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Pause",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Event",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Event",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Dialogue_Number",
+                        "=",
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "Dialogue_Start",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "CBS404",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "DEBUG",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -16503,6 +17650,16 @@
               },
               "parameters": [
                 "Pause",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Phone_Start",
                 "=",
                 ""
               ]
@@ -16548,7 +17705,7 @@
                   "parameters": [
                     "Dialogue_Number",
                     "=",
-                    "3"
+                    "2"
                   ]
                 },
                 {
@@ -16628,6 +17785,39 @@
           "visibility": true,
           "cameras": [],
           "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Score",
+          "renderingType": "2d",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
         },
         {
           "ambientLightColorB": 200,
@@ -16751,7 +17941,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.44819780454103625,
+        "zoomFactor": 0.39251611754882293,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -17253,6 +18443,93 @@
               "value": "$"
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "persistentUuid": "083d49a5-780d-4767-baf3-39e8d82ff980",
+          "width": 0,
+          "x": 347,
+          "y": 499,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "persistentUuid": "3a3316b0-cd55-4018-8350-2ca0c2d6be5f",
+          "width": 0,
+          "x": 250,
+          "y": 367,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "persistentUuid": "f12eaba0-8c41-4da4-a058-fc58a5b556ba",
+          "width": 0,
+          "x": 357,
+          "y": 410,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "persistentUuid": "83b1dc7e-5bfb-4458-80a3-1a1be5ebd4ed",
+          "width": 0,
+          "x": 266,
+          "y": 446,
+          "zOrder": 17,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 1
+            }
+          ]
         }
       ],
       "objects": [
@@ -17658,8 +18935,25 @@
                     "",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "CurrentScene",
+                    "=",
+                    "4"
+                  ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "Phone"
             },
             {
               "type": "BuiltinCommonInstructions::Link",
@@ -17784,6 +19078,72 @@
           "isLocked": false,
           "name": "Trasition+Film",
           "renderingType": "2d",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Score",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Reading",
+          "renderingType": "",
           "visibility": true,
           "cameras": [],
           "effects": [
@@ -26361,6 +27721,18 @@
                 },
                 {
                   "type": {
+                    "value": "SetCameraCenterX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "1080/2",
+                    "\"Score\"",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -26442,6 +27814,17 @@
                     "",
                     "CameraZoom",
                     "\"Reading\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ZoomCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "CameraZoom",
+                    "\"Score\"",
                     ""
                   ]
                 },
@@ -26818,7 +28201,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Warp Even",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -26856,6 +28238,16 @@
                   },
                   "parameters": [
                     "Pause",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Phone_Start",
                     "=",
                     ""
                   ]
@@ -27883,6 +29275,16 @@
                         "=",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "Phone_Start",
+                        "=",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [],
@@ -28833,6 +30235,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Super Warp Even",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -28846,6 +30249,16 @@
                   },
                   "parameters": [
                     "Pause",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Phone_Start",
                     "=",
                     ""
                   ]
@@ -28912,6 +30325,7 @@
                   "comment": "Unconditional warp\n"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -29312,6 +30726,7 @@
                   "comment": "Conditional warp:\nCheck if object is in inventory with the loop\nAnd remove the item from the inventory if RemoveItem is true\n"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::ForEachChildVariable",
                   "iterableVariableName": "Inventory",
                   "valueIteratorVariableName": "dummy_var_item",
@@ -29819,6 +31234,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Super Rool Transition Up",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -30483,6 +31899,7 @@
                   "comment": "Start loop animation + overed variable"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -30491,6 +31908,16 @@
                       },
                       "parameters": [
                         "Pause",
+                        "=",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "Phone_Start",
                         "=",
                         ""
                       ]
@@ -31207,11 +32634,12 @@
                     },
                     {
                       "type": {
-                        "value": "Delete"
+                        "value": "SetNumberVariable"
                       },
                       "parameters": [
-                        "Collectable",
-                        ""
+                        "Paper_TBS",
+                        "+",
+                        "1"
                       ]
                     },
                     {
@@ -31222,6 +32650,25 @@
                         "Paper_Scene_Count[CurrentScene]",
                         "+",
                         "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Collectable",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "update_score",
+                        "True",
+                        ""
                       ]
                     }
                   ]
@@ -31292,6 +32739,16 @@
                   },
                   "parameters": [
                     "Pause",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Phone_Start",
                     "=",
                     ""
                   ]
@@ -31488,6 +32945,236 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "name": "Collectable halo + display name",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Pause",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Phone_Start",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::IsEffectEnabled"
+                      },
+                      "parameters": [
+                        "Collectable",
+                        "Effect",
+                        "\"Effect\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Collectable",
+                        "",
+                        "yes",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "Collectable",
+                        "Effect",
+                        "\"Effect\"",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "Collectable",
+                        "Effect",
+                        "\"Effect2\"",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "ItemNameDisplay",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SceneInstancesCount"
+                      },
+                      "parameters": [
+                        "ItemNameDisplay",
+                        "ItemNameDisplay",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "EffectCapability::EffectBehavior::IsEffectEnabled"
+                      },
+                      "parameters": [
+                        "Collectable",
+                        "Effect",
+                        "\"Effect\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Collectable",
+                        "",
+                        "yes",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "Collectable",
+                        "Effect",
+                        "\"Effect\"",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "Collectable",
+                        "Effect",
+                        "\"Effect2\"",
+                        "yes"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "Collectable",
+                            "Display_Text",
+                            "!=",
+                            "\"$\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "ItemNameDisplay",
+                            "Interactable.CenterX()-Interactable.Width()-Interactable.Display_X_offset",
+                            "Interactable.CenterY()-Interactable.Height()-Interactable.Display_Y_offset",
+                            "Interactable.Layer()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "OpacityCapability::OpacityBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "ItemNameDisplay",
+                            "Opacity",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "ItemNameDisplay",
+                            "Text",
+                            "=",
+                            "Interactable.Display_Text"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                          },
+                          "parameters": [
+                            "ItemNameDisplay",
+                            "Tween",
+                            "\"ItemText\"",
+                            "255",
+                            "\"easeInCubic\"",
+                            "0.2",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
           "name": "Interactable halo + display name",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -31501,6 +33188,16 @@
                   },
                   "parameters": [
                     "Pause",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Phone_Start",
                     "=",
                     ""
                   ]
@@ -32234,64 +33931,172 @@
                         "textG": 0,
                         "textR": 0
                       },
-                      "comment": "Mark a delai with , . ! ?"
+                      "comment": "Skip or not"
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
                           "type": {
-                            "inverted": true,
-                            "value": "StringVariable"
-                          },
-                          "parameters": [
-                            "Dialogue_Display",
-                            "endsWith",
-                            "\".\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "StringVariable"
-                          },
-                          "parameters": [
-                            "Dialogue_Display",
-                            "endsWith",
-                            "\"?\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "StringVariable"
-                          },
-                          "parameters": [
-                            "Dialogue_Display",
-                            "endsWith",
-                            "\"!\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "StringVariable"
-                          },
-                          "parameters": [
-                            "Dialogue_Display",
-                            "endsWith",
-                            "\",\""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ResetTimer"
+                            "value": "KeyFromTextPressed"
                           },
                           "parameters": [
                             "",
-                            "\"Text\""
+                            "\"Space\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "infiniteLoopWarning": true,
+                          "type": "BuiltinCommonInstructions::While",
+                          "whileConditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::And"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "StringVariable"
+                                  },
+                                  "parameters": [
+                                    "Dialogue_Display",
+                                    "endsWith",
+                                    "\"$\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "Dialogue_Total_Index",
+                                    ">",
+                                    "StrLength(Dialogue_Current)"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "Dialogue",
+                                "Text",
+                                "=",
+                                "Dialogue_Display"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "Dialogue_Index",
+                                "+",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "Dialogue_Total_Index",
+                                "+",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetStringVariable"
+                              },
+                              "parameters": [
+                                "Dialogue_Display",
+                                "=",
+                                "SubStr(Dialogue_Current, Dialogue_Index_Reset, Dialogue_Index)"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringVariable"
+                              },
+                              "parameters": [
+                                "Dialogue_Display",
+                                "endsWith",
+                                "\"$\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "Dialogue_Index_Reset",
+                                "=",
+                                "Dialogue_Total_Index+1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "Dialogue_Index",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "Dialogue_Total_Index",
+                                "+",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetTimer"
+                              },
+                              "parameters": [
+                                "",
+                                "\"Text_WaitingFInput\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RemoveTimer"
+                              },
+                              "parameters": [
+                                "",
+                                "\"Text\""
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -32301,12 +34106,35 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "BuiltinCommonInstructions::Or"
+                            "inverted": true,
+                            "value": "KeyFromTextPressed"
                           },
-                          "parameters": [],
-                          "subInstructions": [
+                          "parameters": [
+                            "",
+                            "\"Space\""
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "Mark a delai with , . ! ?"
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
                             {
                               "type": {
+                                "inverted": true,
                                 "value": "StringVariable"
                               },
                               "parameters": [
@@ -32317,6 +34145,7 @@
                             },
                             {
                               "type": {
+                                "inverted": true,
                                 "value": "StringVariable"
                               },
                               "parameters": [
@@ -32327,6 +34156,7 @@
                             },
                             {
                               "type": {
+                                "inverted": true,
                                 "value": "StringVariable"
                               },
                               "parameters": [
@@ -32334,60 +34164,125 @@
                                 "endsWith",
                                 "\"!\""
                               ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "StringVariable"
+                              },
+                              "parameters": [
+                                "Dialogue_Display",
+                                "endsWith",
+                                "\",\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ResetTimer"
+                              },
+                              "parameters": [
+                                "",
+                                "\"Text\""
+                              ]
                             }
                           ]
-                        }
-                      ],
-                      "actions": [
+                        },
                         {
-                          "type": {
-                            "value": "Wait"
-                          },
-                          "parameters": [
-                            "0.35"
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Or"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "StringVariable"
+                                  },
+                                  "parameters": [
+                                    "Dialogue_Display",
+                                    "endsWith",
+                                    "\".\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "StringVariable"
+                                  },
+                                  "parameters": [
+                                    "Dialogue_Display",
+                                    "endsWith",
+                                    "\"?\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "StringVariable"
+                                  },
+                                  "parameters": [
+                                    "Dialogue_Display",
+                                    "endsWith",
+                                    "\"!\""
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "0.35"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetTimer"
+                              },
+                              "parameters": [
+                                "",
+                                "\"Text\""
+                              ]
+                            }
                           ]
                         },
                         {
-                          "type": {
-                            "value": "ResetTimer"
-                          },
-                          "parameters": [
-                            "",
-                            "\"Text\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "StringVariable"
-                          },
-                          "parameters": [
-                            "Dialogue_Display",
-                            "endsWith",
-                            "\",\""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Wait"
-                          },
-                          "parameters": [
-                            "0.1"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ResetTimer"
-                          },
-                          "parameters": [
-                            "",
-                            "\"Text\""
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringVariable"
+                              },
+                              "parameters": [
+                                "Dialogue_Display",
+                                "endsWith",
+                                "\",\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "0.1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetTimer"
+                              },
+                              "parameters": [
+                                "",
+                                "\"Text\""
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -33308,6 +35203,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Opening",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -33915,6 +35811,1677 @@
                 }
               ],
               "parameters": []
+            }
+          ],
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "associatedLayout": "3_Hall",
+      "name": "Phone",
+      "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Phone_Display",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Startup",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DepartScene"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "total_uncolectade_paper",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Calculate # of Collectable item"
+                    },
+                    {
+                      "infiniteLoopWarning": true,
+                      "type": "BuiltinCommonInstructions::While",
+                      "whileConditions": [
+                        {
+                          "type": {
+                            "value": "SceneInstancesCount"
+                          },
+                          "parameters": [
+                            "",
+                            "Collectable",
+                            "!=",
+                            "total_uncolectade_paper"
+                          ]
+                        }
+                      ],
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "total_uncolectade_paper",
+                            "+",
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "update_score",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "CBS404",
+                            "False",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "OpacityCapability::OpacityBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Phoneto404",
+                            "Opacity",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Index"
+                              },
+                              "parameters": [
+                                "Phone_Icone",
+                                "Animation",
+                                "=",
+                                "2"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "OpacityCapability::OpacityBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "Phone_Icone",
+                                "Opacity",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Update Score",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "update_score",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "update_score",
+                        "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Phone_TotalScore",
+                        "Text",
+                        "=",
+                        "ToString(Paper_Scene_Count[CurrentScene])+\"/\"+ToString(total_uncolectade_paper)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Phone_To_be_send",
+                        "Text",
+                        "=",
+                        "Paper_TBS"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Phoneto451",
+                        "Text",
+                        "=",
+                        "Paper_451"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Phoneto404",
+                        "Text",
+                        "=",
+                        "Paper_404"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "CBS404",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "OpacityCapability::OpacityBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Phoneto404",
+                            "Opacity",
+                            "=",
+                            "255"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Index"
+                              },
+                              "parameters": [
+                                "Phone_Icone",
+                                "Animation",
+                                "=",
+                                "2"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "OpacityCapability::OpacityBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "Phone_Icone",
+                                "Opacity",
+                                "=",
+                                "255"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Sending",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "Phone_Start",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "MouseButtonFromTextReleased"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Left\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SourisSurObjet"
+                          },
+                          "parameters": [
+                            "Phone_Interactable",
+                            "",
+                            "no",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Index"
+                              },
+                              "parameters": [
+                                "Phone_Interactable",
+                                "Animation",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                              },
+                              "parameters": [
+                                "ItemNameDisplay",
+                                "Tween",
+                                "\"ItemText\"",
+                                "0",
+                                "\"easeInCubic\"",
+                                "0.2",
+                                "yes"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "Paper_451",
+                                "+",
+                                "Paper_TBS"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "Paper_TBS",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BooleanVariable"
+                              },
+                              "parameters": [
+                                "CBS404",
+                                "True",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Index"
+                              },
+                              "parameters": [
+                                "Phone_Interactable",
+                                "Animation",
+                                "=",
+                                "2"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                              },
+                              "parameters": [
+                                "ItemNameDisplay",
+                                "Tween",
+                                "\"ItemText\"",
+                                "0",
+                                "\"easeInCubic\"",
+                                "0.2",
+                                "yes"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "Paper_404",
+                                "+",
+                                "Paper_TBS"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "Paper_TBS",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetBooleanVariable"
+                              },
+                              "parameters": [
+                                "update_score",
+                                "True",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Animation",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "Pause",
+                        "=",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "SourisSurObjet"
+                          },
+                          "parameters": [
+                            "Phone_Interactable",
+                            "",
+                            "no",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Index"
+                              },
+                              "parameters": [
+                                "Phone_Interactable",
+                                "Animation",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetBooleanVariable"
+                              },
+                              "parameters": [
+                                "Phone_Start",
+                                "False",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "EffectCapability::EffectBehavior::IsEffectEnabled"
+                              },
+                              "parameters": [
+                                "Phone_Interactable",
+                                "Effect",
+                                "\"Effect\""
+                              ]
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                                  },
+                                  "parameters": [
+                                    "Phone_Interactable",
+                                    "Animation",
+                                    "=",
+                                    "1"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                  },
+                                  "parameters": [
+                                    "Phone_Interactable",
+                                    "Effect",
+                                    "\"Effect\"",
+                                    "no"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                  },
+                                  "parameters": [
+                                    "Phone_Interactable",
+                                    "Effect",
+                                    "\"Effect2\"",
+                                    "no"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Delete"
+                                  },
+                                  "parameters": [
+                                    "ItemNameDisplay",
+                                    ""
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                                  },
+                                  "parameters": [
+                                    "Phone_Interactable",
+                                    "Animation",
+                                    "=",
+                                    "2"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                  },
+                                  "parameters": [
+                                    "Phone_Interactable",
+                                    "Effect",
+                                    "\"Effect\"",
+                                    "no"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                  },
+                                  "parameters": [
+                                    "Phone_Interactable",
+                                    "Effect",
+                                    "\"Effect2\"",
+                                    "no"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Delete"
+                                  },
+                                  "parameters": [
+                                    "ItemNameDisplay",
+                                    ""
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "Phone_Start",
+                            "False",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                          },
+                          "parameters": [
+                            "Phone",
+                            "Tween",
+                            "\"fall\"",
+                            "Y_Phone",
+                            "\"easeFromTo\"",
+                            "0.7",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                          },
+                          "parameters": [
+                            "Phoneto451",
+                            "Tween",
+                            "\"fall451\"",
+                            "Y_451_404",
+                            "\"easeFromTo\"",
+                            "0.7",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                          },
+                          "parameters": [
+                            "Phoneto404",
+                            "Tween",
+                            "\"fall404\"",
+                            "Y_451_404",
+                            "\"easeFromTo\"",
+                            "0.7",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                          },
+                          "parameters": [
+                            "Phone_To_be_send",
+                            "Tween",
+                            "\"fallTBS\"",
+                            "Y_TBS",
+                            "\"easeFromTo\"",
+                            "0.7",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                          },
+                          "parameters": [
+                            "Phone_TotalScore",
+                            "Tween",
+                            "\"fallts\"",
+                            "Y_TTS",
+                            "\"easeFromTo\"",
+                            "0.7",
+                            ""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Index"
+                              },
+                              "parameters": [
+                                "Phone_Interactable",
+                                "Animation",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                              },
+                              "parameters": [
+                                "Phone_Interactable",
+                                "Tween",
+                                "\"fallint\"",
+                                "Y_Butt",
+                                "\"easeFromTo\"",
+                                "0.7",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Index"
+                              },
+                              "parameters": [
+                                "Phone_Interactable",
+                                "Animation",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                              },
+                              "parameters": [
+                                "Phone_Interactable",
+                                "Tween",
+                                "\"fallint\"",
+                                "555",
+                                "\"easeInQuint\"",
+                                "0.5",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Index"
+                              },
+                              "parameters": [
+                                "Phone_Interactable",
+                                "Animation",
+                                "=",
+                                "2"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                              },
+                              "parameters": [
+                                "Phone_Interactable",
+                                "Tween",
+                                "\"fallint\"",
+                                "Y_Butt",
+                                "\"easeFromTo\"",
+                                "0.7",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Index"
+                              },
+                              "parameters": [
+                                "Phone_Icone",
+                                "Animation",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                              },
+                              "parameters": [
+                                "Phone_Icone",
+                                "Tween",
+                                "\"riseicone\"",
+                                "620",
+                                "\"easeFromTo\"",
+                                "0.7",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Index"
+                              },
+                              "parameters": [
+                                "Phone_Icone",
+                                "Animation",
+                                "=",
+                                "3"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                              },
+                              "parameters": [
+                                "Phone_Icone",
+                                "Tween",
+                                "\"riseicone\"",
+                                "669",
+                                "\"easeFromTo\"",
+                                "0.7",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Index"
+                              },
+                              "parameters": [
+                                "Phone_Icone",
+                                "Animation",
+                                "=",
+                                "2"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                              },
+                              "parameters": [
+                                "Phone_Icone",
+                                "Tween",
+                                "\"riseicone\"",
+                                "717",
+                                "\"easeFromTo\"",
+                                "0.7",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Index"
+                              },
+                              "parameters": [
+                                "Phone_Icone",
+                                "Animation",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                              },
+                              "parameters": [
+                                "Phone_Icone",
+                                "Tween",
+                                "\"riseicone\"",
+                                "717",
+                                "\"easeFromTo\"",
+                                "0.7",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "SourisSurObjet"
+                          },
+                          "parameters": [
+                            "Phone_Interactable",
+                            "",
+                            "no",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Index"
+                              },
+                              "parameters": [
+                                "Phone_Interactable",
+                                "Animation",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetBooleanVariable"
+                              },
+                              "parameters": [
+                                "Phone_Start",
+                                "True",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "SceneInstancesCount"
+                              },
+                              "parameters": [
+                                "ItemNameDisplay",
+                                "ItemNameDisplay",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "EffectCapability::EffectBehavior::IsEffectEnabled"
+                              },
+                              "parameters": [
+                                "Phone_Interactable",
+                                "Effect",
+                                "\"Effect\""
+                              ]
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                                  },
+                                  "parameters": [
+                                    "Phone_Interactable",
+                                    "Animation",
+                                    "=",
+                                    "1"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "Create"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "ItemNameDisplay",
+                                    "Phone_Interactable.CenterX()-Phone_Interactable.Width()-100",
+                                    "Phone_Interactable.CenterY()-Phone_Interactable.Height()-35",
+                                    "\"UI\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                                  },
+                                  "parameters": [
+                                    "ItemNameDisplay",
+                                    "Opacity",
+                                    "=",
+                                    "0"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                                  },
+                                  "parameters": [
+                                    "ItemNameDisplay",
+                                    "Text",
+                                    "=",
+                                    "\"Envoyer à Omniχiv\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                                  },
+                                  "parameters": [
+                                    "ItemNameDisplay",
+                                    "Tween",
+                                    "\"ItemText\"",
+                                    "255",
+                                    "\"easeInCubic\"",
+                                    "0.2",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                  },
+                                  "parameters": [
+                                    "Phone_Interactable",
+                                    "Effect",
+                                    "\"Effect\"",
+                                    "yes"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                  },
+                                  "parameters": [
+                                    "Phone_Interactable",
+                                    "Effect",
+                                    "\"Effect2\"",
+                                    "yes"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                                  },
+                                  "parameters": [
+                                    "Phone_Interactable",
+                                    "Animation",
+                                    "=",
+                                    "2"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BooleanVariable"
+                                  },
+                                  "parameters": [
+                                    "CBS404",
+                                    "True",
+                                    ""
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "Create"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "ItemNameDisplay",
+                                    "Phone_Interactable.CenterX()-Phone_Interactable.Width()-100-128",
+                                    "Phone_Interactable.CenterY()-Phone_Interactable.Height()-35",
+                                    "\"UI\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                                  },
+                                  "parameters": [
+                                    "ItemNameDisplay",
+                                    "Opacity",
+                                    "=",
+                                    "0"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                                  },
+                                  "parameters": [
+                                    "ItemNameDisplay",
+                                    "Text",
+                                    "=",
+                                    "\"Envoyer au 404\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                                  },
+                                  "parameters": [
+                                    "ItemNameDisplay",
+                                    "Tween",
+                                    "\"ItemText\"",
+                                    "255",
+                                    "\"easeInCubic\"",
+                                    "0.2",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                  },
+                                  "parameters": [
+                                    "Phone_Interactable",
+                                    "Effect",
+                                    "\"Effect\"",
+                                    "yes"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                                  },
+                                  "parameters": [
+                                    "Phone_Interactable",
+                                    "Effect",
+                                    "\"Effect2\"",
+                                    "yes"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "Phone_Start",
+                            "True",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                          },
+                          "parameters": [
+                            "Phone",
+                            "Tween",
+                            "\"rise\"",
+                            "Y_Phone-200",
+                            "\"swingTo\"",
+                            "0.7",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                          },
+                          "parameters": [
+                            "Phoneto451",
+                            "Tween",
+                            "\"rise451\"",
+                            "Y_451_404-200",
+                            "\"swingTo\"",
+                            "0.7",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                          },
+                          "parameters": [
+                            "Phoneto404",
+                            "Tween",
+                            "\"rise404\"",
+                            "Y_451_404-200",
+                            "\"swingTo\"",
+                            "0.7",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                          },
+                          "parameters": [
+                            "Phone_To_be_send",
+                            "Tween",
+                            "\"riseTBS\"",
+                            "Y_TBS-200",
+                            "\"swingTo\"",
+                            "0.7",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                          },
+                          "parameters": [
+                            "Phone_TotalScore",
+                            "Tween",
+                            "\"risets\"",
+                            "Y_TTS - 200",
+                            "\"swingTo\"",
+                            "0.7",
+                            ""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Index"
+                              },
+                              "parameters": [
+                                "Phone_Interactable",
+                                "Animation",
+                                "=",
+                                "2"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                              },
+                              "parameters": [
+                                "Phone_Interactable",
+                                "Tween",
+                                "\"fallint\"",
+                                "Y_Butt-200",
+                                "\"swingTo\"",
+                                "0.7",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Index"
+                              },
+                              "parameters": [
+                                "Phone_Interactable",
+                                "Animation",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                              },
+                              "parameters": [
+                                "Phone_Interactable",
+                                "Tween",
+                                "\"riseint\"",
+                                "555-200",
+                                "\"swingTo\"",
+                                "0.7",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Index"
+                              },
+                              "parameters": [
+                                "Phone_Interactable",
+                                "Animation",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                              },
+                              "parameters": [
+                                "Phone_Interactable",
+                                "Tween",
+                                "\"fallint\"",
+                                "Y_Butt-200",
+                                "\"swingTo\"",
+                                "0.7",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Index"
+                              },
+                              "parameters": [
+                                "Phone_Icone",
+                                "Animation",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                              },
+                              "parameters": [
+                                "Phone_Icone",
+                                "Tween",
+                                "\"riseicone\"",
+                                "620-200",
+                                "\"swingTo\"",
+                                "0.7",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Index"
+                              },
+                              "parameters": [
+                                "Phone_Icone",
+                                "Animation",
+                                "=",
+                                "3"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                              },
+                              "parameters": [
+                                "Phone_Icone",
+                                "Tween",
+                                "\"riseicone\"",
+                                "669-200",
+                                "\"swingTo\"",
+                                "0.7",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Index"
+                              },
+                              "parameters": [
+                                "Phone_Icone",
+                                "Animation",
+                                "=",
+                                "2"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                              },
+                              "parameters": [
+                                "Phone_Icone",
+                                "Tween",
+                                "\"riseicone\"",
+                                "717-200",
+                                "\"swingTo\"",
+                                "0.7",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Index"
+                              },
+                              "parameters": [
+                                "Phone_Icone",
+                                "Animation",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                              },
+                              "parameters": [
+                                "Phone_Icone",
+                                "Tween",
+                                "\"riseicone\"",
+                                "717-200",
+                                "\"swingTo\"",
+                                "0.7",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "variables": [
+                    {
+                      "name": "Y_TTS",
+                      "type": "number",
+                      "value": 631
+                    },
+                    {
+                      "name": "Y_Phone",
+                      "type": "number",
+                      "value": 470
+                    },
+                    {
+                      "name": "Y_451_404",
+                      "type": "number",
+                      "value": 727
+                    },
+                    {
+                      "name": "Y_Butt",
+                      "type": "number",
+                      "value": 832
+                    },
+                    {
+                      "name": "Y_TBS",
+                      "type": "number",
+                      "value": 680
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Phone_Call",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ],
           "parameters": []
@@ -35806,8 +39373,8 @@
           "name": "Fond_Noir_Object",
           "persistentUuid": "a96c4deb-9058-4625-aaeb-2fae82f3b460",
           "width": 2260,
-          "x": -528,
-          "y": -2935,
+          "x": -493,
+          "y": -2852,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -35984,6 +39551,239 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 547,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "Phone",
+          "persistentUuid": "9d6abe8e-5f89-4545-beb6-891dc6593dff",
+          "width": 246,
+          "x": 839,
+          "y": 470,
+          "zOrder": 89,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 25,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "Phone_TotalScore",
+          "persistentUuid": "62411145-2aff-4c40-85a7-2a2f5daa0c33",
+          "width": 97,
+          "x": 940,
+          "y": 631,
+          "zOrder": 90,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 475,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "Phone_Interactable",
+          "opacity": 0,
+          "persistentUuid": "fff8285b-5166-4174-9de7-1fd4eca2ab03",
+          "width": 239,
+          "x": 842,
+          "y": 549,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "Phone_To_be_send",
+          "persistentUuid": "16e1d22e-53d9-4fae-85e7-bf0438f6280a",
+          "width": 0,
+          "x": 949,
+          "y": 680,
+          "zOrder": 92,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "Phoneto451",
+          "persistentUuid": "0fa2c9df-1849-4d1d-b2df-34120dfeb75a",
+          "width": 0,
+          "x": 921,
+          "y": 727,
+          "zOrder": 93,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "Phoneto404",
+          "persistentUuid": "247dda2d-7446-45d4-83b3-9b3d43366da0",
+          "width": 0,
+          "x": 957,
+          "y": 727,
+          "zOrder": 94,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 44,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "Phone_Icone",
+          "persistentUuid": "75b7bf7b-44de-4081-93e9-3b1efffe6ea3",
+          "width": 35,
+          "x": 881,
+          "y": 620,
+          "zOrder": 95,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 37,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "Phone_Icone",
+          "persistentUuid": "734d4de9-5121-4c4d-9c9d-b71558fef991",
+          "width": 35,
+          "x": 881,
+          "y": 717,
+          "zOrder": 96,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 42,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "Phone_Icone",
+          "persistentUuid": "17051c13-26d0-4c71-afa9-7553cba18d72",
+          "width": 36,
+          "x": 883,
+          "y": 669,
+          "zOrder": 97,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 38,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "Phone_Icone",
+          "persistentUuid": "b2a0dbd2-068e-4408-b664-0fff9cb21bd7",
+          "width": 44,
+          "x": 989,
+          "y": 717,
+          "zOrder": 98,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 49,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "Phone_Interactable",
+          "persistentUuid": "898cb0cd-8d99-4065-b2f8-435e36bff457",
+          "width": 50,
+          "x": 865,
+          "y": 832,
+          "zOrder": 99,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "flippedX": true,
+          "height": 49,
+          "keepRatio": true,
+          "layer": "Score",
+          "name": "Phone_Interactable",
+          "persistentUuid": "745944ef-62a2-4c1d-a2cf-60e3a9bda156",
+          "width": 50,
+          "x": 993,
+          "y": 832,
+          "zOrder": 100,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -35996,7 +39796,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2022070730360218,
+        "zoomFactor": 0.9934433498259749,
         "windowMask": false
       }
     }

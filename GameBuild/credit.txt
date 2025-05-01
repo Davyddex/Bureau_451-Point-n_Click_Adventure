@@ -5,4 +5,4 @@ sont générée avec l’assistance de DALL·E 3 (OpenAI) :
 	ligne de démarquation bien pixeliser
 et en adaptant de vrai image au style precedant.
 
-Correction couleur, incoherence, ton: Davyddex via paint.net
+Correction couleur, incoherence, ton, achiche: Davyddex via paint.net
