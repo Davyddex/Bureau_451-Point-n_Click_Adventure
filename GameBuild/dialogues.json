@@ -20,7 +20,10 @@
     "2": {"Speaker":" ", "Text":"La porte est verrouillé."},
     "3": {"Speaker":" ", "Text":"Vous appelez l'ascenseur, mais rien ne se passe."},
     "4": {"Speaker":" ", "Text":"Les portes s'ouvrent, mais il est noté qu’il faut un badge pour utiliser l'ascenseur."},
-    "5": {"Speaker":"404", "Text":"balabllaa"}
+    "5": {"Speaker":"404", "Text":"balabllaa"},
+    "7": {"Speaker":" ", "Text":"C'est vide."},
+    "8": {"Speaker":" ", "Text":"Impossible de passé."},
+    "9": {"Speaker":":#)", "Text":"..."}
   },
 
   "Scene4": {

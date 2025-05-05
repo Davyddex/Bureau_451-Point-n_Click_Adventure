@@ -2127,6 +2127,54 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "key_objet_asset/fireaxe.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "key_objet_asset\\fireaxe.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Backroom.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Backroom.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "objet_asset2/livre4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "objet_asset2\\livre4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "objet_asset2/livre5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "objet_asset2\\livre5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "objet_asset2/livre6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "objet_asset2\\livre6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "objet_asset2/livre7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "objet_asset2\\livre7.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2343,6 +2391,47 @@
             "green": 1,
             "red": 1,
             "saturation": 1
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Glitch",
+          "name": "Effect",
+          "doubleParameters": {
+            "animationFrequency": 60,
+            "blueX": 10,
+            "blueY": -4,
+            "direction": 0,
+            "fillMode": 0,
+            "greenX": 10,
+            "greenY": -4,
+            "minSize": 8,
+            "offset": 100,
+            "redX": 2,
+            "redY": 2,
+            "sampleSize": 512,
+            "slices": 100
+          },
+          "stringParameters": {},
+          "booleanParameters": {
+            "average": false
+          }
+        },
+        {
+          "effectType": "OldFilm",
+          "name": "Effect2",
+          "doubleParameters": {
+            "animationFrequency": 60,
+            "noise": 0.3,
+            "noiseSize": 1,
+            "scratch": 0.5,
+            "scratchDensity": 0.3,
+            "scratchWidth": 1,
+            "sepia": 0.3,
+            "vignetting": 0.3,
+            "vignettingAlpha": 1,
+            "vignettingBlur": 0.3
           },
           "stringParameters": {},
           "booleanParameters": {}
@@ -2883,7 +2972,7 @@
           ]
         },
         {
-          "name": "",
+          "name": "FireAxe",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -2892,7 +2981,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "assets\\item.png",
+                  "image": "key_objet_asset\\fireaxe.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -5963,6 +6052,198 @@
               ]
             }
           ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "objet_asset2\\livre4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "objet_asset2\\livre5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "objet_asset2\\livre6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "objet_asset2\\livre7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -7242,6 +7523,145 @@
         "align": "center",
         "wordWrap": true
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Grava",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "WarpX",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Texte_Index",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "WBX",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "WBY",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "WBH",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "WBW",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "encombrement\\Meuble abandonné en Art Pixel.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 17,
+                        "y": 39
+                      },
+                      {
+                        "x": 970,
+                        "y": 39
+                      },
+                      {
+                        "x": 970,
+                        "y": 661
+                      },
+                      {
+                        "x": 17,
+                        "y": 661
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "encombrement\\Étagère renversée et pile de livres.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 17,
+                        "y": 39
+                      },
+                      {
+                        "x": 970,
+                        "y": 39
+                      },
+                      {
+                        "x": 970,
+                        "y": 661
+                      },
+                      {
+                        "x": 17,
+                        "y": 661
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -7350,6 +7770,9 @@
       },
       {
         "objectName": "ItemNameDisplay"
+      },
+      {
+        "objectName": "Grava"
       },
       {
         "objectName": "Debug_TriggerZone"
@@ -8281,7 +8704,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.43357743047025415,
+        "zoomFactor": 0.2160739732387627,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -9815,7 +10238,7 @@
             }
           ],
           "content": {
-            "text": "Ce jeux vidéo est fiction qui s’ancre dans \nla réalité en rendant compte de la numérisation \nau travers de documents réels indiqués \npar une disquette de sauvegarde.",
+            "text": "Ce jeux vidéo est une fiction qui s’ancre dans \nla réalité en rendant compte de la numérisation \nau travers de documents réels indiqués \npar une disquette de sauvegarde.",
             "opacity": 255,
             "scale": 0.7,
             "fontSize": 20,
@@ -22590,7 +23013,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5653158055126493,
+        "zoomFactor": 0.47893418845354163,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -23499,6 +23922,7 @@
           "flippedX": true,
           "height": 720,
           "layer": "",
+          "locked": true,
           "name": "Hall",
           "persistentUuid": "400fa333-3792-47dc-b4e7-95f9895a56f6",
           "width": 1080,
@@ -24291,7 +24715,7 @@
             {
               "name": "Display_Text",
               "type": "string",
-              "value": "Prendre la clé"
+              "value": "Prendre la clé de l'étage"
             }
           ]
         },
@@ -24333,6 +24757,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "Hall",
           "persistentUuid": "363805d2-92a5-4fe7-b761-a328c44cdafe",
           "width": 0,
@@ -24354,6 +24779,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "Hall",
           "persistentUuid": "605911fd-dba6-4ad8-8878-5e4b6e8d1759",
           "width": 0,
@@ -24576,6 +25002,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "Hall",
           "persistentUuid": "152623e6-73b3-4dc5-8f6c-a753a9c7a288",
           "width": 0,
@@ -24691,6 +25118,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "Hall",
           "persistentUuid": "3178d04e-01ac-45b9-a512-8e0afd57c396",
           "width": 0,
@@ -24825,6 +25253,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "Hall",
           "persistentUuid": "bf19a06d-2328-403d-9d2f-3bad02dac37b",
           "width": 0,
@@ -24902,26 +25331,10 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 384,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite",
-          "persistentUuid": "7b1f80bb-a3d3-47cf-bd2e-e2565b2658ef",
-          "width": 576,
-          "x": -14678,
-          "y": 236,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 720,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "Maske1",
           "persistentUuid": "30ca400c-1c77-4ee9-8508-a236006efee1",
           "width": 348,
@@ -24981,6 +25394,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "Hall",
           "persistentUuid": "67423182-fcb1-49b9-bf86-651507087fca",
           "width": 0,
@@ -25002,6 +25416,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "Hall",
           "persistentUuid": "984e5f2b-0c6e-4e04-aba7-675b5d3278d5",
           "width": 0,
@@ -25073,23 +25488,6 @@
           "x": -22200,
           "y": 0,
           "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 386,
-          "keepRatio": true,
-          "layer": "",
-          "name": "NewSprite",
-          "persistentUuid": "3268d5f2-6790-4c78-b901-e9290b1ea406",
-          "width": 578,
-          "x": -22047,
-          "y": 224,
-          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -25820,28 +26218,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 87,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Item",
-          "persistentUuid": "3382ec7e-e75e-4d4f-b226-c3b5385712bd",
-          "width": 123,
-          "x": -3754,
-          "y": 588,
-          "zOrder": 106,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 12
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 65,
           "keepRatio": true,
           "layer": "",
@@ -26084,24 +26460,41 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 84,
           "keepRatio": true,
           "layer": "",
           "name": "Collectable",
+          "opacity": 0,
           "persistentUuid": "bdd2a6d1-70f4-4aab-ac1c-ba8c23d05ea7",
-          "width": 0,
-          "x": 8117,
-          "y": 616,
+          "width": 59,
+          "x": 8385,
+          "y": 348,
           "zOrder": 117,
           "numberProperties": [
             {
               "name": "animation",
-              "value": 0
+              "value": 20
             }
           ],
           "stringProperties": [],
           "initialVariables": [
+            {
+              "name": "X_direction",
+              "type": "number",
+              "value": -300
+            },
+            {
+              "name": "Y_direction",
+              "type": "number",
+              "value": 250
+            },
+            {
+              "name": "Display_Text",
+              "type": "string",
+              "value": "Fouiller"
+            },
             {
               "name": "Index",
               "type": "number",
@@ -26139,25 +26532,1706 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 90,
           "keepRatio": true,
           "layer": "",
           "name": "Collectable",
+          "opacity": 0,
           "persistentUuid": "0c2c9715-dcae-43d5-a985-9f7b347518bc",
-          "width": 0,
-          "x": 9071,
-          "y": 298,
+          "width": 81,
+          "x": 9070,
+          "y": 216,
           "zOrder": 119,
-          "numberProperties": [],
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 33
+            }
+          ],
           "stringProperties": [],
           "initialVariables": [
+            {
+              "name": "X_direction",
+              "type": "number",
+              "value": 100
+            },
+            {
+              "name": "Y_direction",
+              "type": "number",
+              "value": 450
+            },
+            {
+              "name": "Display_Text",
+              "type": "string",
+              "value": "Fouiller"
+            },
             {
               "name": "Index",
               "type": "number",
               "value": 11
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "persistentUuid": "cdf7d225-279a-4672-ab23-a9b4d2b22ea4",
+          "width": 63,
+          "x": 7961,
+          "y": 599,
+          "zOrder": 120,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 38
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 12
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 88,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "opacity": 0,
+          "persistentUuid": "358f4675-8739-4c2a-8f37-b61cf9d41bce",
+          "width": 73,
+          "x": 11030,
+          "y": 288,
+          "zOrder": 121,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 19
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "X_direction",
+              "type": "number",
+              "value": -100
+            },
+            {
+              "name": "Y_direction",
+              "type": "number",
+              "value": 300
+            },
+            {
+              "name": "Display_Text",
+              "type": "string",
+              "value": "Fouiller"
+            },
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 14
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Interactable",
+          "persistentUuid": "4ec76da6-28de-4b2f-b21c-03d02173b597",
+          "width": 0,
+          "x": 12701,
+          "y": 461,
+          "zOrder": 122,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 14
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Effect",
+              "type": "number",
+              "value": 7
+            },
+            {
+              "name": "Display_Text",
+              "type": "string",
+              "value": "Ouvrir"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "flippedX": true,
+          "height": 127,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "persistentUuid": "9be74dcc-2d47-46ab-be1b-eff568701ea8",
+          "width": 121,
+          "x": 11946,
+          "y": 575,
+          "zOrder": 123,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 6
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 15
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 80,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "opacity": 0,
+          "persistentUuid": "8029548c-73ed-40d9-96f4-683015576c4f",
+          "width": 68,
+          "x": 13759,
+          "y": 381,
+          "zOrder": 124,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 22
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "X_direction",
+              "type": "number",
+              "value": 200
+            },
+            {
+              "name": "Y_direction",
+              "type": "number",
+              "value": 200
+            },
+            {
+              "name": "Display_Text",
+              "type": "string",
+              "value": "Fouiller"
+            },
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 16
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 88,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "opacity": 0,
+          "persistentUuid": "231fa625-5286-4707-bb86-ca98d94ecdb3",
+          "width": 72,
+          "x": 13987,
+          "y": 287,
+          "zOrder": 125,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 19
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "X_direction",
+              "type": "number",
+              "value": -100
+            },
+            {
+              "name": "Y_direction",
+              "type": "number",
+              "value": 250
+            },
+            {
+              "name": "Display_Text",
+              "type": "string",
+              "value": "Fouiller"
+            },
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 17
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "persistentUuid": "29e7b768-463a-41f6-8d99-1092b1575bb5",
+          "width": 80,
+          "x": 13568,
+          "y": 379,
+          "zOrder": 126,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 35
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 18
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 40,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "persistentUuid": "e4bf05dd-76ac-4296-b54e-20e43aa441d5",
+          "width": 105,
+          "x": 16803,
+          "y": 597,
+          "zOrder": 127,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 18
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 82,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "opacity": 0,
+          "persistentUuid": "0fc0caa7-6876-41f5-84c7-1f804c7f8a7f",
+          "width": 113,
+          "x": 18042,
+          "y": 323,
+          "zOrder": 128,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 13
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "X_direction",
+              "type": "number",
+              "value": 200
+            },
+            {
+              "name": "Y_direction",
+              "type": "number",
+              "value": 250
+            },
+            {
+              "name": "Display_Text",
+              "type": "string",
+              "value": "Fouiller"
+            },
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 19
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 86,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "opacity": 0,
+          "persistentUuid": "f67a1889-36b4-46d7-9cd8-59daeebbcf71",
+          "width": 81,
+          "x": -9508,
+          "y": 257,
+          "zOrder": 129,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 14
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Y_direction",
+              "type": "number",
+              "value": 300
+            },
+            {
+              "name": "X_direction",
+              "type": "number",
+              "value": 200
+            },
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 102
+            },
+            {
+              "name": "Display_Text",
+              "type": "string",
+              "value": "Fouiller"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 85,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "persistentUuid": "67604d98-e521-4d21-824e-f5913db54c87",
+          "width": 64,
+          "x": -4148,
+          "y": 477,
+          "zOrder": 130,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 17
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 104
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "persistentUuid": "e5a31cd2-3598-42ce-b304-83eef407d654",
+          "width": 69,
+          "x": -3879,
+          "y": 536,
+          "zOrder": 131,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 31
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 103
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 69,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "persistentUuid": "e0524f3b-94b4-4835-809b-d2adf867be66",
+          "width": 76,
+          "x": -4072,
+          "y": 547,
+          "zOrder": 132,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 25
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 105
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 58,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "opacity": 0,
+          "persistentUuid": "0ba9b23e-85c1-4270-9a97-cffd99700dc3",
+          "width": 42,
+          "x": -3619,
+          "y": 520,
+          "zOrder": 133,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 48
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "X_direction",
+              "type": "number",
+              "value": -80
+            },
+            {
+              "name": "Y_direction",
+              "type": "number",
+              "value": 100
+            },
+            {
+              "name": "Display_Text",
+              "type": "string",
+              "value": "Fouiller"
+            },
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 106
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 83,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "opacity": 0,
+          "persistentUuid": "2251e76c-cc13-464e-9c07-9c456bc7e201",
+          "width": 58,
+          "x": -8569,
+          "y": 214,
+          "zOrder": 133,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 47
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "X_direction",
+              "type": "number",
+              "value": 100
+            },
+            {
+              "name": "Y_direction",
+              "type": "number",
+              "value": 300
+            },
+            {
+              "name": "Display_Text",
+              "type": "string",
+              "value": "Fouiller"
+            },
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 107
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 33,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "persistentUuid": "25927e7a-3733-4a8a-9216-b499ec1daa8a",
+          "width": 114,
+          "x": -8187,
+          "y": 434,
+          "zOrder": 133,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 108
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "flippedX": true,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "persistentUuid": "d5f83574-0f25-4add-ad95-2a63f8def799",
+          "width": 85,
+          "x": -11297,
+          "y": 543,
+          "zOrder": 133,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 109
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 105,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "persistentUuid": "3a09650b-aba0-4b28-9a7b-c7c01face7d1",
+          "width": 97,
+          "x": -14086,
+          "y": 323,
+          "zOrder": 133,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 39
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 111
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 107,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "opacity": 0,
+          "persistentUuid": "62529606-8052-4253-b654-1b8f0499f99d",
+          "width": 105,
+          "x": -15813,
+          "y": 310,
+          "zOrder": 133,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 21
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Y_direction",
+              "type": "number",
+              "value": 250
+            },
+            {
+              "name": "Display_Text",
+              "type": "string",
+              "value": "Fouiller"
+            },
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 112
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 140,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "opacity": 0,
+          "persistentUuid": "97fdab46-471f-4a7a-b226-66ca02884609",
+          "width": 127,
+          "x": -19062,
+          "y": 165,
+          "zOrder": 133,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 33
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "X_direction",
+              "type": "number",
+              "value": 250
+            },
+            {
+              "name": "Y_direction",
+              "type": "number",
+              "value": 400
+            },
+            {
+              "name": "Display_Text",
+              "type": "string",
+              "value": "Fouiller"
+            },
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 113
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 99,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "opacity": 0,
+          "persistentUuid": "2b624990-239f-463c-876d-5d84e10a8298",
+          "width": 71,
+          "x": -18873,
+          "y": 384,
+          "zOrder": 133,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 48
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "X_direction",
+              "type": "number",
+              "value": 100
+            },
+            {
+              "name": "Y_direction",
+              "type": "number",
+              "value": 200
+            },
+            {
+              "name": "Display_Text",
+              "type": "string",
+              "value": "Fouiller"
+            },
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 114
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 76,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "persistentUuid": "d46cd5ac-81c8-4534-b038-7383a9907fa1",
+          "width": 80,
+          "x": -20277,
+          "y": 497,
+          "zOrder": 133,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 39
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 115
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "flippedX": true,
+          "height": 186,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "persistentUuid": "7da14de1-e31c-4490-8938-b55cf3efabfb",
+          "width": 134,
+          "x": -23167,
+          "y": 390,
+          "zOrder": 133,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 18
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 116
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 390,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grava",
+          "persistentUuid": "2934c501-9649-44c0-a0f8-3f410752692c",
+          "width": 586,
+          "x": -22054,
+          "y": 222,
+          "zOrder": 1,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "WBH",
+              "type": "number",
+              "value": 393
+            },
+            {
+              "name": "WBW",
+              "type": "number",
+              "value": 187
+            },
+            {
+              "name": "WBY",
+              "type": "number",
+              "value": 180
+            },
+            {
+              "name": "WBX",
+              "type": "number",
+              "value": -21753
+            },
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": -18
+            },
+            {
+              "name": "Texte_Index",
+              "type": "number",
+              "value": 8
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 404,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grava",
+          "persistentUuid": "dd665128-2cc6-4c50-b50d-acb07710c5d9",
+          "width": 607,
+          "x": -14697,
+          "y": 217,
+          "zOrder": 1,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "WBH",
+              "type": "number",
+              "value": 367
+            },
+            {
+              "name": "WBW",
+              "type": "number",
+              "value": 196
+            },
+            {
+              "name": "WBY",
+              "type": "number",
+              "value": 176
+            },
+            {
+              "name": "WBX",
+              "type": "number",
+              "value": -14397
+            },
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": -17
+            },
+            {
+              "name": "Texte_Index",
+              "type": "number",
+              "value": 8
+            }
+          ]
+        },
+        {
+          "angle": 337,
+          "customSize": true,
+          "depth": 1,
+          "height": 95,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Item",
+          "persistentUuid": "a9e64346-9769-4c4f-bd1f-9f901b4445e5",
+          "width": 84,
+          "x": 528,
+          "y": 551,
+          "zOrder": 137,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 6
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "flippedX": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "Hall",
+          "persistentUuid": "8b246a14-2174-47fd-8e5b-b710c6b7bff8",
+          "width": 0,
+          "x": -25160,
+          "y": 0,
+          "zOrder": 138,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "Hall",
+          "persistentUuid": "78e5939a-25f6-463c-b53c-a1da84f13d0d",
+          "width": 0,
+          "x": -26640,
+          "y": 0,
+          "zOrder": 139,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 18
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 167,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "c778e9cb-548a-4625-8d57-5f2318d9a679",
+          "width": 73,
+          "x": -24867,
+          "y": 254,
+          "zOrder": 140,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Rool_Direction_Up",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": -10
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "588782d8-d8bd-45ec-886b-678ba041a7a7",
+          "width": 295,
+          "x": -26277,
+          "y": 638,
+          "zOrder": 141,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": -15
+            },
+            {
+              "name": "Arrow_Direction",
+              "type": "number",
+              "value": 2
+            },
+            {
+              "name": "Rool_Direction_Up",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 82,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "opacity": 0,
+          "persistentUuid": "b5424038-51b7-49ae-b2ba-1fa92b71abb3",
+          "width": 62,
+          "x": -24651,
+          "y": 240,
+          "zOrder": 142,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 46
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Display_Text",
+              "type": "string",
+              "value": "Fouiller"
+            },
+            {
+              "name": "Y_direction",
+              "type": "number",
+              "value": 400
+            },
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 150
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 74,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "opacity": 0,
+          "persistentUuid": "8be4bc76-02ee-4d2f-8e25-c9fdf63edc4b",
+          "width": 53,
+          "x": -24357,
+          "y": 303,
+          "zOrder": 142,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 49
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Y_direction",
+              "type": "number",
+              "value": 350
+            },
+            {
+              "name": "Display_Text",
+              "type": "string",
+              "value": "Fouiller"
+            },
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 151
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 53,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "opacity": 0,
+          "persistentUuid": "f7c1c30d-e7e5-44c1-bbc3-08b5dfdad309",
+          "width": 71,
+          "x": -24457,
+          "y": 506,
+          "zOrder": 142,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 28
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Y_direction",
+              "type": "number",
+              "value": -50
+            },
+            {
+              "name": "X_direction",
+              "type": "number",
+              "value": -100
+            },
+            {
+              "name": "Display_Text",
+              "type": "string",
+              "value": "Fouiller"
+            },
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 153
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "persistentUuid": "909f5fa6-8898-4355-920d-b42d1fcb6051",
+          "width": 49,
+          "x": -24314,
+          "y": 488,
+          "zOrder": 142,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 32
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 154
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 82,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "opacity": 0,
+          "persistentUuid": "a448654e-9fdc-4b37-a313-aab05eaddd31",
+          "width": 75,
+          "x": -25147,
+          "y": 276,
+          "zOrder": 142,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 33
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "X_direction",
+              "type": "number",
+              "value": 150
+            },
+            {
+              "name": "Y_direction",
+              "type": "number",
+              "value": 300
+            },
+            {
+              "name": "Display_Text",
+              "type": "string",
+              "value": "Fouiller"
+            },
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 152
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 78,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "persistentUuid": "18c35db8-3b02-418d-8ef8-4b5d7c65bc1a",
+          "width": 59,
+          "x": -26253,
+          "y": 528,
+          "zOrder": 142,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 46
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 155
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "persistentUuid": "ccde31dd-83bc-4243-98a6-a280b1635085",
+          "width": 54,
+          "x": -26173,
+          "y": 485,
+          "zOrder": 142,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 47
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 156
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 75,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "persistentUuid": "fe57fb2a-b614-48cc-91f2-8ab34bdad723",
+          "width": 54,
+          "x": -26050,
+          "y": 540,
+          "zOrder": 142,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 48
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 157
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 89,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "persistentUuid": "2d0d5d12-83c8-470a-9864-fd90b7e5b2be",
+          "width": 64,
+          "x": -25972,
+          "y": 326,
+          "zOrder": 142,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 49
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 158
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "Hall",
+          "persistentUuid": "f00807d3-9317-4e25-b941-88a1138f267f",
+          "width": 0,
+          "x": 19240,
+          "y": 0,
+          "zOrder": 144,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 20
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 137,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "1dc5f5fa-ad69-4d1e-939c-d3931d6c178d",
+          "width": 149,
+          "x": 19760,
+          "y": 192,
+          "zOrder": 145,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Arrow_Direction",
+              "type": "number",
+              "value": 2
+            },
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": 14
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 98,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "df4d6ef3-4d3a-4469-8ade-657a75cb5188",
+          "width": 484,
+          "x": 19414,
+          "y": 609,
+          "zOrder": 146,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Arrow_Direction",
+              "type": "number",
+              "value": 3
+            },
+            {
+              "name": "Rool_Direction_Up",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "Conditional_Warp",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": 13
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Hall",
+          "persistentUuid": "380817ea-0769-4a95-9ada-9c3ff9b04996",
+          "width": 0,
+          "x": 20666,
+          "y": 3,
+          "zOrder": 144,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 20
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "flippedX": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Hall",
+          "persistentUuid": "4c70cf65-36b8-41d0-8b3c-f36d9e4cb89c",
+          "width": 0,
+          "x": 22200,
+          "y": 26,
+          "zOrder": 144,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 20
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 171,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "e15f8a87-d65f-4bd9-a4a4-0450d8085391",
+          "width": 160,
+          "x": 21190,
+          "y": 162,
+          "zOrder": 147,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": 14
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 106,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "19878acb-a064-4a9f-bd87-c47dddfab40b",
+          "width": 147,
+          "x": 20913,
+          "y": 400,
+          "zOrder": 148,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": 15
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 149,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "b591e3ed-fc16-473a-af82-5a6df38d423a",
+          "width": 145,
+          "x": 22614,
+          "y": 205,
+          "zOrder": 149,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Arrow_Direction",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": 16
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Collectable",
+          "persistentUuid": "290e0e37-fa69-4059-bee6-318e4eb09a92",
+          "width": 0,
+          "x": 23923,
+          "y": 126,
+          "zOrder": 150,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 34
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Index",
+              "type": "number",
+              "value": 900
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "flippedX": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Hall",
+          "persistentUuid": "8c67a443-f230-43ba-b454-ca8d68201b70",
+          "width": 0,
+          "x": 23121,
+          "y": 174,
+          "zOrder": 144,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 20
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 169,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SuperWarp",
+          "opacity": 0,
+          "persistentUuid": "c4d79113-0111-434c-933b-30e1af940bd5",
+          "width": 202,
+          "x": 23728,
+          "y": 533,
+          "zOrder": 151,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Arrow_Direction",
+              "type": "number",
+              "value": 2
+            },
+            {
+              "name": "RoomWarp",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "SceneWarp",
+              "type": "number",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 88,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Glitch",
+          "opacity": 0,
+          "persistentUuid": "5afb88ff-71d1-418d-ae77-aac7f33063ae",
+          "width": 83,
+          "x": -26180,
+          "y": 337,
+          "zOrder": 152,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -27130,6 +29204,54 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Backroom.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1080,
+                            "y": 0
+                          },
+                          {
+                            "x": 1080,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -27244,6 +29366,90 @@
             }
           ],
           "animations": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Glitch",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Glitch",
+              "name": "Effect",
+              "doubleParameters": {
+                "animationFrequency": 60,
+                "blueX": 0,
+                "blueY": 0,
+                "direction": 0,
+                "fillMode": 0,
+                "greenX": 0,
+                "greenY": 0,
+                "minSize": 0,
+                "offset": 50,
+                "redX": 2,
+                "redY": -2,
+                "sampleSize": 5,
+                "slices": 3
+              },
+              "stringParameters": {},
+              "booleanParameters": {
+                "average": false
+              }
+            }
+          ],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "objet_asset2\\news.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 15,
+                            "y": 9
+                          },
+                          {
+                            "x": 393,
+                            "y": 9
+                          },
+                          {
+                            "x": 393,
+                            "y": 412
+                          },
+                          {
+                            "x": 15,
+                            "y": 412
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -27266,6 +29472,9 @@
           },
           {
             "objectName": "RealDoc"
+          },
+          {
+            "objectName": "Glitch"
           }
         ]
       },
@@ -28793,6 +31002,75 @@
                         "Interactable",
                         "Effect",
                         "=",
+                        "7"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "ItemNameDisplay",
+                        "Tween",
+                        "\"ItemText\"",
+                        "0",
+                        "\"easeInCubic\"",
+                        "0.2",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Interactable",
+                        ""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Dialogue_Number",
+                            "=",
+                            "7"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "Dialogue_Start",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Interactable",
+                        "Effect",
+                        "=",
                         "0"
                       ]
                     }
@@ -29005,6 +31283,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Event",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -29197,9 +31476,18 @@
               "comment": "Light"
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Pause",
+                    "=",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "MouseButtonFromTextReleased"
@@ -29233,6 +31521,20 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "ItemNameDisplay",
+                    "Tween",
+                    "\"ItemText\"",
+                    "0",
+                    "\"easeInCubic\"",
+                    "0.2",
+                    "yes"
+                  ]
+                },
                 {
                   "type": {
                     "value": "Lighting::SetColor"
@@ -29298,6 +31600,444 @@
                         "Conditional_Warp",
                         "=",
                         "3"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Glich Object",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Animation"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Paper_Scene_Count[3]",
+                    "=",
+                    "45"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Glitch",
+                        "Opacity",
+                        "=",
+                        "255"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CursorMovement::CursorIsMoving"
+                      },
+                      "parameters": [
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "Glitch",
+                        "Effect",
+                        "\"Effect\"",
+                        ""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "0.1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EffectCapability::EffectBehavior::EnableEffect"
+                          },
+                          "parameters": [
+                            "Glitch",
+                            "Effect",
+                            "\"Effect\"",
+                            "yes"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "Pause",
+                        "=",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "Phone_Start",
+                        "=",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MouseButtonFromTextReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Right\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Glitch",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "EffectCapability::EffectBehavior::EnableEffect"
+                          },
+                          "parameters": [
+                            "Fond_Noir_Object",
+                            "Effect",
+                            "\"Effect\"",
+                            "yes"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EffectCapability::EffectBehavior::EnableEffect"
+                          },
+                          "parameters": [
+                            "Fond_Noir_Object",
+                            "Effect",
+                            "\"Effect2\"",
+                            "yes"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "0.2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResetTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Transistion\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                          },
+                          "parameters": [
+                            "Fond_Noir_Object",
+                            "Tween",
+                            "\"glichfn\"",
+                            "50",
+                            "\"easeInSine\"",
+                            "1",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetCameraCenterX"
+                          },
+                          "parameters": [
+                            "",
+                            "=",
+                            "13 * (1080 + 400)+ 1080/2 ",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "Glitch",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                          },
+                          "parameters": [
+                            "Fond_Noir_Object",
+                            "Tween",
+                            "\"glichfn\"",
+                            "100",
+                            "\"easeInSine\"",
+                            "1",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                          },
+                          "parameters": [
+                            "Fond_Noir_Object",
+                            "Tween",
+                            "\"glichfn\"",
+                            "150",
+                            "\"easeInSine\"",
+                            "1",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                          },
+                          "parameters": [
+                            "Fond_Noir_Object",
+                            "Tween",
+                            "\"glichfn\"",
+                            "50",
+                            "\"easeInSine\"",
+                            "1",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                          },
+                          "parameters": [
+                            "Fond_Noir_Object",
+                            "Tween",
+                            "\"glichfn\"",
+                            "150",
+                            "\"easeInSine\"",
+                            "1",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                          },
+                          "parameters": [
+                            "Fond_Noir_Object",
+                            "Tween",
+                            "\"glichfn\"",
+                            "50",
+                            "\"easeInSine\"",
+                            "1",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "Pause",
+                        "=",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "Phone_Start",
+                        "=",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MouseButtonFromTextReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Glitch",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Dialogue_Number",
+                            "=",
+                            "9"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "Dialogue_Start",
+                            "True",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -33333,66 +36073,6 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Grava",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "encombrement\\Meuble abandonné en Art Pixel.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 17,
-                            "y": 39
-                          },
-                          {
-                            "x": 970,
-                            "y": 39
-                          },
-                          {
-                            "x": 970,
-                            "y": 661
-                          },
-                          {
-                            "x": 17,
-                            "y": 661
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "assetStoreId": "",
           "name": "Digicode_light",
           "type": "Lighting::LightObject",
@@ -34556,9 +37236,6 @@
             "objectName": "Sous"
           },
           {
-            "objectName": "Grava"
-          },
-          {
             "objectName": "Elevator_Light"
           },
           {
@@ -34677,6 +37354,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Poster",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -39754,9 +42432,31 @@
                   "parameters": [
                     "",
                     "=",
-                    "1080/2*-50",
+                    "1480*-50",
                     "",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                  },
+                  "parameters": [
+                    "Fond_Noir_Object",
+                    "Effect",
+                    "\"Effect\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                  },
+                  "parameters": [
+                    "Fond_Noir_Object",
+                    "Effect",
+                    "\"Effect2\"",
+                    ""
                   ]
                 }
               ],
@@ -40075,7 +42775,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Warp Even",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -44663,6 +47362,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Item halo + display name",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -44894,6 +47594,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Collectable halo + display name",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -45284,6 +47985,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Interactable halo + display name",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -45500,6 +48202,236 @@
                             ""
                           ]
                         }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "FireAxe",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Pause",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Phone_Start",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Grava",
+                    "",
+                    "yes",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEachChildVariable",
+                  "iterableVariableName": "Inventory",
+                  "valueIteratorVariableName": "dummy_var_item",
+                  "keyIteratorVariableName": "dummy_var_slot",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "dummy_var_item",
+                        "=",
+                        "6"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "in_inventory",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Grava",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Interactio_Particule",
+                        "Grava.CenterX()",
+                        "Grava.CenterY()",
+                        ""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "0.3"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "WarpZone",
+                            "Grava.WBX",
+                            "Grava.WBY",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "OpacityCapability::OpacityBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "WarpZone",
+                            "Opacity",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "WarpZone",
+                            "WarpX",
+                            "=",
+                            "Grava.WarpX"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResizableCapability::ResizableBehavior::SetSize"
+                          },
+                          "parameters": [
+                            "WarpZone",
+                            "Resizable",
+                            "Grava.WBW",
+                            "Grava.WBH"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Grava",
+                        "Texte_Index",
+                        "!=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "in_inventory",
+                        "=",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "in_inventory",
+                        "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Dialogue_Number",
+                        "=",
+                        "Grava.Texte_Index"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "Dialogue_Start",
+                        "True",
+                        ""
                       ]
                     }
                   ]
@@ -53679,8 +56611,8 @@
           "layer": "Trasition+Film",
           "name": "Fond_Noir_Object",
           "persistentUuid": "a96c4deb-9058-4625-aaeb-2fae82f3b460",
-          "width": 2260,
-          "x": -493,
+          "width": 1707,
+          "x": -309,
           "y": -2852,
           "zOrder": 17,
           "numberProperties": [],
