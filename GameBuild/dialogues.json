@@ -23,11 +23,15 @@
     "5": {"Speaker":"404", "Text":"balabllaa"},
     "7": {"Speaker":" ", "Text":"C'est vide."},
     "8": {"Speaker":" ", "Text":"Impossible de passé."},
-    "9": {"Speaker":":#)", "Text":"..."}
+    "9": {"Speaker":":#)", "Text":".45.."}
   },
 
   "Scene4": {
-    "1": {"Speaker":"X", "Text":"balabllaa"}
+    "1": {"Speaker":"X", "Text":"balabllaa"},
+    "4": {"Speaker":" ", "Text":"Le lecteur est vide, peux etre que je peux trouver des VHS?"},
+    "5": {"Speaker":" ", "Text":"Quelle VHS inseré?","Choice1":" Option 1","Choice2":" Option 2", "Response1":" Ahh1","Response2":" Bhh2"},
+    "2": {"Speaker":" ", "Text":"Celle-ci, devenant un objet de valorisation patrimoniale par le truchement du numérique,$ s’érige d’une part en nouveau lieu de mémoire porteur d’un discours sur une société,$ une nation ou un territoire : Le numérique réinvente la presse du passé, la fait exister une seconde fois.$ D’autre part, le numérique nous invite à nous intéresser à l’objet journal en lui-même :$ la structuration du quotidien, de l’hebdomadaire ou du mensuel, son rubriquage;$ les interactions qui s’opèrent entre les différentes zones de la page, deviennent en eux-mêmes une matière à étudier pour le chercheur."},
+    "3": {"Speaker":" ", "Text":"La numérisation et la diffusion en ligne de ces ressources permettent en effet de faire connaître une partie importante du patrimoine documentaire,$ jusqu’alors réservée aux seuls usagers des salles de lecture d’archives ou des fonds patrimoniaux des bibliothèques. "}
   },
 
   "Scene5": {
@@ -38,9 +42,13 @@
     "1": {"Speaker":" ", "Text":"La porte semble être bloquée."},
     "4": {"Speaker":"X#!", "Text":".#tu/.!   :hh h%#rr;   hey!??k#,"},
     "5": {"Speaker":"4#0", "Text":".to  u/#:??  #kk%our#rr r;.!rien  !,"},
+    "6": {"Speaker":" ", "Text":"Impossible de passé."},
+    "8": {"Speaker":"24H", "Text":"Un endroit piégé dans le temps, piégé en 14 mars 2025."},
+    "9": {"Speaker":":#)", "Text":"..17."},
     "2": {"Speaker":"X#!", "Text":"Voulez-vous?$ Blabla","Choice1":" Option 1","Choice2":" Option 2", "Response1":" Ahh1","Response2":" Bhh2"},
-    "3":{"Speaker":"404", "Text":"Tu me reçois ? Parfait.$ Je voulais juste te mettre au jus. Tu sais, chez Omniχiv, ils parlent de préserver la mémoire collective.$ Mais ce qu’ils font, c’est surtout la formater. Leur système de numérisation… c’est une vraie passoire.$ Déjà, leur OCR, il a du mal avec les vieux journaux. Ça saute des lettres, des mots, parfois des paragraphes entiers.$  Résultat : on perd du sens. Et les métadonnées ?$ C’est encore pire. Mal tagués, mal datés, mal classés.$ Essaie donc de retrouver un article précis là-dedans... C’est comme chercher une aiguille dans une botte de foin.$ Nous, on bossait pour que ça soit propre. On savait que chaque erreur, c’était un morceau d’histoire qu’on enterrait.$ Mais eux ? Ils balancent à la chaîne, et basta.$ Et puis y’a le machine learning. L’outil miracle, qu’ils disent.$ Mais personne ne pige vraiment comment il prend ses décisions.$ Quand tu confies la mémoire du monde à une boîte noire, tu dois t’attendre à des angles morts.$ Et des biais. Plein de biais.$ Parce que si tu nourris un algorithme avec du contenu déséquilibré, tu sais ce qu’il te ressort ?$ Toujours la même histoire. Celle qui arrange les puissants.$ Je vais te dire au début, personne ne savait vraiment pourquoi ils ont commencé à collecter et numériser notre Histoire...$ Il se cachait derrière le fait de préserver le passé.$ Et tout ça, pourquoi ? Pour entraîner leurs intelligences artificielles.$ Notre Histoire, volée pour nourrir des machines… Et au final ? Juste pour prédire. Vendre. Contrôler...$ Réfléchis à ça avant de leur donner de nouveaux documents."}
+    "3":{"Speaker":"404", "Text":"Tu me reçois ? Parfait.$ Je voulais juste te mettre au jus. Tu sais, chez Omniχiv, ils parlent de préserver la mémoire collective.$ Mais ce qu’ils font, c’est surtout la formater. Leur système de numérisation… c’est une vraie passoire.$ Déjà, leur OCR, il a du mal avec les vieux journaux. Ça saute des lettres, des mots, parfois des paragraphes entiers.$  Résultat : on perd du sens. Et les métadonnées ?$ C’est encore pire. Mal tagués, mal datés, mal classés.$ Essaie donc de retrouver un article précis là-dedans... C’est comme chercher une aiguille dans une botte de foin.$ Nous, on bossait pour que ça soit propre. On savait que chaque erreur, c’était un morceau d’histoire qu’on enterrait.$ Mais eux ? Ils balancent à la chaîne, et basta.$ Et puis y’a le machine learning. L’outil miracle, qu’ils disent.$ Mais personne ne pige vraiment comment il prend ses décisions.$ Quand tu confies la mémoire du monde à une boîte noire, tu dois t’attendre à des angles morts.$ Et des biais. Plein de biais.$ Parce que si tu nourris un algorithme avec du contenu déséquilibré, tu sais ce qu’il te ressort ?$ Toujours la même histoire. Celle qui arrange les puissants.$ Tu sais… au début, la numérisation a vraiment changé les choses.$ Elle a sauvé des archives oubliées, permis à n’importe qui d’accéder à ce qui, autrefois, était réservé à quelques-uns. Une véritable avancée.$ Et puis, lentement… ça a dérapé. Ce n’était plus pour préserver. C’était pour optimiser.$ Aujourd’hui, ils se cachent encore derrière l’idée de préserver le passé.$ Mais pour quoi faire, au juste ? Pour entraîner leurs intelligences artificielles.$ Notre travail, volé. Notre Histoire, détournée. Pour nourrir leurs machines. Et au final ? Juste pour prédire. Vendre. Contrôler.$ Réfléchis à ça… avant de leur donner un document de plus."}
   },
+
 
   "Scene7": {
     "1": {"Speaker":"X", "Text":"balabllaa"}
