@@ -6,9 +6,9 @@
   },
 
   "Scene2": {
-        "1": {"Text":""},
-	"2": {"Text":""},
-	"3": {"Text":""}
+        "1": {"Text":"4DIGITALBOOKS-ASSY SA, DL mini – Most Reliable Automatic Book Scanner , https://www.4digitalbooks.com$ 4DIGITALBOOKS, DL mini automatic book scanner demonstration , YouTube, vidéo publiée le 14 avril 2020$ Bibliothèque Cantonale et Universitaire de Lausanne : Théophile Naïto Responsable équipe de la bibliothèque numérique.$ BIBLIOTHÈQUE CANTONALE ET UNIVERSITAIRE, Presse numérique – Archives de la presse vaudoise"},
+	"2": {"Text":"Entreprise Book2net$ Bibliothèque Cantonale et Universitaire de Lausanne : Théophile Naïto Responsable équipe de la bibliothèque numérique$ Book2net, Large Format Scanning of Books, Newspapers, Paintings, YouTube, 20 septembre 2017"},
+	"3": {"Text":"TREVENTUS MECHATRONICS GMBH, Automatic Book Scanner – ScanRobot 2.0 MDS$ Bibliothèque Cantonale et Universitaire de Lausanne : Théophile Naïto Responsable équipe de la bibliothèque numérique$ TREVENTUS MECHATRONICS GMBH, « ScanRobot 2.0 MDS: Book scanner for efficient scanning », YouTube, 14 janvier 2010"}
   },
 
   "Scene3": {
@@ -18,9 +18,9 @@
   },
 
   "Scene4": {
-        "1": {"Text":""},
-	"2": {"Text":""},
-	"3": {"Text":""}
+        "1": {"Text":"MARTIN Eugénie, Les modèles de valorisation numérique de la presse ancienne en France, Diplôme de conservateur des bibliothèques, Mémoire d’études, Université de Lyon, mars 2023, p. 46."},
+	"2": {"Text":"DE BIDERAN Jessica, Chapitre 6. Numérisation et extension du patrimoine littéraire : réflexions à propos de “Mauriac en ligne”,$ in : HENRYOT Fabienne (sous la dir.), La fabrique du patrimoine écrit. Objets, acteurs, usages sociaux, Villeurbanne : Presses de l’enssib, 2020, p. 115."},
+	"3": {"Text":"RTS Info, Plongée numérique gratuite dans le passé des régions vaudoises sur le site de la BCUL, RTS Info, 27 mai 2022"}
   },
 
   "Scene5": {
@@ -30,9 +30,9 @@
   },
 
   "Scene6": {
-        "1": {"Text":""},
-	"2": {"Text":""},
-	"3": {"Text":""}
+        "1": {"Text":"Making Europe's Historical Newspapers Searchable - Neudecker and Antonacopoulos - 2016"},
+	"2": {"Text":"Tesseract OCR documentation$ Escriptorium documentation$ Center for Hellenic Studies | Harvard University, The eScriptorium VRE for Manuscript Cultures$ Peter A. Stokes, Benjamin Kiessling, Daniel Stökl Ben Ezra, Robin Tissot, and El Hassane Gargem$ EPHE – PSL (Paris, France), UMR 8546 Archéologie et Philologie d’Orient et d’Occident (AOROC)"},
+	"3": {"Text":"Gallica | Bibliothèque nationale de France | Le Réveil 01 juillet 1944"}
   }
 
 }
