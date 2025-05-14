@@ -27,7 +27,9 @@
   },
 
   "Scene4": {
+    "9": {"Speaker":":#)", "Text":"2..0."},
     "1": {"Speaker":"X", "Text":"balabllaa"},
+    "6": {"Speaker":" ", "Text":"La porte est vérouillé."},
     "4": {"Speaker":" ", "Text":"Le lecteur est vide, peux etre que je peux trouver des VHS?"},
     "5": {"Speaker":" ", "Text":"Quelle VHS inseré?","Choice1":" Option 1","Choice2":" Option 2", "Response1":" Ahh1","Response2":" Bhh2"},
     "2": {"Speaker":" ", "Text":"Celle-ci, devenant un objet de valorisation patrimoniale par le truchement du numérique,$ s’érige d’une part en nouveau lieu de mémoire porteur d’un discours sur une société,$ une nation ou un territoire : Le numérique réinvente la presse du passé, la fait exister une seconde fois.$ D’autre part, le numérique nous invite à nous intéresser à l’objet journal en lui-même :$ la structuration du quotidien, de l’hebdomadaire ou du mensuel, son rubriquage;$ les interactions qui s’opèrent entre les différentes zones de la page, deviennent en eux-mêmes une matière à étudier pour le chercheur."},
