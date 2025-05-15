@@ -37,7 +37,9 @@
   },
 
   "Scene5": {
-    "1": {"Speaker":"X", "Text":"balabllaa"}
+   	"1": {"Speaker":"X", "Text":"balabllaa"},
+	"6": {"Speaker":" ", "Text":"La porte est vérouillé."},
+	"7": {"Speaker":" ", "Text":"Impossible de passé."}
   },
 
   "Scene6": {

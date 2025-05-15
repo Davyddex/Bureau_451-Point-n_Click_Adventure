@@ -2566,6 +2566,78 @@
         "name": "RealDoc\\1\\Contrat.jpg",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "1B/S11x.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "1B\\S11x.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "1B/S12y.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "1B\\S12y.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "5R2/Salle de recepetion.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "5R2\\Salle de recepetion.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "5R2/Salle d'archives en pixel art.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "5R2\\Salle d'archives en pixel art.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "5R2/Archives abandonnées en tons sépia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "5R2\\Archives abandonnées en tons sépia.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "5R2/Archives oubliées dans l'obscurité.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "5R2\\Archives oubliées dans l'obscurité.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "5R2/Salle d'archives abandonnée.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "5R2\\Salle d'archives abandonnée.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "5R2/Salle d'archives rétro en pixel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "5R2\\Salle d'archives rétro en pixel.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "5R2/mask box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "5R2\\mask box.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -8162,6 +8234,11 @@
           "name": "WBW",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "Event",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
@@ -9325,6 +9402,11 @@
       "children": []
     },
     {
+      "name": "Destroy_Inventory",
+      "type": "array",
+      "children": []
+    },
+    {
       "folded": true,
       "name": "Paper_Scene_Count",
       "type": "array",
@@ -10257,7 +10339,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.36732575450589633,
+        "zoomFactor": 0.30104611971825745,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -11229,7 +11311,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 208,
+          "height": 235,
           "layer": "UI",
           "name": "Mask",
           "persistentUuid": "8271113c-ef56-4933-8f57-f83426d3be91",
@@ -11625,7 +11707,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "1B\\S11x.png",
+                      "image": "1B\\S11x.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11673,7 +11755,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "1B\\S12y.png",
+                      "image": "1B\\S12y.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -47351,6 +47433,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Glich Object",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -48452,7 +48535,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.28172599320795605,
+        "zoomFactor": 0.28172599320795744,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -48464,6 +48547,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "Remise2",
           "persistentUuid": "0378de9c-9ba2-4b2d-88a2-6b3f92cd0126",
           "width": 0,
@@ -48500,17 +48584,991 @@
         },
         {
           "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 451,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "331fcbed-46d8-49a4-841f-b290013d9adf",
+          "width": 252,
+          "x": 60,
+          "y": 133,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Remise2",
+          "persistentUuid": "90b8f43c-d1a6-4757-98f7-7425b2098298",
+          "width": 0,
+          "x": -1480,
+          "y": 0,
+          "zOrder": 4,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "flippedX": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Remise2",
+          "persistentUuid": "b9bf2d9b-d613-44c4-afb8-5812aa062d5f",
+          "width": 0,
+          "x": -2960,
+          "y": 0,
+          "zOrder": 5,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Remise2",
+          "persistentUuid": "82ffb021-5269-4ae4-bcac-4016e4799c60",
+          "width": 0,
+          "x": -4440,
+          "y": 0,
+          "zOrder": 6,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Remise2",
+          "persistentUuid": "7b81270c-349b-440f-be9f-d8ecafcc5ffb",
+          "width": 0,
+          "x": -5920,
+          "y": 0,
+          "zOrder": 7,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Remise2_construct",
+          "persistentUuid": "5af3a576-1374-4865-a188-52d0094ae96f",
+          "width": 0,
+          "x": 1480,
+          "y": 0,
+          "zOrder": 8,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Remise2_construct",
+          "persistentUuid": "d0248a84-bb2b-4cb6-81c0-1f7a6d3970c3",
+          "width": 0,
+          "x": -7400,
+          "y": 0,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "Remise2_construct",
+          "persistentUuid": "50fbe637-1fee-4cff-818d-1bf653756077",
+          "width": 0,
+          "x": -8880,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 3
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "flippedX": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Remise2_construct",
+          "persistentUuid": "74213a9c-e40c-45a8-bf7c-1278083ead3b",
+          "width": 0,
+          "x": -10360,
+          "y": 0,
+          "zOrder": 11,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Remise2",
+          "persistentUuid": "fe9307c1-6255-4f35-a92b-6f0639bb70d4",
+          "width": 0,
+          "x": -11840,
+          "y": 0,
+          "zOrder": 12,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 5
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 168,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Glitch",
+          "persistentUuid": "b298135a-1424-4d0d-91ef-eea753c9bf6d",
+          "width": 159,
+          "x": -11382,
+          "y": 283,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 95,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "f829ae98-6e0f-47a1-af96-864f7163ef6c",
+          "width": 343,
+          "x": -11478,
+          "y": 616,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Arrow_Direction",
+              "type": "number",
+              "value": 2
+            },
+            {
+              "name": "Rool_Direction_Up",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": -7
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 227,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "563be266-7a2d-4916-abcd-f7cffde54fc8",
+          "width": 48,
+          "x": -9899,
+          "y": 236,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Arrow_Direction",
+              "type": "number",
+              "value": 3
+            },
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": -8
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 156,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "d184e2db-5cc5-4e67-b1d2-0609e75531cd",
+          "width": 75,
+          "x": -9821,
+          "y": 255,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": -1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "71a13534-189b-4d89-9dcc-4c845123ae2e",
+          "width": 405,
+          "x": -9999,
+          "y": 611,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Text_Index",
+              "type": "number",
+              "value": 6
+            },
+            {
+              "name": "Event",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Conditional_Warp",
+              "type": "number",
+              "value": -1
+            },
+            {
+              "name": "Rool_Direction_Up",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "Arrow_Direction",
+              "type": "number",
+              "value": 2
+            },
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": -6
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 78,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "12685e30-68ac-4986-8126-81acdc016786",
+          "width": 313,
+          "x": -8511,
+          "y": 625,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Arrow_Direction",
+              "type": "number",
+              "value": 2
+            },
+            {
+              "name": "Rool_Direction_Up",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": -5
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 540,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "dc31ffcb-0d3d-47fd-adda-122020cf385c",
+          "width": 103,
+          "x": -7397,
+          "y": 134,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Arrow_Direction",
+              "type": "number",
+              "value": 3
+            },
+            {
+              "name": "Rool_Direction_Up",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 429,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "cf773173-6567-42f6-9339-98f95e3e9151",
+          "width": 118,
+          "x": -6684,
+          "y": 162,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Arrow_Direction",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": -6
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 209,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "00f86324-a8c3-4f37-bbda-fbb370c4ab73",
+          "width": 174,
+          "x": -5762,
+          "y": 172,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Rool_Direction_Up",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "Arrow_Direction",
+              "type": "number",
+              "value": 3
+            },
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": -3
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 536,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "fd98aef7-033f-4750-ab94-acd04e4d2166",
+          "width": 292,
+          "x": -4428,
+          "y": 42,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Arrow_Direction",
+              "type": "number",
+              "value": 3
+            },
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": -4
+            }
+          ]
+        },
+        {
+          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
           "layer": "",
           "name": "WarpZone",
-          "persistentUuid": "331fcbed-46d8-49a4-841f-b290013d9adf",
+          "persistentUuid": "9ea950dd-dc00-46e9-874d-70e4c63258c2",
           "width": 0,
-          "x": 214,
-          "y": 355,
-          "zOrder": 3,
+          "x": -3576,
+          "y": 569,
+          "zOrder": 24,
           "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 560,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "83b016b0-5cdf-4ead-847c-e0a9bb01ea30",
+          "width": 147,
+          "x": -2043,
+          "y": 95,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Arrow_Direction",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "Conditional_Warp",
+              "type": "number",
+              "value": -1
+            },
+            {
+              "name": "Text_Index",
+              "type": "number",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 177,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "340dac4d-376f-4e7b-812f-69577817f7fa",
+          "width": 99,
+          "x": -2406,
+          "y": 259,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": -9
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "persistentUuid": "17f2bf9b-5bea-4917-82a3-8ae1d5c744c1",
+          "width": 0,
+          "x": -2603,
+          "y": 329,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "persistentUuid": "c16935c3-092f-4807-846f-9042173d3f48",
+          "width": 0,
+          "x": -2811,
+          "y": 366,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 88,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "28080541-90ea-4390-b563-d4b95e6bb743",
+          "width": 470,
+          "x": -2649,
+          "y": 621,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": -1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 147,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "38c7a4b0-3f4c-4304-a2d3-55294fb94df3",
+          "width": 91,
+          "x": -686,
+          "y": 187,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Rool_Direction_Up",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": -7
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 386,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "eb9a7e11-7fb6-43d3-8001-9afd07b804e1",
+          "width": 71,
+          "x": -541,
+          "y": 109,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Arrow_Direction",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "Rool_Direction_Up",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": -2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 133,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "persistentUuid": "2669ee1f-8844-4fed-8fe7-928bef6db11c",
+          "width": 71,
+          "x": 1952,
+          "y": 267,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 189,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "9032265b-7d18-4f87-8939-602f790be4ef",
+          "width": 42,
+          "x": 2051,
+          "y": 245,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": -5
+            },
+            {
+              "name": "Arrow_Direction",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 78,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "61fd82b2-0de2-4d01-8d75-c58fb520c859",
+          "width": 434,
+          "x": 1774,
+          "y": 634,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Arrow_Direction",
+              "type": "number",
+              "value": 2
+            },
+            {
+              "name": "Rool_Direction_Up",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 340,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SuperWarp",
+          "opacity": 0,
+          "persistentUuid": "7654a9d7-40d1-41c5-918a-5468ab8a0801",
+          "width": 352,
+          "x": -1427,
+          "y": 195,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "RoomWarp",
+              "type": "number",
+              "value": -3
+            },
+            {
+              "name": "SceneWarp",
+              "type": "number",
+              "value": 6
+            },
+            {
+              "name": "Arrow_Direction",
+              "type": "number",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Remise2",
+          "persistentUuid": "15b08c9d-a415-4235-9874-a316e7c9feca",
+          "width": 0,
+          "x": -13320,
+          "y": 0,
+          "zOrder": 36,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 6
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 434,
+          "keepRatio": true,
+          "layer": "",
+          "name": "WarpZone",
+          "opacity": 0,
+          "persistentUuid": "376c4c56-d4a8-4fea-9813-266685a4744a",
+          "width": 191,
+          "x": -12559,
+          "y": 115,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Rool_Direction_Up",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": -2
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 267,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Grava",
+          "persistentUuid": "6d0dbc16-3e55-4210-8519-6cc39230f1e1",
+          "width": 402,
+          "x": -8564,
+          "y": 236,
+          "zOrder": 1,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Event",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "Texte_Index",
+              "type": "number",
+              "value": 7
+            },
+            {
+              "name": "WBH",
+              "type": "number",
+              "value": 220
+            },
+            {
+              "name": "WBW",
+              "type": "number",
+              "value": 118
+            },
+            {
+              "name": "WBY",
+              "type": "number",
+              "value": 226
+            },
+            {
+              "name": "WBX",
+              "type": "number",
+              "value": -8395
+            },
+            {
+              "name": "WarpX",
+              "type": "number",
+              "value": -7
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 720,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "mask",
+          "persistentUuid": "85680631-2260-4e2f-8a05-7f7588c15cef",
+          "width": 467,
+          "x": -8880,
+          "y": 0,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "masksprite",
+          "persistentUuid": "da22a176-beea-4c88-9e55-738d569dd7b2",
+          "width": 0,
+          "x": -8318,
+          "y": 409,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 203,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Item",
+          "persistentUuid": "ecf23db9-7cd5-4109-acba-42692a3618c9",
+          "width": 180,
+          "x": 503,
+          "y": 347,
+          "zOrder": 38,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 6
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         }
@@ -48573,6 +49631,569 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "4-5R12\\ChatGPT Image 23 avr. 2025, 15_19_26.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1080,
+                            "y": 0
+                          },
+                          {
+                            "x": 1080,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "4R1\\Couloir abandonné en pixel art.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1080,
+                            "y": 0
+                          },
+                          {
+                            "x": 1080,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "5R2\\Salle de recepetion.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1080,
+                            "y": 0
+                          },
+                          {
+                            "x": 1080,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "5R2\\Salle d'archives en pixel art.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1080,
+                            "y": 0
+                          },
+                          {
+                            "x": 1080,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "4-5R12\\ChatGPT Image 22 avr. 2025, 21_48_14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1080,
+                            "y": 0
+                          },
+                          {
+                            "x": 1080,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "4R1\\Bureau2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1080,
+                            "y": 0
+                          },
+                          {
+                            "x": 1080,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Remise2_construct",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "5R2\\Archives abandonnées en tons sépia.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1080,
+                            "y": 0
+                          },
+                          {
+                            "x": 1080,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "5R2\\Archives oubliées dans l'obscurité.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1080,
+                            "y": 0
+                          },
+                          {
+                            "x": 1080,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "5R2\\Salle d'archives abandonnée.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1080,
+                            "y": 0
+                          },
+                          {
+                            "x": 1080,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "5R2\\Salle d'archives rétro en pixel.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1080,
+                            "y": 0
+                          },
+                          {
+                            "x": 1080,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 720,
+          "name": "mask",
+          "texture": "5R2\\Salle d'archives rétro en pixel.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 1080,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "masksprite",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "5R2\\mask box.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 96,
+                            "y": 0
+                          },
+                          {
+                            "x": 96,
+                            "y": 152
+                          },
+                          {
+                            "x": 0,
+                            "y": 152
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -48582,6 +50203,15 @@
         "children": [
           {
             "objectName": "Remise2"
+          },
+          {
+            "objectName": "Remise2_construct"
+          },
+          {
+            "objectName": "mask"
+          },
+          {
+            "objectName": "masksprite"
           }
         ]
       },
@@ -48673,6 +50303,103 @@
                 "includeConfig": 0
               },
               "target": "DialogueLogic"
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Event",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Pause",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Event",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Event",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "WarpZone",
+                        "WarpX",
+                        "=",
+                        "-6"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "WarpZone",
+                        "Conditional_Warp",
+                        "=",
+                        "-1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "WarpZone",
+                        "Conditional_Warp",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -48872,7 +50599,7 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "UI",
-          "renderingType": "",
+          "renderingType": "2d",
           "visibility": true,
           "cameras": [],
           "effects": [
@@ -48953,7 +50680,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4057518905943874,
+        "zoomFactor": 0.3111974942445239,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -49269,6 +50996,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "SuperWarp",
+          "opacity": 0,
           "persistentUuid": "6d655292-a91b-4b69-8410-7cded62d0268",
           "width": 170,
           "x": -3606,
@@ -49277,6 +51005,11 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
+            {
+              "name": "RoomWarp",
+              "type": "number",
+              "value": -1
+            },
             {
               "name": "SceneWarp",
               "type": "number",
@@ -59498,7 +61231,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Begining",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -59870,6 +61602,127 @@
                   ]
                 },
                 {
+                  "type": "BuiltinCommonInstructions::ForEachChildVariable",
+                  "iterableVariableName": "Destroy_Inventory",
+                  "valueIteratorVariableName": "dummy_var_item",
+                  "keyIteratorVariableName": "dummy_var_slot",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Grava",
+                        "WBX",
+                        "=",
+                        "dummy_var_item"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Grava",
+                            "Event",
+                            "!=",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Event",
+                            "=",
+                            "Grava.Event"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "WarpZone",
+                            "Grava.WBX",
+                            "Grava.WBY",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "OpacityCapability::OpacityBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "WarpZone",
+                            "Opacity",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "WarpZone",
+                            "WarpX",
+                            "=",
+                            "Grava.WarpX"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResizableCapability::ResizableBehavior::SetSize"
+                          },
+                          "parameters": [
+                            "WarpZone",
+                            "Resizable",
+                            "Grava.WBW",
+                            "Grava.WBH"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "WarpZone",
+                            "Event",
+                            "=",
+                            "Grava.Event"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "Grava",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -60121,6 +61974,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Warp Even",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -64513,6 +66367,15 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "BooleanVariable"
                   },
                   "parameters": [
@@ -64529,15 +66392,6 @@
                     "Phone_Start",
                     "=",
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MouseButtonFromTextReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
                   ]
                 }
               ],
@@ -64762,6 +66616,262 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "FireAxe",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Pause",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Phone_Start",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Grava",
+                    "",
+                    "yes",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEachChildVariable",
+                  "iterableVariableName": "Inventory",
+                  "valueIteratorVariableName": "dummy_var_item",
+                  "keyIteratorVariableName": "dummy_var_slot",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "dummy_var_item",
+                        "=",
+                        "6"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "in_inventory",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PushNumber"
+                      },
+                      "parameters": [
+                        "Destroy_Inventory",
+                        "Grava.WBX"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Interactio_Particule",
+                        "Grava.CenterX()",
+                        "Grava.CenterY()",
+                        ""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "0.3"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "WarpZone",
+                            "Grava.WBX",
+                            "Grava.WBY",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "OpacityCapability::OpacityBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "WarpZone",
+                            "Opacity",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "WarpZone",
+                            "WarpX",
+                            "=",
+                            "Grava.WarpX"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResizableCapability::ResizableBehavior::SetSize"
+                          },
+                          "parameters": [
+                            "WarpZone",
+                            "Resizable",
+                            "Grava.WBW",
+                            "Grava.WBH"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "WarpZone",
+                            "Event",
+                            "=",
+                            "Grava.Event"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "Grava",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Grava",
+                        "Texte_Index",
+                        "!=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "in_inventory",
+                        "=",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Dialogue_Number",
+                        "=",
+                        "Grava.Texte_Index"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "Dialogue_Start",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "in_inventory",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         }
       ]
     },
@@ -64811,6 +66921,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Item halo + display name",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -65433,6 +67544,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Interactable halo + display name",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -65671,236 +67783,6 @@
                             ""
                           ]
                         }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "FireAxe",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "MouseButtonFromTextReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Left\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "Pause",
-                    "=",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "Phone_Start",
-                    "=",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "Grava",
-                    "",
-                    "yes",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::ForEachChildVariable",
-                  "iterableVariableName": "Inventory",
-                  "valueIteratorVariableName": "dummy_var_item",
-                  "keyIteratorVariableName": "dummy_var_slot",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberVariable"
-                      },
-                      "parameters": [
-                        "dummy_var_item",
-                        "=",
-                        "6"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetBooleanVariable"
-                      },
-                      "parameters": [
-                        "in_inventory",
-                        "True",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "Grava",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "Interactio_Particule",
-                        "Grava.CenterX()",
-                        "Grava.CenterY()",
-                        ""
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Wait"
-                          },
-                          "parameters": [
-                            "0.3"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Create"
-                          },
-                          "parameters": [
-                            "",
-                            "WarpZone",
-                            "Grava.WBX",
-                            "Grava.WBY",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "OpacityCapability::OpacityBehavior::SetValue"
-                          },
-                          "parameters": [
-                            "WarpZone",
-                            "Opacity",
-                            "=",
-                            "0"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetNumberObjectVariable"
-                          },
-                          "parameters": [
-                            "WarpZone",
-                            "WarpX",
-                            "=",
-                            "Grava.WarpX"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ResizableCapability::ResizableBehavior::SetSize"
-                          },
-                          "parameters": [
-                            "WarpZone",
-                            "Resizable",
-                            "Grava.WBW",
-                            "Grava.WBH"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Grava",
-                        "Texte_Index",
-                        "!=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BooleanVariable"
-                      },
-                      "parameters": [
-                        "in_inventory",
-                        "=",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetBooleanVariable"
-                      },
-                      "parameters": [
-                        "in_inventory",
-                        "False",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "Dialogue_Number",
-                        "=",
-                        "Grava.Texte_Index"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetBooleanVariable"
-                      },
-                      "parameters": [
-                        "Dialogue_Start",
-                        "True",
-                        ""
                       ]
                     }
                   ]
@@ -76630,8 +78512,8 @@
           "layer": "Trasition+Film",
           "name": "Fond_Noir_Object",
           "persistentUuid": "a96c4deb-9058-4625-aaeb-2fae82f3b460",
-          "width": 1707,
-          "x": -281,
+          "width": 2076,
+          "x": -463,
           "y": -2554,
           "zOrder": 17,
           "numberProperties": [],
@@ -76666,7 +78548,7 @@
           "persistentUuid": "2d782e7c-a116-472d-9399-ac498eda5bf4",
           "width": 113,
           "x": -6,
-          "y": 797,
+          "y": 809,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -76706,7 +78588,7 @@
           "persistentUuid": "373e65d7-cff8-4d51-9eb5-3eeca19b5575",
           "width": 0,
           "x": -30,
-          "y": 788,
+          "y": 800,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -76724,7 +78606,7 @@
           "persistentUuid": "fb28af10-e1b8-47b6-a20e-e9523dea2e27",
           "width": 73,
           "x": -45,
-          "y": 774,
+          "y": 786,
           "zOrder": 7,
           "numberProperties": [
             {
@@ -76745,7 +78627,7 @@
           "persistentUuid": "a1addf40-992f-438e-a73e-c315cdd73525",
           "width": 0,
           "x": -81,
-          "y": 770,
+          "y": 782,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -76761,7 +78643,7 @@
           "persistentUuid": "d4562520-1cd3-45de-b350-2eaad27da5de",
           "width": 0,
           "x": -81,
-          "y": 770,
+          "y": 782,
           "zOrder": 0,
           "numberProperties": [
             {
@@ -76783,7 +78665,7 @@
           "persistentUuid": "a04b737f-9324-4536-849f-2c9e484bb7f8",
           "width": 1207,
           "x": -61,
-          "y": 788,
+          "y": 800,
           "zOrder": 5,
           "numberProperties": [
             {
@@ -76798,7 +78680,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 208,
+          "height": 236,
           "layer": "UI",
           "name": "Mask",
           "persistentUuid": "9cbb0cff-31e4-4603-b89c-56e5548d714f",
@@ -77310,7 +79192,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.15508574551593338,
+        "zoomFactor": 0.3797121001948027,
         "windowMask": false
       }
     }
