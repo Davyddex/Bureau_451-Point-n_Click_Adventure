@@ -2818,6 +2818,106 @@
         "name": "RealDoc\\3\\doc12.jpg",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "sound/collectable/paper-collect-1-186598.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\collectable\\paper-collect-1-186598.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/collectable/paper-collect-2-186599.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\collectable\\paper-collect-2-186599.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/collectable/paper-collect-10-186724.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\collectable\\paper-collect-10-186724.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/collectable/paper-collect-9-186723.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\collectable\\paper-collect-9-186723.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/collectable/paper-collect-8-186722.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\collectable\\paper-collect-8-186722.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/collectable/paper-collect-7-186721.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\collectable\\paper-collect-7-186721.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/collectable/paper-collect-6-186720.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\collectable\\paper-collect-6-186720.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/collectable/paper-collect-5-186719.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\collectable\\paper-collect-5-186719.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/collectable/paper-collect-4-186718.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\collectable\\paper-collect-4-186718.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/collectable/paper-collect-3-186600.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\collectable\\paper-collect-3-186600.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -76908,6 +77008,348 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Sound effect"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "random",
+                            "=",
+                            "RandomInRange(1,10)"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "random",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "sound\\collectable\\paper-collect-1-186598.mp3",
+                                "1",
+                                "",
+                                "vol",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "random",
+                                "=",
+                                "2"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "sound\\collectable\\paper-collect-2-186599.mp3",
+                                "1",
+                                "",
+                                "vol",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "random",
+                                "=",
+                                "3"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "sound\\collectable\\paper-collect-3-186600.mp3",
+                                "1",
+                                "",
+                                "vol",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "random",
+                                "=",
+                                "4"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "sound\\collectable\\paper-collect-4-186718.mp3",
+                                "1",
+                                "",
+                                "vol",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "random",
+                                "=",
+                                "5"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "sound\\collectable\\paper-collect-5-186719.mp3",
+                                "1",
+                                "",
+                                "vol",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "random",
+                                "=",
+                                "6"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "sound\\collectable\\paper-collect-6-186720.mp3",
+                                "1",
+                                "",
+                                "vol",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "random",
+                                "=",
+                                "7"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "sound\\collectable\\paper-collect-7-186721.mp3",
+                                "1",
+                                "",
+                                "vol",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "random",
+                                "=",
+                                "8"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "sound\\collectable\\paper-collect-8-186722.mp3",
+                                "1",
+                                "",
+                                "vol",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "random",
+                                "=",
+                                "9"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "sound\\collectable\\paper-collect-9-186723.mp3",
+                                "1",
+                                "",
+                                "vol",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "random",
+                                "=",
+                                "10"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "sound\\collectable\\paper-collect-10-186724.mp3",
+                                "1",
+                                "",
+                                "vol",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "variables": [
+                        {
+                          "name": "random",
+                          "type": "number",
+                          "value": 0
+                        },
+                        {
+                          "name": "vol",
+                          "type": "number",
+                          "value": 25
+                        }
+                      ]
                     }
                   ]
                 }
@@ -77496,7 +77938,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Collectable halo + display name",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -82847,6 +83288,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Phone_Display_Score",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -85507,6 +85949,19 @@
                       },
                       "parameters": [
                         "",
+                        "sound\\vhs\\vhs startup.mp3",
+                        "3",
+                        "",
+                        "100",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
                         "sound\\phone\\button.mp3",
                         "1",
                         "",
@@ -85530,6 +85985,7 @@
                       "colorG": 176,
                       "colorR": 74,
                       "creationTime": 0,
+                      "folded": true,
                       "name": "Fallback",
                       "source": "",
                       "type": "BuiltinCommonInstructions::Group",
