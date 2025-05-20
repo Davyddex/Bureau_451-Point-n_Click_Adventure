@@ -20,24 +20,31 @@
     "2": {"Speaker":" ", "Text":"La porte est verrouillé."},
     "3": {"Speaker":" ", "Text":"Vous appelez l'ascenseur, mais rien ne se passe."},
     "4": {"Speaker":" ", "Text":"Les portes s'ouvrent, mais il est noté qu’il faut un badge pour utiliser l'ascenseur."},
-    "5": {"Speaker":"404", "Text":"balabllaa"},
+    "5": {"Speaker":"404", "Text":"Parfait ! On vient de mettre à jour ton téléphone.$ Tu peux désormais nous envoyer les documents, à la place d’Omniχiv.$ Tu te poses sûrement encore beaucoup de questions... Si on fait appel à toi, ce n’est pas juste pour numériser deux ou trois articles oubliés.$ Ce qu’Omniχiv convoite, c’est ce qui se cache au cœur de la bibliothèque... Tu dois atteindre le souterrain, pendant qu’ils te font encore confiance.$ Je t’aurais bien dit de prendre l’ascenseur... mais sans courant et sans badge, inutile d’y penser.$ Par contre, tu devrais pouvoir trouver la clé de la remise ici."},
     "7": {"Speaker":" ", "Text":"C'est vide."},
     "8": {"Speaker":" ", "Text":"Impossible de passé."},
-    "9": {"Speaker":":#)", "Text":".45.."}
+    "9": {"Speaker":":#)", "Text":".45.."},
+    "10": {"Speaker":"XXX", "Text":"Hey. C’est bien toi, le nouveau recruté par Omniχiv ?$ Ne t’inquiète pas, on ne te veut aucun mal.$ On sait que t’as besoin d’argent. Mais écoute-nous :$ Ne leur envoie aucun document trouvé dans cette bibliothèque.$ On t’expliquera pourquoi... plus tard. On va sûrement être coupés.$ D’abord, trouve un moyen d’accéder aux bureaux de l’étage. Tu y verras des documents, pour commencer à comprendre.$ A très bientôt."},
+    "11": {"Speaker":"404", "Text":"Yes, bien joué ! Tu y es arrivé.$ Tu te demandes peut-être qui je suis... En réalité, je ne suis pas seul.$ Nous nous appelons les 404.$ On est des indépendantistes de la mémoire. On agit dans l’ombre depuis qu’Omniχiv a mis la main sur la numérisation globale.$ Depuis qu’ils ont obtenu le monopole, ils ne préservent plus que ce qui leur sert. Mais assez parlé.$ Trouve les documents. On t’expliquera la suite après."},
+	"12": {"Speaker":"404", "Text":"Merci de nous faire confiance. Nous prendrons grand soin de ces documents."},
+	"13": {"Speaker":"451", "Text":"N’oubliez pas : vous pouvez envoyer les documents dès leur collecte. Cela nous permet de les numériser dans le moindre délai."},
+	"14": {"Speaker":"451", "Text":"Vous progressez bien. Très bien, même. C’est agréable de voir quelqu’un traiter ces archives avec autant de sérieux. Ça devient rare."}
   },
 
   "Scene4": {
     "9": {"Speaker":":#)", "Text":"2..0."},
     "1": {"Speaker":"X", "Text":"balabllaa"},
+    "8": {"Speaker":"FM", "Text":"...les transports interrégionaux restent suspendus dans les zones 4 à 7.$ Le ministère de l’approvisionnement rappelle que les tickets de ration catégorie B expirent automatiquement en fin de cycle.$ Passons à la météo. Des précipitations acides sont attendues dans le corridor est entre 15h et 22h.$ La population est invitée à éviter les surfaces ouvertes et à limiter l’usage des systèmes de ventilation non filtrés.$ Indice de corrosion : 3 sur 5.$ Prochaine mise à jour dans deux heures."},
     "6": {"Speaker":" ", "Text":"La porte est vérouillé."},
     "4": {"Speaker":" ", "Text":"Le lecteur est vide, peux etre que je peux trouver des VHS?"},
-    "5": {"Speaker":" ", "Text":"Quelle VHS inseré?","Choice1":" Option 1","Choice2":" Option 2", "Response1":" Ahh1","Response2":" Bhh2"},
+    "5": {"Speaker":" ", "Text":"Quelle VHS inserer ?","Choice1":" Archives physiques et numériques","Choice2":" Métier de relieur et numérisation", "Response1":" C'est parti !","Response2":" C'est parti !"},
+    "7": {"Speaker":" ", "Text":"La radio semble encore fonctioner, il y a même une cassette dans le lecteur.","Choice1":" Ecouter une chaine","Choice2":" Lire la cassette", "Response1":" C'est parti !","Response2":" C'est parti !"},
     "2": {"Speaker":" ", "Text":"Celle-ci, devenant un objet de valorisation patrimoniale par le truchement du numérique,$ s’érige d’une part en nouveau lieu de mémoire porteur d’un discours sur une société,$ une nation ou un territoire : Le numérique réinvente la presse du passé, la fait exister une seconde fois.$ D’autre part, le numérique nous invite à nous intéresser à l’objet journal en lui-même :$ la structuration du quotidien, de l’hebdomadaire ou du mensuel, son rubriquage;$ les interactions qui s’opèrent entre les différentes zones de la page, deviennent en eux-mêmes une matière à étudier pour le chercheur."},
     "3": {"Speaker":" ", "Text":"La numérisation et la diffusion en ligne de ces ressources permettent en effet de faire connaître une partie importante du patrimoine documentaire,$ jusqu’alors réservée aux seuls usagers des salles de lecture d’archives ou des fonds patrimoniaux des bibliothèques. "}
   },
 
   "Scene5": {
-   	"1": {"Speaker":"X", "Text":"balabllaa"},
+   	"1": {"Speaker":"Note", "Text":"Code: 6831"},
 	"6": {"Speaker":" ", "Text":"La porte est vérouillé."},
 	"7": {"Speaker":" ", "Text":"Impossible de passé."}
   },
