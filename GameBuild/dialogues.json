@@ -39,12 +39,13 @@
     "4": {"Speaker":" ", "Text":"Le lecteur est vide, peux etre que je peux trouver des VHS?"},
     "5": {"Speaker":" ", "Text":"Quelle VHS inserer ?","Choice1":" Archives physiques et numériques","Choice2":" Métier de relieur et numérisation", "Response1":" C'est parti !","Response2":" C'est parti !"},
     "7": {"Speaker":" ", "Text":"La radio semble encore fonctioner, il y a même une cassette dans le lecteur.","Choice1":" Ecouter une chaine","Choice2":" Lire la cassette", "Response1":" C'est parti !","Response2":" C'est parti !"},
-    "2": {"Speaker":" ", "Text":"Celle-ci, devenant un objet de valorisation patrimoniale par le truchement du numérique,$ s’érige d’une part en nouveau lieu de mémoire porteur d’un discours sur une société,$ une nation ou un territoire : Le numérique réinvente la presse du passé, la fait exister une seconde fois.$ D’autre part, le numérique nous invite à nous intéresser à l’objet journal en lui-même :$ la structuration du quotidien, de l’hebdomadaire ou du mensuel, son rubriquage;$ les interactions qui s’opèrent entre les différentes zones de la page, deviennent en eux-mêmes une matière à étudier pour le chercheur."},
-    "3": {"Speaker":" ", "Text":"La numérisation et la diffusion en ligne de ces ressources permettent en effet de faire connaître une partie importante du patrimoine documentaire,$ jusqu’alors réservée aux seuls usagers des salles de lecture d’archives ou des fonds patrimoniaux des bibliothèques. "}
+    "2": {"Speaker":" ", "Text":"Celle-ci, devenant un objet de valorisation patrimoniale par le truchement du numérique,$ s’érige d’une part en nouveau lieu de mémoire porteur d’un discours sur une société,$ une nation ou un territoire : Le numérique réinvente la presse du passé, la fait exister une seconde fois.$ D’autre part, le numérique nous invite à nous intéresser à l’objet journal en lui-même :$ la structuration du quotidien, de l’hebdomadaire ou du mensuel, son rubriquage;$ les interactions qui s’opèrent entre les différentes zones de la page, deviennent en eux-mêmes une matière à étudier pour le chercheur.$ Ref: MARTIN Eugénie, Les modèles de valorisation numérique de la presse ancienne en France...$ Diplôme de conservateur des bibliothèques, Mémoire d’études, Université de Lyon, mars 2023, p. 46."},
+    "3": {"Speaker":" ", "Text":"La numérisation et la diffusion en ligne de ces ressources permettent en effet de faire connaître une partie importante du patrimoine documentaire,$ jusqu’alors réservée aux seuls usagers des salles de lecture d’archives ou des fonds patrimoniaux des bibliothèques.$ Ref : DE BIDERAN Jessica, Chapitre 6. Numérisation et extension du patrimoine littéraire : réflexions à propos de Mauriac en ligne...$ in : HENRYOT Fabienne (sous la dir.), La fabrique du patrimoine écrit. Objets, acteurs, usages sociaux, Villeurbanne : Presses de l’enssib, 2020, p. 115. "}
   },
 
   "Scene5": {
    	"1": {"Speaker":"Note", "Text":"Code: 6831"},
+	"9": {"Speaker":":#)", "Text":"..22."},
 	"6": {"Speaker":" ", "Text":"La porte est vérouillé."},
 	"7": {"Speaker":" ", "Text":"Impossible de passé."}
   },

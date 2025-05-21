@@ -2,7 +2,7 @@
   "Remerciment": {
 	"1": "SHS",
 	"2": "Bla",
-	"3": "X",
+	"3": "Un grand merci à la Bibliothèques Cantonale et Universitaire de Lausanne pour sa collaboration, notamment à: Héloïse Hahling Responsable du dépôt légal au service du Dépôt légal de la BCUL, à Théophile Naïto,  Responsable équipe bibliothèque numérique, à Stéphane Scully, Relieur à la BCUL et 	Justine Chammartin, Bibliothécaire-documentaliste scientifique, responsable du Dépôt légal numérique à la BCUL",
 	"4": "Y"
    },
   "Développement": {
@@ -14,7 +14,7 @@
 	"3": "Prompt:",
 	"4": "Bibliothèque abandonné, sépia, photo vieilli et ternie par le temps,",
 	"5": "pixel art detailler et minimaliste, ",
-	"6": "ligne de démarquation bien pixeliser;",
+	"6": "ligne de démarquation bien pixeliser",
 	"7": "Via de vrai image",
 	"8": "En adaptant de vrai image au style precedant.",
 	"9": "ligne de démarquation bien pixeliser",
@@ -23,6 +23,10 @@
    }
   "Audio": {
 	"1": "Audacity"
+	"2": bank de sound
+	"Police"
 
    }
 }
+
+
