@@ -19,8 +19,8 @@
     "sizeOnStartupMode": "adaptHeight",
     "templateSlug": "",
     "version": "1.0.0",
-    "name": "Bureau 451 : Point'n Click Adventure ",
-    "description": "",
+    "name": "Bureau 451",
+    "description": "Plongez dans une aventure Point'n Click à travers une bibliothèque abandonnée, à la recherche de documents poussiéreux et oubliés. Sous la supervision d’une mystérieuse entreprise, explorez les couloirs de la mémoire… et découvrez les enjeux cachés de la numérisation.",
     "author": "",
     "windowWidth": 1280,
     "windowHeight": 720,
@@ -3013,6 +3013,84 @@
         "metadata": "",
         "name": "assets\\burning\\b1.png",
         "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Credit D.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Credit D.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/lock/double-door-lock-101210.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\lock\\double-door-lock-101210.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/item/item1.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\item\\item1.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/item/item2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\item\\item2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/item/item3.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\item\\item3.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/item/item4.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\item\\item4.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/item/key item.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\item\\key item.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/item/key2 item.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\item\\key2 item.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": false
       }
     ],
@@ -14437,6 +14515,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Buttons",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -17275,7 +17354,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Interactable",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -17384,8 +17462,8 @@
                       "parameters": [
                         "",
                         "Interactable",
-                        "850",
-                        "500",
+                        "1100",
+                        "600",
                         "\"Reading\""
                       ]
                     },
@@ -17396,8 +17474,8 @@
                       "parameters": [
                         "",
                         "DialogueArrow",
-                        "850",
-                        "500",
+                        "1100",
+                        "600",
                         "\"Reading\""
                       ]
                     }
@@ -17548,7 +17626,7 @@
                             "DialogueArrow",
                             "Scale",
                             "=",
-                            "0.5"
+                            "0.25"
                           ]
                         }
                       ]
@@ -17742,8 +17820,8 @@
                       "parameters": [
                         "",
                         "Interactable",
-                        "850",
-                        "500",
+                        "1100",
+                        "600",
                         "\"Reading\""
                       ]
                     },
@@ -17754,8 +17832,8 @@
                       "parameters": [
                         "",
                         "DialogueArrow",
-                        "850",
-                        "500",
+                        "1100",
+                        "600",
                         "\"Reading\""
                       ]
                     }
@@ -17973,7 +18051,7 @@
                             "DialogueArrow",
                             "Scale",
                             "=",
-                            "0.5"
+                            "0.25"
                           ]
                         }
                       ]
@@ -18030,8 +18108,8 @@
                       "parameters": [
                         "",
                         "Interactable",
-                        "850",
-                        "500",
+                        "1100",
+                        "600",
                         "\"Reading\""
                       ]
                     },
@@ -18042,8 +18120,8 @@
                       "parameters": [
                         "",
                         "DialogueArrow",
-                        "850",
-                        "500",
+                        "1100",
+                        "600",
                         "\"Reading\""
                       ]
                     }
@@ -18194,7 +18272,7 @@
                             "DialogueArrow",
                             "Scale",
                             "=",
-                            "0.5"
+                            "0.25"
                           ]
                         }
                       ]
@@ -18376,8 +18454,8 @@
                       "parameters": [
                         "",
                         "Interactable",
-                        "850",
-                        "500",
+                        "1100",
+                        "600",
                         "\"Reading\""
                       ]
                     },
@@ -18388,8 +18466,8 @@
                       "parameters": [
                         "",
                         "DialogueArrow",
-                        "850",
-                        "500",
+                        "1100",
+                        "600",
                         "\"Reading\""
                       ]
                     }
@@ -18540,7 +18618,7 @@
                             "DialogueArrow",
                             "Scale",
                             "=",
-                            "0.5"
+                            "0.25"
                           ]
                         }
                       ]
@@ -18761,6 +18839,7 @@
               "comment": "Delete"
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -19056,7 +19135,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Local Interatable",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -22595,13 +22673,11 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Interactable",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -22704,8 +22780,8 @@
                       "parameters": [
                         "",
                         "Interactable",
-                        "850",
-                        "500",
+                        "1100",
+                        "600",
                         "\"Reading\""
                       ]
                     },
@@ -22716,8 +22792,8 @@
                       "parameters": [
                         "",
                         "DialogueArrow",
-                        "850",
-                        "500",
+                        "1100",
+                        "600",
                         "\"Reading\""
                       ]
                     }
@@ -22868,7 +22944,7 @@
                             "DialogueArrow",
                             "Scale",
                             "=",
-                            "0.5"
+                            "0.25"
                           ]
                         }
                       ]
@@ -23050,8 +23126,8 @@
                       "parameters": [
                         "",
                         "Interactable",
-                        "850",
-                        "500",
+                        "1100",
+                        "600",
                         "\"Reading\""
                       ]
                     },
@@ -23062,8 +23138,8 @@
                       "parameters": [
                         "",
                         "DialogueArrow",
-                        "850",
-                        "500",
+                        "1100",
+                        "600",
                         "\"Reading\""
                       ]
                     }
@@ -23214,7 +23290,7 @@
                             "DialogueArrow",
                             "Scale",
                             "=",
-                            "0.5"
+                            "0.25"
                           ]
                         }
                       ]
@@ -23396,8 +23472,8 @@
                       "parameters": [
                         "",
                         "Interactable",
-                        "850",
-                        "500",
+                        "1100",
+                        "600",
                         "\"Reading\""
                       ]
                     },
@@ -23408,8 +23484,8 @@
                       "parameters": [
                         "",
                         "DialogueArrow",
-                        "850",
-                        "500",
+                        "1100",
+                        "600",
                         "\"Reading\""
                       ]
                     }
@@ -23560,7 +23636,7 @@
                             "DialogueArrow",
                             "Scale",
                             "=",
-                            "0.5"
+                            "0.25"
                           ]
                         }
                       ]
@@ -28313,8 +28389,8 @@
                           "parameters": [
                             "",
                             "Interactable",
-                            "850",
-                            "500",
+                            "1100",
+                            "600",
                             "\"Reading\""
                           ]
                         },
@@ -28325,8 +28401,8 @@
                           "parameters": [
                             "",
                             "DialogueArrow",
-                            "850",
-                            "500",
+                            "1100",
+                            "600",
                             "\"Reading\""
                           ]
                         }
@@ -28563,7 +28639,7 @@
                                 "DialogueArrow",
                                 "Scale",
                                 "=",
-                                "0.5"
+                                "0.25"
                               ]
                             }
                           ]
@@ -28618,8 +28694,8 @@
                           "parameters": [
                             "",
                             "Interactable",
-                            "850",
-                            "500",
+                            "1100",
+                            "600",
                             "\"Reading\""
                           ]
                         },
@@ -28630,8 +28706,8 @@
                           "parameters": [
                             "",
                             "DialogueArrow",
-                            "850",
-                            "500",
+                            "1100",
+                            "600",
                             "\"Reading\""
                           ]
                         }
@@ -28868,7 +28944,7 @@
                                 "DialogueArrow",
                                 "Scale",
                                 "=",
-                                "0.5"
+                                "0.25"
                               ]
                             }
                           ]
@@ -28935,8 +29011,8 @@
                           "parameters": [
                             "",
                             "Interactable",
-                            "850",
-                            "500",
+                            "1100",
+                            "600",
                             "\"Reading\""
                           ]
                         },
@@ -28947,8 +29023,8 @@
                           "parameters": [
                             "",
                             "DialogueArrow",
-                            "900",
-                            "550",
+                            "1100",
+                            "600",
                             "\"Reading\""
                           ]
                         }
@@ -29180,7 +29256,7 @@
                                 "DialogueArrow",
                                 "Scale",
                                 "=",
-                                "0.3"
+                                "0.25"
                               ]
                             }
                           ]
@@ -29247,8 +29323,8 @@
                           "parameters": [
                             "",
                             "Interactable",
-                            "850",
-                            "500",
+                            "1100",
+                            "600",
                             "\"Reading\""
                           ]
                         },
@@ -29259,8 +29335,8 @@
                           "parameters": [
                             "",
                             "DialogueArrow",
-                            "850",
-                            "500",
+                            "1100",
+                            "600",
                             "\"Reading\""
                           ]
                         }
@@ -29497,7 +29573,7 @@
                                 "DialogueArrow",
                                 "Scale",
                                 "=",
-                                "0.5"
+                                "0.25"
                               ]
                             }
                           ]
@@ -29552,8 +29628,8 @@
                           "parameters": [
                             "",
                             "Interactable",
-                            "850",
-                            "500",
+                            "1100",
+                            "600",
                             "\"Reading\""
                           ]
                         },
@@ -29564,8 +29640,8 @@
                           "parameters": [
                             "",
                             "DialogueArrow",
-                            "850",
-                            "500",
+                            "1100",
+                            "600",
                             "\"Reading\""
                           ]
                         }
@@ -29802,7 +29878,7 @@
                                 "DialogueArrow",
                                 "Scale",
                                 "=",
-                                "0.5"
+                                "0.25"
                               ]
                             }
                           ]
@@ -29822,6 +29898,7 @@
                       "comment": "OCR0"
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -29890,8 +29967,8 @@
                           "parameters": [
                             "",
                             "Interactable",
-                            "850",
-                            "500",
+                            "1100",
+                            "600",
                             "\"Reading\""
                           ]
                         },
@@ -29902,8 +29979,8 @@
                           "parameters": [
                             "",
                             "DialogueArrow",
-                            "850",
-                            "500",
+                            "1100",
+                            "600",
                             "\"Reading\""
                           ]
                         }
@@ -30194,7 +30271,7 @@
                                 "DialogueArrow",
                                 "Scale",
                                 "=",
-                                "0.5"
+                                "0.25"
                               ]
                             }
                           ]
@@ -30214,6 +30291,7 @@
                       "comment": "OCR1"
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -30282,8 +30360,8 @@
                           "parameters": [
                             "",
                             "Interactable",
-                            "850",
-                            "500",
+                            "1100",
+                            "600",
                             "\"Reading\""
                           ]
                         },
@@ -30294,8 +30372,8 @@
                           "parameters": [
                             "",
                             "DialogueArrow",
-                            "850",
-                            "500",
+                            "1100",
+                            "600",
                             "\"Reading\""
                           ]
                         }
@@ -30586,7 +30664,7 @@
                                 "DialogueArrow",
                                 "Scale",
                                 "=",
-                                "0.5"
+                                "0.25"
                               ]
                             }
                           ]
@@ -30606,6 +30684,7 @@
                       "comment": "OCR2"
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -30674,8 +30753,8 @@
                           "parameters": [
                             "",
                             "Interactable",
-                            "850",
-                            "500",
+                            "1100",
+                            "600",
                             "\"Reading\""
                           ]
                         },
@@ -30686,8 +30765,8 @@
                           "parameters": [
                             "",
                             "DialogueArrow",
-                            "850",
-                            "500",
+                            "1100",
+                            "600",
                             "\"Reading\""
                           ]
                         }
@@ -30978,7 +31057,7 @@
                                 "DialogueArrow",
                                 "Scale",
                                 "=",
-                                "0.5"
+                                "0.25"
                               ]
                             }
                           ]
@@ -38721,7 +38800,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Interactable",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -40209,6 +40287,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Event",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -49700,7 +49779,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Interactable",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -51925,6 +52003,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Poste Radio",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -52008,7 +52087,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Poste VHS",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -52158,6 +52236,7 @@
                               "comment": "not double 1"
                             },
                             {
+                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -52174,7 +52253,6 @@
                               "actions": [],
                               "events": [
                                 {
-                                  "folded": true,
                                   "type": "BuiltinCommonInstructions::Standard",
                                   "conditions": [],
                                   "actions": [
@@ -52231,8 +52309,8 @@
                                       "parameters": [
                                         "",
                                         "Interactable",
-                                        "850",
-                                        "500",
+                                        "1100",
+                                        "600",
                                         "\"Reading\""
                                       ]
                                     },
@@ -52243,8 +52321,8 @@
                                       "parameters": [
                                         "",
                                         "DialogueArrow",
-                                        "850",
-                                        "500",
+                                        "1100",
+                                        "600",
                                         "\"Reading\""
                                       ]
                                     }
@@ -52562,7 +52640,7 @@
                                             "DialogueArrow",
                                             "Scale",
                                             "=",
-                                            "0.5"
+                                            "0.25"
                                           ]
                                         }
                                       ]
@@ -52637,6 +52715,7 @@
                           "comment": "not double 2"
                         },
                         {
+                          "folded": true,
                           "type": "BuiltinCommonInstructions::ForEachChildVariable",
                           "iterableVariableName": "Paper_Inventory",
                           "valueIteratorVariableName": "dummy_var_item",
@@ -52734,8 +52813,8 @@
                                   "parameters": [
                                     "",
                                     "Interactable",
-                                    "850",
-                                    "500",
+                                    "1100",
+                                    "600",
                                     "\"Reading\""
                                   ]
                                 },
@@ -52746,8 +52825,8 @@
                                   "parameters": [
                                     "",
                                     "DialogueArrow",
-                                    "850",
-                                    "500",
+                                    "1100",
+                                    "600",
                                     "\"Reading\""
                                   ]
                                 }
@@ -54171,8 +54250,8 @@
                           "parameters": [
                             "",
                             "Interactable",
-                            "850",
-                            "500",
+                            "1100",
+                            "600",
                             "\"Reading\""
                           ]
                         },
@@ -54183,8 +54262,8 @@
                           "parameters": [
                             "",
                             "DialogueArrow",
-                            "850",
-                            "500",
+                            "1100",
+                            "600",
                             "\"Reading\""
                           ]
                         }
@@ -54421,7 +54500,7 @@
                                 "DialogueArrow",
                                 "Scale",
                                 "=",
-                                "0.5"
+                                "0.25"
                               ]
                             }
                           ]
@@ -54802,8 +54881,8 @@
                           "parameters": [
                             "",
                             "Interactable",
-                            "850",
-                            "500",
+                            "1100",
+                            "600",
                             "\"Reading\""
                           ]
                         },
@@ -54814,8 +54893,8 @@
                           "parameters": [
                             "",
                             "DialogueArrow",
-                            "850",
-                            "500",
+                            "1100",
+                            "600",
                             "\"Reading\""
                           ]
                         }
@@ -55103,7 +55182,7 @@
                                 "DialogueArrow",
                                 "Scale",
                                 "=",
-                                "0.5"
+                                "0.25"
                               ]
                             }
                           ]
@@ -55410,8 +55489,8 @@
                           "parameters": [
                             "",
                             "Interactable",
-                            "850",
-                            "500",
+                            "1100",
+                            "600",
                             "\"Reading\""
                           ]
                         },
@@ -55422,8 +55501,8 @@
                           "parameters": [
                             "",
                             "DialogueArrow",
-                            "850",
-                            "500",
+                            "1100",
+                            "600",
                             "\"Reading\""
                           ]
                         }
@@ -55711,7 +55790,7 @@
                                 "DialogueArrow",
                                 "Scale",
                                 "=",
-                                "0.5"
+                                "0.25"
                               ]
                             }
                           ]
@@ -55789,8 +55868,8 @@
                           "parameters": [
                             "",
                             "Interactable",
-                            "850",
-                            "500",
+                            "1100",
+                            "600",
                             "\"Reading\""
                           ]
                         },
@@ -55801,8 +55880,8 @@
                           "parameters": [
                             "",
                             "DialogueArrow",
-                            "850",
-                            "500",
+                            "1100",
+                            "600",
                             "\"Reading\""
                           ]
                         }
@@ -56090,7 +56169,7 @@
                                 "DialogueArrow",
                                 "Scale",
                                 "=",
-                                "0.5"
+                                "0.25"
                               ]
                             }
                           ]
@@ -60161,6 +60240,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Choice",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -60210,6 +60290,7 @@
                   "comment": "VHS"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -60309,8 +60390,8 @@
                               "parameters": [
                                 "",
                                 "Interactable",
-                                "850",
-                                "500",
+                                "1100",
+                                "600",
                                 "\"Reading\""
                               ]
                             },
@@ -60321,8 +60402,8 @@
                               "parameters": [
                                 "",
                                 "DialogueArrow",
-                                "850",
-                                "500",
+                                "1100",
+                                "600",
                                 "\"Reading\""
                               ]
                             }
@@ -60691,7 +60772,7 @@
                                     "DialogueArrow",
                                     "Scale",
                                     "=",
-                                    "0.5"
+                                    "0.25"
                                   ]
                                 }
                               ]
@@ -60701,6 +60782,7 @@
                       ]
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -60784,8 +60866,8 @@
                               "parameters": [
                                 "",
                                 "Interactable",
-                                "850",
-                                "500",
+                                "1100",
+                                "600",
                                 "\"Reading\""
                               ]
                             },
@@ -60796,8 +60878,8 @@
                               "parameters": [
                                 "",
                                 "DialogueArrow",
-                                "850",
-                                "500",
+                                "1100",
+                                "600",
                                 "\"Reading\""
                               ]
                             }
@@ -61166,7 +61248,7 @@
                                     "DialogueArrow",
                                     "Scale",
                                     "=",
-                                    "0.5"
+                                    "0.25"
                                   ]
                                 }
                               ]
@@ -61190,6 +61272,7 @@
                   "comment": "Radio"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -61405,8 +61488,8 @@
                               "parameters": [
                                 "",
                                 "Interactable",
-                                "850",
-                                "500",
+                                "1100",
+                                "600",
                                 "\"Reading\""
                               ]
                             },
@@ -61417,8 +61500,8 @@
                               "parameters": [
                                 "",
                                 "DialogueArrow",
-                                "850",
-                                "500",
+                                "1100",
+                                "600",
                                 "\"Reading\""
                               ]
                             }
@@ -61640,7 +61723,7 @@
                                     "DialogueArrow",
                                     "Scale",
                                     "=",
-                                    "0.5"
+                                    "0.25"
                                   ]
                                 }
                               ]
@@ -61661,6 +61744,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Event",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -68317,7 +68401,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Interactable",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -69097,6 +69180,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Glich Object",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -71680,7 +71764,7 @@
             {
               "name": "Display_Text",
               "type": "string",
-              "value": "Regardé le poster"
+              "value": "Regarder le poster"
             }
           ]
         },
@@ -71717,7 +71801,7 @@
             {
               "name": "Display_Text",
               "type": "string",
-              "value": "Regardé le poster"
+              "value": "Regarder le poster"
             }
           ]
         },
@@ -71749,7 +71833,7 @@
             {
               "name": "Display_Text",
               "type": "string",
-              "value": "Regardé l'écran"
+              "value": "Regarder l'écran"
             },
             {
               "name": "Effect",
@@ -71921,7 +72005,7 @@
             {
               "name": "Display_Text",
               "type": "string",
-              "value": "Regardé le document"
+              "value": "Regarder le journal"
             }
           ]
         },
@@ -75049,7 +75133,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Poster",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -75168,8 +75251,8 @@
                           "parameters": [
                             "",
                             "Interactable",
-                            "850",
-                            "500",
+                            "1100",
+                            "600",
                             "\"Reading\""
                           ]
                         },
@@ -75180,8 +75263,8 @@
                           "parameters": [
                             "",
                             "DialogueArrow",
-                            "850",
-                            "500",
+                            "1100",
+                            "600",
                             "\"Reading\""
                           ]
                         }
@@ -75418,7 +75501,7 @@
                                 "DialogueArrow",
                                 "Scale",
                                 "=",
-                                "0.5"
+                                "0.25"
                               ]
                             }
                           ]
@@ -75508,8 +75591,8 @@
                           "parameters": [
                             "",
                             "Interactable",
-                            "850",
-                            "500",
+                            "1100",
+                            "600",
                             "\"Reading\""
                           ]
                         },
@@ -75520,8 +75603,8 @@
                           "parameters": [
                             "",
                             "DialogueArrow",
-                            "850",
-                            "500",
+                            "1100",
+                            "600",
                             "\"Reading\""
                           ]
                         }
@@ -75837,7 +75920,7 @@
                                 "DialogueArrow",
                                 "Scale",
                                 "=",
-                                "0.5"
+                                "0.25"
                               ]
                             }
                           ]
@@ -75916,8 +75999,8 @@
                           "parameters": [
                             "",
                             "Interactable",
-                            "850",
-                            "500",
+                            "1100",
+                            "600",
                             "\"Reading\""
                           ]
                         },
@@ -75928,8 +76011,8 @@
                           "parameters": [
                             "",
                             "DialogueArrow",
-                            "850",
-                            "500",
+                            "1100",
+                            "600",
                             "\"Reading\""
                           ]
                         }
@@ -76166,7 +76249,7 @@
                                 "DialogueArrow",
                                 "Scale",
                                 "=",
-                                "0.5"
+                                "0.25"
                               ]
                             }
                           ]
@@ -76245,8 +76328,8 @@
                           "parameters": [
                             "",
                             "Interactable",
-                            "850",
-                            "500",
+                            "1100",
+                            "600",
                             "\"Reading\""
                           ]
                         },
@@ -76257,8 +76340,8 @@
                           "parameters": [
                             "",
                             "DialogueArrow",
-                            "850",
-                            "500",
+                            "1100",
+                            "600",
                             "\"Reading\""
                           ]
                         }
@@ -76546,7 +76629,7 @@
                                 "DialogueArrow",
                                 "Scale",
                                 "=",
-                                "0.5"
+                                "0.25"
                               ]
                             }
                           ]
@@ -76899,11 +76982,13 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Digicode",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -77126,6 +77211,7 @@
                   "comment": "Digicode number"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -78043,6 +78129,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Event",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -79436,7 +79523,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2233600589381149,
+        "zoomFactor": 0.4633111824514003,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -79475,6 +79562,11 @@
           "name": "End_Tilte",
           "type": "string",
           "value": "0"
+        },
+        {
+          "name": "End_Score_Display",
+          "type": "boolean",
+          "value": false
         }
       ],
       "instances": [
@@ -80010,7 +80102,7 @@
           "width": 0,
           "x": 5920,
           "y": 0,
-          "zOrder": 18,
+          "zOrder": 0,
           "numberProperties": [
             {
               "name": "animation",
@@ -80156,24 +80248,68 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 149,
+          "height": 50,
           "keepRatio": true,
           "layer": "",
-          "name": "Interactable",
-          "persistentUuid": "43d4368a-db68-4664-ac00-f693eb2eb77f",
-          "width": 151,
-          "x": 125,
-          "y": 437,
+          "name": "Score_paper",
+          "persistentUuid": "f764f20d-0baf-4169-b686-73b1a80bbc01",
+          "width": 574,
+          "x": 6148,
+          "y": 378,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 50,
+          "keepRatio": true,
+          "layer": "",
+          "name": "rank",
+          "persistentUuid": "6d7ec085-b5eb-4a34-b24f-08cd514adfc6",
+          "width": 585,
+          "x": 6145,
+          "y": 259,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 50,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Title_paper",
+          "persistentUuid": "406ad930-6699-4a3c-ad89-4063e6561a0b",
+          "width": 576,
+          "x": 6147,
+          "y": 331,
           "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "Effect",
-              "type": "number",
-              "value": 3
-            }
-          ]
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 217,
+          "layer": "",
+          "name": "Finaly_display",
+          "persistentUuid": "48bc8ea3-a463-460a-9cfb-9578a9752117",
+          "width": 613,
+          "x": 6129,
+          "y": 231,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -80917,6 +81053,180 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Score_paper",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "228;181;32"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "content": {
+            "text": "X/108",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "41;23;0",
+            "bitmapFontResourceName": "font\\SpecialElite-Regular.fnt",
+            "textureAtlasResourceName": "font\\SpecialElite-Regular.png",
+            "align": "center",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "rank",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "content": {
+            "text": "AO",
+            "opacity": 255,
+            "scale": 1.1,
+            "fontSize": 20,
+            "tint": "41;23;0",
+            "bitmapFontResourceName": "font\\SpecialElite-Regular.fnt",
+            "textureAtlasResourceName": "font\\SpecialElite-Regular.png",
+            "align": "center",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Title_paper",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "content": {
+            "text": "Library",
+            "opacity": 255,
+            "scale": 0.9,
+            "fontSize": 20,
+            "tint": "41;23;0",
+            "bitmapFontResourceName": "font\\SpecialElite-Regular.fnt",
+            "textureAtlasResourceName": "font\\SpecialElite-Regular.png",
+            "align": "center",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Finaly_display",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Glitch",
+              "name": "Effect",
+              "doubleParameters": {
+                "animationFrequency": 60,
+                "blueX": 10,
+                "blueY": -4,
+                "direction": 0,
+                "fillMode": 0,
+                "greenX": 10,
+                "greenY": -4,
+                "minSize": 8,
+                "offset": 100,
+                "redX": 2,
+                "redY": 2,
+                "sampleSize": 512,
+                "slices": 5
+              },
+              "stringParameters": {},
+              "booleanParameters": {
+                "average": false
+              }
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "indicator\\dialogue box.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 29,
+                            "y": 26
+                          },
+                          {
+                            "x": 1242,
+                            "y": 26
+                          },
+                          {
+                            "x": 1242,
+                            "y": 416
+                          },
+                          {
+                            "x": 29,
+                            "y": 416
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -80936,6 +81246,18 @@
           },
           {
             "objectName": "End"
+          },
+          {
+            "objectName": "Score_paper"
+          },
+          {
+            "objectName": "rank"
+          },
+          {
+            "objectName": "Title_paper"
+          },
+          {
+            "objectName": "Finaly_display"
           }
         ]
       },
@@ -81009,6 +81331,58 @@
                   "parameters": [
                     "burning_mask",
                     "Animation"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Finaly_display",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Title_paper",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "rank",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Score_paper",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -81356,6 +81730,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Interactable",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -81488,10 +81863,150 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Choice",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Hidding layer"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "LayerVisible"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Score\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Ordinateur"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "CurrentRoom",
+                        "=",
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "Dialogue_Choice",
+                        "!=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Score\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Disjoncteur"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "CurrentRoom",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "Dialogue_Choice",
+                            "=",
+                            "2"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "HideLayer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Score\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -81906,6 +82421,7 @@
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -82116,6 +82632,16 @@
                                 ">=",
                                 "total/2"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "Paper_total",
+                                "!=",
+                                "total"
+                              ]
                             }
                           ],
                           "actions": [
@@ -82280,6 +82806,17 @@
                                 "=",
                                 "\"Great Library of Alexandria\""
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "ScalableCapability::ScalableBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "rank",
+                                "Scale",
+                                "=",
+                                "0.75"
+                              ]
                             }
                           ]
                         },
@@ -82294,6 +82831,16 @@
                                 "Paper_total",
                                 ">=",
                                 "total/2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "Paper_total",
+                                "!=",
+                                "total"
                               ]
                             }
                           ],
@@ -82519,6 +83066,17 @@
                                 "=",
                                 "\"Great Library of Alexandria\""
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "ScalableCapability::ScalableBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "rank",
+                                "Scale",
+                                "=",
+                                "0.75"
+                              ]
                             }
                           ]
                         },
@@ -82533,6 +83091,16 @@
                                 "Paper_total",
                                 ">=",
                                 "total/2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "Paper_total",
+                                "!=",
+                                "total"
                               ]
                             }
                           ],
@@ -82748,6 +83316,17 @@
                                 "=",
                                 "\"Great Library of Alexandria\""
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "ScalableCapability::ScalableBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "rank",
+                                "Scale",
+                                "=",
+                                "0.75"
+                              ]
                             }
                           ]
                         },
@@ -82881,6 +83460,342 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
+              "name": "End scrore display",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "End_Score_Display",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "Dialogue_Start",
+                        "=",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "Finaly_display",
+                        "Tween",
+                        "\"\"",
+                        "0",
+                        "\"linear\"",
+                        "2",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "rank",
+                        "Tween",
+                        "\"1\"",
+                        "0",
+                        "\"linear\"",
+                        "2",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "Title_paper",
+                        "Tween",
+                        "\"3\"",
+                        "0",
+                        "\"linear\"",
+                        "2",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "Score_paper",
+                        "Tween",
+                        "\"2\"",
+                        "0",
+                        "\"linear\"",
+                        "2",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "End_Score_Display",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "Finaly_display",
+                        "Effect",
+                        "\"Effect\"",
+                        ""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                          },
+                          "parameters": [
+                            "Finaly_display",
+                            "Tween",
+                            "\"\"",
+                            "255",
+                            "\"linear\"",
+                            "0.6",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "0.7"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                          },
+                          "parameters": [
+                            "rank",
+                            "Tween",
+                            "\"1\"",
+                            "255",
+                            "\"linear\"",
+                            "0.6",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1.4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                          },
+                          "parameters": [
+                            "Title_paper",
+                            "Tween",
+                            "\"3\"",
+                            "255",
+                            "\"linear\"",
+                            "0.6",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1.4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                          },
+                          "parameters": [
+                            "Score_paper",
+                            "Tween",
+                            "\"2\"",
+                            "255",
+                            "\"linear\"",
+                            "0.6",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "0.4"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EffectCapability::EffectBehavior::EnableEffect"
+                          },
+                          "parameters": [
+                            "Finaly_display",
+                            "Effect",
+                            "\"Effect\"",
+                            "yes"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "0.6"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "EffectCapability::EffectBehavior::EnableEffect"
+                          },
+                          "parameters": [
+                            "Finaly_display",
+                            "Effect",
+                            "\"Effect\"",
+                            "no"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Score_paper",
+                            "Text",
+                            "=",
+                            "Paper_total + \"/108\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "rank",
+                            "Text",
+                            "=",
+                            "End_Rank"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Title_paper",
+                            "Text",
+                            "=",
+                            "End_Tilte"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "Paper_total",
+                            "!=",
+                            "108"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "EffectCapability::EffectBehavior::EnableEffect"
+                          },
+                          "parameters": [
+                            "Score_paper",
+                            "Effect",
+                            "\"Effect\"",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
               "name": "End type",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -82913,15 +83828,6 @@
                       "parameters": [
                         "",
                         "\"Transistion\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "HideLayer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Score\""
                       ]
                     },
                     {
@@ -83489,6 +84395,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Infinite scroling + end dialogue",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -83725,7 +84632,7 @@
                                         "YPositionTween",
                                         "CameraFilmRool+0*800",
                                         "\"linear\"",
-                                        "speed+0.2",
+                                        "speed+0.1",
                                         ""
                                       ]
                                     },
@@ -83734,7 +84641,7 @@
                                         "value": "Wait"
                                       },
                                       "parameters": [
-                                        "speed+0.2"
+                                        "speed+0.1"
                                       ]
                                     }
                                   ],
@@ -83807,21 +84714,29 @@
                                         },
                                         {
                                           "type": {
-                                            "value": "SetBooleanVariable"
-                                          },
-                                          "parameters": [
-                                            "Pause",
-                                            "False",
-                                            ""
-                                          ]
-                                        },
-                                        {
-                                          "type": {
                                             "value": "SetNumberVariable"
                                           },
                                           "parameters": [
                                             "speed",
                                             "=",
+                                            "1"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "Wait"
+                                          },
+                                          "parameters": [
+                                            "2"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetBooleanVariable"
+                                          },
+                                          "parameters": [
+                                            "End_Score_Display",
+                                            "True",
                                             "1"
                                           ]
                                         }
@@ -83836,7 +84751,17 @@
                                                 "value": "Wait"
                                               },
                                               "parameters": [
-                                                "2"
+                                                "3.5"
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "SetBooleanVariable"
+                                              },
+                                              "parameters": [
+                                                "Pause",
+                                                "False",
+                                                ""
                                               ]
                                             },
                                             {
@@ -83859,6 +84784,59 @@
                                                 ""
                                               ]
                                             }
+                                          ],
+                                          "events": [
+                                            {
+                                              "type": "BuiltinCommonInstructions::Standard",
+                                              "conditions": [],
+                                              "actions": [
+                                                {
+                                                  "type": {
+                                                    "value": "Create"
+                                                  },
+                                                  "parameters": [
+                                                    "",
+                                                    "SuperWarp",
+                                                    "5894",
+                                                    "-24",
+                                                    ""
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                                                  },
+                                                  "parameters": [
+                                                    "SuperWarp",
+                                                    "Resizable",
+                                                    "1123",
+                                                    "779"
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                                                  },
+                                                  "parameters": [
+                                                    "SuperWarp",
+                                                    "Opacity",
+                                                    "=",
+                                                    "0"
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "SetNumberObjectVariable"
+                                                  },
+                                                  "parameters": [
+                                                    "SuperWarp",
+                                                    "SceneWarp",
+                                                    "=",
+                                                    "8"
+                                                  ]
+                                                }
+                                              ]
+                                            }
                                           ]
                                         }
                                       ]
@@ -83869,6 +84847,89 @@
                             }
                           ]
                         }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "DEBUG",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Pause",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Phone_Start",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Debug_TriggerZone",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "scrool",
+                        "True",
+                        ""
                       ]
                     }
                   ]
@@ -84209,7 +85270,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.30104611971824585,
+        "zoomFactor": 0.4481978045410356,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -84228,6 +85289,40 @@
           "x": 207,
           "y": 75,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 223,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TheD",
+          "persistentUuid": "b1d876c9-89a5-49c2-b3eb-172db001ef71",
+          "width": 408,
+          "x": 323,
+          "y": 483,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 54,
+          "keepRatio": true,
+          "layer": "",
+          "name": "T0",
+          "persistentUuid": "e5cee23a-6d9b-4a91-8c5a-e3ff5e167d1e",
+          "width": 1075,
+          "x": -1,
+          "y": 123,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -84293,6 +85388,85 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "TheD",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Credit D.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 61,
+                            "y": 70
+                          },
+                          {
+                            "x": 1082,
+                            "y": 70
+                          },
+                          {
+                            "x": 1082,
+                            "y": 591
+                          },
+                          {
+                            "x": 61,
+                            "y": 591
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "T0",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "T0",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "0;0;0",
+            "bitmapFontResourceName": "font\\SpecialElite-Regular.fnt",
+            "textureAtlasResourceName": "font\\SpecialElite-Regular.png",
+            "align": "center",
+            "verticalTextAlignment": "center"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -84300,6 +85474,12 @@
         "children": [
           {
             "objectName": "Titre"
+          },
+          {
+            "objectName": "TheD"
+          },
+          {
+            "objectName": "T0"
           }
         ]
       },
@@ -84355,7 +85535,7 @@
                   "parameters": [
                     "",
                     "credit.json",
-                    "Ref",
+                    "Credit",
                     ""
                   ]
                 }
@@ -84370,6 +85550,500 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Pause",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectVariableTween3"
+                  },
+                  "parameters": [
+                    "Fond_Noir_Object",
+                    "Tween",
+                    "\"CameraOut\"",
+                    "ZoomTween",
+                    "CameraZoom*9/10",
+                    "\"easeInQuad\"",
+                    "2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectVariableTween3"
+                  },
+                  "parameters": [
+                    "Fond_Noir_Object",
+                    "Tween",
+                    "\"CameraRool\"",
+                    "YPositionTween",
+                    "CameraFilmRool+2*800",
+                    "\"easeInQuad\"",
+                    "20",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "20"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Fond_Noir_Object",
+                        "YPositionTween",
+                        "=",
+                        "CameraFilmRool-4*800"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectVariableTween3"
+                      },
+                      "parameters": [
+                        "Fond_Noir_Object",
+                        "Tween",
+                        "\"CameraRool\"",
+                        "YPositionTween",
+                        "CameraFilmRool-0*800",
+                        "\"linear\"",
+                        "speed",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "speed"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "speed",
+                            "<",
+                            "0.5"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Fond_Noir_Object",
+                                "YPositionTween",
+                                "=",
+                                "CameraFilmRool+4*800"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectVariableTween3"
+                              },
+                              "parameters": [
+                                "Fond_Noir_Object",
+                                "Tween",
+                                "\"CameraRool\"",
+                                "YPositionTween",
+                                "CameraFilmRool+0*800",
+                                "\"linear\"",
+                                "speed+0.1",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "speed+0.1"
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Fond_Noir_Object",
+                                    "YPositionTween",
+                                    "=",
+                                    "CameraFilmRool+4*800"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Tween::TweenBehavior::AddObjectVariableTween3"
+                                  },
+                                  "parameters": [
+                                    "Fond_Noir_Object",
+                                    "Tween",
+                                    "\"CameraRool\"",
+                                    "YPositionTween",
+                                    "CameraFilmRool+0*800",
+                                    "\"linear\"",
+                                    "speed+0.1",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Wait"
+                                  },
+                                  "parameters": [
+                                    "speed+0.1"
+                                  ]
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "SetNumberObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Fond_Noir_Object",
+                                        "YPositionTween",
+                                        "=",
+                                        "CameraFilmRool+4*800"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "Tween::TweenBehavior::AddObjectVariableTween3"
+                                      },
+                                      "parameters": [
+                                        "Fond_Noir_Object",
+                                        "Tween",
+                                        "\"CameraRool\"",
+                                        "YPositionTween",
+                                        "CameraFilmRool+0*800",
+                                        "\"linear\"",
+                                        "speed+0.2",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "Wait"
+                                      },
+                                      "parameters": [
+                                        "speed+0.2"
+                                      ]
+                                    }
+                                  ],
+                                  "events": [
+                                    {
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [],
+                                      "actions": [
+                                        {
+                                          "type": {
+                                            "value": "SetNumberObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "Fond_Noir_Object",
+                                            "YPositionTween",
+                                            "=",
+                                            "CameraFilmRool+4*800"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "Tween::TweenBehavior::AddObjectVariableTween3"
+                                          },
+                                          "parameters": [
+                                            "Fond_Noir_Object",
+                                            "Tween",
+                                            "\"CameraRool\"",
+                                            "YPositionTween",
+                                            "720/2",
+                                            "\"easeOutBack\"",
+                                            "1.5",
+                                            ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "Tween::TweenBehavior::AddObjectVariableTween3"
+                                          },
+                                          "parameters": [
+                                            "Fond_Noir_Object",
+                                            "Tween",
+                                            "\"CameraOut\"",
+                                            "ZoomTween",
+                                            "CameraZoom*10/9",
+                                            "\"easeInOutCubic\"",
+                                            "1",
+                                            ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "PlaySoundCanal"
+                                          },
+                                          "parameters": [
+                                            "",
+                                            "sound\\scrollend.mp3",
+                                            "1",
+                                            "",
+                                            "30",
+                                            "1"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "Wait"
+                                          },
+                                          "parameters": [
+                                            "1"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetNumberVariable"
+                                          },
+                                          "parameters": [
+                                            "speed",
+                                            "=",
+                                            "1"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "Wait"
+                                          },
+                                          "parameters": [
+                                            "2"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetBooleanVariable"
+                                          },
+                                          "parameters": [
+                                            "End_Score_Display",
+                                            "True",
+                                            "1"
+                                          ]
+                                        }
+                                      ],
+                                      "events": [
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "Wait"
+                                              },
+                                              "parameters": [
+                                                "3.5"
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "SetBooleanVariable"
+                                              },
+                                              "parameters": [
+                                                "Pause",
+                                                "False",
+                                                ""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "SetNumberVariable"
+                                              },
+                                              "parameters": [
+                                                "Dialogue_Number",
+                                                "=",
+                                                "End_Dialogue_Number+10"
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "SetBooleanVariable"
+                                              },
+                                              "parameters": [
+                                                "Dialogue_Start",
+                                                "True",
+                                                ""
+                                              ]
+                                            }
+                                          ],
+                                          "events": [
+                                            {
+                                              "type": "BuiltinCommonInstructions::Standard",
+                                              "conditions": [],
+                                              "actions": [
+                                                {
+                                                  "type": {
+                                                    "value": "Create"
+                                                  },
+                                                  "parameters": [
+                                                    "",
+                                                    "SuperWarp",
+                                                    "5894",
+                                                    "-24",
+                                                    ""
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                                                  },
+                                                  "parameters": [
+                                                    "SuperWarp",
+                                                    "Resizable",
+                                                    "1123",
+                                                    "779"
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                                                  },
+                                                  "parameters": [
+                                                    "SuperWarp",
+                                                    "Opacity",
+                                                    "=",
+                                                    "0"
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "SetNumberObjectVariable"
+                                                  },
+                                                  "parameters": [
+                                                    "SuperWarp",
+                                                    "SceneWarp",
+                                                    "=",
+                                                    "8"
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "variables": [
+                    {
+                      "name": "speed",
+                      "type": "number",
+                      "value": 24
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "T0",
+                "Text",
+                "=",
+                "Credit[1]"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -86071,13 +87745,12 @@
                     },
                     {
                       "type": {
-                        "value": "NumberObjectVariable"
+                        "value": "BooleanVariable"
                       },
                       "parameters": [
-                        "WarpZone",
-                        "Text_Index",
-                        "!=",
-                        "0"
+                        "in_inventory",
+                        "False",
+                        ""
                       ]
                     },
                     {
@@ -86091,15 +87764,35 @@
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "sound\\lock\\double-door-lock-101210.mp3",
+                            "3",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
                           "type": {
-                            "value": "BooleanVariable"
+                            "value": "NumberObjectVariable"
                           },
                           "parameters": [
-                            "in_inventory",
-                            "False",
-                            ""
+                            "WarpZone",
+                            "Text_Index",
+                            "!=",
+                            "0"
                           ]
                         }
                       ],
@@ -87660,7 +89353,6 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -88521,7 +90213,6 @@
                   "comment": "Not in inventory"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -88537,13 +90228,12 @@
                     },
                     {
                       "type": {
-                        "value": "NumberObjectVariable"
+                        "value": "BooleanVariable"
                       },
                       "parameters": [
-                        "SuperWarp",
-                        "Text_Index",
-                        "!=",
-                        "0"
+                        "in_inventory",
+                        "False",
+                        ""
                       ]
                     },
                     {
@@ -88557,15 +90247,35 @@
                   "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySoundCanal"
+                          },
+                          "parameters": [
+                            "",
+                            "sound\\lock\\double-door-lock-101210.mp3",
+                            "3",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
                           "type": {
-                            "value": "BooleanVariable"
+                            "value": "NumberObjectVariable"
                           },
                           "parameters": [
-                            "in_inventory",
-                            "False",
-                            ""
+                            "SuperWarp",
+                            "Text_Index",
+                            "!=",
+                            "0"
                           ]
                         }
                       ],
@@ -90056,6 +91766,228 @@
                   ],
                   "events": [
                     {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Sound effect"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "random",
+                            "=",
+                            "RandomInRange(1,6)"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "random",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "sound\\item\\item1.mp3",
+                                "1",
+                                "",
+                                "vol",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "random",
+                                "=",
+                                "2"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "sound\\item\\item2.mp3",
+                                "1",
+                                "",
+                                "vol",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "random",
+                                "=",
+                                "3"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "sound\\item\\item3.mp3",
+                                "1",
+                                "",
+                                "vol",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "random",
+                                "=",
+                                "4"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "sound\\item\\item4.mp3",
+                                "1",
+                                "",
+                                "vol",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "random",
+                                "=",
+                                "5"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "sound\\item\\key item.mp3",
+                                "1",
+                                "",
+                                "vol",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "random",
+                                "=",
+                                "6"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlaySoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "sound\\item\\key2 item.mp3",
+                                "1",
+                                "",
+                                "vol",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "variables": [
+                        {
+                          "name": "random",
+                          "type": "number",
+                          "value": 0
+                        },
+                        {
+                          "name": "vol",
+                          "type": "number",
+                          "value": 25
+                        }
+                      ]
+                    },
+                    {
                       "disabled": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
@@ -90554,6 +92486,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "FireAxe",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -104891,7 +106824,7 @@
           "width": 199,
           "x": -219,
           "y": -1697,
-          "zOrder": 0,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -104925,7 +106858,7 @@
           "width": 208,
           "x": 1095,
           "y": -1697,
-          "zOrder": 0,
+          "zOrder": 3,
           "numberProperties": [
             {
               "name": "animation",
@@ -105001,8 +106934,8 @@
           "name": "Fond_Noir_Object",
           "persistentUuid": "a96c4deb-9058-4625-aaeb-2fae82f3b460",
           "width": 2076,
-          "x": -463,
-          "y": -2554,
+          "x": -459,
+          "y": -2537,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -105522,8 +107455,8 @@
           "persistentUuid": "4a700ef0-d9ca-44dc-91d2-acbdf915a4e6",
           "width": 199,
           "x": -219,
-          "y": -2497,
-          "zOrder": 0,
+          "y": -2489,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -105556,8 +107489,8 @@
           "persistentUuid": "74188b4e-0921-4c32-b4d0-443ac9839f14",
           "width": 208,
           "x": 1095,
-          "y": -2497,
-          "zOrder": 0,
+          "y": -2492,
+          "zOrder": 5,
           "numberProperties": [
             {
               "name": "animation",
@@ -105618,7 +107551,7 @@
           "persistentUuid": "91171235-9890-49dc-a296-d433aca91f00",
           "width": 1115,
           "x": -20,
-          "y": 2279,
+          "y": 2297,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -105680,7 +107613,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3797121001948033,
+        "zoomFactor": 0.25504554733544155,
         "windowMask": false
       }
     }
