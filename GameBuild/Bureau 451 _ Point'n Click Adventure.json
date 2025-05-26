@@ -3092,6 +3092,30 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "encombrement/ddd.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "encombrement\\ddd.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "RealDoc/Poster22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RealDoc\\Poster22.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "RealDoc/Poster2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "RealDoc\\Poster2.jpg",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -8957,6 +8981,54 @@
               ]
             }
           ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "encombrement\\ddd.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 17,
+                        "y": 39
+                      },
+                      {
+                        "x": 970,
+                        "y": 39
+                      },
+                      {
+                        "x": 970,
+                        "y": 661
+                      },
+                      {
+                        "x": 17,
+                        "y": 661
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -10881,6 +10953,21 @@
       "name": "Credit",
       "type": "structure",
       "children": []
+    },
+    {
+      "name": "Dialogue_Return_Press",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "Dialogue_Tick",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "Dialogue_Ticking",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
@@ -11587,11 +11674,17 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.34375202416124484,
+        "zoomFactor": 0.3925161175488377,
         "windowMask": false
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "Selected_Mod",
+          "type": "boolean",
+          "value": false
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -12875,8 +12968,8 @@
           "name": "Descriptif",
           "opacity": 0,
           "persistentUuid": "d3a08233-1063-4ed8-a0f4-974280777669",
-          "width": 1080,
-          "x": 4,
+          "width": 1059,
+          "x": 17,
           "y": 530,
           "zOrder": 216,
           "numberProperties": [],
@@ -12928,7 +13021,7 @@
           "persistentUuid": "da1093c8-6c99-45af-b195-7c8f7c01f7f0",
           "width": 954,
           "x": 68,
-          "y": 13,
+          "y": 20,
           "zOrder": 219,
           "numberProperties": [],
           "stringProperties": [],
@@ -13217,7 +13310,7 @@
             }
           ],
           "content": {
-            "text": "Numeriser la presse\nConserver l'histoire",
+            "text": "Numériser la presse\nConserver l'histoire",
             "opacity": 255,
             "scale": 0.7,
             "fontSize": 20,
@@ -13922,6 +14015,49 @@
                     ""
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetCameraCenterY"
+                      },
+                      "parameters": [
+                        "",
+                        "=",
+                        "720/2",
+                        "\"Button\"",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetCameraCenterX"
+                      },
+                      "parameters": [
+                        "",
+                        "=",
+                        "1080/2",
+                        "\"Button\"",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ZoomCamera"
+                      },
+                      "parameters": [
+                        "",
+                        "(1080)/SceneWindowWidth()",
+                        "\"Button\"",
+                        ""
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
@@ -14515,7 +14651,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Buttons",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -14687,7 +14822,7 @@
                         "value": "SetBooleanVariable"
                       },
                       "parameters": [
-                        "ModeExp",
+                        "Selected_Mod",
                         "True",
                         ""
                       ]
@@ -14804,7 +14939,7 @@
                         "value": "SetBooleanVariable"
                       },
                       "parameters": [
-                        "ModeExp",
+                        "Selected_Mod",
                         "False",
                         ""
                       ]
@@ -14956,6 +15091,33 @@
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "Selected_Mod",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "ModeExp",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
                     {
@@ -14992,7 +15154,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Title screen animation",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -24411,7 +24572,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.46331118245142877,
+        "zoomFactor": 0.2636457673770977,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -30087,20 +30248,6 @@
                           "actions": [
                             {
                               "type": {
-                                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-                              },
-                              "parameters": [
-                                "RealDoc",
-                                "Tween",
-                                "\"up\"",
-                                "RealDoc.Y()-720",
-                                "\"swingTo\"",
-                                "1",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
                                 "value": "OpacityCapability::OpacityBehavior::SetValue"
                               },
                               "parameters": [
@@ -30480,20 +30627,6 @@
                           "actions": [
                             {
                               "type": {
-                                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-                              },
-                              "parameters": [
-                                "RealDoc",
-                                "Tween",
-                                "\"up\"",
-                                "RealDoc.Y()-720",
-                                "\"swingTo\"",
-                                "1",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
                                 "value": "OpacityCapability::OpacityBehavior::SetValue"
                               },
                               "parameters": [
@@ -30871,20 +31004,6 @@
                             }
                           ],
                           "actions": [
-                            {
-                              "type": {
-                                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-                              },
-                              "parameters": [
-                                "RealDoc",
-                                "Tween",
-                                "\"up\"",
-                                "RealDoc.Y()-720",
-                                "\"swingTo\"",
-                                "1",
-                                ""
-                              ]
-                            },
                             {
                               "type": {
                                 "value": "OpacityCapability::OpacityBehavior::SetValue"
@@ -31895,7 +32014,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2160739732387631,
+        "zoomFactor": 0.29122588669112326,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -34577,8 +34696,8 @@
           "opacity": 0,
           "persistentUuid": "61497d9e-355a-4fb1-a4c0-dd721a7cd0b6",
           "width": 163,
-          "x": -21947,
-          "y": 234,
+          "x": -22004,
+          "y": 230,
           "zOrder": 78,
           "numberProperties": [],
           "stringProperties": [],
@@ -35824,7 +35943,7 @@
             {
               "name": "X_direction",
               "type": "number",
-              "value": 200
+              "value": -200
             },
             {
               "name": "Index",
@@ -36289,14 +36408,14 @@
           "layer": "",
           "name": "Grava",
           "persistentUuid": "2934c501-9649-44c0-a0f8-3f410752692c",
-          "width": 586,
-          "x": -22054,
-          "y": 222,
+          "width": 297,
+          "x": -21832,
+          "y": 211,
           "zOrder": 1,
           "numberProperties": [
             {
               "name": "animation",
-              "value": 1
+              "value": 3
             }
           ],
           "stringProperties": [],
@@ -42195,7 +42314,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.22336005893811942,
+        "zoomFactor": 0.2090255622833574,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -43591,7 +43710,7 @@
             {
               "name": "Display_Text",
               "type": "string",
-              "value": "Ouvire le placard"
+              "value": "Ouvir le placard"
             },
             {
               "name": "Effect",
@@ -43624,7 +43743,7 @@
             {
               "name": "Display_Text",
               "type": "string",
-              "value": "Clé des vestiaire"
+              "value": "Clé du vestiaire"
             }
           ]
         },
@@ -45918,7 +46037,7 @@
             {
               "name": "Display_Text",
               "type": "string",
-              "value": "Alummer la radio"
+              "value": "Allumer la radio"
             },
             {
               "name": "Effect",
@@ -52003,7 +52122,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Poste Radio",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -52236,7 +52354,6 @@
                               "comment": "not double 1"
                             },
                             {
-                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -52253,6 +52370,7 @@
                               "actions": [],
                               "events": [
                                 {
+                                  "folded": true,
                                   "type": "BuiltinCommonInstructions::Standard",
                                   "conditions": [],
                                   "actions": [
@@ -52681,20 +52799,6 @@
                                         "=",
                                         "1"
                                       ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-                                      },
-                                      "parameters": [
-                                        "RealDoc",
-                                        "Tween",
-                                        "\"Swing_in\"",
-                                        "-170",
-                                        "\"swingTo\"",
-                                        "0.6",
-                                        ""
-                                      ]
                                     }
                                   ]
                                 }
@@ -52715,7 +52819,6 @@
                           "comment": "not double 2"
                         },
                         {
-                          "folded": true,
                           "type": "BuiltinCommonInstructions::ForEachChildVariable",
                           "iterableVariableName": "Paper_Inventory",
                           "valueIteratorVariableName": "dummy_var_item",
@@ -53184,20 +53287,6 @@
                                     "Opacity",
                                     "=",
                                     "1"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-                                  },
-                                  "parameters": [
-                                    "RealDoc",
-                                    "Tween",
-                                    "\"Swing_in\"",
-                                    "-170",
-                                    "\"swingTo\"",
-                                    "0.6",
-                                    ""
                                   ]
                                 }
                               ]
@@ -60240,7 +60329,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Choice",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -60290,7 +60378,6 @@
                   "comment": "VHS"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -60334,6 +60421,7 @@
                       ],
                       "events": [
                         {
+                          "folded": true,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [],
                           "actions": [
@@ -60505,20 +60593,6 @@
                                     "Opacity",
                                     "=",
                                     "1"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-                                  },
-                                  "parameters": [
-                                    "RealDoc",
-                                    "Tween",
-                                    "\"Swing_in\"",
-                                    "-170",
-                                    "\"swingTo\"",
-                                    "0.6",
-                                    ""
                                   ]
                                 }
                               ]
@@ -60782,7 +60856,6 @@
                       ]
                     },
                     {
-                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -60810,6 +60883,7 @@
                       ],
                       "events": [
                         {
+                          "folded": true,
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [],
                           "actions": [
@@ -60981,20 +61055,6 @@
                                     "Opacity",
                                     "=",
                                     "1"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-                                  },
-                                  "parameters": [
-                                    "RealDoc",
-                                    "Tween",
-                                    "\"Swing_in\"",
-                                    "-170",
-                                    "\"swingTo\"",
-                                    "0.6",
-                                    ""
                                   ]
                                 }
                               ]
@@ -70282,7 +70342,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.321691176470593,
+        "zoomFactor": 0.3553434558817037,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -71866,7 +71926,7 @@
           "initialVariables": []
         },
         {
-          "angle": 11,
+          "angle": 15,
           "customSize": true,
           "depth": 1,
           "height": 285,
@@ -72334,8 +72394,8 @@
           "name": "Collectable",
           "persistentUuid": "8afa46eb-25ba-4b56-91bb-fdba07f2cee1",
           "width": 135,
-          "x": 9605,
-          "y": 497,
+          "x": 9624,
+          "y": 509,
           "zOrder": 3,
           "numberProperties": [
             {
@@ -72363,8 +72423,8 @@
           "name": "Collectable",
           "persistentUuid": "18931930-c110-420f-b65b-8214c056076b",
           "width": 130,
-          "x": 9137,
-          "y": 471,
+          "x": 9120,
+          "y": 475,
           "zOrder": 2,
           "numberProperties": [
             {
@@ -72391,8 +72451,8 @@
           "name": "Collectable",
           "persistentUuid": "a5e529cb-d481-4d84-9b17-d7b43900fa3a",
           "width": 113,
-          "x": 9528,
-          "y": 475,
+          "x": 9509,
+          "y": 470,
           "zOrder": 2,
           "numberProperties": [
             {
@@ -72419,8 +72479,8 @@
           "name": "Collectable",
           "persistentUuid": "b15a2329-40bc-44ac-bb4b-1c150d56c529",
           "width": 98,
-          "x": 9248,
-          "y": 460,
+          "x": 9259,
+          "y": 461,
           "zOrder": 1,
           "numberProperties": [
             {
@@ -74592,7 +74652,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "RealDoc\\Poster2.png",
+                      "image": "RealDoc\\Poster2.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -74640,7 +74700,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "RealDoc\\Poster2+.png",
+                      "image": "RealDoc\\Poster22.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -85270,11 +85330,17 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4481978045410356,
+        "zoomFactor": 0.24672586957406287,
         "windowMask": false
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "name": "glitch",
+          "type": "boolean",
+          "value": false
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -85301,10 +85367,11 @@
           "keepRatio": true,
           "layer": "",
           "name": "TheD",
+          "opacity": 0,
           "persistentUuid": "b1d876c9-89a5-49c2-b3eb-172db001ef71",
           "width": 408,
-          "x": 323,
-          "y": 483,
+          "x": 329,
+          "y": 449,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -85314,15 +85381,97 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 54,
+          "height": 575,
           "keepRatio": true,
           "layer": "",
           "name": "T0",
           "persistentUuid": "e5cee23a-6d9b-4a91-8c5a-e3ff5e167d1e",
           "width": 1075,
-          "x": -1,
-          "y": 123,
+          "x": 0,
+          "y": 40,
           "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 414,
+          "layer": "",
+          "name": "T1",
+          "persistentUuid": "90e2ff3a-22a2-4812-9359-53525172f722",
+          "width": 1075,
+          "x": 0,
+          "y": 840,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 423,
+          "layer": "",
+          "name": "T2",
+          "persistentUuid": "dcd5b1f4-3a60-498b-8a7e-bbb7956988b9",
+          "width": 1075,
+          "x": 0,
+          "y": 1640,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 458,
+          "layer": "",
+          "name": "T2",
+          "persistentUuid": "47067a81-cbeb-4a2c-b6ee-acd8c02033aa",
+          "width": 1075,
+          "x": 0,
+          "y": -1560,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 542,
+          "layer": "",
+          "name": "T_1",
+          "persistentUuid": "cc127d24-ac4e-482c-a8e8-ff35ba33a830",
+          "width": 1075,
+          "x": 0,
+          "y": -760,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 203,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Titre",
+          "opacity": 0,
+          "persistentUuid": "8114d572-0e1a-48e3-9aca-638adb370f1a",
+          "width": 632,
+          "x": 207,
+          "y": 2042,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -85336,8 +85485,37 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "effects": [],
-          "behaviors": [],
+          "effects": [
+            {
+              "effectType": "Glitch",
+              "name": "Effect",
+              "doubleParameters": {
+                "animationFrequency": 60,
+                "blueX": 10,
+                "blueY": -4,
+                "direction": 0,
+                "fillMode": 0,
+                "greenX": 10,
+                "greenY": -4,
+                "minSize": 8,
+                "offset": 100,
+                "redX": 2,
+                "redY": 2,
+                "sampleSize": 512,
+                "slices": 5
+              },
+              "stringParameters": {},
+              "booleanParameters": {
+                "average": false
+              }
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -85397,7 +85575,12 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -85455,17 +85638,79 @@
           "type": "BitmapText::BitmapTextObject",
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
           "content": {
             "text": "T0",
             "opacity": 255,
-            "scale": 1,
+            "scale": 0.8,
             "fontSize": 20,
             "tint": "0;0;0",
             "bitmapFontResourceName": "font\\SpecialElite-Regular.fnt",
             "textureAtlasResourceName": "font\\SpecialElite-Regular.png",
             "align": "center",
-            "verticalTextAlignment": "center"
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "T1",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "T1",
+            "opacity": 255,
+            "scale": 0.8,
+            "fontSize": 20,
+            "tint": "0;0;0",
+            "bitmapFontResourceName": "font\\SpecialElite-Regular.fnt",
+            "textureAtlasResourceName": "font\\SpecialElite-Regular.png",
+            "align": "center",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "T2",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "T2",
+            "opacity": 255,
+            "scale": 0.8,
+            "fontSize": 20,
+            "tint": "0;0;0",
+            "bitmapFontResourceName": "font\\SpecialElite-Regular.fnt",
+            "textureAtlasResourceName": "font\\SpecialElite-Regular.png",
+            "align": "center",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "T_1",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "T-1",
+            "opacity": 255,
+            "scale": 0.8,
+            "fontSize": 20,
+            "tint": "0;0;0",
+            "bitmapFontResourceName": "font\\SpecialElite-Regular.fnt",
+            "textureAtlasResourceName": "font\\SpecialElite-Regular.png",
+            "align": "center",
+            "verticalTextAlignment": "top"
           }
         }
       ],
@@ -85480,6 +85725,15 @@
           },
           {
             "objectName": "T0"
+          },
+          {
+            "objectName": "T1"
+          },
+          {
+            "objectName": "T2"
+          },
+          {
+            "objectName": "T_1"
           }
         ]
       },
@@ -85539,6 +85793,121 @@
                     ""
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "EffectCapability::EffectBehavior::EnableEffect"
+                      },
+                      "parameters": [
+                        "Titre",
+                        "Effect",
+                        "\"Effect\"",
+                        ""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "T0",
+                            "Text",
+                            "=",
+                            "Credit[1]"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "T1",
+                            "Text",
+                            "=",
+                            "Credit[2]"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "T2",
+                            "Text",
+                            "=",
+                            "Credit[3]"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "T_1",
+                            "Text",
+                            "=",
+                            "Credit[4]"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "OpacityCapability::OpacityBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "T0",
+                            "Opacity",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "OpacityCapability::OpacityBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "T1",
+                            "Opacity",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "OpacityCapability::OpacityBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "T2",
+                            "Opacity",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "OpacityCapability::OpacityBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "T_1",
+                            "Opacity",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
@@ -85552,7 +85921,6 @@
           "parameters": []
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -85578,7 +85946,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "1"
+                "3"
               ]
             }
           ],
@@ -85620,8 +85988,8 @@
                     "\"CameraRool\"",
                     "YPositionTween",
                     "CameraFilmRool+2*800",
-                    "\"easeInQuad\"",
-                    "20",
+                    "\"linear\"",
+                    "18",
                     ""
                   ]
                 },
@@ -85630,7 +85998,7 @@
                     "value": "Wait"
                   },
                   "parameters": [
-                    "20"
+                    "18"
                   ]
                 }
               ],
@@ -85676,341 +86044,41 @@
                   ],
                   "events": [
                     {
-                      "disabled": true,
                       "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
+                      "conditions": [],
+                      "actions": [
                         {
                           "type": {
-                            "value": "NumberVariable"
+                            "value": "SetNumberObjectVariable"
                           },
                           "parameters": [
-                            "speed",
-                            "<",
-                            "0.5"
+                            "Fond_Noir_Object",
+                            "YPositionTween",
+                            "=",
+                            "CameraFilmRool-4*800"
                           ]
-                        }
-                      ],
-                      "actions": [],
-                      "events": [
+                        },
                         {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetNumberObjectVariable"
-                              },
-                              "parameters": [
-                                "Fond_Noir_Object",
-                                "YPositionTween",
-                                "=",
-                                "CameraFilmRool+4*800"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Tween::TweenBehavior::AddObjectVariableTween3"
-                              },
-                              "parameters": [
-                                "Fond_Noir_Object",
-                                "Tween",
-                                "\"CameraRool\"",
-                                "YPositionTween",
-                                "CameraFilmRool+0*800",
-                                "\"linear\"",
-                                "speed+0.1",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Wait"
-                              },
-                              "parameters": [
-                                "speed+0.1"
-                              ]
-                            }
-                          ],
-                          "events": [
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "SetNumberObjectVariable"
-                                  },
-                                  "parameters": [
-                                    "Fond_Noir_Object",
-                                    "YPositionTween",
-                                    "=",
-                                    "CameraFilmRool+4*800"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Tween::TweenBehavior::AddObjectVariableTween3"
-                                  },
-                                  "parameters": [
-                                    "Fond_Noir_Object",
-                                    "Tween",
-                                    "\"CameraRool\"",
-                                    "YPositionTween",
-                                    "CameraFilmRool+0*800",
-                                    "\"linear\"",
-                                    "speed+0.1",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Wait"
-                                  },
-                                  "parameters": [
-                                    "speed+0.1"
-                                  ]
-                                }
-                              ],
-                              "events": [
-                                {
-                                  "type": "BuiltinCommonInstructions::Standard",
-                                  "conditions": [],
-                                  "actions": [
-                                    {
-                                      "type": {
-                                        "value": "SetNumberObjectVariable"
-                                      },
-                                      "parameters": [
-                                        "Fond_Noir_Object",
-                                        "YPositionTween",
-                                        "=",
-                                        "CameraFilmRool+4*800"
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "Tween::TweenBehavior::AddObjectVariableTween3"
-                                      },
-                                      "parameters": [
-                                        "Fond_Noir_Object",
-                                        "Tween",
-                                        "\"CameraRool\"",
-                                        "YPositionTween",
-                                        "CameraFilmRool+0*800",
-                                        "\"linear\"",
-                                        "speed+0.2",
-                                        ""
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "Wait"
-                                      },
-                                      "parameters": [
-                                        "speed+0.2"
-                                      ]
-                                    }
-                                  ],
-                                  "events": [
-                                    {
-                                      "type": "BuiltinCommonInstructions::Standard",
-                                      "conditions": [],
-                                      "actions": [
-                                        {
-                                          "type": {
-                                            "value": "SetNumberObjectVariable"
-                                          },
-                                          "parameters": [
-                                            "Fond_Noir_Object",
-                                            "YPositionTween",
-                                            "=",
-                                            "CameraFilmRool+4*800"
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "Tween::TweenBehavior::AddObjectVariableTween3"
-                                          },
-                                          "parameters": [
-                                            "Fond_Noir_Object",
-                                            "Tween",
-                                            "\"CameraRool\"",
-                                            "YPositionTween",
-                                            "720/2",
-                                            "\"easeOutBack\"",
-                                            "1.5",
-                                            ""
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "Tween::TweenBehavior::AddObjectVariableTween3"
-                                          },
-                                          "parameters": [
-                                            "Fond_Noir_Object",
-                                            "Tween",
-                                            "\"CameraOut\"",
-                                            "ZoomTween",
-                                            "CameraZoom*10/9",
-                                            "\"easeInOutCubic\"",
-                                            "1",
-                                            ""
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "PlaySoundCanal"
-                                          },
-                                          "parameters": [
-                                            "",
-                                            "sound\\scrollend.mp3",
-                                            "1",
-                                            "",
-                                            "30",
-                                            "1"
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "Wait"
-                                          },
-                                          "parameters": [
-                                            "1"
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "SetNumberVariable"
-                                          },
-                                          "parameters": [
-                                            "speed",
-                                            "=",
-                                            "1"
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "Wait"
-                                          },
-                                          "parameters": [
-                                            "2"
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "SetBooleanVariable"
-                                          },
-                                          "parameters": [
-                                            "End_Score_Display",
-                                            "True",
-                                            "1"
-                                          ]
-                                        }
-                                      ],
-                                      "events": [
-                                        {
-                                          "type": "BuiltinCommonInstructions::Standard",
-                                          "conditions": [],
-                                          "actions": [
-                                            {
-                                              "type": {
-                                                "value": "Wait"
-                                              },
-                                              "parameters": [
-                                                "3.5"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "SetBooleanVariable"
-                                              },
-                                              "parameters": [
-                                                "Pause",
-                                                "False",
-                                                ""
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "SetNumberVariable"
-                                              },
-                                              "parameters": [
-                                                "Dialogue_Number",
-                                                "=",
-                                                "End_Dialogue_Number+10"
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "SetBooleanVariable"
-                                              },
-                                              "parameters": [
-                                                "Dialogue_Start",
-                                                "True",
-                                                ""
-                                              ]
-                                            }
-                                          ],
-                                          "events": [
-                                            {
-                                              "type": "BuiltinCommonInstructions::Standard",
-                                              "conditions": [],
-                                              "actions": [
-                                                {
-                                                  "type": {
-                                                    "value": "Create"
-                                                  },
-                                                  "parameters": [
-                                                    "",
-                                                    "SuperWarp",
-                                                    "5894",
-                                                    "-24",
-                                                    ""
-                                                  ]
-                                                },
-                                                {
-                                                  "type": {
-                                                    "value": "ResizableCapability::ResizableBehavior::SetSize"
-                                                  },
-                                                  "parameters": [
-                                                    "SuperWarp",
-                                                    "Resizable",
-                                                    "1123",
-                                                    "779"
-                                                  ]
-                                                },
-                                                {
-                                                  "type": {
-                                                    "value": "OpacityCapability::OpacityBehavior::SetValue"
-                                                  },
-                                                  "parameters": [
-                                                    "SuperWarp",
-                                                    "Opacity",
-                                                    "=",
-                                                    "0"
-                                                  ]
-                                                },
-                                                {
-                                                  "type": {
-                                                    "value": "SetNumberObjectVariable"
-                                                  },
-                                                  "parameters": [
-                                                    "SuperWarp",
-                                                    "SceneWarp",
-                                                    "=",
-                                                    "8"
-                                                  ]
-                                                }
-                                              ]
-                                            }
-                                          ]
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectVariableTween3"
+                          },
+                          "parameters": [
+                            "Fond_Noir_Object",
+                            "Tween",
+                            "\"CameraRool\"",
+                            "YPositionTween",
+                            "CameraFilmRool-0*800",
+                            "\"linear\"",
+                            "speed",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "speed"
                           ]
                         }
                       ]
@@ -86020,7 +86088,7 @@
                     {
                       "name": "speed",
                       "type": "number",
-                      "value": 24
+                      "value": 36
                     }
                   ]
                 }
@@ -86030,8 +86098,49 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Pause",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
           "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "speed/2+10"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TheD"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Titre"
+              ]
+            },
             {
               "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
@@ -86040,8 +86149,382 @@
                 "T0",
                 "Text",
                 "=",
-                "Credit[1]"
+                "Credit[5]"
               ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "T1",
+                "Text",
+                "=",
+                "Credit[6]"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "speed/2"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "T2",
+                "Text",
+                "=",
+                "Credit[7]"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "T_1",
+                "Text",
+                "=",
+                "Credit[8]"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "speed/2"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "T0",
+                "Text",
+                "=",
+                "Credit[9]"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "T1",
+                "Text",
+                "=",
+                "Credit[10]"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "speed/2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Titre",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Titre",
+                "Opacity",
+                "=",
+                "255"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "T2",
+                "Text",
+                "=",
+                "Credit[11]"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "glitch",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "variables": [
+            {
+              "name": "speed",
+              "type": "number",
+              "value": 36
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Pause",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "T1",
+                "Opacity",
+                "=",
+                "255"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "T2",
+                "Opacity",
+                "=",
+                "255"
+              ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "T_1",
+                "Opacity",
+                "=",
+                "255"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Titre",
+                "Effect",
+                "\"Effect\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "T0",
+                "Tween",
+                "\"0\"",
+                "255",
+                "\"linear\"",
+                "3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "TheD",
+                "Tween",
+                "\"D\"",
+                "255",
+                "\"linear\"",
+                "3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Titre",
+                "Effect",
+                "\"Effect\"",
+                ""
+              ]
+            }
+          ],
+          "variables": [
+            {
+              "name": "speed",
+              "type": "number",
+              "value": 36
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "glitch",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "random",
+                "=",
+                "RandomFloatInRange(0,3)"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "glitch",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Titre",
+                "Effect",
+                "\"Effect\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.7"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::EnableEffect"
+              },
+              "parameters": [
+                "Titre",
+                "Effect",
+                "\"Effect\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "random"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "glitch",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+              },
+              "parameters": [
+                "Titre",
+                "Effect",
+                "\"Effect\"",
+                "\"slices\"",
+                "random+4"
+              ]
+            }
+          ],
+          "variables": [
+            {
+              "name": "random",
+              "type": "number",
+              "value": 3
             }
           ]
         }
@@ -86274,7 +86757,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Begining",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -87287,6 +87769,7 @@
               "comment": "Warp code\n"
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -91778,6 +92261,7 @@
                       "comment": "Sound effect"
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [
@@ -92145,6 +92629,7 @@
                       "comment": "Sound effect"
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [
@@ -94037,14 +94522,42 @@
                         "=",
                         "GlobalVariableString(Dialogues[\"Scene\" + ToString(CurrentScene)][ToString(Dialogue_Number)].Text)"
                       ]
-                    },
+                    }
+                  ],
+                  "events": [
                     {
-                      "type": {
-                        "value": "ResetTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Text\""
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ResetTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Text\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "Dialogue_Tick",
+                            "True",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "Dialogue_Ticking",
+                            "True",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -94138,14 +94651,42 @@
                         "=",
                         "GlobalVariableString(Ref[\"Scene\" + ToString(CurrentScene)][ToString(Dialogue_Number)].Text)"
                       ]
-                    },
+                    }
+                  ],
+                  "events": [
                     {
-                      "type": {
-                        "value": "ResetTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Text\""
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ResetTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Text\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "Dialogue_Tick",
+                            "True",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "Dialogue_Ticking",
+                            "True",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -94175,7 +94716,7 @@
                     "",
                     "\"Text\"",
                     ">=",
-                    "0.2"
+                    "0.05"
                   ]
                 }
               ],
@@ -94208,6 +94749,58 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Dialogue_Tick",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Dialogue_Ticking",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "Dialogue_Speed"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Dialogue_Tick",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "value": "CompareTimer"
                   },
                   "parameters": [
@@ -94215,6 +94808,22 @@
                     "\"Text\"",
                     ">=",
                     "Dialogue_Speed"
+                  ]
+                }
+              ],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Dialogue_Tick",
+                    "True",
+                    ""
                   ]
                 },
                 {
@@ -94342,14 +94951,42 @@
                         "",
                         "\"Text_WaitingFInput\""
                       ]
-                    },
+                    }
+                  ],
+                  "events": [
                     {
-                      "type": {
-                        "value": "RemoveTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Text\""
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "Dialogue_Ticking",
+                            "False",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "Dialogue_Tick",
+                            "False",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "RemoveTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Text\""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -95028,6 +95665,16 @@
                             "100",
                             "1"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "Dialogue_Return_Press",
+                            "True",
+                            ""
+                          ]
                         }
                       ],
                       "events": [
@@ -95164,14 +95811,42 @@
                                 "",
                                 "\"Text_WaitingFInput\""
                               ]
-                            },
+                            }
+                          ],
+                          "events": [
                             {
-                              "type": {
-                                "value": "RemoveTimer"
-                              },
-                              "parameters": [
-                                "",
-                                "\"Text\""
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetBooleanVariable"
+                                  },
+                                  "parameters": [
+                                    "Dialogue_Ticking",
+                                    "False",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetBooleanVariable"
+                                  },
+                                  "parameters": [
+                                    "Dialogue_Tick",
+                                    "False",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "RemoveTimer"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "\"Text\""
+                                  ]
+                                }
                               ]
                             }
                           ]
@@ -95254,14 +95929,31 @@
                               ]
                             }
                           ],
-                          "actions": [
+                          "actions": [],
+                          "events": [
                             {
-                              "type": {
-                                "value": "ResetTimer"
-                              },
-                              "parameters": [
-                                "",
-                                "\"Text\""
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetBooleanVariable"
+                                  },
+                                  "parameters": [
+                                    "Dialogue_Tick",
+                                    "False",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ResetTimer"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "\"Text\""
+                                  ]
+                                }
                               ]
                             }
                           ]
@@ -95316,14 +96008,32 @@
                               "parameters": [
                                 "0.35"
                               ]
-                            },
+                            }
+                          ],
+                          "events": [
                             {
-                              "type": {
-                                "value": "ResetTimer"
-                              },
-                              "parameters": [
-                                "",
-                                "\"Text\""
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetBooleanVariable"
+                                  },
+                                  "parameters": [
+                                    "Dialogue_Tick",
+                                    "False",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ResetTimer"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "\"Text\""
+                                  ]
+                                }
                               ]
                             }
                           ]
@@ -95350,14 +96060,32 @@
                               "parameters": [
                                 "0.1"
                               ]
-                            },
+                            }
+                          ],
+                          "events": [
                             {
-                              "type": {
-                                "value": "ResetTimer"
-                              },
-                              "parameters": [
-                                "",
-                                "\"Text\""
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetBooleanVariable"
+                                  },
+                                  "parameters": [
+                                    "Dialogue_Tick",
+                                    "False",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ResetTimer"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "\"Text\""
+                                  ]
+                                }
                               ]
                             }
                           ]
@@ -95383,7 +96111,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "WFI Animation + Detection",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -95443,8 +96170,59 @@
                     "value": "BooleanVariable"
                   },
                   "parameters": [
+                    "Dialogue_Return_Press",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Dialogue_Return_Press",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
                     "Dialogue_Animation",
                     "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Dialogue_Return_Press",
+                    "False",
                     ""
                   ]
                 },
@@ -95504,15 +96282,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Text\""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "RemoveTimer"
                   },
                   "parameters": [
@@ -95560,6 +96329,41 @@
                 }
               ],
               "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Text\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "Dialogue_Tick",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "Dialogue_Ticking",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                },
                 {
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
@@ -95625,15 +96429,6 @@
                         "Dialogue_Total_Index",
                         "=",
                         "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "RemoveTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Text\""
                       ]
                     },
                     {
@@ -95718,23 +96513,66 @@
                         "+",
                         "15"
                       ]
-                    },
+                    }
+                  ],
+                  "events": [
                     {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "0.3"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "Dialogue_Ticking",
+                            "False",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "Dialogue_Tick",
+                            "False",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "RemoveTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Text\""
+                          ]
+                        }
                       ]
                     },
                     {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "Dialogue_Choice",
-                        "=",
-                        "-1"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "0.3"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "Dialogue_Choice",
+                            "=",
+                            "-1"
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -95782,15 +96620,6 @@
                     }
                   ],
                   "actions": [
-                    {
-                      "type": {
-                        "value": "RemoveTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Text\""
-                      ]
-                    },
                     {
                       "type": {
                         "value": "TextContainerCapability::TextContainerBehavior::SetValue"
@@ -95841,53 +96670,96 @@
                         "False",
                         ""
                       ]
-                    },
+                    }
+                  ],
+                  "events": [
                     {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "2"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "Dialogue_Ticking",
+                            "False",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "Dialogue_Tick",
+                            "False",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "RemoveTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Text\""
+                          ]
+                        }
                       ]
                     },
                     {
-                      "type": {
-                        "value": "SetBooleanVariable"
-                      },
-                      "parameters": [
-                        "Pause",
-                        "False",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "RemoveTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Text_WaitingFInput\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "OpacityCapability::OpacityBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "Source_icon",
-                        "Opacity",
-                        "=",
-                        "255"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetBooleanVariable"
-                      },
-                      "parameters": [
-                        "Dialogue_Source",
-                        "False",
-                        ""
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "Pause",
+                            "False",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "RemoveTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Text_WaitingFInput\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "OpacityCapability::OpacityBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "Source_icon",
+                            "Opacity",
+                            "=",
+                            "255"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "Dialogue_Source",
+                            "False",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -95956,7 +96828,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Choice",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -96201,15 +97072,6 @@
                 },
                 {
                   "type": {
-                    "value": "RemoveTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Text\""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                   },
                   "parameters": [
@@ -96253,6 +97115,41 @@
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "Dialogue_Ticking",
+                        "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "Dialogue_Tick",
+                        "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RemoveTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Text\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
@@ -96278,21 +97175,49 @@
                     },
                     {
                       "type": {
-                        "value": "ResetTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Text\""
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "SetNumberVariable"
                       },
                       "parameters": [
                         "Dialogue_Choice",
                         "=",
                         "1"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ResetTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Text\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "Dialogue_Tick",
+                            "True",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "Dialogue_Ticking",
+                            "True",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -96324,21 +97249,49 @@
                     },
                     {
                       "type": {
-                        "value": "ResetTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Text\""
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "SetNumberVariable"
                       },
                       "parameters": [
                         "Dialogue_Choice",
                         "=",
                         "2"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ResetTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"Text\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "Dialogue_Tick",
+                            "True",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "Dialogue_Ticking",
+                            "True",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -96587,7 +97540,7 @@
                             "Text_Background",
                             "Tween",
                             "\"riseBack\"",
-                            "Text_Background.Y()+14",
+                            "786+14-280",
                             "\"easeInOutBack\"",
                             "0.2",
                             ""
@@ -96917,7 +97870,7 @@
                             "Text_Background",
                             "Tween",
                             "\"riseBack\"",
-                            "Text_Background.Y()-14",
+                            "786-14-280",
                             "\"easeInOutBack\"",
                             "0.2",
                             ""
@@ -97018,11 +97971,49 @@
                         },
                         {
                           "type": {
-                            "value": "RemoveTimer"
+                            "value": "MettreY"
                           },
                           "parameters": [
-                            "",
-                            "\"Text\""
+                            "DialogueArrow",
+                            "=",
+                            "612"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetBooleanVariable"
+                              },
+                              "parameters": [
+                                "Dialogue_Ticking",
+                                "False",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanVariable"
+                              },
+                              "parameters": [
+                                "Dialogue_Tick",
+                                "False",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "RemoveTimer"
+                              },
+                              "parameters": [
+                                "",
+                                "\"Text\""
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -97055,6 +98046,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Button",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -97997,6 +98989,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Marker-Map Logic",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -98432,7 +99425,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Phone_Display_Score",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -101180,7 +102172,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Phone_Call",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -102302,7 +103293,22 @@
                           ]
                         }
                       ],
-                      "actions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                          },
+                          "parameters": [
+                            "ItemNameDisplay",
+                            "Tween",
+                            "\"ItemText\"",
+                            "0",
+                            "\"easeInCubic\"",
+                            "0.2",
+                            "yes"
+                          ]
+                        }
+                      ],
                       "events": [
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -107613,7 +108619,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.25504554733544155,
+        "zoomFactor": 0.37971210019480467,
         "windowMask": false
       }
     }
