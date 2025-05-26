@@ -83,7 +83,11 @@
     "authorUsernames": [
       "Davyddex"
     ],
-    "categories": [],
+    "categories": [
+      "adventure",
+      "puzzle",
+      "educational"
+    ],
     "playableDevices": [
       "keyboard"
     ],
@@ -116,13 +120,6 @@
           "identifier": "https://project-resources.gdevelop.io/77e15fca-bb35-4465-99c0-250dd226902a/resources/5ce45ccc5311ec432b3b991d2a53756fce0e9a6e759b1740fe6e790f14c1a97e-Omnichiv logo.png",
           "name": "cloud-project-resource"
         }
-      },
-      {
-        "file": "d3c3697f742c44c8b841abd39d4efd5e-12.fnt",
-        "kind": "bitmapFont",
-        "metadata": "",
-        "name": "d3c3697f742c44c8b841abd39d4efd5e-12.fnt",
-        "userAdded": false
       },
       {
         "file": "assets/warp.png",
@@ -253,14 +250,6 @@
         "userAdded": false
       },
       {
-        "file": "4R1/Bureau1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "4R1\\Bureau1.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "4R1/Bureau2.png",
         "kind": "image",
         "metadata": "",
@@ -357,16 +346,6 @@
         "userAdded": false
       },
       {
-        "file": "sound/scrollstart+long.mp3",
-        "kind": "audio",
-        "metadata": "",
-        "name": "sound\\scrollstart+long.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
         "file": "sound/scrollstart.mp3",
         "kind": "audio",
         "metadata": "",
@@ -380,7 +359,7 @@
         "file": "sound/scrollend.mp3",
         "kind": "audio",
         "metadata": "",
-        "name": "sound\\scrollend.mp3",
+        "name": "sound\\scrollend12.mp3",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
@@ -834,22 +813,6 @@
         "kind": "image",
         "metadata": "",
         "name": "RealDoc\\Poster1other.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "RealDoc/Poster2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "RealDoc\\Poster2.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "RealDoc/Poster2+.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "RealDoc\\Poster2+.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -2960,22 +2923,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewTiledSprite.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\NewTiledSprite.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/burning_mask.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "burning_mask",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "404end.jpg",
         "kind": "image",
         "metadata": "",
@@ -3115,6 +3062,16 @@
         "metadata": "",
         "name": "RealDoc\\Poster2.jpg",
         "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/scrolllllstartlong.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\scrolllllstartlong.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": false
       }
     ],
@@ -10467,17 +10424,15 @@
       "value": false
     },
     {
-      "folded": true,
       "name": "Expo_List",
       "type": "array",
       "children": [
         {
-          "folded": true,
           "type": "array",
           "children": [
             {
               "type": "string",
-              "value": "Qu’est-ce \nque la \nnumérisation"
+              "value": "Qu’est-ce \nque la \nnumérisation\n?"
             },
             {
               "type": "string",
@@ -10490,7 +10445,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "array",
           "children": [
             {
@@ -10526,7 +10480,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "array",
           "children": [
             {
@@ -10544,7 +10497,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "array",
           "children": [
             {
@@ -10562,7 +10514,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "array",
           "children": [
             {
@@ -10621,7 +10572,7 @@
           "children": [
             {
               "type": "string",
-              "value": "Qu'est ce\nqu'un OCR "
+              "value": "Qu'est ce\nque l'OCR\n?"
             },
             {
               "type": "string",
@@ -11674,7 +11625,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3925161175488377,
+        "zoomFactor": 0.19561100536770082,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -12502,7 +12453,7 @@
           "name": "Dialogue",
           "persistentUuid": "d75c7878-4d53-4a1f-af20-6e845f28b03a",
           "width": 1014,
-          "x": 77,
+          "x": 85,
           "y": 530,
           "zOrder": 84,
           "numberProperties": [],
@@ -12559,8 +12510,8 @@
           "name": "Text_Background",
           "persistentUuid": "35f6e231-fd73-42a7-9b66-61ab07c8c5bc",
           "width": 0,
-          "x": -38,
-          "y": 788,
+          "x": -30,
+          "y": 800,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -12577,8 +12528,8 @@
           "opacity": 0,
           "persistentUuid": "c1922dab-4673-40e3-b4ad-1ef9b535f382",
           "width": 73,
-          "x": -53,
-          "y": 774,
+          "x": -45,
+          "y": 786,
           "zOrder": 7,
           "numberProperties": [
             {
@@ -12598,8 +12549,8 @@
           "name": "Text_Cover",
           "persistentUuid": "4ba1f329-34a7-4279-a1f8-8f8e06c3730e",
           "width": 0,
-          "x": -89,
-          "y": 770,
+          "x": -81,
+          "y": 782,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -12614,8 +12565,8 @@
           "name": "Text_Cover",
           "persistentUuid": "fcb08d89-8281-44f1-8c98-f155564d1580",
           "width": 0,
-          "x": -89,
-          "y": 770,
+          "x": -81,
+          "y": 782,
           "zOrder": 0,
           "numberProperties": [
             {
@@ -12636,8 +12587,8 @@
           "name": "Text_Background",
           "persistentUuid": "39018442-e11a-4cc8-8dbb-16f3f1b6bd87",
           "width": 1207,
-          "x": -69,
-          "y": 788,
+          "x": -61,
+          "y": 800,
           "zOrder": 5,
           "numberProperties": [
             {
@@ -12652,13 +12603,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 235,
+          "height": 212,
           "layer": "UI",
           "name": "Mask",
           "persistentUuid": "8271113c-ef56-4933-8f57-f83426d3be91",
           "width": 73,
-          "x": -4,
-          "y": 509,
+          "x": 18,
+          "y": 522,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -14055,13 +14006,35 @@
                         "\"Button\"",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetCameraCenterX"
+                      },
+                      "parameters": [
+                        "",
+                        "=",
+                        "1080/2",
+                        "\"UI\"",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ZoomCamera"
+                      },
+                      "parameters": [
+                        "",
+                        "(1080)/SceneWindowWidth()",
+                        "\"UI\"",
+                        ""
+                      ]
                     }
                   ]
                 }
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -14651,6 +14624,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Buttons",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -15154,6 +15128,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Title screen animation",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -16465,7 +16440,7 @@
                           },
                           "parameters": [
                             "",
-                            "sound\\scrollend.mp3",
+                            "sound\\scrollend12.mp3",
                             "1",
                             "",
                             "30",
@@ -17515,6 +17490,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Interactable",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -19602,7 +19578,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "SuperWarp",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -19720,7 +19695,7 @@
                   },
                   "parameters": [
                     "",
-                    "sound\\scrollstart+long.mp3",
+                    "sound\\scrolllllstartlong.mp3",
                     "1",
                     "30",
                     "40",
@@ -19834,7 +19809,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -20016,7 +19990,7 @@
                       },
                       "parameters": [
                         "",
-                        "sound\\scrollstart+long.mp3",
+                        "sound\\scrolllllstartlong.mp3",
                         "1",
                         "30",
                         "40",
@@ -24572,7 +24546,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2636457673770977,
+        "zoomFactor": 0.21607397323876903,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -27789,6 +27763,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Event",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -28076,7 +28051,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Dialogue",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -28449,6 +28423,7 @@
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -84757,7 +84732,7 @@
                                           },
                                           "parameters": [
                                             "",
-                                            "sound\\scrollend.mp3",
+                                            "sound\\scrollend12.mp3",
                                             "1",
                                             "",
                                             "30",
@@ -87068,6 +87043,7 @@
                   "comment": "Delete already taken object"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -87312,6 +87288,7 @@
                   "comment": "Mode Expo"
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -87563,7 +87540,7 @@
                       },
                       "parameters": [
                         "",
-                        "sound\\scrollend.mp3",
+                        "sound\\scrollend12.mp3",
                         "1",
                         "",
                         "10",
@@ -88513,7 +88490,7 @@
                           },
                           "parameters": [
                             "",
-                            "sound\\scrollend.mp3",
+                            "sound\\scrollend12.mp3",
                             "1",
                             "",
                             "30",
@@ -88771,7 +88748,7 @@
                           },
                           "parameters": [
                             "",
-                            "sound\\scrollend.mp3",
+                            "sound\\scrollend12.mp3",
                             "1",
                             "",
                             "30",
@@ -88842,7 +88819,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Visual: Arrow and Particule",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -88886,6 +88862,7 @@
                   "actions": [],
                   "events": [
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -89422,6 +89399,16 @@
                             "0.3",
                             "yes"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "Boucle",
+                            "False",
+                            ""
+                          ]
                         }
                       ]
                     }
@@ -89548,6 +89535,7 @@
                       "comment": "Arrow"
                     },
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -89965,7 +89953,7 @@
                       },
                       "parameters": [
                         "",
-                        "sound\\scrollstart+long.mp3",
+                        "sound\\scrolllllstartlong.mp3",
                         "1",
                         "30",
                         "40",
@@ -90378,7 +90366,7 @@
                       },
                       "parameters": [
                         "",
-                        "sound\\scrollstart+long.mp3",
+                        "sound\\scrolllllstartlong.mp3",
                         "1",
                         "30",
                         "40",
@@ -90810,7 +90798,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Super Rool Transition Up",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -94780,7 +94767,7 @@
                     "value": "Wait"
                   },
                   "parameters": [
-                    "Dialogue_Speed"
+                    "Dialogue_Speed/2"
                   ]
                 },
                 {
@@ -95073,7 +95060,7 @@
                           },
                           "parameters": [
                             "",
-                            "1"
+                            "4"
                           ]
                         }
                       ],
@@ -95101,7 +95088,7 @@
                               "parameters": [
                                 "",
                                 "sound\\soundtyper\\tap2.mp3",
-                                "1",
+                                "4",
                                 "100",
                                 "50",
                                 "1"
@@ -95131,7 +95118,7 @@
                               "parameters": [
                                 "",
                                 "sound\\soundtyper\\tap1.mp3",
-                                "1",
+                                "4",
                                 "100",
                                 "50",
                                 "1"
@@ -95161,7 +95148,7 @@
                               "parameters": [
                                 "",
                                 "sound\\soundtyper\\tap3.mp3",
-                                "1",
+                                "4",
                                 "100",
                                 "50",
                                 "1"
@@ -95191,7 +95178,7 @@
                               "parameters": [
                                 "",
                                 "sound\\soundtyper\\tap4.mp3",
-                                "1",
+                                "4",
                                 "100",
                                 "50",
                                 "1"
@@ -95221,7 +95208,7 @@
                               "parameters": [
                                 "",
                                 "sound\\soundtyper\\tap6.mp3",
-                                "1",
+                                "4",
                                 "100",
                                 "50",
                                 "1"
@@ -95251,7 +95238,7 @@
                               "parameters": [
                                 "",
                                 "sound\\soundtyper\\tap7.mp3",
-                                "1",
+                                "4",
                                 "100",
                                 "50",
                                 "1"
@@ -95281,7 +95268,7 @@
                               "parameters": [
                                 "",
                                 "sound\\soundtyper\\tap9.mp3",
-                                "1",
+                                "4",
                                 "100",
                                 "50",
                                 "1"
@@ -95311,7 +95298,7 @@
                               "parameters": [
                                 "",
                                 "sound\\soundtyper\\tap8.mp3",
-                                "1",
+                                "4",
                                 "100",
                                 "50",
                                 "1"
@@ -95341,7 +95328,7 @@
                               "parameters": [
                                 "",
                                 "sound\\soundtyper\\tap10.mp3",
-                                "1",
+                                "4",
                                 "100",
                                 "50",
                                 "1"
@@ -95371,7 +95358,7 @@
                               "parameters": [
                                 "",
                                 "sound\\soundtyper\\tap11.mp3",
-                                "1",
+                                "4",
                                 "100",
                                 "50",
                                 "1"
@@ -95401,7 +95388,7 @@
                               "parameters": [
                                 "",
                                 "sound\\soundtyper\\3tap1.mp3",
-                                "1",
+                                "4",
                                 "100",
                                 "50",
                                 "1"
@@ -95431,7 +95418,7 @@
                               "parameters": [
                                 "",
                                 "sound\\soundtyper\\2tap2.mp3",
-                                "1",
+                                "4",
                                 "100",
                                 "50",
                                 "1"
@@ -95461,7 +95448,7 @@
                               "parameters": [
                                 "",
                                 "sound\\soundtyper\\2tap3.mp3",
-                                "1",
+                                "4",
                                 "100",
                                 "50",
                                 "1"
@@ -95491,7 +95478,7 @@
                               "parameters": [
                                 "",
                                 "sound\\soundtyper\\2tap4.mp3",
-                                "1",
+                                "4",
                                 "100",
                                 "50",
                                 "1"
@@ -95521,7 +95508,7 @@
                               "parameters": [
                                 "",
                                 "sound\\soundtyper\\2tap5.mp3",
-                                "1",
+                                "4",
                                 "100",
                                 "50",
                                 "1"
@@ -95551,7 +95538,7 @@
                               "parameters": [
                                 "",
                                 "sound\\soundtyper\\2tap6.mp3",
-                                "1",
+                                "4",
                                 "100",
                                 "50",
                                 "1"
@@ -95581,7 +95568,7 @@
                               "parameters": [
                                 "",
                                 "sound\\soundtyper\\2tap7.mp3",
-                                "1",
+                                "4",
                                 "100",
                                 "50",
                                 "1"
@@ -95611,7 +95598,7 @@
                               "parameters": [
                                 "",
                                 "sound\\soundtyper\\2tap8.mp3",
-                                "1",
+                                "4",
                                 "100",
                                 "50",
                                 "1"
@@ -97052,17 +97039,6 @@
               "actions": [
                 {
                   "type": {
-                    "value": "OpacityCapability::OpacityBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Arrow",
-                    "Opacity",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "RemoveTimer"
                   },
                   "parameters": [
@@ -97109,6 +97085,15 @@
                     "Dialogue_Total_Index",
                     "=",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Arrow",
+                    ""
                   ]
                 }
               ],
@@ -102172,6 +102157,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Phone_Call",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -104154,7 +104140,6 @@
                               "comment": "Super warp"
                             },
                             {
-                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -104524,12 +104509,12 @@
                                   "colorG": 176,
                                   "colorR": 74,
                                   "creationTime": 0,
-                                  "folded": true,
                                   "name": "SWarp",
                                   "source": "",
                                   "type": "BuiltinCommonInstructions::Group",
                                   "events": [
                                     {
+                                      "folded": true,
                                       "type": "BuiltinCommonInstructions::Standard",
                                       "conditions": [],
                                       "actions": [
@@ -104578,7 +104563,7 @@
                                               },
                                               "parameters": [
                                                 "",
-                                                "sound\\scrollstart+long.mp3",
+                                                "sound\\scrolllllstartlong.mp3",
                                                 "1",
                                                 "30",
                                                 "40",
@@ -104933,7 +104918,6 @@
                               "comment": "Normal warp"
                             },
                             {
-                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -105314,7 +105298,6 @@
                                   "colorG": 176,
                                   "colorR": 74,
                                   "creationTime": 0,
-                                  "folded": true,
                                   "name": "NWarp",
                                   "source": "",
                                   "type": "BuiltinCommonInstructions::Group",
@@ -108619,7 +108602,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.37971210019480467,
+        "zoomFactor": 0.27253598967730125,
         "windowMask": false
       }
     }
