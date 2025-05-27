@@ -218,46 +218,6 @@
         "userAdded": false
       },
       {
-        "file": "4R1/Couloir abandonné en pixel art.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "4R1\\Couloir abandonné en pixel art.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "4R1/EntréRemise.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "4R1\\EntréRemise.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "4R1/Atelier abandonné en sepia.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "4R1\\Atelier abandonné en sepia.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "4R1/atelier.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "4R1\\atelier.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "4R1/Bureau2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "4R1\\Bureau2.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/interaction.png",
         "kind": "image",
         "metadata": "",
@@ -270,78 +230,6 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\interactable.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "7Ser/7S1off.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "7Ser\\7S1off.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "7Ser/7S1on.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "7Ser\\7S1on.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "7Ser/7S4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "7Ser\\7S4.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "7Ser/7S2a1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "7Ser\\7S2a1.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "7Ser/7S2a2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "7Ser\\7S2a2.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "7Ser/7S2a3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "7Ser\\7S2a3.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "7Ser/7S3a1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "7Ser\\7S3a1.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "7Ser/7S3a2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "7Ser\\7S3a2.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "7Ser/7S3a3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "7Ser\\7S3a3.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -589,94 +477,6 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/NewTiledSprite3.png\",\"extension\":\".png\"}",
         "name": "assets\\NewTiledSprite3.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "4R1/Vestiaire.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "4R1\\Vestiaire.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "6Sou/Couloir abandonné et ascenseur fermé.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "6Sou\\Couloir abandonné et ascenseur fermé.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "6Sou/Couloir souterrain en décomposition.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "6Sou\\Couloir souterrain en décomposition.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "6Sou/Couloir industriel sous-terrain sombre.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "6Sou\\Couloir industriel sous-terrain sombre.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "6Sou/Salle d'archives abandonnée en déclin.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "6Sou\\Salle d'archives abandonnée en déclin.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "6Sou/Salle de chaudière rétro en pixel-art.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "6Sou\\Salle de chaudière rétro en pixel-art.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "6Sou/Couloir de maintenance abandonné.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "6Sou\\Couloir de maintenance abandonné.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "6Sou/1S6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "6Sou\\1S6.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "6Sou/Claviers et métal usé.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "6Sou\\Claviers et métal usé.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "6Sou/Couloir de Maintenance Souterrain.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "6Sou\\Couloir de Maintenance Souterrain.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "6Sou/Couloir souterrain en tons sépia.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "6Sou\\Couloir souterrain en tons sépia.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -1844,146 +1644,10 @@
         "userAdded": false
       },
       {
-        "file": "8X/Usine abandonnée en pixel art.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "8X\\Usine abandonnée en pixel art.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "8X/Usine abandonnée en dégradation.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "8X\\Usine abandonnée en dégradation.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "8X/Poste de contrôle abandonné en ruine.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "8X\\Poste de contrôle abandonné en ruine.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "8X/Installation industrielle abandonnée en sépia.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "8X\\Installation industrielle abandonnée en sépia.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "8X/SXX.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "8X\\SXX.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "4-5R12/ChatGPT Image 23 avr. 2025, 15_19_26.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "4-5R12\\ChatGPT Image 23 avr. 2025, 15_19_26.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "5R2/Cave de stockage en pixel art.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "5R2\\Cave de stockage en pixel art.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "4-5R12/Archives dystopiques d'OMNIXIV.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "4-5R12\\Archives dystopiques d'OMNIXIV.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "4-5R12/Archives vieilles et dégradées.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "4-5R12\\Archives vieilles et dégradées.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "4-5R12/Bibliothèque abandonnée en sepia.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "4-5R12\\Bibliothèque abandonnée en sepia.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "4-5R12/Bibliothèque secrète en pixel art.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "4-5R12\\Bibliothèque secrète en pixel art.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "4-5R12/ChatGPT Image 22 avr. 2025, 21_04_20.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "4-5R12\\ChatGPT Image 22 avr. 2025, 21_04_20.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "4-5R12/ChatGPT Image 22 avr. 2025, 21_14_55.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "4-5R12\\ChatGPT Image 22 avr. 2025, 21_14_55.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "4-5R12/ChatGPT Image 22 avr. 2025, 21_48_14.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "4-5R12\\ChatGPT Image 22 avr. 2025, 21_48_14.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "4-5R12/ChatGPT Image 25 avr. 2025, 21_00_20.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "4-5R12\\ChatGPT Image 25 avr. 2025, 21_00_20.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "4-5R12/couloir.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "4-5R12\\couloir.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "video/Vidéo 1 sur ordi 1 remise début.mp4",
         "kind": "video",
         "metadata": "",
         "name": "video\\Vidéo 1 sur ordi 1 remise début.mp4",
-        "userAdded": false
-      },
-      {
-        "file": "4R1/postevhs.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "4R1\\postevhs.png",
-        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2251,66 +1915,10 @@
         "userAdded": false
       },
       {
-        "file": "5R2/Salle de recepetion.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "5R2\\Salle de recepetion.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "5R2/Salle d'archives en pixel art.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "5R2\\Salle d'archives en pixel art.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "5R2/Archives abandonnées en tons sépia.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "5R2\\Archives abandonnées en tons sépia.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "5R2/Archives oubliées dans l'obscurité.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "5R2\\Archives oubliées dans l'obscurité.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "5R2/Salle d'archives abandonnée.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "5R2\\Salle d'archives abandonnée.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "5R2/Salle d'archives rétro en pixel.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "5R2\\Salle d'archives rétro en pixel.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "5R2/mask box.png",
         "kind": "image",
         "metadata": "",
         "name": "5R2\\mask box.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "5R2/Bibliothèque abandonnée en sepia.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "5R2\\Bibliothèque abandonnée en sepia.png",
         "smoothed": false,
         "userAdded": false
       },
@@ -3069,6 +2677,534 @@
         "kind": "audio",
         "metadata": "",
         "name": "sound\\scrolllllstartlong.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "4-5R12/Archives dystopiques d'OMNIXIV.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "4-5R12\\Archives dystopiques d'OMNIXIV.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/lock/crate-break-1-93926.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\lock\\crate-break-1-93926.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "4-5R12/Bibliothèque secrète en pixel art.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "4-5R12\\Bibliothèque secrète en pixel art.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "4-5R12/couloir.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "4-5R12\\couloir.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "4-5R12/Bibliothèque abandonnée en sepia.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "4-5R12\\Bibliothèque abandonnée en sepia.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "4-5R12/Archives vieilles et dégradées.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "4-5R12\\Archives vieilles et dégradées.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "4-5R12/ChatGPT Image 22 avr. 2025, 21_04_20.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "4-5R12\\ChatGPT Image 22 avr. 2025, 21_04_20.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "4-5R12/ChatGPT Image 23 avr. 2025, 15_19_26.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "4-5R12\\ChatGPT Image 23 avr. 2025, 15_19_26.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "4-5R12/ChatGPT Image 25 avr. 2025, 21_00_20.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "4-5R12\\ChatGPT Image 25 avr. 2025, 21_00_20.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "4-5R12/ChatGPT Image 22 avr. 2025, 21_14_55.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "4-5R12\\ChatGPT Image 22 avr. 2025, 21_14_55.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "4-5R12/ChatGPT Image 22 avr. 2025, 21_48_14.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "4-5R12\\ChatGPT Image 22 avr. 2025, 21_48_14.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "4R1/Vestiaire.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "4R1\\Vestiaire.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "4R1/Bureau2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "4R1\\Bureau2.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "4R1/postevhs.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4R1\\postevhs.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "4R1/Atelier abandonné en sepia.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "4R1\\Atelier abandonné en sepia.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "4R1/atelier.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "4R1\\atelier.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "4R1/Couloir abandonné en pixel art.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "4R1\\Couloir abandonné en pixel art.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "4R1/EntréRemise.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "4R1\\EntréRemise.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "5R2/Cave de stockage en pixel art.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "5R2\\Cave de stockage en pixel art.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "5R2/Archives abandonnées en tons sépia.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "5R2\\Archives abandonnées en tons sépia.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "5R2/Salle de recepetion.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "5R2\\Salle de recepetion.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "5R2/Salle d'archives en pixel art.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "5R2\\Salle d'archives en pixel art.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "5R2/Archives oubliées dans l'obscurité.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "5R2\\Archives oubliées dans l'obscurité.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "5R2/Salle d'archives abandonnée.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "5R2\\Salle d'archives abandonnée.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "5R2/Salle d'archives rétro en pixel.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "5R2\\Salle d'archives rétro en pixel.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "5R2/Bibliothèque abandonnée en sepia.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "5R2\\Bibliothèque abandonnée en sepia.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "6Sou/1S6.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "6Sou\\1S6.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "6Sou/Couloir abandonné et ascenseur fermé.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "6Sou\\Couloir abandonné et ascenseur fermé.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "6Sou/Couloir de maintenance abandonné.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "6Sou\\Couloir de maintenance abandonné.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "6Sou/Couloir de Maintenance Souterrain.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "6Sou\\Couloir de Maintenance Souterrain.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "6Sou/Couloir industriel sous-terrain sombre.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "6Sou\\Couloir industriel sous-terrain sombre.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "6Sou/Couloir souterrain en décomposition.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "6Sou\\Couloir souterrain en décomposition.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "6Sou/Couloir souterrain en tons sépia.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "6Sou\\Couloir souterrain en tons sépia.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "6Sou/Salle d'archives abandonnée en déclin.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "6Sou\\Salle d'archives abandonnée en déclin.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "6Sou/Salle de chaudière rétro en pixel-art.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "6Sou\\Salle de chaudière rétro en pixel-art.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "6Sou/Claviers et métal usé.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "6Sou\\Claviers et métal usé.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "8X/Installation industrielle abandonnée en sépia.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "8X\\Installation industrielle abandonnée en sépia.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "8X/Poste de contrôle abandonné en ruine.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "8X\\Poste de contrôle abandonné en ruine.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "8X/SXX.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "8X\\SXX.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "8X/Usine abandonnée en dégradation.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "8X\\Usine abandonnée en dégradation.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "8X/Usine abandonnée en pixel art.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "8X\\Usine abandonnée en pixel art.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "7Ser/7S1off.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "7Ser\\7S1off.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "7Ser/7S1on.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "7Ser\\7S1on.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "7Ser/7S2a1.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "7Ser\\7S2a1.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "7Ser/7S2a2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "7Ser\\7S2a2.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "7Ser/7S2a3.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "7Ser\\7S2a3.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "7Ser/7S3.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "7Ser\\7S3.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "7Ser/7S3a1.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "7Ser\\7S3a1.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "7Ser/7S3a2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "7Ser\\7S3a2.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "7Ser/7S3a3.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "7Ser\\7S3a3.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "7Ser/7S4.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "7Ser\\7S4.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "7Ser/Salle de serveurs à l'ancienne.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "7Ser\\Salle de serveurs à l'ancienne.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/environement/water-drops-6223.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\environement\\water-drops-6223.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/environement/computer-startup-6331.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\environement\\computer-startup-6331.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "music/main dark-intentions-288498 Universfield.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "music\\main dark-intentions-288498 Universfield.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "music/main scott-buckley-i-walk-with-ghosts(chosic.com).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "music\\main scott-buckley-i-walk-with-ghosts(chosic.com).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "music/main TheLongDark(chosic.com).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "music\\main TheLongDark(chosic.com).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "music/glich item 2016-01-07_-_Sarah_Soundtrack_-_David_Fesliyan.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "music\\glich item 2016-01-07_-_Sarah_Soundtrack_-_David_Fesliyan.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "music/glich room item 2016-01-07_-_Sarah_Soundtrack_-_David_Fesliyan.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "music\\glich room item 2016-01-07_-_Sarah_Soundtrack_-_David_Fesliyan.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "music/glich enter item 2016-01-07_-_Sarah_Soundtrack_-_David_Fesliyan.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "music\\glich enter item 2016-01-07_-_Sarah_Soundtrack_-_David_Fesliyan.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "music/server main dark-server-76461.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "music\\server main dark-server-76461.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "music/subterrain main sb_machina(chosic.com).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "music\\subterrain main sb_machina(chosic.com).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "music/final 2021-03-07_-_Haunted_Memories_-_David_Fesliyan.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "music\\final 2021-03-07_-_Haunted_Memories_-_David_Fesliyan.mp3",
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
@@ -7995,7 +8131,7 @@
         }
       ],
       "content": {
-        "text": "Prend la clé",
+        "text": "Prend la cléJoachim Favre µ",
         "opacity": 255,
         "scale": 0.8,
         "fontSize": 20,
@@ -10424,6 +10560,7 @@
       "value": false
     },
     {
+      "folded": true,
       "name": "Expo_List",
       "type": "array",
       "children": [
@@ -10919,6 +11056,21 @@
       "name": "Dialogue_Ticking",
       "type": "boolean",
       "value": false
+    },
+    {
+      "name": "Switching_to_Full_Screen",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "Music_Frame",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "Music_Can_Play",
+      "type": "boolean",
+      "value": true
     }
   ],
   "layouts": [
@@ -11625,7 +11777,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.19561100536770082,
+        "zoomFactor": 0.12710233719927266,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -11641,14 +11793,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 825,
+          "height": 2410,
           "keepRatio": true,
           "layer": "Transition",
           "name": "Fond_Noir_Object",
           "persistentUuid": "1e0723db-cc6a-419a-a5d9-694d534b07f1",
-          "width": 1475,
-          "x": -197,
-          "y": -60,
+          "width": 1773,
+          "x": -348,
+          "y": -853,
           "zOrder": -20,
           "numberProperties": [],
           "stringProperties": [],
@@ -13897,6 +14049,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Startup",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -17496,7 +17649,6 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -19484,6 +19636,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Event",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -19578,6 +19731,165 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
+          "name": "Full_Screen",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"f\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Switching_to_Full_Screen",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "IsFullScreen"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetFullScreen"
+                  },
+                  "parameters": [
+                    "",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Switching_to_Full_Screen",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Switching_to_Full_Screen",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"f\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Switching_to_Full_Screen",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "IsFullScreen"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetFullScreen"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Switching_to_Full_Screen",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Switching_to_Full_Screen",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
           "name": "SuperWarp",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -31989,7 +32301,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.29122588669112326,
+        "zoomFactor": 0.20220707303602697,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -38885,6 +39197,13 @@
                 "includeConfig": 0
               },
               "target": "Source"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "Music"
             }
           ],
           "parameters": []
@@ -38894,6 +39213,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Interactable",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -41236,7 +41556,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Glich Object",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -41624,6 +41943,56 @@
                         }
                       ],
                       "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "Music"
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "CurrentRoom",
+                                "=",
+                                "13"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "StopMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "music\\glich enter item 2016-01-07_-_Sarah_Soundtrack_-_David_Fesliyan.mp3",
+                                "3",
+                                "",
+                                "100",
+                                "1"
+                              ]
+                            }
+                          ]
+                        },
                         {
                           "type": "BuiltinCommonInstructions::Comment",
                           "color": {
@@ -42047,6 +42416,7 @@
               ]
             },
             {
+              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
@@ -42289,7 +42659,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2090255622833574,
+        "zoomFactor": 0.1500267925502592,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -42678,6 +43048,11 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
+            {
+              "name": "Arrow_Direction",
+              "type": "number",
+              "value": 1
+            },
             {
               "name": "WarpY",
               "type": "number",
@@ -46066,15 +46441,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 979,
+          "height": 925,
           "keepRatio": true,
           "layer": "Reading",
           "name": "RealDoc",
           "opacity": 0,
           "persistentUuid": "c89d33d0-c71c-44f4-a375-be5187f46b62",
-          "width": 647,
-          "x": -86,
-          "y": 9961,
+          "width": 611,
+          "x": -52,
+          "y": 10004,
           "zOrder": 109,
           "numberProperties": [
             {
@@ -46156,14 +46531,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 904,
+          "height": 942,
           "keepRatio": true,
           "layer": "Reading",
           "name": "RealDoc",
           "opacity": 0,
           "persistentUuid": "1a893fac-9fa7-4baf-8e8a-f9845e22d258",
-          "width": 597,
-          "x": -21,
+          "width": 622,
+          "x": -46,
           "y": 11037,
           "zOrder": 109,
           "numberProperties": [
@@ -46179,14 +46554,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 928,
+          "height": 963,
           "keepRatio": true,
           "layer": "Reading",
           "name": "RealDoc",
           "opacity": 0,
           "persistentUuid": "b574e84a-0262-459d-9bb9-8454e1c10486",
-          "width": 614,
-          "x": 606,
+          "width": 637,
+          "x": 583,
           "y": 11025,
           "zOrder": 109,
           "numberProperties": [
@@ -46202,15 +46577,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 904,
+          "height": 931,
           "keepRatio": true,
           "layer": "Reading",
           "name": "RealDoc",
           "opacity": 0,
           "persistentUuid": "574fbf93-a912-4535-8e50-7a88d06732dd",
-          "width": 597,
-          "x": -49,
-          "y": 12008,
+          "width": 615,
+          "x": -102,
+          "y": 12004,
           "zOrder": 109,
           "numberProperties": [
             {
@@ -46232,8 +46607,8 @@
           "opacity": 0,
           "persistentUuid": "c4ede964-f020-47b2-8131-b40b2d8c1d82",
           "width": 614,
-          "x": 593,
-          "y": 11979,
+          "x": 524,
+          "y": 11975,
           "zOrder": 109,
           "numberProperties": [
             {
@@ -46324,8 +46699,8 @@
           "opacity": 0,
           "persistentUuid": "e77ebd0a-ba89-4056-9688-5f3100210fad",
           "width": 610,
-          "x": 623,
-          "y": 14019,
+          "x": 575,
+          "y": 14021,
           "zOrder": 109,
           "numberProperties": [
             {
@@ -47053,7 +47428,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "4R1\\Couloir abandonné en pixel art.png",
+                      "image": "4R1\\Couloir abandonné en pixel art.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -47101,7 +47476,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "4R1\\EntréRemise.png",
+                      "image": "4R1\\EntréRemise.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -47149,7 +47524,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "4R1\\Atelier abandonné en sepia.png",
+                      "image": "4R1\\Atelier abandonné en sepia.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -47197,7 +47572,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "4R1\\Vestiaire.png",
+                      "image": "4R1\\Vestiaire.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -47245,7 +47620,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "4R1\\atelier.png",
+                      "image": "4R1\\atelier.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -47341,7 +47716,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "4R1\\Bureau2.png",
+                      "image": "4R1\\Bureau2.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -47389,7 +47764,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "4-5R12\\ChatGPT Image 23 avr. 2025, 15_19_26.png",
+                      "image": "4-5R12\\ChatGPT Image 23 avr. 2025, 15_19_26.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -47449,7 +47824,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "4-5R12\\Archives dystopiques d'OMNIXIV.png",
+                      "image": "4-5R12\\Archives dystopiques d'OMNIXIV.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -47497,7 +47872,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "4-5R12\\Archives vieilles et dégradées.png",
+                      "image": "4-5R12\\Archives vieilles et dégradées.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -47545,7 +47920,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "4-5R12\\Bibliothèque abandonnée en sepia.png",
+                      "image": "4-5R12\\Bibliothèque abandonnée en sepia.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -47593,7 +47968,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "4-5R12\\Bibliothèque secrète en pixel art.png",
+                      "image": "4-5R12\\Bibliothèque secrète en pixel art.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -47641,7 +48016,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "4-5R12\\ChatGPT Image 22 avr. 2025, 21_04_20.png",
+                      "image": "4-5R12\\ChatGPT Image 22 avr. 2025, 21_04_20.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -47689,7 +48064,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "4-5R12\\ChatGPT Image 22 avr. 2025, 21_14_55.png",
+                      "image": "4-5R12\\ChatGPT Image 22 avr. 2025, 21_14_55.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -47737,7 +48112,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "4-5R12\\ChatGPT Image 22 avr. 2025, 21_48_14.png",
+                      "image": "4-5R12\\ChatGPT Image 22 avr. 2025, 21_48_14.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -47785,7 +48160,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "4-5R12\\ChatGPT Image 25 avr. 2025, 21_00_20.png",
+                      "image": "4-5R12\\ChatGPT Image 25 avr. 2025, 21_00_20.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -47833,7 +48208,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "4-5R12\\couloir.png",
+                      "image": "4-5R12\\couloir.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -47877,7 +48252,7 @@
           "assetStoreId": "",
           "height": 720,
           "name": "mask",
-          "texture": "4-5R12\\ChatGPT Image 22 avr. 2025, 21_48_14.png",
+          "texture": "4-5R12\\ChatGPT Image 22 avr. 2025, 21_48_14.jpg",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 1080,
           "variables": [],
@@ -49674,7 +50049,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "4-5R12\\ChatGPT Image 22 avr. 2025, 21_48_14.png",
+                      "image": "4-5R12\\ChatGPT Image 22 avr. 2025, 21_48_14.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -49864,6 +50239,13 @@
                 "includeConfig": 0
               },
               "target": "DialogueLogic"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "Music"
             }
           ],
           "parameters": []
@@ -49873,6 +50255,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Interactable",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -52135,18 +52518,7 @@
                       "events": [
                         {
                           "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BooleanVariable"
-                              },
-                              "parameters": [
-                                "in_inventory",
-                                "False",
-                                ""
-                              ]
-                            }
-                          ],
+                          "conditions": [],
                           "actions": [
                             {
                               "type": {
@@ -59570,7 +59942,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Glich Object",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -59969,6 +60340,44 @@
                       ],
                       "events": [
                         {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "CurrentRoom",
+                                "=",
+                                "13"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "StopMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "music\\glich enter item 2016-01-07_-_Sarah_Soundtrack_-_David_Fesliyan.mp3",
+                                "3",
+                                "",
+                                "100",
+                                "1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
                           "type": "BuiltinCommonInstructions::Comment",
                           "color": {
                             "b": 109,
@@ -60304,6 +60713,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Choice",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -62181,7 +62591,6 @@
               "comment": "Light"
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -62945,7 +63354,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.29122588669111554,
+        "zoomFactor": 0.17708595277544148,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -66347,7 +66756,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "5R2\\Cave de stockage en pixel art.png",
+                      "image": "5R2\\Cave de stockage en pixel art.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -66395,7 +66804,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "4-5R12\\ChatGPT Image 23 avr. 2025, 15_19_26.png",
+                      "image": "4-5R12\\ChatGPT Image 23 avr. 2025, 15_19_26.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -66443,7 +66852,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "4R1\\Couloir abandonné en pixel art.png",
+                      "image": "4R1\\Couloir abandonné en pixel art.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -66491,7 +66900,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "5R2\\Salle de recepetion.png",
+                      "image": "5R2\\Salle de recepetion.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -66539,7 +66948,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "5R2\\Salle d'archives en pixel art.png",
+                      "image": "5R2\\Salle d'archives en pixel art.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -66587,7 +66996,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "4-5R12\\ChatGPT Image 22 avr. 2025, 21_48_14.png",
+                      "image": "4-5R12\\ChatGPT Image 22 avr. 2025, 21_48_14.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -66635,7 +67044,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "4R1\\Bureau2.png",
+                      "image": "4R1\\Bureau2.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -66695,7 +67104,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "5R2\\Archives abandonnées en tons sépia.png",
+                      "image": "5R2\\Archives abandonnées en tons sépia.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -66743,7 +67152,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "5R2\\Archives oubliées dans l'obscurité.png",
+                      "image": "5R2\\Archives oubliées dans l'obscurité.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -66791,7 +67200,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "5R2\\Salle d'archives abandonnée.png",
+                      "image": "5R2\\Salle d'archives abandonnée.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -66839,7 +67248,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "5R2\\Salle d'archives rétro en pixel.png",
+                      "image": "5R2\\Salle d'archives rétro en pixel.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -66887,7 +67296,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "4-5R12\\ChatGPT Image 22 avr. 2025, 21_04_20.png",
+                      "image": "4-5R12\\ChatGPT Image 22 avr. 2025, 21_04_20.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -66935,7 +67344,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "4-5R12\\ChatGPT Image 22 avr. 2025, 21_14_55.png",
+                      "image": "4-5R12\\ChatGPT Image 22 avr. 2025, 21_14_55.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -66983,7 +67392,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "5R2\\Bibliothèque abandonnée en sepia.png",
+                      "image": "5R2\\Bibliothèque abandonnée en sepia.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -67031,7 +67440,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "4-5R12\\ChatGPT Image 25 avr. 2025, 21_00_20.png",
+                      "image": "4-5R12\\ChatGPT Image 25 avr. 2025, 21_00_20.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -67079,7 +67488,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "4-5R12\\Archives vieilles et dégradées.png",
+                      "image": "4-5R12\\Archives vieilles et dégradées.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -67127,7 +67536,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "4-5R12\\Archives dystopiques d'OMNIXIV.png",
+                      "image": "4-5R12\\Archives dystopiques d'OMNIXIV.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -67175,7 +67584,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "4-5R12\\couloir.png",
+                      "image": "4-5R12\\couloir.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -67223,7 +67632,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "4-5R12\\Bibliothèque secrète en pixel art.png",
+                      "image": "4-5R12\\Bibliothèque secrète en pixel art.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -67363,7 +67772,7 @@
           "assetStoreId": "",
           "height": 720,
           "name": "mask",
-          "texture": "5R2\\Salle d'archives rétro en pixel.png",
+          "texture": "5R2\\Salle d'archives rétro en pixel.jpg",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 1080,
           "variables": [],
@@ -67434,7 +67843,7 @@
           "assetStoreId": "",
           "height": 720,
           "name": "mask2",
-          "texture": "5R2\\Archives oubliées dans l'obscurité.png",
+          "texture": "5R2\\Archives oubliées dans l'obscurité.jpg",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 1080,
           "variables": [],
@@ -67666,6 +68075,13 @@
                 "includeConfig": 0
               },
               "target": "DialogueLogic"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "Music"
             }
           ],
           "parameters": []
@@ -68436,6 +68852,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Interactable",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -69215,7 +69632,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Glich Object",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -69603,6 +70019,44 @@
                         }
                       ],
                       "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "CurrentRoom",
+                                "=",
+                                "15"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "StopMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "music\\glich enter item 2016-01-07_-_Sarah_Soundtrack_-_David_Fesliyan.mp3",
+                                "3",
+                                "",
+                                "100",
+                                "1"
+                              ]
+                            }
+                          ]
+                        },
                         {
                           "type": "BuiltinCommonInstructions::Comment",
                           "color": {
@@ -70317,7 +70771,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3553434558817037,
+        "zoomFactor": 0.22336005893811722,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -70326,6 +70780,11 @@
           "name": "digicode_code_true",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "play_wait",
+          "type": "boolean",
+          "value": false
         }
       ],
       "instances": [
@@ -73138,7 +73597,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "6Sou\\Couloir abandonné et ascenseur fermé.png",
+                      "image": "6Sou\\Couloir abandonné et ascenseur fermé.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -73186,7 +73645,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "6Sou\\Couloir souterrain en décomposition.png",
+                      "image": "6Sou\\Couloir souterrain en décomposition.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -73234,7 +73693,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "6Sou\\Couloir industriel sous-terrain sombre.png",
+                      "image": "6Sou\\Couloir industriel sous-terrain sombre.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -73282,7 +73741,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "6Sou\\Salle d'archives abandonnée en déclin.png",
+                      "image": "6Sou\\Salle d'archives abandonnée en déclin.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -73330,7 +73789,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "6Sou\\Salle de chaudière rétro en pixel-art.png",
+                      "image": "6Sou\\Salle de chaudière rétro en pixel-art.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -73378,7 +73837,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "6Sou\\Couloir de maintenance abandonné.png",
+                      "image": "6Sou\\Couloir de maintenance abandonné.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -73426,7 +73885,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "6Sou\\1S6.png",
+                      "image": "6Sou\\1S6.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -73474,7 +73933,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "6Sou\\Claviers et métal usé.png",
+                      "image": "6Sou\\Claviers et métal usé.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -73522,7 +73981,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "6Sou\\Couloir de Maintenance Souterrain.png",
+                      "image": "6Sou\\Couloir de Maintenance Souterrain.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -73570,7 +74029,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "6Sou\\Couloir souterrain en tons sépia.png",
+                      "image": "6Sou\\Couloir souterrain en tons sépia.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -73618,7 +74077,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "8X\\Usine abandonnée en pixel art.png",
+                      "image": "8X\\Usine abandonnée en pixel art.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -73666,7 +74125,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "8X\\Usine abandonnée en dégradation.png",
+                      "image": "8X\\Usine abandonnée en dégradation.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -73714,7 +74173,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "8X\\Poste de contrôle abandonné en ruine.png",
+                      "image": "8X\\Poste de contrôle abandonné en ruine.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -73762,7 +74221,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "8X\\Installation industrielle abandonnée en sépia.png",
+                      "image": "8X\\Installation industrielle abandonnée en sépia.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -73810,7 +74269,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "8X\\SXX.png",
+                      "image": "8X\\SXX.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -75024,7 +75483,7 @@
           "assetStoreId": "",
           "height": 720,
           "name": "mask",
-          "texture": "6Sou\\Couloir souterrain en tons sépia.png",
+          "texture": "6Sou\\Couloir souterrain en tons sépia.jpg",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 1080,
           "variables": [],
@@ -75067,7 +75526,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Startup",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -75150,6 +75608,13 @@
                 "includeConfig": 0
               },
               "target": "DialogueLogic"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "Music"
             }
           ],
           "parameters": []
@@ -75159,6 +75624,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Interactable",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -78457,7 +78923,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Glich Object",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -78846,6 +79311,44 @@
                       ],
                       "events": [
                         {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "CurrentRoom",
+                                "=",
+                                "8"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "StopMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PlayMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "music\\glich enter item 2016-01-07_-_Sarah_Soundtrack_-_David_Fesliyan.mp3",
+                                "3",
+                                "",
+                                "100",
+                                "1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
                           "type": "BuiltinCommonInstructions::Comment",
                           "color": {
                             "b": 109,
@@ -79181,6 +79684,119 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
+          "name": "Ambient Song",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "play_wait",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Pause",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "random",
+                    "=",
+                    "RandomFloatInRange(7,28)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "play_wait",
+                    "True",
+                    "RandomFloatInRange(0,10)"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "sound\\environement\\water-drops-6223.mp3",
+                        "10",
+                        "",
+                        "50",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "random"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "play_wait",
+                        "False",
+                        "RandomFloatInRange(0,10)"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "variables": [
+                {
+                  "name": "random",
+                  "type": "number",
+                  "value": 0
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
           "name": "DEBUG",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -79558,7 +80174,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4633111824514003,
+        "zoomFactor": 0.31119749424452187,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -79600,6 +80216,11 @@
         },
         {
           "name": "End_Score_Display",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "play_wait",
           "type": "boolean",
           "value": false
         }
@@ -80374,7 +80995,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "7Ser\\7S1off.png",
+                      "image": "7Ser\\7S1off.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -80422,7 +81043,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "7Ser\\7S1on.png",
+                      "image": "7Ser\\7S1on.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -80470,7 +81091,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "7Ser\\7S2a1.png",
+                      "image": "7Ser\\7S2a1.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -80506,7 +81127,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "7Ser\\7S2a2.png",
+                      "image": "7Ser\\7S2a2.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -80542,7 +81163,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "7Ser\\7S2a3.png",
+                      "image": "7Ser\\7S2a3.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -80590,7 +81211,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "7Ser\\7S3a1.png",
+                      "image": "7Ser\\7S3a1.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -80626,7 +81247,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "7Ser\\7S3a2.png",
+                      "image": "7Ser\\7S3a2.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -80662,7 +81283,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "7Ser\\7S3a3.png",
+                      "image": "7Ser\\7S3a3.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -80710,7 +81331,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "7Ser\\7S4.png",
+                      "image": "7Ser\\7S4.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -81463,6 +82084,13 @@
                 "includeConfig": 0
               },
               "target": "DialogueLogic"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
+              },
+              "target": "Music"
             }
           ],
           "parameters": []
@@ -82043,6 +82671,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -82451,12 +83080,12 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "End logic",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -82637,6 +83266,33 @@
                               },
                               "parameters": [
                                 "Paper_total",
+                                ">",
+                                "total"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringVariable"
+                              },
+                              "parameters": [
+                                "End_Rank",
+                                "=",
+                                "\"Library Overflow\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "Paper_total",
                                 "=",
                                 "total"
                               ]
@@ -82651,6 +83307,17 @@
                                 "End_Rank",
                                 "=",
                                 "\"Great Library of Alexandria\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ScalableCapability::ScalableBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "rank",
+                                "Scale",
+                                "=",
+                                "0.75"
                               ]
                             }
                           ]
@@ -82674,7 +83341,7 @@
                               },
                               "parameters": [
                                 "Paper_total",
-                                "!=",
+                                "<",
                                 "total"
                               ]
                             }
@@ -82806,6 +83473,53 @@
                               },
                               "parameters": [
                                 "Paper_total",
+                                ">",
+                                "total"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringVariable"
+                              },
+                              "parameters": [
+                                "End_Rank",
+                                "=",
+                                "\"Library Overflow\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "End_Type",
+                                "=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "End_Dialogue_Number",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "Paper_total",
                                 "=",
                                 "total"
                               ]
@@ -82874,7 +83588,7 @@
                               },
                               "parameters": [
                                 "Paper_total",
-                                "!=",
+                                "<",
                                 "total"
                               ]
                             }
@@ -83066,6 +83780,53 @@
                               },
                               "parameters": [
                                 "Paper_total",
+                                ">",
+                                "total"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringVariable"
+                              },
+                              "parameters": [
+                                "End_Rank",
+                                "=",
+                                "\"Library Overflow\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "End_Type",
+                                "=",
+                                "3"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "End_Dialogue_Number",
+                                "=",
+                                "3"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "Paper_total",
                                 "=",
                                 "total"
                               ]
@@ -83134,7 +83895,7 @@
                               },
                               "parameters": [
                                 "Paper_total",
-                                "!=",
+                                "<",
                                 "total"
                               ]
                             }
@@ -83326,6 +84087,43 @@
                               },
                               "parameters": [
                                 "Paper_total",
+                                ">",
+                                "total"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetStringVariable"
+                              },
+                              "parameters": [
+                                "End_Rank",
+                                "=",
+                                "\"Library Overflow\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "End_Dialogue_Number",
+                                "=",
+                                "9"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "Paper_total",
                                 "=",
                                 "total"
                               ]
@@ -83376,6 +84174,16 @@
                                 "Paper_total",
                                 ">=",
                                 "total/2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "Paper_total",
+                                "<",
+                                "total"
                               ]
                             }
                           ],
@@ -83495,7 +84303,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "End scrore display",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -83831,6 +84638,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "End type",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -83944,7 +84752,7 @@
                           },
                           "parameters": [
                             "",
-                            "sound\\scrollstart+long.mp3",
+                            "sound\\scrolllllstartlong.mp3",
                             "1",
                             "30",
                             "40",
@@ -84832,8 +85640,8 @@
                                                   "parameters": [
                                                     "",
                                                     "SuperWarp",
-                                                    "5894",
-                                                    "-24",
+                                                    "6281",
+                                                    "347",
                                                     ""
                                                   ]
                                                 },
@@ -84844,8 +85652,8 @@
                                                   "parameters": [
                                                     "SuperWarp",
                                                     "Resizable",
-                                                    "1123",
-                                                    "779"
+                                                    "304",
+                                                    "180"
                                                   ]
                                                 },
                                                 {
@@ -84896,6 +85704,234 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "name": "Ambient Song",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "stop loop + end song"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "End_Dialogue_Begin",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FadeMusicVolume"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "0",
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StopMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "music\\final 2021-03-07_-_Haunted_Memories_-_David_Fesliyan.mp3",
+                    "1",
+                    "yes",
+                    "40",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "ambiant"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "play_wait",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "End_Dialogue_Begin",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Pause",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "CurrentRoom",
+                    "!=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "random",
+                    "=",
+                    "RandomFloatInRange(63,63+10)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "play_wait",
+                    "True",
+                    "RandomFloatInRange(0,10)"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "sound\\environement\\computer-startup-6331.mp3",
+                        "10",
+                        "",
+                        "20",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "random"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "play_wait",
+                        "False",
+                        "RandomFloatInRange(0,10)"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "variables": [
+                {
+                  "name": "random",
+                  "type": "number",
+                  "value": 0
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": true,
           "name": "DEBUG",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -85305,7 +86341,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.24672586957406287,
+        "zoomFactor": 0.2233600589381141,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -85723,6 +86759,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -86055,6 +87092,21 @@
                           "parameters": [
                             "speed"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectVariableTween3"
+                          },
+                          "parameters": [
+                            "Fond_Noir_Object",
+                            "Tween",
+                            "\"CameraOut\"",
+                            "ZoomTween",
+                            "CameraZoom*10/9",
+                            "\"easeInQuad\"",
+                            "2",
+                            ""
+                          ]
                         }
                       ]
                     }
@@ -86166,6 +87218,15 @@
                 "Text",
                 "=",
                 "Credit[8]"
+              ]
+            },
+            {
+              "type": {
+                "value": "BitmapText::SetTint"
+              },
+              "parameters": [
+                "T_1",
+                "\"255;255;255\""
               ]
             },
             {
@@ -87569,6 +88630,30 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "StopMusicCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RePlayMusicCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "1"
+                      ]
+                    }
+                  ]
                 }
               ]
             }
@@ -87746,7 +88831,6 @@
               "comment": "Warp code\n"
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -89819,6 +90903,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Super Warp Even",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -92046,70 +93131,146 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "KeyFromTextReleased"
+                    "value": "KeyFromTextPressed"
                   },
                   "parameters": [
                     "",
-                    "\"F11\""
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "IsFullScreen"
-                      },
-                      "parameters": [
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetFullScreen"
-                      },
-                      "parameters": [
-                        "",
-                        "",
-                        ""
-                      ]
-                    }
+                    "\"f\""
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "IsFullScreen"
-                      },
-                      "parameters": [
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetFullScreen"
-                      },
-                      "parameters": [
-                        "",
-                        "yes",
-                        ""
-                      ]
-                    }
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Switching_to_Full_Screen",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "IsFullScreen"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetFullScreen"
+                  },
+                  "parameters": [
+                    "",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Switching_to_Full_Screen",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Switching_to_Full_Screen",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"f\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Switching_to_Full_Screen",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "IsFullScreen"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetFullScreen"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Switching_to_Full_Screen",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Switching_to_Full_Screen",
+                    "False",
+                    ""
                   ]
                 }
               ]
@@ -92168,6 +93329,7 @@
               "actions": [],
               "events": [
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -92479,6 +93641,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -92958,7 +94121,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "FireAxe",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -93057,6 +94219,19 @@
                         "Grava.CenterY()",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "sound\\lock\\crate-break-1-93926.mp3",
+                        "1",
+                        "",
+                        "",
+                        ""
+                      ]
                     }
                   ],
                   "events": [
@@ -93069,7 +94244,7 @@
                             "value": "Wait"
                           },
                           "parameters": [
-                            "0.3"
+                            "0.1"
                           ]
                         },
                         {
@@ -102157,7 +103332,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Phone_Call",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -102167,7 +103341,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Startup",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -102205,6 +103378,26 @@
                     }
                   ],
                   "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                          },
+                          "parameters": [
+                            "ItemNameDisplay",
+                            "Tween",
+                            "\"ItemText\"",
+                            "0",
+                            "\"easeInCubic\"",
+                            "0.2",
+                            "yes"
+                          ]
+                        }
+                      ]
+                    },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
@@ -103279,22 +104472,7 @@
                           ]
                         }
                       ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                          },
-                          "parameters": [
-                            "ItemNameDisplay",
-                            "Tween",
-                            "\"ItemText\"",
-                            "0",
-                            "\"easeInCubic\"",
-                            "0.2",
-                            "yes"
-                          ]
-                        }
-                      ],
+                      "actions": [],
                       "events": [
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -103768,6 +104946,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "En parti mode expo",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -106029,6 +107208,1107 @@
                         "0"
                       ]
                     }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "associatedLayout": "3_Hall",
+      "name": "Music",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "CurrentScene",
+                "=",
+                "7"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FadeMusicVolume"
+              },
+              "parameters": [
+                "",
+                "1",
+                "0",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "StopMusicCanal"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "music\\server main dark-server-76461.mp3",
+                "1",
+                "yes",
+                "10",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "ModeExp",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "CurrentScene",
+                "=",
+                "6"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "StopMusicCanal"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "music\\subterrain main sb_machina(chosic.com).mp3",
+                "1",
+                "",
+                "40",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "CurrentScene",
+                "=",
+                "7"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "CurrentRoom",
+                "!=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVolumeMusicCanal"
+              },
+              "parameters": [
+                "",
+                "1",
+                "=",
+                "25"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Main music"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Music_Can_Play",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "ModeExp",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "MusicPlaying"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "MusicPaused"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Music_Frame",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Music_Frame",
+                    "=",
+                    "30*60"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "CurrentScene",
+                        "=",
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "CurrentScene",
+                        "=",
+                        "4"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "CurrentScene",
+                        "=",
+                        "5"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Music_Frame",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "random1",
+                    "=",
+                    "RandomInRange(1,10)"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "random1",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlayMusicCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "music\\main dark-intentions-288498 Universfield.mp3",
+                        "1",
+                        "",
+                        "25",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "random1",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlayMusicCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "music\\main scott-buckley-i-walk-with-ghosts(chosic.com).mp3",
+                        "1",
+                        "",
+                        "25",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "random1",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlayMusicCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "music\\main TheLongDark(chosic.com).mp3",
+                        "1",
+                        "",
+                        "35",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "random1",
+                        "!=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "random1",
+                        "!=",
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "random1",
+                        "!=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "Music_Can_Play",
+                        "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "random1+10"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "Music_Can_Play",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "variables": [
+                {
+                  "name": "random1",
+                  "type": "number",
+                  "value": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Glich room"
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MusicPlaying"
+              },
+              "parameters": [
+                "",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "MusicPlaying"
+              },
+              "parameters": [
+                "",
+                "3"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "CurrentRoom",
+                    "!=",
+                    "-18"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "CurrentScene",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FadeMusicVolume"
+                  },
+                  "parameters": [
+                    "",
+                    "2",
+                    "0",
+                    "1.7"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1.7"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StopMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVolumeMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "2",
+                    "=",
+                    "100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RePlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "CurrentRoom",
+                    "!=",
+                    "12"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "CurrentScene",
+                    "=",
+                    "4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FadeMusicVolume"
+                  },
+                  "parameters": [
+                    "",
+                    "2",
+                    "0",
+                    "1.7"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1.7"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StopMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVolumeMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "2",
+                    "=",
+                    "100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RePlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "CurrentRoom",
+                    "!=",
+                    "8"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "CurrentScene",
+                    "=",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FadeMusicVolume"
+                  },
+                  "parameters": [
+                    "",
+                    "2",
+                    "0",
+                    "1.7"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1.7"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StopMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVolumeMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "2",
+                    "=",
+                    "100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RePlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "CurrentRoom",
+                    "!=",
+                    "7"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "CurrentScene",
+                    "=",
+                    "6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FadeMusicVolume"
+                  },
+                  "parameters": [
+                    "",
+                    "2",
+                    "0",
+                    "1.7"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1.7"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StopMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVolumeMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "2",
+                    "=",
+                    "100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "RePlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Pause",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "MusicPlaying"
+              },
+              "parameters": [
+                "",
+                "2"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "CurrentRoom",
+                    "=",
+                    "-18"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "CurrentScene",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PauseMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "music\\glich room item 2016-01-07_-_Sarah_Soundtrack_-_David_Fesliyan.mp3",
+                    "2",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "CurrentRoom",
+                    "=",
+                    "12"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "CurrentScene",
+                    "=",
+                    "4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PauseMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "music\\glich room item 2016-01-07_-_Sarah_Soundtrack_-_David_Fesliyan.mp3",
+                    "2",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "CurrentRoom",
+                    "=",
+                    "8"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "CurrentScene",
+                    "=",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PauseMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "music\\glich room item 2016-01-07_-_Sarah_Soundtrack_-_David_Fesliyan.mp3",
+                    "2",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "CurrentRoom",
+                    "=",
+                    "7"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "CurrentScene",
+                    "=",
+                    "6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PauseMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "music\\glich room item 2016-01-07_-_Sarah_Soundtrack_-_David_Fesliyan.mp3",
+                    "2",
+                    "",
+                    "100",
+                    "1"
                   ]
                 }
               ]

@@ -3,7 +3,7 @@
   "1": "En mode Exposition,\nexplorez librement les traces de la numérisation,\nsans avoir à suivre le fil de l’histoire.",
   "2": "En mode Normal,\njouez au jeu de manière classique et plongez\ndans un univers rétro-futuriste, au cœur \nd’une histoire sur les enjeux de la numérisation.",
   "3": "Ce jeu vidéo est une fiction ancrée dans la réalité,\nqui aborde les enjeux de la numérisation\nà travers des documents réels signalés\npar une disquette de sauvegarde.",
-  "4": "Pour une exploration optimale des archives,\n restez en mode plein écran \n \n Appuyez sur F11 \n pour activer ou désactiver le plein écran"
+  "4": "Pour une exploration optimale des archives,\n restez en mode plein écran \n \n Appuyez sur F \n pour activer ou désactiver le plein écran"
   },
 
   "Scene1": {
@@ -18,15 +18,15 @@
   "Scene2": {
     "1": {"Speaker":"451", "Text":"Voici nos salles dédiées aux dispositifs de numérisation avancée. Vous allez y croiser des machines méconnues du grand public.$ Et pourtant, ce sont elles qui rendent la mémoire accessible. Scanners manuels, automatiques, robotisés… Chacune a son rôle.$ Certains s’occupent des documents les plus fragiles, d’autres avalent des volumes entiers à la chaîne.$ Chez Omniχiv, nous adaptons l’outil au document, jamais l’inverse. C’est ainsi que l’on préserve sans trahir."},
     "2": {"Speaker":"451", "Text":"Tout se passe bien jusqu’ici ? Cette visite vous plaît, n’est-ce pas ? Je m’en doutais.$ Souhaitez-vous continuer à explorer nos locaux… ou êtes-vous prêt à débuter votre mission ?","Choice1":" Rester.  ","Choice2":" Allons-y!", "Response1":" Prenez tout votre temps. Chaque couloir raconte quelque chose… même sans le vouloir.","Response2":" Excellent. Les documents n’attendent plus que vous. On se retrouve à la fin du cycle."},
-    "3": {"Speaker":" ", "Text":"La porte est verrouillé."},
-    "4": {"Speaker":"451", "Text":"Intriguant, n’est-ce pas ? Ce calme… J’aime croire que c’est cette sensation que l’on devait ressentir en entrant dans la bibliothèque d’Alexandrie.$ Mais assez parlé. Souhaitez-vous poursuivre la visite… ou êtes-vous prêt à entamer votre mission ?","Choice1":" Rester.  ","Choice2":" Allons-y!", "Response1":" Prenez tout votre temps. Chaque couloir raconte quelque chose… même sans le vouloir.","Response2":" Parfait. L’accès vous sera ouvert. Les documents n’attendent plus que vous. "},
+    "3": {"Speaker":" ", "Text":"La porte est verrouillée."},
+    "4": {"Speaker":"451", "Text":"Intrigant, n’est-ce pas ? Ce calme… J’aime croire que c’est cette sensation que l’on devait ressentir en entrant dans la bibliothèque d’Alexandrie.$ Mais assez parlé. Souhaitez-vous poursuivre la visite… ou êtes-vous prêt à entamer votre mission ?","Choice1":" Rester.  ","Choice2":" Allons-y!", "Response1":" Prenez tout votre temps. Chaque couloir raconte quelque chose… même sans le vouloir.","Response2":" Parfait. L’accès vous sera ouvert. Les documents n’attendent plus que vous. "},
     "5": {"Speaker":" ", "Text":"Vous trouvez une page déchirée."},
     "6": {"Speaker":"451", "Text":"Celle-ci... C’est ma préférée.$ On y entre rarement sans autorisation, mais aujourd’hui, vous avez ce privilège.$ Voici le cœur numérique d’Omniχiv.$ Des centaines de serveurs battent à l’unisson, préservant chaque octet comme s’il s’agissait d’une relique.$ C’est ici que tout converge : chaque document numérisé, chaque métadonnée, chaque trace de traitement. Tout est stocké. Aucun effacement. Aucun oubli.$ Nous ne nous contentons pas d’archiver. Nous faisons tenir l’avenir."}
   },
 
   "Scene3": {
 	"1": {"Speaker":"451", "Text":"Ah… j’ai failli oublier. Une fois collectés, vous devez transmettre les documents à Omniχiv, cela se fait directement depuis votre téléphone.$ Pas besoin d’attendre : une fois envoyés, ils sont pris en charge automatiquement.$ Et ne vous étonnez pas si je vous contacte de temps à autre. Il est important que vous restiez informé."},
-    "2": {"Speaker":" ", "Text":"La porte est verrouillé."},
+    "2": {"Speaker":" ", "Text":"La porte est verrouillée."},
     "3": {"Speaker":" ", "Text":"Vous appelez l'ascenseur, mais rien ne se passe."},
     "4": {"Speaker":" ", "Text":"Les portes s'ouvrent, mais il est noté qu’il faut un badge pour utiliser l'ascenseur."},
 	"5": {"Speaker":"404", "Text":"Parfait ! On vient de mettre à jour ton téléphone.$ Tu peux désormais nous envoyer les documents, à la place d’Omniχiv.$ Tu te poses sûrement encore beaucoup de questions... Si on fait appel à toi, ce n’est pas juste pour numériser deux ou trois articles oubliés.$ Ce qu’Omniχiv convoite, c’est ce qui se cache au cœur de la bibliothèque... Tu dois atteindre le souterrain, pendant qu’ils te font encore confiance.$ Je t’aurais bien dit de prendre l’ascenseur... mais sans courant et sans badge, inutile d’y penser.$ Par contre, tu devrais pouvoir trouver la clé de la remise ici."},
@@ -73,7 +73,7 @@
     "4": {"Speaker":"X#!", "Text":".#tu/.!   :hh h%#rr;   hey!??k#,"},
     "5": {"Speaker":"4#0", "Text":".to  u/#:??  #kk%our#rr r;.!rien  !,"},
     "6": {"Speaker":" ", "Text":"Impossible de passer."},
-    "8": {"Speaker":"24H", "Text":"Un endroit piégé dans le temps, piégé en 14 mars 2025."},
+    "8": {"Speaker":"24H", "Text":"Un endroit piégé dans le temps, coincé le 14 mars 2025."},
     "9": {"Speaker":":#)", "Text":"..17."},
     "2": {"Speaker":"X#!", "Text":"Voulez-vous?$ Blabla","Choice1":" Option 1","Choice2":" Option 2", "Response1":" Ahh1","Response2":" Bhh2"},
     "3":{"Speaker":"404", "Text":"Tu me reçois ? Parfait.$ Je voulais juste te mettre au jus. Tu sais, chez Omniχiv, ils parlent de préserver la mémoire collective.$ Mais ce qu’ils font, c’est surtout la formater. Leur système de numérisation… c’est une vraie passoire.$ Déjà, leur OCR, il a du mal avec les vieux journaux. Ça saute des lettres, des mots, parfois des paragraphes entiers.$  Résultat : on perd du sens. Et les métadonnées ?$ C’est encore pire. Mal tagués, mal datés, mal classés.$ Essaie donc de retrouver un article précis là-dedans... C’est comme chercher une aiguille dans une botte de foin.$ Nous, on bossait pour que ça soit propre. On savait que chaque erreur, c’était un morceau d’histoire qu’on enterrait.$ Mais eux ? Ils balancent à la chaîne, et basta.$ Et puis y’a le machine learning. L’outil miracle, qu’ils disent.$ Mais personne ne pige vraiment comment il prend ses décisions.$ Quand tu confies la mémoire du monde à une boîte noire, tu dois t’attendre à des angles morts.$ Et des biais. Plein de biais.$ Parce que si tu nourris un algorithme avec du contenu déséquilibré, tu sais ce qu’il te ressort ?$ Toujours la même histoire. Celle qui arrange les puissants.$ Tu sais… au début, la numérisation a vraiment changé les choses.$ Elle a sauvé des archives oubliées, permis à n’importe qui d’accéder à ce qui, autrefois, était réservé à quelques-uns. Une véritable avancée.$ Et puis, lentement… ça a dérapé. Ce n’était plus pour préserver. C’était pour optimiser.$ Aujourd’hui, ils se cachent encore derrière l’idée de préserver le passé.$ Mais pour quoi faire, au juste ? Pour entraîner leurs intelligences artificielles.$ Notre travail, volé. Notre Histoire, détournée. Pour nourrir leurs machines. Et au final ? Juste pour prédire. Vendre. Contrôler.$ Réfléchis à ça… avant de leur donner un document de plus."},
