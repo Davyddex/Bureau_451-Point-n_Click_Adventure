@@ -10560,11 +10560,11 @@
       "value": false
     },
     {
-      "folded": true,
       "name": "Expo_List",
       "type": "array",
       "children": [
         {
+          "folded": true,
           "type": "array",
           "children": [
             {
@@ -10582,6 +10582,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "array",
           "children": [
             {
@@ -10617,6 +10618,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "array",
           "children": [
             {
@@ -10634,6 +10636,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "array",
           "children": [
             {
@@ -10651,6 +10654,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "array",
           "children": [
             {
@@ -10668,12 +10672,11 @@
           ]
         },
         {
-          "folded": true,
           "type": "array",
           "children": [
             {
               "type": "string",
-              "value": "Dépôt légal \net \nScriptorium"
+              "value": "Dépôt légal, \nBCUL et \nScriptorium"
             },
             {
               "type": "string",
@@ -24304,6 +24307,7 @@
               "comment": "Delete"
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -50188,6 +50192,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Startup",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -52629,34 +52634,65 @@
                       ],
                       "events": [
                         {
-                          "type": "BuiltinCommonInstructions::ForEachChildVariable",
-                          "iterableVariableName": "Paper_Inventory",
-                          "valueIteratorVariableName": "dummy_var_item",
-                          "keyIteratorVariableName": "dummy_var_slot",
+                          "folded": true,
+                          "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
                               "type": {
-                                "value": "NumberVariable"
+                                "value": "BooleanVariable"
                               },
                               "parameters": [
-                                "dummy_var_item",
-                                "=",
-                                "404"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetBooleanVariable"
-                              },
-                              "parameters": [
-                                "in_inventory",
+                                "ModeExp",
                                 "True",
                                 ""
                               ]
                             }
                           ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "Dialogue_Number",
+                                    "=",
+                                    "5"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetBooleanVariable"
+                                  },
+                                  "parameters": [
+                                    "Dialogue_Start",
+                                    "True",
+                                    ""
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BooleanVariable"
+                              },
+                              "parameters": [
+                                "ModeExp",
+                                "False",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [],
                           "events": [
                             {
                               "type": "BuiltinCommonInstructions::ForEachChildVariable",
@@ -52664,6 +52700,606 @@
                               "valueIteratorVariableName": "dummy_var_item",
                               "keyIteratorVariableName": "dummy_var_slot",
                               "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "dummy_var_item",
+                                    "=",
+                                    "404"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetBooleanVariable"
+                                  },
+                                  "parameters": [
+                                    "in_inventory",
+                                    "True",
+                                    ""
+                                  ]
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::ForEachChildVariable",
+                                  "iterableVariableName": "Paper_Inventory",
+                                  "valueIteratorVariableName": "dummy_var_item",
+                                  "keyIteratorVariableName": "dummy_var_slot",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "NumberVariable"
+                                      },
+                                      "parameters": [
+                                        "dummy_var_item",
+                                        "=",
+                                        "451"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "SetBooleanVariable"
+                                      },
+                                      "parameters": [
+                                        "double",
+                                        "True",
+                                        ""
+                                      ]
+                                    }
+                                  ],
+                                  "events": [
+                                    {
+                                      "type": "BuiltinCommonInstructions::Comment",
+                                      "color": {
+                                        "b": 109,
+                                        "g": 230,
+                                        "r": 255,
+                                        "textB": 0,
+                                        "textG": 0,
+                                        "textR": 0
+                                      },
+                                      "comment": "double case"
+                                    },
+                                    {
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [],
+                                      "actions": [
+                                        {
+                                          "type": {
+                                            "value": "SetNumberVariable"
+                                          },
+                                          "parameters": [
+                                            "Dialogue_Number",
+                                            "=",
+                                            "5"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetBooleanVariable"
+                                          },
+                                          "parameters": [
+                                            "Dialogue_Start",
+                                            "True",
+                                            ""
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Comment",
+                                  "color": {
+                                    "b": 109,
+                                    "g": 230,
+                                    "r": 255,
+                                    "textB": 0,
+                                    "textG": 0,
+                                    "textR": 0
+                                  },
+                                  "comment": "not double 1"
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "BooleanVariable"
+                                      },
+                                      "parameters": [
+                                        "double",
+                                        "=",
+                                        ""
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [],
+                                  "events": [
+                                    {
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [],
+                                      "actions": [
+                                        {
+                                          "type": {
+                                            "value": "SetBooleanVariable"
+                                          },
+                                          "parameters": [
+                                            "Pause",
+                                            "True",
+                                            ""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                                          },
+                                          "parameters": [
+                                            "ItemNameDisplay",
+                                            "Tween",
+                                            "\"ItemText\"",
+                                            "0",
+                                            "\"easeInCubic\"",
+                                            "0.2",
+                                            "yes"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "OpacityCapability::OpacityBehavior::SetValue"
+                                          },
+                                          "parameters": [
+                                            "Display",
+                                            "Opacity",
+                                            "=",
+                                            "255"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "OpacityCapability::OpacityBehavior::SetValue"
+                                          },
+                                          "parameters": [
+                                            "Screen",
+                                            "Opacity",
+                                            "=",
+                                            "255"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "Create"
+                                          },
+                                          "parameters": [
+                                            "",
+                                            "Interactable",
+                                            "1100",
+                                            "600",
+                                            "\"Reading\""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "Create"
+                                          },
+                                          "parameters": [
+                                            "",
+                                            "DialogueArrow",
+                                            "1100",
+                                            "600",
+                                            "\"Reading\""
+                                          ]
+                                        }
+                                      ],
+                                      "events": [
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "Create"
+                                              },
+                                              "parameters": [
+                                                "",
+                                                "Source_icon",
+                                                "-169",
+                                                "623",
+                                                "\"Reading\""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "SetNumberObjectVariable"
+                                              },
+                                              "parameters": [
+                                                "Source_icon",
+                                                "Text_Index",
+                                                "=",
+                                                "8"
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                                              },
+                                              "parameters": [
+                                                "Display",
+                                                "Tween",
+                                                "\"up\"",
+                                                "100",
+                                                "\"swingTo\"",
+                                                "1",
+                                                ""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                                              },
+                                              "parameters": [
+                                                "Screen",
+                                                "Tween",
+                                                "\"ud\"",
+                                                "30",
+                                                "\"swingTo\"",
+                                                "1",
+                                                ""
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "PlaySoundCanal"
+                                              },
+                                              "parameters": [
+                                                "",
+                                                "sound\\vhs\\vhs in.mp3",
+                                                "1",
+                                                "",
+                                                "",
+                                                ""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "Wait"
+                                              },
+                                              "parameters": [
+                                                "1"
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "Tween::TweenBehavior::AddNumberEffectPropertyTween"
+                                              },
+                                              "parameters": [
+                                                "Display",
+                                                "Tween",
+                                                "Effect",
+                                                "\"1\"",
+                                                "0.1",
+                                                "\"Effect\"",
+                                                "\"noise\"",
+                                                "\"linear\"",
+                                                "0.5",
+                                                ""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "PlaySoundCanal"
+                                              },
+                                              "parameters": [
+                                                "",
+                                                "sound\\vhs\\vhs startup.mp3",
+                                                "1",
+                                                "",
+                                                "",
+                                                ""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "Wait"
+                                              },
+                                              "parameters": [
+                                                "0.5"
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                                              },
+                                              "parameters": [
+                                                "Display",
+                                                "Animation",
+                                                "=",
+                                                "0"
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "PlayMusicCanal"
+                                              },
+                                              "parameters": [
+                                                "",
+                                                "video\\doc audio\\La-question-des-archives-physiques-et-numériques.mp3",
+                                                "5",
+                                                "",
+                                                "",
+                                                ""
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Comment",
+                                          "color": {
+                                            "b": 109,
+                                            "g": 230,
+                                            "r": 255,
+                                            "textB": 0,
+                                            "textG": 0,
+                                            "textR": 0
+                                          },
+                                          "comment": "Return button"
+                                        },
+                                        {
+                                          "folded": true,
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "Layer"
+                                              },
+                                              "parameters": [
+                                                "Interactable",
+                                                "\"Reading\""
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "SetNumberObjectVariable"
+                                              },
+                                              "parameters": [
+                                                "Interactable",
+                                                "Effect",
+                                                "=",
+                                                "6"
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "ScalableCapability::ScalableBehavior::SetValue"
+                                              },
+                                              "parameters": [
+                                                "Interactable",
+                                                "Scale",
+                                                "=",
+                                                "7"
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "OpacityCapability::OpacityBehavior::SetValue"
+                                              },
+                                              "parameters": [
+                                                "Interactable",
+                                                "Opacity",
+                                                "=",
+                                                "0"
+                                              ]
+                                            }
+                                          ],
+                                          "events": [
+                                            {
+                                              "type": "BuiltinCommonInstructions::Standard",
+                                              "conditions": [
+                                                {
+                                                  "type": {
+                                                    "value": "NumberObjectVariable"
+                                                  },
+                                                  "parameters": [
+                                                    "Interactable",
+                                                    "Effect",
+                                                    "=",
+                                                    "6"
+                                                  ]
+                                                }
+                                              ],
+                                              "actions": [
+                                                {
+                                                  "type": {
+                                                    "value": "Wait"
+                                                  },
+                                                  "parameters": [
+                                                    "0.3"
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "Create"
+                                                  },
+                                                  "parameters": [
+                                                    "",
+                                                    "ItemNameDisplay",
+                                                    "Interactable.CenterX()-Interactable.Width()+150",
+                                                    "Interactable.CenterY()-Interactable.Height()+80",
+                                                    "\"Reading\""
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                                                  },
+                                                  "parameters": [
+                                                    "ItemNameDisplay",
+                                                    "Opacity",
+                                                    "=",
+                                                    "0"
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                                                  },
+                                                  "parameters": [
+                                                    "ItemNameDisplay",
+                                                    "Text",
+                                                    "=",
+                                                    "\"Retour\""
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                                                  },
+                                                  "parameters": [
+                                                    "ItemNameDisplay",
+                                                    "Tween",
+                                                    "\"ItemText\"",
+                                                    "255",
+                                                    "\"easeInCubic\"",
+                                                    "0.3",
+                                                    ""
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "Layer"
+                                              },
+                                              "parameters": [
+                                                "DialogueArrow",
+                                                "\"Reading\""
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "ScalableCapability::ScalableBehavior::SetValue"
+                                              },
+                                              "parameters": [
+                                                "DialogueArrow",
+                                                "Scale",
+                                                "=",
+                                                "0.25"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [
+                                        {
+                                          "type": {
+                                            "value": "AnimatableCapability::AnimatableBehavior::Index"
+                                          },
+                                          "parameters": [
+                                            "RealDoc",
+                                            "Animation",
+                                            "=",
+                                            "0"
+                                          ]
+                                        }
+                                      ],
+                                      "actions": [
+                                        {
+                                          "type": {
+                                            "value": "Wait"
+                                          },
+                                          "parameters": [
+                                            "2"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "OpacityCapability::OpacityBehavior::SetValue"
+                                          },
+                                          "parameters": [
+                                            "RealDoc",
+                                            "Opacity",
+                                            "=",
+                                            "1"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                                          },
+                                          "parameters": [
+                                            "RealDoc",
+                                            "Tween",
+                                            "\"Swing_in\"",
+                                            "RealDoc.Y()",
+                                            "\"swingTo\"",
+                                            "1",
+                                            ""
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Comment",
+                              "color": {
+                                "b": 109,
+                                "g": 230,
+                                "r": 255,
+                                "textB": 0,
+                                "textG": 0,
+                                "textR": 0
+                              },
+                              "comment": "not double 2"
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::ForEachChildVariable",
+                              "iterableVariableName": "Paper_Inventory",
+                              "valueIteratorVariableName": "dummy_var_item",
+                              "keyIteratorVariableName": "dummy_var_slot",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BooleanVariable"
+                                  },
+                                  "parameters": [
+                                    "double",
+                                    "=",
+                                    ""
+                                  ]
+                                },
                                 {
                                   "type": {
                                     "value": "NumberVariable"
@@ -52681,7 +53317,7 @@
                                     "value": "SetBooleanVariable"
                                   },
                                   "parameters": [
-                                    "double",
+                                    "in_inventory",
                                     "True",
                                     ""
                                   ]
@@ -52689,75 +53325,6 @@
                               ],
                               "events": [
                                 {
-                                  "type": "BuiltinCommonInstructions::Comment",
-                                  "color": {
-                                    "b": 109,
-                                    "g": 230,
-                                    "r": 255,
-                                    "textB": 0,
-                                    "textG": 0,
-                                    "textR": 0
-                                  },
-                                  "comment": "double case"
-                                },
-                                {
-                                  "type": "BuiltinCommonInstructions::Standard",
-                                  "conditions": [],
-                                  "actions": [
-                                    {
-                                      "type": {
-                                        "value": "SetNumberVariable"
-                                      },
-                                      "parameters": [
-                                        "Dialogue_Number",
-                                        "=",
-                                        "5"
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "SetBooleanVariable"
-                                      },
-                                      "parameters": [
-                                        "Dialogue_Start",
-                                        "True",
-                                        ""
-                                      ]
-                                    }
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "BuiltinCommonInstructions::Comment",
-                              "color": {
-                                "b": 109,
-                                "g": 230,
-                                "r": 255,
-                                "textB": 0,
-                                "textG": 0,
-                                "textR": 0
-                              },
-                              "comment": "not double 1"
-                            },
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "BooleanVariable"
-                                  },
-                                  "parameters": [
-                                    "double",
-                                    "=",
-                                    ""
-                                  ]
-                                }
-                              ],
-                              "actions": [],
-                              "events": [
-                                {
-                                  "folded": true,
                                   "type": "BuiltinCommonInstructions::Standard",
                                   "conditions": [],
                                   "actions": [
@@ -52976,8 +53543,8 @@
                                           },
                                           "parameters": [
                                             "",
-                                            "video\\doc audio\\La-question-des-archives-physiques-et-numériques.mp3",
-                                            "1",
+                                            "video\\doc audio\\Le-métier-de-relieur-et-la-numérisation.mp3",
+                                            "5",
                                             "",
                                             "",
                                             ""
@@ -53145,7 +53712,7 @@
                                             "DialogueArrow",
                                             "Scale",
                                             "=",
-                                            "0.25"
+                                            "0.5"
                                           ]
                                         }
                                       ]
@@ -53204,63 +53771,57 @@
                                   ]
                                 }
                               ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Comment",
-                          "color": {
-                            "b": 109,
-                            "g": 230,
-                            "r": 255,
-                            "textB": 0,
-                            "textG": 0,
-                            "textR": 0
-                          },
-                          "comment": "not double 2"
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::ForEachChildVariable",
-                          "iterableVariableName": "Paper_Inventory",
-                          "valueIteratorVariableName": "dummy_var_item",
-                          "keyIteratorVariableName": "dummy_var_slot",
-                          "conditions": [
+                            },
                             {
-                              "type": {
-                                "value": "BooleanVariable"
+                              "type": "BuiltinCommonInstructions::Comment",
+                              "color": {
+                                "b": 109,
+                                "g": 230,
+                                "r": 255,
+                                "textB": 0,
+                                "textG": 0,
+                                "textR": 0
                               },
-                              "parameters": [
-                                "double",
-                                "=",
-                                ""
+                              "comment": "nothing"
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BooleanVariable"
+                                  },
+                                  "parameters": [
+                                    "in_inventory",
+                                    "False",
+                                    ""
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "Dialogue_Number",
+                                    "=",
+                                    "4"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetBooleanVariable"
+                                  },
+                                  "parameters": [
+                                    "Dialogue_Start",
+                                    "True",
+                                    ""
+                                  ]
+                                }
                               ]
                             },
                             {
-                              "type": {
-                                "value": "NumberVariable"
-                              },
-                              "parameters": [
-                                "dummy_var_item",
-                                "=",
-                                "451"
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetBooleanVariable"
-                              },
-                              "parameters": [
-                                "in_inventory",
-                                "True",
-                                ""
-                              ]
-                            }
-                          ],
-                          "events": [
-                            {
-                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [],
                               "actions": [
@@ -53269,516 +53830,21 @@
                                     "value": "SetBooleanVariable"
                                   },
                                   "parameters": [
-                                    "Pause",
-                                    "True",
+                                    "in_inventory",
+                                    "False",
                                     ""
                                   ]
                                 },
                                 {
                                   "type": {
-                                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                                    "value": "SetBooleanVariable"
                                   },
                                   "parameters": [
-                                    "ItemNameDisplay",
-                                    "Tween",
-                                    "\"ItemText\"",
-                                    "0",
-                                    "\"easeInCubic\"",
-                                    "0.2",
-                                    "yes"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "OpacityCapability::OpacityBehavior::SetValue"
-                                  },
-                                  "parameters": [
-                                    "Display",
-                                    "Opacity",
-                                    "=",
-                                    "255"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "OpacityCapability::OpacityBehavior::SetValue"
-                                  },
-                                  "parameters": [
-                                    "Screen",
-                                    "Opacity",
-                                    "=",
-                                    "255"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Create"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "Interactable",
-                                    "1100",
-                                    "600",
-                                    "\"Reading\""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Create"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "DialogueArrow",
-                                    "1100",
-                                    "600",
-                                    "\"Reading\""
-                                  ]
-                                }
-                              ],
-                              "events": [
-                                {
-                                  "type": "BuiltinCommonInstructions::Standard",
-                                  "conditions": [],
-                                  "actions": [
-                                    {
-                                      "type": {
-                                        "value": "Create"
-                                      },
-                                      "parameters": [
-                                        "",
-                                        "Source_icon",
-                                        "-169",
-                                        "623",
-                                        "\"Reading\""
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "SetNumberObjectVariable"
-                                      },
-                                      "parameters": [
-                                        "Source_icon",
-                                        "Text_Index",
-                                        "=",
-                                        "8"
-                                      ]
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "BuiltinCommonInstructions::Standard",
-                                  "conditions": [],
-                                  "actions": [
-                                    {
-                                      "type": {
-                                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-                                      },
-                                      "parameters": [
-                                        "Display",
-                                        "Tween",
-                                        "\"up\"",
-                                        "100",
-                                        "\"swingTo\"",
-                                        "1",
-                                        ""
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-                                      },
-                                      "parameters": [
-                                        "Screen",
-                                        "Tween",
-                                        "\"ud\"",
-                                        "30",
-                                        "\"swingTo\"",
-                                        "1",
-                                        ""
-                                      ]
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "BuiltinCommonInstructions::Standard",
-                                  "conditions": [],
-                                  "actions": [
-                                    {
-                                      "type": {
-                                        "value": "PlaySoundCanal"
-                                      },
-                                      "parameters": [
-                                        "",
-                                        "sound\\vhs\\vhs in.mp3",
-                                        "1",
-                                        "",
-                                        "",
-                                        ""
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "Wait"
-                                      },
-                                      "parameters": [
-                                        "1"
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "Tween::TweenBehavior::AddNumberEffectPropertyTween"
-                                      },
-                                      "parameters": [
-                                        "Display",
-                                        "Tween",
-                                        "Effect",
-                                        "\"1\"",
-                                        "0.1",
-                                        "\"Effect\"",
-                                        "\"noise\"",
-                                        "\"linear\"",
-                                        "0.5",
-                                        ""
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "PlaySoundCanal"
-                                      },
-                                      "parameters": [
-                                        "",
-                                        "sound\\vhs\\vhs startup.mp3",
-                                        "1",
-                                        "",
-                                        "",
-                                        ""
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "Wait"
-                                      },
-                                      "parameters": [
-                                        "0.5"
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-                                      },
-                                      "parameters": [
-                                        "Display",
-                                        "Animation",
-                                        "=",
-                                        "0"
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "PlayMusicCanal"
-                                      },
-                                      "parameters": [
-                                        "",
-                                        "video\\doc audio\\Le-métier-de-relieur-et-la-numérisation.mp3",
-                                        "1",
-                                        "",
-                                        "",
-                                        ""
-                                      ]
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "BuiltinCommonInstructions::Comment",
-                                  "color": {
-                                    "b": 109,
-                                    "g": 230,
-                                    "r": 255,
-                                    "textB": 0,
-                                    "textG": 0,
-                                    "textR": 0
-                                  },
-                                  "comment": "Return button"
-                                },
-                                {
-                                  "folded": true,
-                                  "type": "BuiltinCommonInstructions::Standard",
-                                  "conditions": [
-                                    {
-                                      "type": {
-                                        "value": "Layer"
-                                      },
-                                      "parameters": [
-                                        "Interactable",
-                                        "\"Reading\""
-                                      ]
-                                    }
-                                  ],
-                                  "actions": [
-                                    {
-                                      "type": {
-                                        "value": "SetNumberObjectVariable"
-                                      },
-                                      "parameters": [
-                                        "Interactable",
-                                        "Effect",
-                                        "=",
-                                        "6"
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "ScalableCapability::ScalableBehavior::SetValue"
-                                      },
-                                      "parameters": [
-                                        "Interactable",
-                                        "Scale",
-                                        "=",
-                                        "7"
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "OpacityCapability::OpacityBehavior::SetValue"
-                                      },
-                                      "parameters": [
-                                        "Interactable",
-                                        "Opacity",
-                                        "=",
-                                        "0"
-                                      ]
-                                    }
-                                  ],
-                                  "events": [
-                                    {
-                                      "type": "BuiltinCommonInstructions::Standard",
-                                      "conditions": [
-                                        {
-                                          "type": {
-                                            "value": "NumberObjectVariable"
-                                          },
-                                          "parameters": [
-                                            "Interactable",
-                                            "Effect",
-                                            "=",
-                                            "6"
-                                          ]
-                                        }
-                                      ],
-                                      "actions": [
-                                        {
-                                          "type": {
-                                            "value": "Wait"
-                                          },
-                                          "parameters": [
-                                            "0.3"
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "Create"
-                                          },
-                                          "parameters": [
-                                            "",
-                                            "ItemNameDisplay",
-                                            "Interactable.CenterX()-Interactable.Width()+150",
-                                            "Interactable.CenterY()-Interactable.Height()+80",
-                                            "\"Reading\""
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "OpacityCapability::OpacityBehavior::SetValue"
-                                          },
-                                          "parameters": [
-                                            "ItemNameDisplay",
-                                            "Opacity",
-                                            "=",
-                                            "0"
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                                          },
-                                          "parameters": [
-                                            "ItemNameDisplay",
-                                            "Text",
-                                            "=",
-                                            "\"Retour\""
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                                          },
-                                          "parameters": [
-                                            "ItemNameDisplay",
-                                            "Tween",
-                                            "\"ItemText\"",
-                                            "255",
-                                            "\"easeInCubic\"",
-                                            "0.3",
-                                            ""
-                                          ]
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "BuiltinCommonInstructions::Standard",
-                                  "conditions": [
-                                    {
-                                      "type": {
-                                        "value": "Layer"
-                                      },
-                                      "parameters": [
-                                        "DialogueArrow",
-                                        "\"Reading\""
-                                      ]
-                                    }
-                                  ],
-                                  "actions": [
-                                    {
-                                      "type": {
-                                        "value": "ScalableCapability::ScalableBehavior::SetValue"
-                                      },
-                                      "parameters": [
-                                        "DialogueArrow",
-                                        "Scale",
-                                        "=",
-                                        "0.5"
-                                      ]
-                                    }
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "AnimatableCapability::AnimatableBehavior::Index"
-                                  },
-                                  "parameters": [
-                                    "RealDoc",
-                                    "Animation",
-                                    "=",
-                                    "0"
-                                  ]
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "Wait"
-                                  },
-                                  "parameters": [
-                                    "2"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "OpacityCapability::OpacityBehavior::SetValue"
-                                  },
-                                  "parameters": [
-                                    "RealDoc",
-                                    "Opacity",
-                                    "=",
-                                    "1"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-                                  },
-                                  "parameters": [
-                                    "RealDoc",
-                                    "Tween",
-                                    "\"Swing_in\"",
-                                    "RealDoc.Y()",
-                                    "\"swingTo\"",
-                                    "1",
+                                    "double",
+                                    "False",
                                     ""
                                   ]
                                 }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Comment",
-                          "color": {
-                            "b": 109,
-                            "g": 230,
-                            "r": 255,
-                            "textB": 0,
-                            "textG": 0,
-                            "textR": 0
-                          },
-                          "comment": "nothing"
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BooleanVariable"
-                              },
-                              "parameters": [
-                                "in_inventory",
-                                "False",
-                                ""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetNumberVariable"
-                              },
-                              "parameters": [
-                                "Dialogue_Number",
-                                "=",
-                                "4"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetBooleanVariable"
-                              },
-                              "parameters": [
-                                "Dialogue_Start",
-                                "True",
-                                ""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetBooleanVariable"
-                              },
-                              "parameters": [
-                                "in_inventory",
-                                "False",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "SetBooleanVariable"
-                              },
-                              "parameters": [
-                                "double",
-                                "False",
-                                ""
                               ]
                             }
                           ]
@@ -59544,7 +59610,6 @@
               "comment": "Delete button"
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -59782,7 +59847,7 @@
                       },
                       "parameters": [
                         "",
-                        "1"
+                        "5"
                       ]
                     }
                   ],
@@ -59793,7 +59858,7 @@
                       },
                       "parameters": [
                         "",
-                        "1"
+                        "5"
                       ]
                     },
                     {
@@ -59914,7 +59979,7 @@
                       },
                       "parameters": [
                         "",
-                        "2"
+                        "6"
                       ]
                     }
                   ],
@@ -59946,7 +60011,7 @@
                       },
                       "parameters": [
                         "",
-                        "2"
+                        "6"
                       ]
                     }
                   ]
@@ -61145,7 +61210,7 @@
                                   "parameters": [
                                     "",
                                     "video\\doc audio\\La-question-des-archives-physiques-et-numériques.mp3",
-                                    "1",
+                                    "5",
                                     "",
                                     "",
                                     ""
@@ -61620,7 +61685,7 @@
                                   "parameters": [
                                     "",
                                     "video\\doc audio\\Le-métier-de-relieur-et-la-numérisation.mp3",
-                                    "1",
+                                    "5",
                                     "",
                                     "",
                                     ""
@@ -61812,7 +61877,6 @@
                   "comment": "Radio"
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -62095,7 +62159,7 @@
                                   "parameters": [
                                     "",
                                     "video\\doc audio\\Vidéo-1-sur-ordi-1-remise-début.mp3",
-                                    "2",
+                                    "6",
                                     "",
                                     "",
                                     ""
@@ -79018,6 +79082,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Glich Object",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -79779,7 +79844,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Ambient Song",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -79787,6 +79851,16 @@
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "ModeExp",
+                    "False",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "BooleanVariable"
@@ -104824,6 +104898,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Phone_Call",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -106438,7 +106513,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "En parti mode expo",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -107185,7 +107259,6 @@
                                   "type": "BuiltinCommonInstructions::Group",
                                   "events": [
                                     {
-                                      "folded": true,
                                       "type": "BuiltinCommonInstructions::Standard",
                                       "conditions": [],
                                       "actions": [
@@ -109212,6 +109285,16 @@
           "conditions": [
             {
               "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "ModeExp",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "MusicPlaying"
               },
               "parameters": [
@@ -109562,6 +109645,16 @@
           "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "ModeExp",
+                "False",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "BooleanVariable"
