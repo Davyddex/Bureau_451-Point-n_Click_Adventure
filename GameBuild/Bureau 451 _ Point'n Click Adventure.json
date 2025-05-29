@@ -34189,7 +34189,7 @@
             {
               "name": "Conditional_Warp",
               "type": "number",
-              "value": -1
+              "value": 100
             }
           ]
         },
@@ -35241,7 +35241,7 @@
             {
               "name": "Conditional_Warp",
               "type": "number",
-              "value": -1
+              "value": 100
             },
             {
               "name": "Arrow_Direction",
@@ -35275,7 +35275,7 @@
             {
               "name": "Conditional_Warp",
               "type": "number",
-              "value": -1
+              "value": 100
             },
             {
               "name": "Arrow_Direction",
@@ -64768,7 +64768,7 @@
             {
               "name": "Arrow_Direction",
               "type": "number",
-              "value": 2
+              "value": 1
             },
             {
               "name": "Rool_Direction_Up",
@@ -70930,7 +70930,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.22336005893811722,
+        "zoomFactor": 0.13138826996359879,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -85953,8 +85953,8 @@
                   "parameters": [
                     "",
                     "music\\final 2021-03-07_-_Haunted_Memories_-_David_Fesliyan.mp3",
-                    "1",
-                    "yes",
+                    "100",
+                    "no",
                     "40",
                     "1"
                   ]
@@ -86497,7 +86497,7 @@
       "name": "Credit",
       "r": 111,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 94,
       "uiSettings": {
@@ -90368,6 +90368,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Warp Even",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -90701,30 +90702,6 @@
                         "=",
                         "WarpZone.WarpY * (720 + 400)+ 720/2 ",
                         "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetCameraCenterX"
-                      },
-                      "parameters": [
-                        "",
-                        "=",
-                        "WarpZone.WarpX * (1080 + 400)+ 1080/2 ",
-                        "\"ForeGround Layer\"",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetCameraCenterY"
-                      },
-                      "parameters": [
-                        "",
-                        "=",
-                        "WarpZone.WarpY * (720 + 400)+ 720/2 ",
-                        "\"ForeGround Layer\"",
                         ""
                       ]
                     },
@@ -94726,6 +94703,12 @@
                   "parameters": [
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -94798,6 +94781,12 @@
                   "parameters": [
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -108989,22 +108978,47 @@
             },
             {
               "type": {
-                "inverted": true,
-                "value": "MusicPlaying"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "MusicPaused"
-              },
-              "parameters": [
-                "",
-                "1"
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "MusicStopped"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "MusicPlaying"
+                      },
+                      "parameters": [
+                        "",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "MusicPaused"
+                      },
+                      "parameters": [
+                        "",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
               ]
             }
           ],
@@ -109280,7 +109294,6 @@
           "comment": "Glich room"
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -109487,7 +109500,7 @@
                   "parameters": [
                     "CurrentRoom",
                     "!=",
-                    "8"
+                    "7"
                   ]
                 },
                 {
@@ -109642,7 +109655,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -109798,7 +109810,7 @@
                   "parameters": [
                     "CurrentRoom",
                     "=",
-                    "8"
+                    "7"
                   ]
                 },
                 {
